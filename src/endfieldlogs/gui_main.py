@@ -57,6 +57,7 @@ from qfluentwidgets import (
     SwitchButton,
     TableWidget,
     Theme,
+    HyperlinkLabel,
     isDarkTheme,
     setFont,
     setTheme,
@@ -943,12 +944,14 @@ class SettingsPage(InterfacePage):
         info_card.viewLayout.addWidget(info_wrapper)
         info_layout = QVBoxLayout(info_wrapper)
         info_layout.setContentsMargins(0, 0, 0, 0)
-        self.app_name = CaptionLabel("ZMDlogs 战斗分析器 By 极黑的绅士君", info_wrapper)
+        self.app_name = CaptionLabel("ZMDlogs 战斗分析器", info_wrapper)
         self.ws_port = CaptionLabel("-", info_wrapper)
         self.service_log_dir = CaptionLabel("-", info_wrapper)
         self.deps = CaptionLabel("前端：PySide6-Fluent-Widgets", info_wrapper)
-        self.feedback = CaptionLabel("版本：Beta 1", info_wrapper)
-        for widget in (self.app_name, self.feedback, self.ws_port, self.service_log_dir, self.deps):
+        self.feedback = CaptionLabel("版本：V1.0.0", info_wrapper)
+        self.bililink = HyperlinkLabel(QUrl('https://space.bilibili.com/605886'), 'By 极黑的绅士君')
+        self.groupid = CaptionLabel("开发/交流群：1101764944", info_wrapper)
+        for widget in (self.app_name, self.bililink, self.groupid,self.feedback, self.ws_port, self.service_log_dir, self.deps):
             info_layout.addWidget(widget)
 
     def set_theme_mode(self, mode: str) -> None:
