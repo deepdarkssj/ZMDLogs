@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_SHOWCASE_MODIFY {
+  map<int32, int32> showcase_info = 1;
+}

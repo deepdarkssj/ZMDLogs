@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_DEL_MAIL_NOTIFY {
+  repeated uint64 mail_id_list = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_CLIENT_PROCESSOR_DEBUG_ARGS_ITEM_MODIFY_CALCULATE_RESULT {
+  double client_base_modifier = 1;
+  double client_multiplier_cnt = 2;
+  double client_val_before_modify = 3;
+}

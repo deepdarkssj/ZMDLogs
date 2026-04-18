@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_SHOP_SWAP_MONEY {
+  string source_money_id = 1;
+  string target_money_id = 2;
+  int64 swap_source_money_num = 3;
+}

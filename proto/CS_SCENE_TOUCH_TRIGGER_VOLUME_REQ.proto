@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_SCENE_TOUCH_TRIGGER_VOLUME_REQ {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  uint64 script_local_id = 3;
+}

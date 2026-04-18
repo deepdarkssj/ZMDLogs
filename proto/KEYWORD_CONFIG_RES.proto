@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "KEYWORD_CONFIG_DATA.proto";
+
+message KEYWORD_CONFIG_RES {
+  repeated KEYWORD_CONFIG_DATA keyword_configs = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "DYNAMIC_PARAMETER.proto";
+
+message CS_MISSION_EVENT_TRIGGER {
+  string mission_id = 1;
+  string event_name = 2;
+  map<string, DYNAMIC_PARAMETER> properties = 3;
+}

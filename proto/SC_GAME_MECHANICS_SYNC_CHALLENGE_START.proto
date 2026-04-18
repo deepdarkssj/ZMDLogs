@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_GAME_MECHANICS_SYNC_CHALLENGE_START {
+  string game_id = 1;
+  int64 challenge_start_ts = 2;
+  int64 challenge_expire_ts = 3;
+  int32 prepare_challenge_seconds = 4;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_MANUFACTURING_STATION_CHANGE_ORDER {
+  string room_id = 1;
+  string formula_id = 2;
+  int32 count = 3;
+}

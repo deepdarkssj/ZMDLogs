@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_PROJECTILE_DETAIL {
+  uint64 client_projectile_id = 1;
+}

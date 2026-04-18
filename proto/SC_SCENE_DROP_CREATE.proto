@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCENE_DROP.proto";
+
+message SC_SCENE_DROP_CREATE {
+  SCENE_DROP drop_data = 1;
+}

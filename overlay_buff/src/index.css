@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "Microsoft YaHei UI", "PingFang SC", sans-serif;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+}
+
+body {
+  background: transparent;
+}
+
+@keyframes buff-flash {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.buff-overlay-root {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.buff-overlay-root-shell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.buff-overlay-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.buff-overlay-shell.is-placeholder {
+  justify-content: center;
+}
+
+.buff-placeholder {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px dashed rgba(255, 255, 255, 0.35);
+  background: rgba(10, 14, 22, 0.42);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 18px 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.buff-placeholder-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.buff-placeholder-subtitle {
+  margin-top: 6px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.buff-row {
+  position: relative;
+  width: 100%;
+  min-height: 42px;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(6, 10, 18, 0.74);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+.buff-progress-layers {
+  position: absolute;
+  inset: 0;
+}
+
+.buff-progress-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: width 0.12s linear;
+}
+
+.buff-progress-layer-0 {
+  background: linear-gradient(270deg, rgba(121, 211, 255, 0.72), rgba(69, 166, 255, 0.58));
+}
+
+.buff-progress-layer-1 {
+  background: linear-gradient(270deg, rgba(121, 211, 255, 0.52), rgba(69, 166, 255, 0.42));
+}
+
+.buff-progress-layer-2 {
+  background: linear-gradient(270deg, rgba(121, 211, 255, 0.38), rgba(69, 166, 255, 0.3));
+}
+
+.buff-progress-layer-3,
+.buff-progress-layer-4 {
+  background: linear-gradient(270deg, rgba(121, 211, 255, 0.24), rgba(69, 166, 255, 0.18));
+}
+
+.buff-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 42px;
+  padding: 0 14px;
+  gap: 12px;
+}
+
+.buff-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(242, 247, 255, 0.95);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+}
+
+.buff-remaining {
+  font-size: 19px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: #ffffff;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+}
+
+.buff-row.is-notice {
+  border-color: rgba(255, 93, 93, 0.72);
+  box-shadow: 0 0 16px rgba(255, 73, 73, 0.2);
+}
+
+.buff-row.is-notice .buff-progress-layer {
+  animation: buff-flash 0.55s infinite;
+  background: linear-gradient(270deg, rgba(255, 108, 108, 0.76), rgba(255, 64, 64, 0.56));
+}
+
+.buff-row.is-ready {
+  border-color: rgba(255, 255, 255, 0.12);
+}

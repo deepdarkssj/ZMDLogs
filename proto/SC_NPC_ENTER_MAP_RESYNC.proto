@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_NPC_PROXY_INFO.proto";
+
+message SC_NPC_ENTER_MAP_RESYNC {
+  string map_name = 1;
+  repeated SCD_NPC_PROXY_INFO map_active_npc_infos = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message CS_SCENE_SET_LAST_RECORD_CAMPID {
+  uint64 last_camp_id = 1;
+  VECTOR position = 2;
+  VECTOR rotation = 3;
+  int32 scene_num_id = 4;
+}

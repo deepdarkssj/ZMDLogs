@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_BLUE_PRINT_PARAM.proto";
+
+message SC_FACTORY_USE_BLUE_PRINT {
+  string index = 1;
+  CSD_FACTORY_BLUE_PRINT_PARAM bp_param = 2;
+  int32 use_count = 3;
+}

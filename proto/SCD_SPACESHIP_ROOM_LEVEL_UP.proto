@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_ROOM_LEVEL_UP {
+  string id = 1;
+  int32 type = 2;
+  int32 level = 3;
+  map<string, int32> level_up_conditon_values = 4;
+  map<string, bool> level_up_condition_flags = 5;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_BATTLE_REPAIR {
+  uint32 node_id = 1;
+}

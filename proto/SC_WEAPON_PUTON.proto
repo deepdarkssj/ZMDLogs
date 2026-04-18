@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_WEAPON_PUTON {
+  uint64 charid = 1;
+  uint64 weaponid = 2;
+  uint64 offweaponid = 3;
+  uint64 put_off_charid = 4;
+}

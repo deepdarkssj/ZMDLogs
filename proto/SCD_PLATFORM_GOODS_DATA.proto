@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "PLATFORM_GOODS_LIMIT_TYPE.proto";
+
+message SCD_PLATFORM_GOODS_DATA {
+  string goods_id = 1;
+  PLATFORM_GOODS_LIMIT_TYPE limit_type = 2;
+  int32 limit_count = 3;
+  int32 purchase_count = 4;
+}

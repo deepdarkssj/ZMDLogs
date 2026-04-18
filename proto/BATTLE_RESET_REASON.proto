@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+enum BATTLE_RESET_REASON {
+  None = 0;
+  GenderChange = 1;
+  Deco = 2;
+  ObjEnterScene = 3;
+  Gm = 4;
+  BattleOp = 5;
+  BeforeDestroyEntity = 6;
+  SceneResetBattle = 7;
+  AddAoiObserver = 8;
+  ReviveChar = 9;
+  ResetPartSummon = 10;
+  ResetBackgroundChar = 11;
+}

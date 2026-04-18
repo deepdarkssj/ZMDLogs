@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "BP_TASK_STATE.proto";
+import "SCD_BP_CLOSE_STATUS.proto";
+import "SCD_BP_CONDITION_DATA.proto";
+
+message SCD_BP_TASK {
+  string task_id = 1;
+  repeated SCD_BP_CONDITION_DATA visible_conditions = 2;
+  repeated SCD_BP_CONDITION_DATA complete_conditions = 3;
+  int64 visible_tms = 4;
+  BP_TASK_STATE task_state = 5;
+  SCD_BP_CLOSE_STATUS close_status = 6;
+}

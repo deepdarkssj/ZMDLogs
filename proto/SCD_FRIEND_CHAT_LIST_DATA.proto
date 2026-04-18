@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "FRIEND_CHAT_LIST_SIMPLE_SYNC_TYPE.proto";
+import "SCD_FRIEND_CHAT_LIST_THIRD_ACCOUNT_DATA.proto";
+
+message SCD_FRIEND_CHAT_LIST_DATA {
+  uint64 role_id = 1;
+  uint32 read_index = 2;
+  uint32 newest_index = 3;
+  FRIEND_CHAT_LIST_SIMPLE_SYNC_TYPE data_type = 4;
+  oneof extra_data {
+    SCD_FRIEND_CHAT_LIST_THIRD_ACCOUNT_DATA third_account_data = 11;
+  }
+}

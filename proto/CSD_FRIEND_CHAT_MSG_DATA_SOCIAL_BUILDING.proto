@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING {
+  string chapter_id = 1;
+  uint32 node_id = 2;
+}

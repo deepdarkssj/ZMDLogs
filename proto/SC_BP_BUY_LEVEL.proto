@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_BP_BUY_LEVEL {
+  int32 target_level = 1;
+}

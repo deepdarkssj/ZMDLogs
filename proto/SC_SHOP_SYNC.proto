@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "SCD_SHOP.proto";
+import "SCD_SHOP_FREQUENCY_LIMIT.proto";
+import "SCD_SHOP_FREQUENCY_LIMIT_MGR.proto";
+import "SCD_SHOP_GROUP_DATA.proto";
+import "SCD_SHOP_UNLOCK_CONDITIONS.proto";
+
+message SC_SHOP_SYNC {
+  repeated SCD_SHOP_UNLOCK_CONDITIONS shop_group_conditions = 1;
+  repeated SCD_SHOP shops = 2;
+  repeated SCD_SHOP_FREQUENCY_LIMIT frequency_limits = 3;
+  repeated SCD_SHOP_FREQUENCY_LIMIT manual_refresh_limits = 4;
+  SCD_SHOP_GROUP_DATA shop_group_data = 5;
+  SCD_SHOP_FREQUENCY_LIMIT_MGR frequency_limit_mgr = 6;
+}

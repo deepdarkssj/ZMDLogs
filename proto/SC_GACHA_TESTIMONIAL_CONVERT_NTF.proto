@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_GACHA_TESTIMONIAL_CONVERT_NTF {
+  string char_gacha_pool_id = 1;
+  string testimonial_item_id = 2;
+  string convert_to_item_id = 3;
+  int32 convert_count = 4;
+}

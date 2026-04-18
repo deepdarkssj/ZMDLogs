@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "VISIT_OP_RECORD.proto";
+
+message SPACESHIP_GUEST_ROOM_VISITOR_RECORD {
+  int32 day_count = 1;
+  repeated VISIT_OP_RECORD visit_op_record = 2;
+  int32 recved_credit_cnt = 3;
+  int32 total_credit_cnt = 4;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum ENV_TYPE {
+  Dev = 0;
+  Stable = 1;
+  Prod = 2;
+}

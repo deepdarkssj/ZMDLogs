@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+import "BATTLE_INFO.proto";
+import "BATTLE_MGR_INFO.proto";
+import "CHAR_TYPE.proto";
+import "SKILL_INFO.proto";
+import "TALENT.proto";
+import "TRIAL_CHAR_DATA.proto";
+
+message CHAR_INFO {
+  uint64 objid = 1;
+  string templateid = 2;
+  int32 level = 3;
+  int32 exp = 4;
+  map<int32, uint64> equip_col = 5;
+  string normal_skill = 7;
+  bool is_dead = 8;
+  BATTLE_INFO battle_info = 9;
+  SKILL_INFO skill_info = 10;
+  map<string, int32> equip_suit = 10;
+  uint64 weapon_id = 12;
+  int64 own_time = 13;
+  int32 equip_medicine_id = 14;
+  uint32 potential_level = 15;
+  TALENT talent = 16;
+  BATTLE_MGR_INFO battle_mgr_info = 17;
+  CHAR_TYPE char_type = 18;
+  TRIAL_CHAR_DATA trial_data = 19;
+  map<int32, string> potential_cg = 19;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_UPDATE_QUEST_PAUSE_STATE {
+  string quest_id = 1;
+  bool is_paused = 2;
+}

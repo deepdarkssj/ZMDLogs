@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_ROOM_ATTR_UNIT.proto";
+
+message SCD_SPACESHIP_ROOM_ATTR {
+  float value = 1;
+  float theoretical_value = 2;
+  repeated SCD_SPACESHIP_ROOM_ATTR_UNIT base_attrs = 3;
+  repeated SCD_SPACESHIP_ROOM_ATTR_UNIT percent_attrs = 4;
+  repeated SCD_SPACESHIP_ROOM_ATTR_UNIT abs_addition_attrs = 5;
+  repeated SCD_SPACESHIP_ROOM_ATTR_UNIT max_addition_attrs = 6;
+}

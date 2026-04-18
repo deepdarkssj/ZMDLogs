@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum KITE_STATION_ENTRUST_TASK_STATUS {
+  Create = 0;
+  Processing = 1;
+  Completed = 2;
+}

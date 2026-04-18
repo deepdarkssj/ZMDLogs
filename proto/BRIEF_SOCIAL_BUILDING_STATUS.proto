@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum BRIEF_SOCIAL_BUILDING_STATUS {
+  None = 0;
+  Exist = 1;
+  Invalid = 2;
+}

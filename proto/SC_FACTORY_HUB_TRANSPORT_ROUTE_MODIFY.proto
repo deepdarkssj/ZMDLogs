@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_HUB_TRANSPORT_ROUTE_MANAGER.proto";
+
+message SC_FACTORY_HUB_TRANSPORT_ROUTE_MODIFY {
+  SCD_FACTORY_SYNC_HUB_TRANSPORT_ROUTE_MANAGER transport_route_modified = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ACTIVITY_CONDITIONAL_STAGE_INFO.proto";
+import "ACTIVITY_WEEKLY_TASK_MILESTONE.proto";
+
+message ACTIVITY_INFO_SPECIFIED_WEEKLY_TASK {
+  int32 cur_week_score = 1;
+  repeated ACTIVITY_CONDITIONAL_STAGE_INFO task_info = 2;
+  repeated ACTIVITY_WEEKLY_TASK_MILESTONE milestone_info = 3;
+}

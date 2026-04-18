@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_ASSIGN_ITEM.proto";
+
+message BATTLE_CREATE_BUFF_ACTION_DETAIL {
+  uint64 source_id = 1;
+  uint64 target_id = 2;
+  uint64 buff_inst_id = 3;
+  int32 buff_input_index = 4;
+  repeated BATTLE_BLACKBOARD_ASSIGN_ITEM assigned_items = 5;
+  int32 buff_num_id = 6;
+  string buff_id = 7;
+}

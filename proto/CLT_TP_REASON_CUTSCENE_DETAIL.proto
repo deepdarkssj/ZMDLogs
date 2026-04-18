@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CLT_TP_REASON_CUTSCENE_DETAIL {
+  string cutscene_id = 1;
+  string logic_id = 2;
+}

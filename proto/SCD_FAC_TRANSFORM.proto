@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "SCD_FAC_MESH.proto";
+import "SCD_FAC_SUB_PORT.proto";
+import "SCD_VEC3_INT.proto";
+import "VECTOR.proto";
+
+message SCD_FAC_TRANSFORM {
+  SCD_VEC3_INT position = 1;
+  SCD_VEC3_INT direction = 2;
+  SCD_FAC_MESH mesh = 3;
+  int32 map_id = 4;
+  VECTOR world_position = 9;
+  VECTOR world_rotation = 10;
+  SCD_FAC_SUB_PORT bc_port_in = 11;
+  SCD_FAC_SUB_PORT bc_port_out = 12;
+}

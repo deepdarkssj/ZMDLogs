@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "MOVE_OBJECT_MOVE_INFO.proto";
+
+message SC_MOVE_OBJECT_MOVE {
+  repeated MOVE_OBJECT_MOVE_INFO move_info = 1;
+  bool server_notify = 2;
+}

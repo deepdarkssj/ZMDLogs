@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SVR_TP_REASON_GOTO_HUB_DETAIL {
+  uint64 obj_id = 1;
+}

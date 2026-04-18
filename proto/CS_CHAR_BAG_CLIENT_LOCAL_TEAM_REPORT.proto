@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_CHAR_BAG_CLIENT_LOCAL_TEAM_REPORT {
+  string reason = 1;
+  repeated string team_member_template_ids = 2;
+  string meta = 3;
+  bool enter_local_team = 4;
+}

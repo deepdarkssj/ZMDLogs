@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "SPACESHIP_GUEST_ROOM_CLUE.proto";
+
+message SPACESHIP_GUEST_ROOM_CLUE_DATA {
+  repeated SPACESHIP_GUEST_ROOM_CLUE self_clues = 1;
+  repeated SPACESHIP_GUEST_ROOM_CLUE receive_clues = 2;
+  repeated SPACESHIP_GUEST_ROOM_CLUE pre_receive_clues = 3;
+  map<int32, uint64> placed_clue_status = 4;
+  uint64 info_exchange_inst_id = 5;
+  int64 info_exchange_expire_ts = 6;
+  double collect_clue_progress = 7;
+  int32 clue_room_level = 8;
+  int32 base_credit_reward = 9;
+  int32 base_info_reward = 10;
+  int32 join_friend_exchange_cnt = 11;
+  int32 daily_clue_index = 12;
+  map<uint64, int64> joined_info_exchange_role_ids = 13;
+  int32 recv_clue_cnt = 14;
+}

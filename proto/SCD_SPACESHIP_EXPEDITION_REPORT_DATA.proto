@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_EXPEDITION_REPORT_DATA {
+  string region_id = 1;
+  string expedition_id = 2;
+  string room_id = 3;
+  repeated string char_ids = 4;
+}

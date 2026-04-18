@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_FAC_NODE_POWER {
+  bool in_power = 1;
+  int64 power_cost = 2;
+  bool need_in_power = 11;
+  int64 power_cost_show = 12;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum ANTI_CHEAT_SDK_TYPE {
+  None = 0;
+  Pc = 1;
+  Mobile = 2;
+}

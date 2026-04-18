@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "QUEST_OBJECTIVE_DETAIL.proto";
+
+message QUEST_OBJECTIVE {
+  string condition_id = 1;
+  map<string, QUEST_OBJECTIVE_DETAIL> extra_details = 2;
+  map<string, int32> values = 3;
+  bool is_complete = 3;
+  int32 description_index = 5;
+}

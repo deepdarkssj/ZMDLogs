@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_MAP_WIRE.proto";
+
+message SC_FACTORY_MODIFY_CHAPTER_MAP {
+  int64 tms = 1;
+  string chapter_id = 2;
+  int32 map_id = 3;
+  repeated SCD_FACTORY_SYNC_MAP_WIRE wires = 11;
+  repeated uint64 remove_wires = 12;
+}

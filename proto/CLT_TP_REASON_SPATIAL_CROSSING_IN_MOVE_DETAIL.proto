@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CLT_TP_REASON_SPATIAL_CROSSING_IN_MOVE_DETAIL {
+  uint64 from_space_id = 1;
+  uint64 to_space_id = 2;
+}

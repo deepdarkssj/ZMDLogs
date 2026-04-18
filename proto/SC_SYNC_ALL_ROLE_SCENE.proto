@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "AREA_UNLOCK_INFO.proto";
+import "SUBMIT_ETHER_INFO.proto";
+
+message SC_SYNC_ALL_ROLE_SCENE {
+  int32 submit_ether_level = 1;
+  int32 submit_ether_count = 2;
+  repeated AREA_UNLOCK_INFO unlock_area_info = 3;
+  repeated SUBMIT_ETHER_INFO ether_info = 4;
+}

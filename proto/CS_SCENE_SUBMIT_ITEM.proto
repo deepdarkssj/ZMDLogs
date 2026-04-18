@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "SUBMIT_SOURCE_PARAM_ACTIVITY.proto";
+import "SUBMIT_SOURCE_PARAM_INTERACTIVE.proto";
+import "SUBMIT_SOURCE_PARAM_MISSION.proto";
+import "SUBMIT_SOURCE_TYPE.proto";
+import "SUBMIT_TERM.proto";
+
+message CS_SCENE_SUBMIT_ITEM {
+  string submit_id = 1;
+  repeated SUBMIT_TERM submit_item_term_list = 6;
+  SUBMIT_SOURCE_TYPE source_type = 3;
+  oneof submit_source_param {
+    SUBMIT_SOURCE_PARAM_MISSION mission = 4;
+    SUBMIT_SOURCE_PARAM_INTERACTIVE interactive = 5;
+    SUBMIT_SOURCE_PARAM_ACTIVITY activity = 7;
+  }
+}

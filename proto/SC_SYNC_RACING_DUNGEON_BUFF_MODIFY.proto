@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SYNC_RACING_DUNGEON_BUFF_MODIFY {
+  repeated string buff_list = 1;
+  string add_buff_id = 2;
+}

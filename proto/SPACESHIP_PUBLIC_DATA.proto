@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SPACESHIP_GUEST_ROOM_CLUE_LOGIC_EXTRA_RECORD.proto";
+import "SPACESHIP_HELP_RECORD.proto";
+
+message SPACESHIP_PUBLIC_DATA {
+  SPACESHIP_HELP_RECORD help_record = 1;
+  bool unlock_guest_room = 2;
+  SPACESHIP_GUEST_ROOM_CLUE_LOGIC_EXTRA_RECORD clue_logic_record = 3;
+}

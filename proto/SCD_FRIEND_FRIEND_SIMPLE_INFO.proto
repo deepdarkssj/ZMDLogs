@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+import "FRIEND_SPACESHIP_HELP_STATUS.proto";
+import "HG_THIRD_ACCOUNT_TYPE.proto";
+import "THIRD_ACCOUNT_DATA.proto";
+
+message SCD_FRIEND_FRIEND_SIMPLE_INFO {
+  uint64 role_id = 1;
+  int64 last_logout_time = 2;
+  bool online = 3;
+  uint32 adventure_level = 4;
+  int64 create_time = 5;
+  bool help_flag = 6;
+  bool clue_flag = 7;
+  string name = 8;
+  string remark_name = 9;
+  FRIEND_SPACESHIP_HELP_STATUS help_status = 10;
+  bool guest_room_unlock = 11;
+  bool clue_room_unlock = 12;
+  map<int32, int64> host_clue_status = 13;
+  string short_id = 14;
+  string signature = 15;
+  int32 user_avatar_id = 16;
+  int32 user_avatar_frame_id = 17;
+  int32 business_card_topic_id = 18;
+  HG_THIRD_ACCOUNT_TYPE last_login_type = 19;
+  THIRD_ACCOUNT_DATA third_account_data = 20;
+}

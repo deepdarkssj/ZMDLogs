@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SCENE_TELEPORT_FINISH {
+  uint64 tp_uuid = 1;
+}

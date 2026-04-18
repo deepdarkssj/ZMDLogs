@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_GIFT_BLUE_PRINT.proto";
+import "FACTORY_BP_SOURCE_TYPE.proto";
+
+message CSD_FACTORY_BLUE_PRINT_PARAM {
+  FACTORY_BP_SOURCE_TYPE source_type = 1;
+  oneof op_payload {
+    uint64 my_bp_uid = 11;
+    string sys_bp_key = 12;
+    CSD_FACTORY_GIFT_BLUE_PRINT gift_bp_key = 13;
+    string preset_bp_key = 14;
+  }
+}

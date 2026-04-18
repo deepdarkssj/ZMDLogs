@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message BATTLE_MODIFY_DYNAMIC_BLACKBOARD_ACTION_DATA {
+  string key = 1;
+  BATTLE_BLACKBOARD_FLOAT value = 2;
+  int32 modify_type = 3;
+  bool ignore_server_check = 4;
+}

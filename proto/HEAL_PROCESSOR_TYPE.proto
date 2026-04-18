@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum HEAL_PROCESSOR_TYPE {
+  HealProcessorEmptyType = 0;
+  HealModifyResult = 1;
+  HealInstantModifyAttribute = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ITEM_INST.proto";
+
+message ITEM_GRID {
+  int32 id = 1;
+  int32 count = 2;
+  ITEM_INST inst = 3;
+  int32 index = 4;
+}

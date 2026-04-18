@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_ITEM.proto";
+
+message SCD_FAC_COM_FLUID_PUMP_IN {
+  SCD_FACTORY_SYNC_ITEM item_round = 1;
+  int64 current_progress = 2;
+  string source_inst_key = 3;
+  bool in_block = 4;
+  bool in_produce = 5;
+}

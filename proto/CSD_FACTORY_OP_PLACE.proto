@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_INTERACTIVE_PARAM.proto";
+import "SCD_VEC3_INT.proto";
+
+message CSD_FACTORY_OP_PLACE {
+  string template_id = 1;
+  SCD_VEC3_INT position = 2;
+  SCD_VEC3_INT direction = 3;
+  int32 map_id = 4;
+  CSD_FACTORY_INTERACTIVE_PARAM interactive_param = 5;
+}

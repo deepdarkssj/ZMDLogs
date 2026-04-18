@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_FRIEND_CHAT_MSG_READ {
+  uint64 target_role_id = 1;
+  uint32 read_index = 2;
+}

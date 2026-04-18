@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_SCENE_SET_BATTLE {
+  bool in_battle = 1;
+  int64 enter_battle_ts = 2;
+}

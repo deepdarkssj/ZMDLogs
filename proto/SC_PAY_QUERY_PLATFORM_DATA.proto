@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_PLATFORM_GOODS_DATA.proto";
+
+message SC_PAY_QUERY_PLATFORM_DATA {
+  repeated SCD_PLATFORM_GOODS_DATA platform_goods_data = 1;
+}

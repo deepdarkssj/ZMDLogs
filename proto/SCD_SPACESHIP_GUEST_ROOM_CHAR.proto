@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_GUEST_ROOM_CHAR {
+  repeated int32 char_template_id_list = 1;
+}

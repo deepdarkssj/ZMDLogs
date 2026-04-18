@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum GACHA_CONFIRM_REWARD_TYPE {
+  GcrtOnceReward = 0;
+  GcrtIntervalReward = 1;
+}

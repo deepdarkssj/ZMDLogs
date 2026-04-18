@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SPAWN_ENEMY {
+  uint32 client_key = 1;
+  repeated uint64 enemy_inst_ids = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message SC_SYNC_RACING_DUNGEON_SETTLEMENT {
+  string dungeon_id = 1;
+  int32 level = 2;
+  bool is_passed = 3;
+  int64 total_playtime = 4;
+  float score = 5;
+  int32 battle_pass_exp = 6;
+  repeated int64 completed_room_list = 7;
+}

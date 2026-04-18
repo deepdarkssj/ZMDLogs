@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "REMOVE_ITEM_NEW_DATA.proto";
+
+message CS_REMOVE_ITEM_NEW_TAGS {
+  repeated uint32 item_ids = 1;
+  repeated REMOVE_ITEM_NEW_DATA inst_data = 2;
+}

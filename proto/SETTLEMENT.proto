@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "TD_GAIN_EFFECT.proto";
+
+message SETTLEMENT {
+  string settlement_id = 1;
+  int32 level = 2;
+  int64 exp = 3;
+  string officer_char_template_id = 5;
+  int64 unlock_ts = 7;
+  int64 remain_money = 6;
+  TD_GAIN_EFFECT active_gain_effect = 7;
+  TD_GAIN_EFFECT active_time_limit_gain_effect = 8;
+}

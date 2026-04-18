@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_SOCIAL_USER_INFO.proto";
+import "THIRD_ACCOUNT_DATA_PSN.proto";
+
+message SCD_FRIEND_PSN_FRIEND_INFO {
+  THIRD_ACCOUNT_DATA_PSN psn_data = 1;
+  SCD_SOCIAL_USER_INFO user_info = 2;
+}

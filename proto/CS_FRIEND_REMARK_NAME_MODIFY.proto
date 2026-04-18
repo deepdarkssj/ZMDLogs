@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_FRIEND_REMARK_NAME_MODIFY {
+  uint64 role_id = 1;
+  string remark_name = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_FACTORY_STATISTIC_RECORD {
+  int32 rank = 1;
+  repeated int64 points_gen = 2;
+  repeated int64 points_cost = 3;
+  int64 theoretical_gen = 4;
+  int64 theoretical_cost = 5;
+}

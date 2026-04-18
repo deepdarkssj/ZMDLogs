@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+enum PUNISH_TYPE {
+  PunishNone = 0;
+  BanChangeName = 1;
+  BanChangeSignature = 2;
+  BanChangeFriendNote = 3;
+  BanChangeTeamName = 4;
+  BanEditBluePrint = 5;
+  BanShare = 6;
+  BanFriendRequest = 7;
+  BanMapMark = 8;
+  BanMapMarkEdit = 9;
+  BanFactorySign = 10;
+}

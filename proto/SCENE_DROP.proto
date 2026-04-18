@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_ITEM_GRID.proto";
+
+message SCENE_DROP {
+  uint64 drop_id = 1;
+  map<string, int64> stackable_items = 2;
+  repeated SCD_ITEM_GRID inst_list = 3;
+}

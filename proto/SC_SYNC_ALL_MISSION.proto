@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "MISSION.proto";
+import "NEW_MISSION_TAG.proto";
+import "QUEST.proto";
+
+message SC_SYNC_ALL_MISSION {
+  string track_mission_id = 1;
+  map<string, MISSION> missions = 2;
+  map<string, QUEST> cur_quests = 3;
+  string daily_mission_id = 4;
+  repeated NEW_MISSION_TAG new_mission_tags = 5;
+}

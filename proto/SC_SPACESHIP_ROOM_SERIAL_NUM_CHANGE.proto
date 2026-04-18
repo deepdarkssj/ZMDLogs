@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_ROOM_SERIAL_NUM_CHANGE.proto";
+
+message SC_SPACESHIP_ROOM_SERIAL_NUM_CHANGE {
+  repeated SCD_SPACESHIP_ROOM_SERIAL_NUM_CHANGE changes = 1;
+}

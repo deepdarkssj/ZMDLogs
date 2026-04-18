@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "HG_THIRD_ACCOUNT_TYPE.proto";
+import "THIRD_ACCOUNT_DATA_PSN.proto";
+
+message THIRD_ACCOUNT_DATA {
+  HG_THIRD_ACCOUNT_TYPE third_account_data_type = 1;
+  oneof data {
+    THIRD_ACCOUNT_DATA_PSN third_account_psn = 2;
+  }
+}

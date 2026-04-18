@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_CHAR_BAG_SET_TEAM {
+  int32 team_index = 1;
+  repeated uint64 char_team = 2;
+  uint64 leader_id = 3;
+}

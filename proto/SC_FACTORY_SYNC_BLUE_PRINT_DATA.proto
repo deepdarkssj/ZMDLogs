@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_BLUE_PRINT_DATA.proto";
+
+message SC_FACTORY_SYNC_BLUE_PRINT_DATA {
+  CSD_FACTORY_BLUE_PRINT_DATA blue_print_data = 1;
+}

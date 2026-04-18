@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "SCD_ITEM_BAG.proto";
+import "SCD_ITEM_BAG_SCOPE_ASSISTANT.proto";
+import "SCD_ITEM_BAG_SYNC_QUICK_BAR.proto";
+import "SCD_ITEM_DEPOT.proto";
+
+message SC_ITEM_BAG_SCOPE_SYNC {
+  SCD_ITEM_BAG bag = 1;
+  map<string, SCD_ITEM_DEPOT> factory_depot = 2;
+  map<int32, SCD_ITEM_DEPOT> depot = 3;
+  SCD_ITEM_BAG_SYNC_QUICK_BAR quick_bar = 4;
+  SCD_ITEM_BAG_SCOPE_ASSISTANT assistant = 5;
+  int32 scope_name = 11;
+  string current_chapter_id = 12;
+  string spaceship_chapter_id = 13;
+}

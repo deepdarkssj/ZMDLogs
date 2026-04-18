@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_BATTLE_SYNC_SEQ_ID {
+  int32 last_max_seq_id = 1;
+}

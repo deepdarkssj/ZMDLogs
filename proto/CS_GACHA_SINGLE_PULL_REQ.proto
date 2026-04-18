@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_GACHA_SINGLE_PULL_REQ {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  map<string, int32> pull_costs = 3;
+}

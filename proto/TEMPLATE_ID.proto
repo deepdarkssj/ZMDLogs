@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_OWNER_TYPE.proto";
+
+message TEMPLATE_ID {
+  BATTLE_ACTION_OWNER_TYPE type = 3;
+  oneof id_impl {
+    string str_id = 1;
+    int32 int_id = 2;
+  }
+}

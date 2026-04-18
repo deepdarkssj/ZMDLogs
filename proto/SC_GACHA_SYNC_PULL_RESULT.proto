@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "SCD_GACHA_FINAL_RESULT.proto";
+
+message SC_GACHA_SYNC_PULL_RESULT {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  repeated string ori_result_ids = 3;
+  repeated SCD_GACHA_FINAL_RESULT final_results = 4;
+  int32 up_got_count = 5;
+  int32 star6_got_count = 6;
+  int32 star5_got_count = 7;
+}

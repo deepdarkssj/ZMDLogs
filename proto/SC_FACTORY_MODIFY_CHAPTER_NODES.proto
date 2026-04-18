@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_FAC_NODE.proto";
+
+message SC_FACTORY_MODIFY_CHAPTER_NODES {
+  int64 tms = 1;
+  string chapter_id = 2;
+  repeated SCD_FAC_NODE nodes = 3;
+  repeated uint32 remove_nodes = 4;
+}

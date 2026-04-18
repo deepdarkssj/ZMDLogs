@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message BATTLE_MODIFY_ENABLE_PART_ACTION_DATA {
+  bool enable_when_execute = 1;
+  bool reset_on_end = 2;
+  bool modify_hp_on_enable = 3;
+  int32 modify_type = 4;
+  BATTLE_BLACKBOARD_FLOAT value = 5;
+  bool clear_all_buff_on_disable = 6;
+}

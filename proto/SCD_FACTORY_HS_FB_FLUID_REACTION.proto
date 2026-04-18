@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_FAC_FLUID_REACTION_FORMULA.proto";
+
+message SCD_FACTORY_HS_FB_FLUID_REACTION {
+  repeated SCD_FAC_FLUID_REACTION_FORMULA formulas = 1;
+  int64 progress_incr_per_ms = 2;
+}

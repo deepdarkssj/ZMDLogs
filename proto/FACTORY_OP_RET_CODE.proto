@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+enum FACTORY_OP_RET_CODE {
+  Ok = 0;
+  Fail = 1;
+  UnknownOpType = 2;
+  MeshConflict = 3;
+  MustInMain = 4;
+  NoBuildingItem = 5;
+}

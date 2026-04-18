@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_EQUIP_PUTON {
+  uint64 charid = 1;
+  int32 slotid = 2;
+  uint64 equipid = 3;
+}

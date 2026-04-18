@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message TRIAL_CHAR_DATA {
+  uint32 trial_char_type = 1;
+  int32 equip_medicine_num = 2;
+}

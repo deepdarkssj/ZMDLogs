@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_ROOM.proto";
+
+message SC_SPACESHIP_MODIFY_ROOM {
+  repeated SCD_SPACESHIP_ROOM rooms = 1;
+}

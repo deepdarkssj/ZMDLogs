@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_WEAPON_ATTACH_GEM {
+  uint64 weaponid = 1;
+  uint64 gemid = 2;
+  uint64 detach_gemid = 3;
+  uint64 detach_gem_weaponid = 4;
+}

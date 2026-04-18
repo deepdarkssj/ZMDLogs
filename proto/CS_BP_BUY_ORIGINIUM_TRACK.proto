@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message CS_BP_BUY_ORIGINIUM_TRACK {
+}

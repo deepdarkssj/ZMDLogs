@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FACTORY_PIN_CARD {
+  int32 pos = 1;
+  string str_id = 2;
+  uint64 num_id = 3;
+}

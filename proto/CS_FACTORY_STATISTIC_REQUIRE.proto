@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message CS_FACTORY_STATISTIC_REQUIRE {
+  int32 rank_power = 1;
+  int32 rank_productivity = 2;
+  repeated string productivity_item_ids = 3;
+  bool all_productivity = 4;
+  string chapter_id = 12;
+}

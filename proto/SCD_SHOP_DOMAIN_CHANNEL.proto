@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_SHOP_DOMAIN_CHANNEL {
+  string domain_id = 1;
+  map<string, int32> channels = 2;
+  string version = 3;
+}

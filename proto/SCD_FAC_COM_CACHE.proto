@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_ITEM.proto";
+
+message SCD_FAC_COM_CACHE {
+  repeated SCD_FACTORY_SYNC_ITEM items = 1;
+  int32 size = 2;
+}

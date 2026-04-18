@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FOCUS_MODE_ENTER_NTF {
+  string focus_mode_id = 1;
+}

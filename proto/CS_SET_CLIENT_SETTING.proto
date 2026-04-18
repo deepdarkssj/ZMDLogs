@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SET_CLIENT_SETTING {
+  bytes client_setting_modify = 1;
+}

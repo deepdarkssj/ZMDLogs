@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_BLACKBOARD_STRING {
+  bool use_blackboard_key = 1;
+  string blackboard_key = 2;
+  string default_value = 3;
+}

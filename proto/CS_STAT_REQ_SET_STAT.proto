@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_STAT_REQ_SET_STAT {
+  int32 type = 1;
+  int32 param = 2;
+  uint32 value = 3;
+}

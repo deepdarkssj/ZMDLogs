@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GAME_ENTRANCE_ACTIVITY_SERIES_INFO.proto";
+
+message ACTIVITY_INFO_SPECIFIED_GAME_ENTRANCE {
+  bool complete_intro_mission = 1;
+  repeated GAME_ENTRANCE_ACTIVITY_SERIES_INFO series_infos = 2;
+}

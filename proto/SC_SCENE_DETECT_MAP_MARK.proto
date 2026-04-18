@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_DETECT_MAP_MARK {
+  repeated uint64 add_entity_id = 1;
+  repeated uint64 del_entity_id = 2;
+}

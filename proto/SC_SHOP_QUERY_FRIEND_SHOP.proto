@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_GOODS_HIS_PRICE.proto";
+import "SCD_SHOP_GOODS_PRICE.proto";
+
+message SC_SHOP_QUERY_FRIEND_SHOP {
+  uint64 friend_role_id = 1;
+  map<string, SCD_SHOP_GOODS_PRICE> shop_goods = 2;
+  repeated SCD_GOODS_HIS_PRICE his_price = 3;
+}

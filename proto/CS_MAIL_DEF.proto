@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "MAIL_CONTENT.proto";
+import "REWARD_ITEM.proto";
+
+message CS_MAIL_DEF {
+  int32 mail_type = 1;
+  uint64 mail_id = 2;
+  int64 expire_time = 3;
+  bool is_read = 4;
+  bool is_attachment_got = 5;
+  int64 send_time = 6;
+  MAIL_CONTENT mail_content = 7;
+  repeated REWARD_ITEM item_list = 8;
+  bool is_star = 9;
+  int32 mail_sub_type = 10;
+}

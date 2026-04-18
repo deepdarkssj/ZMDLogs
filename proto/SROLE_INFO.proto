@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+import "FRIEND_CHAR_INFO.proto";
+import "HG_THIRD_ACCOUNT_TYPE.proto";
+import "SROLE_DATA_ACHIEVEMENT.proto";
+import "SROLE_DATA_DOMAIN_DEV_SYSTEM.proto";
+import "SROLE_DATA_STATISTIC.proto";
+import "THIRD_ACCOUNT_DATA.proto";
+
+message SROLE_INFO {
+  string name = 1;
+  string short_id = 2;
+  uint32 gender = 3;
+  int32 business_card_topic_id = 4;
+  string signature = 5;
+  int32 user_avatar_id = 6;
+  int32 user_avatar_frame_id = 7;
+  uint32 adventure_level = 8;
+  uint32 world_level = 9;
+  string main_mission_id = 10;
+  int64 create_time = 11;
+  string platform_role_id = 12;
+  SROLE_DATA_DOMAIN_DEV_SYSTEM domain_dev = 13;
+  SROLE_DATA_ACHIEVEMENT achievement = 14;
+  SROLE_DATA_STATISTIC statistic = 15;
+  repeated FRIEND_CHAR_INFO char_list = 16;
+  bool business_card_expand_flag = 17;
+  HG_THIRD_ACCOUNT_TYPE last_login_type = 18;
+  THIRD_ACCOUNT_DATA third_account_data = 19;
+}

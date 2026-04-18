@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message ATTR_MODIFY_DATA {
+  double modify_value = 1;
+  double modify_ratio = 2;
+  double final_modify_value = 3;
+  double final_modify_ratio = 4;
+  double base_modify_value = 5;
+  double base_modify_ratio = 6;
+  double base_final_modify_value = 7;
+  double base_final_modify_ratio = 8;
+}

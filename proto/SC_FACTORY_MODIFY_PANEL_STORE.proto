@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_PANEL_STORE_GOOD.proto";
+
+message SC_FACTORY_MODIFY_PANEL_STORE {
+  repeated SCD_FACTORY_PANEL_STORE_GOOD goods = 1;
+}

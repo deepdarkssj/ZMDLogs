@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_BLACKBOARD.proto";
+import "SCD_FACTORY_SYNC_MAP.proto";
+import "SCD_FACTORY_SYNC_PENDING_PLACE.proto";
+import "SCD_FACTORY_SYNC_PIN_BOARD.proto";
+import "SCD_FACTORY_SYNC_QUICKBAR.proto";
+import "SCD_FACTORY_SYNC_SCENE.proto";
+import "SCD_FACTORY_SYNC_STATISTIC.proto";
+import "SCD_FAC_NODE.proto";
+
+message SC_FACTORY_SYNC_CHAPTER {
+  int64 tms = 1;
+  string chapter_id = 2;
+  repeated SCD_FAC_NODE nodes = 3;
+  repeated SCD_FACTORY_SYNC_SCENE scenes = 4;
+  SCD_FACTORY_SYNC_BLACKBOARD blackboard = 5;
+  SCD_FACTORY_SYNC_PIN_BOARD pin_board = 6;
+  repeated SCD_FACTORY_SYNC_MAP maps = 7;
+  repeated SCD_FACTORY_SYNC_QUICKBAR quickbars = 8;
+  SCD_FACTORY_SYNC_STATISTIC statistic = 9;
+  SCD_FACTORY_SYNC_PENDING_PLACE pending_place = 10;
+}

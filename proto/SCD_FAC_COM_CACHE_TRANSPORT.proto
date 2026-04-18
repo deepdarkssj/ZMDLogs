@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_CACHE_TRANSPORT {
+  int64 current_progress = 1;
+  int64 total_progress = 2;
+  bool auto_transport = 3;
+  bool in_use = 5;
+}

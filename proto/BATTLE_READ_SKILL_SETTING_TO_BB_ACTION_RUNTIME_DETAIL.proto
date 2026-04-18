@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message BATTLE_READ_SKILL_SETTING_TO_BB_ACTION_RUNTIME_DETAIL {
+  int32 client_layer_cnt = 1;
+  double client_value = 2;
+  double enhance_attr_value = 3;
+  uint64 attacker_battle_inst_id = 4;
+}

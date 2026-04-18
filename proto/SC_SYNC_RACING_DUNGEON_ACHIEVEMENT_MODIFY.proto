@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SYNC_RACING_DUNGEON_ACHIEVEMENT_MODIFY {
+  int32 achievement_id = 1;
+}

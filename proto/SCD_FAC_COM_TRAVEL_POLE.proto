@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_TRAVEL_POLE {
+  uint32 default_next = 11;
+}

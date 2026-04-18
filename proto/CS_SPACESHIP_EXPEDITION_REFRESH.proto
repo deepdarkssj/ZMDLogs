@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_EXPEDITION_REFRESH {
+  string region_id = 1;
+}

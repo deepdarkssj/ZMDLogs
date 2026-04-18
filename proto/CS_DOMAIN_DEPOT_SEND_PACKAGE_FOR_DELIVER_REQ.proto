@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_DOMAIN_DEPOT_SEND_PACKAGE_FOR_DELIVER_REQ {
+  uint64 deliver_inst_id = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SHOP_UNLOCK_CONDITIONS.proto";
+
+message SC_SHOP_SYNC_GOODS_CONDITION {
+  SCD_SHOP_UNLOCK_CONDITIONS goods_conditions = 1;
+}

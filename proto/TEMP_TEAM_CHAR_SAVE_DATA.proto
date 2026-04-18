@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "TRIAL_CHAR_DATA.proto";
+
+message TEMP_TEAM_CHAR_SAVE_DATA {
+  TRIAL_CHAR_DATA trial_char_data = 1;
+  int32 hp = 2;
+  int32 ultimate_sp = 3;
+}

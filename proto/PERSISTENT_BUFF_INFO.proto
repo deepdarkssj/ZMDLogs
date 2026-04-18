@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message PERSISTENT_BUFF_INFO {
+  int32 item_num_id = 1;
+  float duration = 2;
+  repeated uint64 char_inst_ids = 3;
+  string stacking_key = 4;
+}

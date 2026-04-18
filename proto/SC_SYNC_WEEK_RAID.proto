@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message SC_SYNC_WEEK_RAID {
+  string game_id = 1;
+  int32 battle_pass_score = 2;
+  repeated int32 received_node_id = 3;
+  repeated string unlock_tech_id = 4;
+  repeated string unlock_pictorial_id = 5;
+  repeated string scheduled_mission = 6;
+  repeated string random_mission = 7;
+  int32 refresh_count = 8;
+  string pin_mission = 9;
+  string guide_game_id = 10;
+  bool is_complete_guide = 11;
+}

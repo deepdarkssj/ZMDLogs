@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message DYNAMIC_PARAMETER {
+  int32 value_type = 1;
+  int32 real_type = 2;
+  repeated bool value_bool_list = 3;
+  repeated int64 value_int_list = 4;
+  repeated float value_float_list = 5;
+  repeated string value_string_list = 6;
+}

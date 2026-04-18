@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SP_INTERACTIVE_OP_ARG_SET_LS_ENABLE {
+  bool is_enable = 1;
+}

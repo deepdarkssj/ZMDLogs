@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "FRIEND_FRIEND_USER_INFO.proto";
+
+message FRIEND_FRIEND_INFO {
+  FRIEND_FRIEND_USER_INFO friend_user_info = 1;
+  int64 create_time = 2;
+  string remark_name = 3;
+}

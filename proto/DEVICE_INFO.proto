@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message DEVICE_INFO {
+  string device_id = 1;
+  string os = 2;
+  string os_ver = 3;
+  string brand = 4;
+  string model = 5;
+  string simulator = 6;
+  string network = 7;
+  string carrier = 8;
+  string language = 9;
+  string country_iso_code = 10;
+  int64 ipv4 = 11;
+  string client_res_version = 12;
+}

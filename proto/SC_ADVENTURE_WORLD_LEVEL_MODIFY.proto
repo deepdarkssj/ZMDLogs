@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_ADVENTURE_WORLD_LEVEL_MODIFY {
+  int32 world_level = 1;
+  int32 unlock_world_level = 2;
+  int64 last_set_world_level_ts = 3;
+}

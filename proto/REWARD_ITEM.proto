@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ITEM_INST.proto";
+
+message REWARD_ITEM {
+  string id = 1;
+  int64 count = 2;
+  ITEM_INST inst = 3;
+  int32 item_opt = 4;
+}

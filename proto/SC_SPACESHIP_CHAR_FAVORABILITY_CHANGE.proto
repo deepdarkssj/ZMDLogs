@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SPACESHIP_CHAR_FAVORABILITY_CHANGE_INFO.proto";
+
+message SC_SPACESHIP_CHAR_FAVORABILITY_CHANGE {
+  repeated SPACESHIP_CHAR_FAVORABILITY_CHANGE_INFO change_infos = 1;
+}

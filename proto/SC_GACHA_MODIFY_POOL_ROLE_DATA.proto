@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_GACHA_POOL_CATEGORY_ROLE_DATA.proto";
+import "SCD_GACHA_POOL_ROLE_DATA.proto";
+
+message SC_GACHA_MODIFY_POOL_ROLE_DATA {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  SCD_GACHA_POOL_ROLE_DATA gacha_pool_role_data = 3;
+  SCD_GACHA_POOL_CATEGORY_ROLE_DATA gacha_pool_category_role_data = 4;
+}

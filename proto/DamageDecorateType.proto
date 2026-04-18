@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+enum DamageDecorateType {
+  PoiseBreak = 0;
+  IgnoreGuardDodge = 1;
+  PowerAttack = 2;
+  FireAbnormalInitial = 3;
+  PulseAbnormalInitial = 4;
+  CrystAbnormalInitial = 5;
+  IgniteByMud = 6;
+  NormalAttack = 7;
+  NormalSkill = 8;
+  UltimateSkill = 9;
+  PlungingAttack = 10;
+  Bomb = 11;
+  CanBreakWeakness = 12;
+  ComboSkill = 13;
+  Crush = 14;
+  Airborne = 15;
+  KnockDown = 16;
+  DashAttack = 17;
+  IgnoreDodgeImmune = 18;
+  IgnoreSkillImmune = 19;
+  NaturalAbnormalInitial = 20;
+  NormalAttackLastCombo = 21;
+  FireBurst = 22;
+  CrystBurst = 23;
+  PulseBurst = 24;
+  NaturalBurst = 25;
+  Burning = 26;
+  Shatter = 27;
+  Dot = 28;
+  RemainArea = 29;
+  Fracture = 30;
+  Max = 31;
+}

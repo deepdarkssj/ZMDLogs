@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message BATTLE_MODIFY_PART_DAMAGE_TRANSFER_RATIO_ACTION_DATA {
+  BATTLE_BLACKBOARD_FLOAT ratio = 1;
+  bool reset_on_end = 2;
+}

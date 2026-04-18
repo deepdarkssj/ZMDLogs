@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message CS_SCENE_INTERACT_TREE {
+  string tree_type_id = 1;
+  VECTOR position = 2;
+  bool is_breaked = 3;
+}

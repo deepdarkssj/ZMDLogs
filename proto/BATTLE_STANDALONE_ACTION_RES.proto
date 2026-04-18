@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_RES.proto";
+
+message BATTLE_STANDALONE_ACTION_RES {
+  string template_id = 1;
+  map<int32, BATTLE_ACTION_RES> action_map = 2;
+}

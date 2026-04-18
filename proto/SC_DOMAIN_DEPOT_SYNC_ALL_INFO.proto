@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "DOMAIN_DEPOT_DELIVER_DATA.proto";
+import "DOMAIN_DEPOT_INFO.proto";
+
+message SC_DOMAIN_DEPOT_SYNC_ALL_INFO {
+  repeated DOMAIN_DEPOT_INFO domain_depot_info_list = 1;
+  repeated DOMAIN_DEPOT_DELIVER_DATA domain_depot_deliver_info_list = 2;
+  int32 daily_take_delegate_count = 3;
+  uint64 cur_deliver_inst_id = 4;
+  map<int32, string> version_map = 5;
+}

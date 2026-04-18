@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_BASE_MULTI_STAGE_ACTIVITY_RECEIVE_REWARD {
+  string id = 1;
+  repeated int32 stage_list = 2;
+  string reward_id = 3;
+}

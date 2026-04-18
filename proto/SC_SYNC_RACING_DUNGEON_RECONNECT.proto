@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message SC_SYNC_RACING_DUNGEON_RECONNECT {
+  string dungeon_id = 1;
+  int32 level = 2;
+  int64 total_playtime = 3;
+  repeated string buff_list = 4;
+  string tactics_id = 5;
+  int32 kill_monster_counter = 6;
+  bool paused = 7;
+  repeated int64 completed_room_list = 8;
+}

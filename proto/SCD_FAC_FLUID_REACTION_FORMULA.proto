@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FAC_FLUID_REACTION_FORMULA {
+  string formula_id = 1;
+  int64 current_progress = 2;
+  bool in_block = 3;
+}

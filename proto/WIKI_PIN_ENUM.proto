@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum WIKI_PIN_ENUM {
+  None = 0;
+  Formula = 1;
+  Building = 2;
+}

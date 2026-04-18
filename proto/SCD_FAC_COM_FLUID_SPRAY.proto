@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_FLUID_SPRAY {
+  int64 current_progress = 1;
+  bool in_produce = 2;
+  int32 last_round_spray_count = 3;
+  bool in_block = 11;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BATTLE_ACTION_TARGET_SETTING {
+  int32 target_source = 1;
+  string target_group_key = 2;
+}

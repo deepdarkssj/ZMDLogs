@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_WEAPON_ADD_EXP {
+  uint64 weaponid = 1;
+  uint64 new_exp = 2;
+  uint32 weapon_lv = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "BRIEF_BP_STATUS.proto";
+
+message SCD_FRIEND_CHAT_MSG_INSTANT_INFO_BLUE_PRINT {
+  string name = 1;
+  repeated int32 tags = 2;
+  string icon = 3;
+  int32 base_color = 4;
+  BRIEF_BP_STATUS status = 5;
+  int32 share_idx = 6;
+  uint64 bp_uid = 7;
+}

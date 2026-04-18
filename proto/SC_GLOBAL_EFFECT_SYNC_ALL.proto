@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_GLOBAL_EFFECT.proto";
+
+message SC_GLOBAL_EFFECT_SYNC_ALL {
+  repeated SCD_GLOBAL_EFFECT global_effects = 1;
+}

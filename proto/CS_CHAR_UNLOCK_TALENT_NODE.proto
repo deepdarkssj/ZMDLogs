@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_CHAR_UNLOCK_TALENT_NODE {
+  uint64 char_obj_id = 1;
+  string node_id = 2;
+}

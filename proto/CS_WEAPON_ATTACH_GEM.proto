@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_WEAPON_ATTACH_GEM {
+  uint64 weaponid = 1;
+  uint64 gemid = 2;
+}

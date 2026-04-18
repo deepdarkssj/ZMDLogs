@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_SHOWCASE_MODIFY {
+  int32 showcase_id = 1;
+  int32 item_id = 2;
+}

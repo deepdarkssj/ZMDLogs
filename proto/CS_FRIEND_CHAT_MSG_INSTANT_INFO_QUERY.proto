@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CSD_FRIEND_CHAT_MSG_INSTANT_INFO_QUERY.proto";
+
+message CS_FRIEND_CHAT_MSG_INSTANT_INFO_QUERY {
+  uint64 target_role_id = 1;
+  repeated CSD_FRIEND_CHAT_MSG_INSTANT_INFO_QUERY query_list = 2;
+}

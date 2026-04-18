@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ANTI_CHEAT_CREDIT_WARNING {
+  int32 record_duration = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_FLUID_PUMP_OUT {
+  int32 round_count = 1;
+  int64 current_progress = 2;
+  string target_inst_key = 3;
+  bool in_block = 4;
+  bool in_produce = 5;
+}

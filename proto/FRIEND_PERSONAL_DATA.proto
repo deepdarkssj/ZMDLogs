@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message FRIEND_PERSONAL_DATA {
+  int32 user_avatar_id = 1;
+  int32 user_avatar_frame_id = 2;
+  int32 business_card_topic_id = 3;
+  string signature = 4;
+  repeated uint64 char_list = 5;
+  bool business_card_expand_flag = 6;
+  bool psn_only = 7;
+}

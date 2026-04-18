@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BATTLE_CLIENT_PROCESSOR_DEBUG_ARGS_ITEM.proto";
+
+message BATTLE_MODIFIER_HANDLE {
+  uint64 buff_inst_id = 1;
+  int32 index = 2;
+  map<int32, BATTLE_CLIENT_PROCESSOR_DEBUG_ARGS_ITEM> processor_debug_args = 3;
+}

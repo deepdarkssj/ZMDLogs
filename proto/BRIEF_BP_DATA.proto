@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "BRIEF_BP_STATUS.proto";
+
+message BRIEF_BP_DATA {
+  string share_code = 1;
+  string name = 2;
+  repeated int32 tags = 3;
+  string icon = 4;
+  int32 base_color = 5;
+  BRIEF_BP_STATUS status = 6;
+  int32 share_idx = 7;
+  uint64 bp_uid = 8;
+}

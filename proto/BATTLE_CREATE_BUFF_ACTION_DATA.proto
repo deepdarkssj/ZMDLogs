@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_TARGET_SETTING.proto";
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+import "BUFF_INPUT.proto";
+
+message BATTLE_CREATE_BUFF_ACTION_DATA {
+  repeated BUFF_INPUT buff_input = 1;
+  BATTLE_BLACKBOARD_FLOAT count = 2;
+  BATTLE_ACTION_TARGET_SETTING target = 3;
+  int32 buff_source_type = 4;
+  bool auto_finish_by_action = 5;
+}

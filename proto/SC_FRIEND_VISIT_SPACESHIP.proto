@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message SC_FRIEND_VISIT_SPACESHIP {
+  uint64 role_id = 1;
+  uint64 clue_end_ts = 2;
+  bool control_center_flag = 3;
+  bool manufacturing_station_flag = 4;
+  bool grow_cabin_flag = 5;
+  bool command_center_flag = 6;
+  bool has_joined_info_exchange = 7;
+  bool guest_room_unlock = 8;
+}

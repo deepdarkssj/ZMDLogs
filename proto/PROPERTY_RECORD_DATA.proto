@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "DYNAMIC_PARAMETER_DATA.proto";
+
+message PROPERTY_RECORD_DATA {
+  map<int32, DYNAMIC_PARAMETER_DATA> common_properties = 1;
+  bytes bool_properties = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_DOMAIN_DEPOT_UNLOCK_RSP {
+  string domain_depot_id = 1;
+}

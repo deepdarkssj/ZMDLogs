@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_RACING_DUNGEON_BATTLE_PASS_RECEIVE_REWARD {
+  string dungeon_id = 1;
+  int32 battle_pass_exp = 2;
+  repeated string receive_rewards = 3;
+  repeated int32 received_node_id = 4;
+}

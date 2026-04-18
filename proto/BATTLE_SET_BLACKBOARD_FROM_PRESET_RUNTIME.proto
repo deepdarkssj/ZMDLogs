@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_SET_BLACKBOARD_FROM_PRESET_RUNTIME {
+  string modified_value = 1;
+}

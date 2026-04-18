@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "QUEST_OBJECTIVE.proto";
+
+message SC_QUEST_OBJECTIVES_UPDATE {
+  string quest_id = 1;
+  repeated QUEST_OBJECTIVE quest_objectives = 4;
+}

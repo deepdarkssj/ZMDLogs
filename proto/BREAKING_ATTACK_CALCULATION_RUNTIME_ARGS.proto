@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message BREAKING_ATTACK_CALCULATION_RUNTIME_ARGS {
+  double client_atk_scale = 1;
+  double client_multiplier = 2;
+  double client_attacker_atk = 3;
+  double client_defender_breaking_attack_dmg_taken_scalar = 4;
+}

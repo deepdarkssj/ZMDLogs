@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_GAME_MECHANICS_REQ_START {
+  string game_id = 1;
+  uint64 interactive_obj_id = 2;
+  string npc_proxy_id = 3;
+  uint64 npc_obj_id = 4;
+}

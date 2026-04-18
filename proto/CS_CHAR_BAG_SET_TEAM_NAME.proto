@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_CHAR_BAG_SET_TEAM_NAME {
+  int32 team_index = 1;
+  string team_name = 2;
+}

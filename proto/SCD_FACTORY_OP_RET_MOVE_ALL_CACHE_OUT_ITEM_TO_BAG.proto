@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FACTORY_OP_RET_MOVE_ALL_CACHE_OUT_ITEM_TO_BAG {
+  repeated int32 to_grid_index = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_ITEM_GRID.proto";
+
+message SC_SCENE_DROP_MODIFY {
+  uint64 drop_id = 1;
+  map<string, int64> items = 2;
+  repeated SCD_ITEM_GRID inst_list = 3;
+  repeated uint64 del_inst_list = 4;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_READ_MAIL {
+  uint64 mail_id = 1;
+}

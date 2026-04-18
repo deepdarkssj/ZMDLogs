@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SYNC_ALL_MAIL {
+  repeated uint64 mail_id_list = 1;
+  bool new_mail_tag = 2;
+  bool new_questionnaire_tag = 3;
+}

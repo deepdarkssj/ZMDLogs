@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum UID_TYPE_EXTEND {
+  InvalidPlaceholder = 0;
+  TriggerVolume = 8;
+  PolyShape = 9;
+}

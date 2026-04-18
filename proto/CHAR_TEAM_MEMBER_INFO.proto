@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CHAR_TEAM_MEMBER_INFO {
+  string normal_skillid = 1;
+}

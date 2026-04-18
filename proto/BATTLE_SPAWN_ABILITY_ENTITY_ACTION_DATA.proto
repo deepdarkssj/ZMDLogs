@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_SPAWN_ABILITY_ENTITY_ACTION_DATA {
+  string ability_entity_id = 1;
+  bool assign_blackboard = 3;
+  bool set_spawner_as_source = 4;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_SCENE_MONSTER_SPAWNER_BEGIN_WAVE {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  int32 wave_id = 3;
+  double client_timestamp = 4;
+}

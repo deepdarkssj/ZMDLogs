@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SKILL_LEVEL_INFO.proto";
+
+message SKILL_INFO {
+  repeated SKILL_LEVEL_INFO level_info = 1;
+  string normal_skill = 2;
+  string ultimate_skill = 3;
+  string combo_skill = 4;
+  string disp_normal_attack_skill = 5;
+}

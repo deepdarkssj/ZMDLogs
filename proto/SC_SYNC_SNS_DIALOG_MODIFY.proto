@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SNS_CHAT_INFO.proto";
+import "SNS_DIALOG_INFO.proto";
+
+message SC_SYNC_SNS_DIALOG_MODIFY {
+  SNS_CHAT_INFO chat_info = 1;
+  SNS_DIALOG_INFO dialog_info = 2;
+  bool is_set_option = 3;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_ITEM_BAG_TIDY_IN_BAG {
+  int32 scope_name = 11;
+}

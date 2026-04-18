@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCENE_TRANSFORM.proto";
+
+message SCENE_CHECKPOINT {
+  SCENE_TRANSFORM transform = 1;
+  int32 checkpoint_type = 2;
+  int32 detail_type = 3;
+  uint64 modify_time = 4;
+  uint64 from_script_id = 5;
+}

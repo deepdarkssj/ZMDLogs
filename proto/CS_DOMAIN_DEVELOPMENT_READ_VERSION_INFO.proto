@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_DOMAIN_DEVELOPMENT_READ_VERSION_INFO {
+  string chapter_id = 1;
+}

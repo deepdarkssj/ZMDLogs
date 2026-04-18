@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "MINI_GAME_INFO.proto";
+
+message SC_SYNC_ALL_MINI_GAME {
+  repeated MINI_GAME_INFO completed_mini_game = 1;
+}

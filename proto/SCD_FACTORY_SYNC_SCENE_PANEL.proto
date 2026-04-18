@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_RECT_INT.proto";
+
+message SCD_FACTORY_SYNC_SCENE_PANEL {
+  int32 index = 1;
+  int32 level = 2;
+  repeated SCD_RECT_INT main_mesh = 3;
+}

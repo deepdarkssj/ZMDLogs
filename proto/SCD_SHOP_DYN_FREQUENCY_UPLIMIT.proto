@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SHOP_DYN_FREQUENCY_UPLIMIT {
+  string frequency_limit_id = 1;
+  int32 uplimit = 2;
+}

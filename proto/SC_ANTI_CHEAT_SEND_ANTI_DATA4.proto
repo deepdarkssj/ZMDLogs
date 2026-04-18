@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ANTI_CHEAT_SEND_ANTI_DATA4 {
+  string result = 1;
+}

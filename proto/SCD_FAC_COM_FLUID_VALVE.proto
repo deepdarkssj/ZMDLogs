@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_ITEM.proto";
+
+message SCD_FAC_COM_FLUID_VALVE {
+  SCD_FACTORY_SYNC_ITEM hold_item = 1;
+  string selected_item_id = 2;
+  bool valve_enable = 3;
+  int32 valve_passed = 4;
+  int32 current_passed = 5;
+}

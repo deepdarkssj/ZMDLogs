@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_PART_INST_INFO {
+  map<string, uint64> part_id_to_inst_id = 1;
+}

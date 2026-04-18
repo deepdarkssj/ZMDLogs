@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_BATCH_PLACE_FORMULA_MAN {
+  string cur_mode = 1;
+}

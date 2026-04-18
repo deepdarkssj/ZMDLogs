@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "CSD_BATCH_PLACE_COM.proto";
+import "CSD_FACTORY_INTERACTIVE_PARAM.proto";
+import "SCD_VEC3_INT.proto";
+
+message CSD_BATCH_PLACE_NODE {
+  string template_id = 1;
+  SCD_VEC3_INT position = 2;
+  SCD_VEC3_INT direction = 3;
+  CSD_FACTORY_INTERACTIVE_PARAM interactive_param = 4;
+  repeated CSD_BATCH_PLACE_COM coms = 5;
+}

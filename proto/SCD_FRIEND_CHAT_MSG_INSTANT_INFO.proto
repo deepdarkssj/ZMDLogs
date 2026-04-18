@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "FRIEND_CHAT_MSG_INSTANT_INFO_TYPE.proto";
+import "SCD_FRIEND_CHAT_MSG_INSTANT_INFO_BLUE_PRINT.proto";
+import "SCD_FRIEND_CHAT_MSG_INSTANT_INFO_SOCIAL_BUILDING.proto";
+
+message SCD_FRIEND_CHAT_MSG_INSTANT_INFO {
+  uint32 msg_index = 1;
+  FRIEND_CHAT_MSG_INSTANT_INFO_TYPE type = 2;
+  oneof data {
+    SCD_FRIEND_CHAT_MSG_INSTANT_INFO_SOCIAL_BUILDING social_building_data = 11;
+    SCD_FRIEND_CHAT_MSG_INSTANT_INFO_BLUE_PRINT blue_print_data = 12;
+  }
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "REWARD_ITEM.proto";
+
+message SC_REWARD_TOAST_END {
+  repeated REWARD_ITEM reward_virtual_list = 1;
+  uint64 reward_toast_inst_id = 2;
+}

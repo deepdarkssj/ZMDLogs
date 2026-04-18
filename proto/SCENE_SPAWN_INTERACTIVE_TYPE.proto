@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum SCENE_SPAWN_INTERACTIVE_TYPE {
+  SpawnItvByTemplate = 0;
+  SpawnItvByLevelConfig = 1;
+}

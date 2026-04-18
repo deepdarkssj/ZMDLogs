@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+enum UID_TYPE {
+  Common = 0;
+  Char = 2;
+  Monster = 3;
+  Interactive = 4;
+  Npc = 5;
+  Summon = 6;
+  PayOrder = 7;
+}

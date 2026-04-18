@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_EXPEDITION_EXPEDITION.proto";
+
+message SC_SPACESHIP_EXPEDITION_EXPEDITION_UPDATE {
+  repeated SCD_SPACESHIP_EXPEDITION_EXPEDITION expeditions = 1;
+}

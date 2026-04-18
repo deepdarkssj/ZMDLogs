@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BATTLE_ATB_DATA.proto";
+import "TEMPLATE_ID.proto";
+
+message BATTLE_UPDATE_ATB_INFO_OP_DATA {
+  BATTLE_ATB_DATA atb_data = 1;
+  TEMPLATE_ID template_id = 2;
+  TEMPLATE_ID original_source_template_id = 3;
+  double delta_value = 4;
+}

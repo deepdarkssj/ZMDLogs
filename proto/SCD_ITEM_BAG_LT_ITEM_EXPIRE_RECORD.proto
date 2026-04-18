@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+
+message SCD_ITEM_BAG_LT_ITEM_EXPIRE_RECORD {
+  repeated ITEM_BUNDLE items = 1;
+  int32 record_id = 2;
+}

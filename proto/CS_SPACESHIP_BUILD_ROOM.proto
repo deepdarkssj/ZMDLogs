@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_BUILD_ROOM {
+  string room_id = 1;
+  int32 room_type = 2;
+}

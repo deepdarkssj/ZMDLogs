@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_SUB_PORT {
+  int32 index = 1;
+  uint32 owner_com_id = 2;
+  uint32 touch_com_id = 3;
+  bool in_block = 4;
+}

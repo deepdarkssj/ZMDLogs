@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SPACESHIP_GUEST_ROOM_CLUE_LOGIC_EXTRA_RECORD {
+  uint64 info_exchange_inst_id = 1;
+  int64 info_exchange_expire_ts = 2;
+  map<uint64, bool> role_map = 3;
+  map<int32, int64> host_clue_status = 4;
+  int32 clue_extension_room_level = 5;
+  int64 last_owner_update_ts = 6;
+}

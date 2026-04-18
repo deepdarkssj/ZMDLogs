@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_NTF_CODE {
+  int32 code = 1;
+  string details = 2;
+  repeated string params = 3;
+}

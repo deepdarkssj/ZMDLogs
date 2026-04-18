@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "KITE_STATION_ENTRUST_TASK_STATUS.proto";
+
+message SCD_KITESTATION_ENTRUST_TASK {
+  int32 sort_idx = 1;
+  KITE_STATION_ENTRUST_TASK_STATUS status = 2;
+  int32 accept_ks_lv = 3;
+}

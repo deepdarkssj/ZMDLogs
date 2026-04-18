@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum TD_SETTLEMENT_TYPE {
+  TdSettlementNone = 0;
+  TdSettlementPassed = 1;
+  TdSettlementLeave = 2;
+  TdSettlementDefeat = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_GEM_ENHANCE {
+  uint64 enhance_gem_inst_id = 1;
+  int32 term_id = 2;
+  uint64 cost_gem_inst_id = 3;
+  bool use_enhancement_item = 4;
+}

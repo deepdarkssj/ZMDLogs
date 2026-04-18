@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_GROW_CABIN_CLEAR_PREVIEW_RECIPE {
+  string room_id = 1;
+  int32 box_id = 2;
+}

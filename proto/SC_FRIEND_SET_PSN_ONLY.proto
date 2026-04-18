@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_SET_PSN_ONLY {
+  bool psn_only = 1;
+}

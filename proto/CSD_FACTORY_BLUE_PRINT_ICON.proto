@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_FACTORY_BLUE_PRINT_ICON {
+  string icon = 1;
+  int32 base_color = 2;
+}

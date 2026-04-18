@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_PRTS_FINISH_INVESTIGATE {
+  string id = 1;
+}

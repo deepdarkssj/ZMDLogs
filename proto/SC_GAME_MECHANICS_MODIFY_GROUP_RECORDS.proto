@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_GAME_MECHANICS_GROUP_RECORD.proto";
+
+message SC_GAME_MECHANICS_MODIFY_GROUP_RECORDS {
+  repeated SCD_GAME_MECHANICS_GROUP_RECORD game_group_records = 1;
+}

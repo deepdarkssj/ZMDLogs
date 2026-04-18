@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message DEFINITE_VALUE_CALCULATION_RUNTIME_ARGS {
+  double client_definite_value = 1;
+  double client_value_scale = 2;
+}

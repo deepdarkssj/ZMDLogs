@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SERVER_BUFF_STACKING_GROUP {
+  string stacking_key = 1;
+  int32 stacking_type = 2;
+  int32 max_stack_cnt = 3;
+  bool is_server_init = 4;
+  repeated uint64 buff_inst_ids = 5;
+}

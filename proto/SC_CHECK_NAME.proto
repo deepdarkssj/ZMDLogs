@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_CHECK_NAME {
+  string name = 1;
+  bool pass = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_FACTORY_QUICKBAR_SET_ONE {
+  int32 type = 2;
+  int32 index = 3;
+  string item_id = 4;
+  string chapter_id = 4;
+}

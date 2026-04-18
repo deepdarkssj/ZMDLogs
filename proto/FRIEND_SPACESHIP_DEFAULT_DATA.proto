@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "FRIEND_SPACESHIP_HELP_STATUS.proto";
+
+message FRIEND_SPACESHIP_DEFAULT_DATA {
+  bool help_flag = 1;
+  bool clue_flag = 2;
+  bool unlock_guest_room = 3;
+  FRIEND_SPACESHIP_HELP_STATUS help_status = 4;
+  bool unlock_clue_room = 5;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_GUEST_ROOM_SETTLE_INFO_EXCHANGE {
+  map<string, int32> base_reward_map = 1;
+  map<string, int32> extra_reward_map = 2;
+  uint64 info_exchange_inst_id = 3;
+  repeated uint64 friend_role_ids = 4;
+}

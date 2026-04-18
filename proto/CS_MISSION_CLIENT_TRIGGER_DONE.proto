@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_MISSION_CLIENT_TRIGGER_DONE {
+  string mission_id = 1;
+  string scene_name = 2;
+  string area_id = 3;
+}

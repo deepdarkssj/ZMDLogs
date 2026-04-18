@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "EQUIP_DATA.proto";
+
+message SC_EQUIP_ENHANCE {
+  uint64 equip_inst_id = 1;
+  EQUIP_DATA equip_data = 2;
+}

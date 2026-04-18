@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message DOMAIN_DEPOT_DELIVER_PEER_ROLE_INFO {
+  uint64 role_id = 1;
+  string name = 2;
+  uint32 user_avatar_id = 3;
+  uint32 user_avatar_frame_id = 4;
+  int32 adventure_level = 5;
+  string short_id = 6;
+  bool is_delete = 7;
+  int32 business_card_topic_id = 8;
+}

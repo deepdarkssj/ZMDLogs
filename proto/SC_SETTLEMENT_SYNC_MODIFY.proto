@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SETTLEMENT.proto";
+
+message SC_SETTLEMENT_SYNC_MODIFY {
+  repeated SETTLEMENT settlements_modify = 1;
+  int64 last_tick_time = 2;
+}

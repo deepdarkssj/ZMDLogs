@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "DOMAIN_DEPOT_BUYER_INFO.proto";
+
+message SC_DOMAIN_DEPOT_SELECT_BUYER_RSP {
+  uint64 deliver_inst_id = 1;
+  DOMAIN_DEPOT_BUYER_INFO buyer_info = 2;
+  int64 reward_value = 3;
+}

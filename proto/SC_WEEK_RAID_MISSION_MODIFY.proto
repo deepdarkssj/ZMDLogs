@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SC_WEEK_RAID_MISSION_MODIFY {
+  string game_id = 1;
+  repeated string scheduled_mission = 2;
+  repeated string random_mission = 3;
+  string pin_mission = 4;
+  int32 refresh_count = 5;
+}

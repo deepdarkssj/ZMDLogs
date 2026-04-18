@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SROLE_DATA_STATISTIC {
+  uint32 char_num = 1;
+  uint32 weapon_num = 2;
+  uint32 doc_num = 3;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "SCD_FAC_COM.proto";
+import "SCD_FAC_INTERACTIVE_OBJECT.proto";
+import "SCD_FAC_NODE_POWER.proto";
+import "SCD_FAC_TRANSFORM.proto";
+
+message SCD_FAC_NODE {
+  uint32 node_id = 1;
+  int32 node_type = 2;
+  string template_id = 3;
+  SCD_FAC_TRANSFORM transform = 4;
+  bool is_deactive = 5;
+  SCD_FAC_INTERACTIVE_OBJECT interactive_object = 6;
+  SCD_FAC_NODE_POWER power = 8;
+  string inst_key = 9;
+  uint32 flag = 10;
+  map<int32, uint32> component_pos = 10;
+  repeated SCD_FAC_COM components = 12;
+}

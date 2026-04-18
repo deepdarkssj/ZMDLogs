@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FACTORY_FETCH_GIFT_BLUE_PRINT {
+  string index = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD.proto";
+
+message ENTITY_BATTLE_BLACKBOARD_DATA {
+  string id = 1;
+  BATTLE_BLACKBOARD blackboard = 2;
+}

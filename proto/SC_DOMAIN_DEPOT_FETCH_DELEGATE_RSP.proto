@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "DOMAIN_DEPOT_DELIVER_DATA.proto";
+
+message SC_DOMAIN_DEPOT_FETCH_DELEGATE_RSP {
+  repeated DOMAIN_DEPOT_DELIVER_DATA delegate_info_list = 1;
+}

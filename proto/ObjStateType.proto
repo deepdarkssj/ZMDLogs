@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum ObjStateType {
+  ObjStateNormal = 0;
+  ObjStateAbnormal = 1;
+}

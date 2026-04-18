@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+import "WEEK_RAID_SETTLEMENT_CONVERT.proto";
+
+message SC_SYNC_WEEK_RAID_SETTLEMENT {
+  string game_id = 1;
+  int32 bp_score = 2;
+  int32 danger_meter = 3;
+  int64 total_playtime = 4;
+  repeated ITEM_BUNDLE loot_items = 5;
+  repeated WEEK_RAID_SETTLEMENT_CONVERT convert_items = 6;
+  float convert_rate = 7;
+}

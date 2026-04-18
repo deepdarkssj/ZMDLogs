@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ATTR_MODIFY_INFO {
+  int32 attr_type = 1;
+  repeated double attrs = 2;
+}

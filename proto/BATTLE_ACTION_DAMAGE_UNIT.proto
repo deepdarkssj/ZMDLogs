@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+import "BATTLE_DAMAGE_ATK_CALCULATION.proto";
+import "BATTLE_DAMAGE_PROCESSOR.proto";
+import "SKILL_COST_DATA.proto";
+
+message BATTLE_ACTION_DAMAGE_UNIT {
+  int32 damage_type = 1;
+  int32 damage_attribute_type = 2;
+  int32 damage_decorate_mask = 3;
+  bool simple_calculation = 4;
+  BATTLE_BLACKBOARD_FLOAT atk_scale = 5;
+  BATTLE_DAMAGE_ATK_CALCULATION atk_calculation = 6;
+  repeated BATTLE_DAMAGE_PROCESSOR damage_processors = 7;
+  bool gain_cost = 8;
+  repeated SKILL_COST_DATA cost_data = 9;
+  bool reduce_damage_for_guard = 10;
+  float reduce_damage_for_guard_ratio = 11;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_OP_MODIFY_BATTLE_STATE_OP_DATA {
+  bool is_in_battle = 1;
+}

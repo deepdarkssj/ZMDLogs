@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_MERGE_MSG {
+  bytes msg = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message CS_FRIEND_CHAT_SOCIAL_BUILDING_CHECK_AREA {
+  string scene_id = 1;
+  VECTOR pos = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message CS_FRIEND_CHAT_SOCIAL_BUILDING_RECEIVE {
+  uint64 target_role_id = 1;
+  uint32 msg_index = 2;
+  bool is_replace = 3;
+  uint64 replace_building_owner_id = 4;
+  uint32 replace_building_node_id = 5;
+  int32 replace_building_scene_id = 6;
+}

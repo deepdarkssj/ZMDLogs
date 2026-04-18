@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message CS_DOMAIN_DEPOT_FETCH_DELEGATE_REQ {
+}

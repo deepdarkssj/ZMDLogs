@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SYNC_GAME_MODE {
+  string mode_id = 1;
+}

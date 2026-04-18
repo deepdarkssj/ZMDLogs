@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_SHOP_DOMAIN_CHANNEL_LEVEL_UP {
+  string shop_group_id = 1;
+  string channel_id = 2;
+  int32 target_level = 3;
+}

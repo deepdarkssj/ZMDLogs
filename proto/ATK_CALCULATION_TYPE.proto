@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum ATK_CALCULATION_TYPE {
+  AtkScale = 0;
+  DefiniteValue = 1;
+  MultiplyAttribute = 2;
+  BreakingAtkCalc = 3;
+  PrimaryAttrCalc = 4;
+}

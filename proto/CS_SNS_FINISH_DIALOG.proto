@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SNS_FINISH_DIALOG {
+  string dialog_id = 2;
+}

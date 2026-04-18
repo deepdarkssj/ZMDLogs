@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SCENE_SET_STORY_SAFE_ZONE {
+  bool in_zone = 1;
+}

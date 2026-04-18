@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD.proto";
+import "TEMPLATE_ID.proto";
+import "VECTOR.proto";
+
+message BATTLE_SPAWN_CUSTOM_SUMMON_DETAIL {
+  string summon_id = 1;
+  TEMPLATE_ID summon_skill_id = 2;
+  uint64 client_ability_entity_id = 3;
+  VECTOR init_pos = 4;
+  VECTOR rotation = 5;
+  BATTLE_BLACKBOARD blackboard = 6;
+  uint64 source_id = 7;
+}

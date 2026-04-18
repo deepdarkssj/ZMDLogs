@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_CHAR_STATION {
+  string char_id = 1;
+  string stationed_room_id = 2;
+  bool is_working = 3;
+  float physical_strength = 4;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SROLE_INFO.proto";
+
+message FRIEND_BUSINESS_CARD_DATA_FRIEND {
+  SROLE_INFO base_data = 1;
+  string remark_name = 2;
+}

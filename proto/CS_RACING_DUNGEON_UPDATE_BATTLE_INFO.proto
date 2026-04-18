@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_RACING_DUNGEON_UPDATE_BATTLE_INFO {
+  int32 kill_monster_counter = 1;
+}

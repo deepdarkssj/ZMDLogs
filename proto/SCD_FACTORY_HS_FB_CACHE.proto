@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_FB_CACHE {
+  repeated uint32 items = 1;
+}

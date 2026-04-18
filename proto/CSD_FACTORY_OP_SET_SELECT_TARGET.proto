@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_SET_SELECT_TARGET {
+  uint32 component_id = 1;
+  string item_id = 2;
+}

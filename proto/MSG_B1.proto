@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message MSG_B1 {
+  string f1 = 1;
+  string f11 = 2;
+  bytes f3 = 3;
+  bytes f4 = 4;
+  bool f8 = 5;
+  bool f2 = 6;
+  bool f6 = 7;
+  int64 f9 = 8;
+  uint64 f5 = 9;
+  int32 f10 = 10;
+  string f12 = 11;
+  int32 server_area_type = 12;
+}

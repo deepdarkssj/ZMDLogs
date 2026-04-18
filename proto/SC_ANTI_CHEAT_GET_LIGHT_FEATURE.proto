@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_ANTI_CHEAT_GET_LIGHT_FEATURE {
+  bytes name_buf = 1;
+  bytes sig_buf = 2;
+  uint32 sig_crc = 3;
+}

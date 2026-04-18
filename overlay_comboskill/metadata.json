@@ -1,0 +1,5 @@
+{
+  "name": "Skill Cooldown Overlay",
+  "description": "A floating overlay for tracking skill cooldowns via WebSocket updates with visual progress bars and alerts.",
+  "requestFramePermissions": []
+}

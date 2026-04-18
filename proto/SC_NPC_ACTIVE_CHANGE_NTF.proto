@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_NPC_PROXY_INFO.proto";
+
+message SC_NPC_ACTIVE_CHANGE_NTF {
+  string map_name = 1;
+  string npc_id = 2;
+  string old_active_npc_proxy_id = 3;
+  SCD_NPC_PROXY_INFO new_active_npc_info = 4;
+}

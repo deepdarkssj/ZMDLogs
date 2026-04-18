@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ACTIVITY_CONDITIONAL_STAGE_INFO.proto";
+
+message SCD_ACTIVITY_CONDITIONAL_MULTI_STAGE_BASE {
+  string id = 1;
+  bool complete_intro_mission = 2;
+  bool complete_finale_mission = 3;
+  repeated ACTIVITY_CONDITIONAL_STAGE_INFO stage_list = 4;
+}

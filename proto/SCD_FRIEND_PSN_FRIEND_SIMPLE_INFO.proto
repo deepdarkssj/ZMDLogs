@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_FRIEND_PSN_FRIEND_ROLE_SIMPLE_INFO.proto";
+import "SOCIAL_USER_TYPE.proto";
+
+message SCD_FRIEND_PSN_FRIEND_SIMPLE_INFO {
+  string account_id = 1;
+  SOCIAL_USER_TYPE friend_type = 2;
+  SCD_FRIEND_PSN_FRIEND_ROLE_SIMPLE_INFO role_info = 3;
+}

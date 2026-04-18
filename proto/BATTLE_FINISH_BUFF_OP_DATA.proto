@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_FINISH_BUFF_OP_DATA {
+  uint64 buff_inst_id = 1;
+  int32 reduce_layer = 2;
+  bool force = 3;
+}

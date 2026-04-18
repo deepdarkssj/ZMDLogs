@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_BLUE_PRINT_PARAM.proto";
+import "FACTORY_BP_REVIEW_STATUS.proto";
+
+message SC_FACTORY_REVIEW_BLUE_PRINT {
+  string index = 1;
+  CSD_FACTORY_BLUE_PRINT_PARAM bp_param = 2;
+  FACTORY_BP_REVIEW_STATUS status = 3;
+}

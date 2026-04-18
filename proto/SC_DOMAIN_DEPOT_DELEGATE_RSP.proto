@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_DOMAIN_DEPOT_DELEGATE_RSP {
+  uint64 deliver_inst_id = 1;
+  int64 expire_ts = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_BITSET_REMOVE_ALL {
+  int32 type = 1;
+  int32 source = 2;
+}

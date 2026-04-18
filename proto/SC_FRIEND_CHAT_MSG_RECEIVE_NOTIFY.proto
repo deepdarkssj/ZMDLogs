@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "FRIEND_CHAT_MSG_EXTRA_FLAG.proto";
+
+message SC_FRIEND_CHAT_MSG_RECEIVE_NOTIFY {
+  uint64 target_role_id = 1;
+  uint32 newest_index = 2;
+  FRIEND_CHAT_MSG_EXTRA_FLAG extra_flag = 3;
+  bool from_self = 4;
+}

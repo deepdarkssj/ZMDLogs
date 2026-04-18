@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_ITEM_BAG_USE_ITEM_CASE {
+  string id = 1;
+  int32 count = 2;
+  repeated string select_rewards = 3;
+}

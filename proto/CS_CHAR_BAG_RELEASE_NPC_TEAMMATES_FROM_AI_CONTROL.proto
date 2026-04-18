@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message CS_CHAR_BAG_RELEASE_NPC_TEAMMATES_FROM_AI_CONTROL {
+  string dungeon_id = 1;
+  string npc_teammate_enter_action_id = 2;
+  string new_leader_preset_id = 3;
+  int32 env_type = 4;
+  string env_id = 5;
+  string new_leader_template_id = 6;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message QUEST_OBJECTIVE_DETAIL {
+  map<uint64, bool> hash_value = 1;
+}

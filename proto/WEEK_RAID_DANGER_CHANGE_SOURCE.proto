@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum WEEK_RAID_DANGER_CHANGE_SOURCE {
+  WrdcsNormal = 0;
+  WrdcsInteractive = 1;
+}

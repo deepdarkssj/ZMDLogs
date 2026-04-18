@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_HS_CE_EventType.proto";
+
+message SCD_FACTORY_HS_CE {
+  repeated uint32 event_param = 2;
+  oneof oneof {
+    SCD_FACTORY_HS_CE_EventType event_type = 1;
+  }
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CSD_BATCH_PLACE_CONVEYORS.proto";
+import "CSD_BATCH_PLACE_NODE.proto";
+
+message CSD_FACTORY_OP_BATCH_PLACE {
+  int32 map_id = 1;
+  repeated CSD_BATCH_PLACE_NODE nodes = 2;
+  repeated CSD_BATCH_PLACE_CONVEYORS conveyor_nodes = 3;
+}

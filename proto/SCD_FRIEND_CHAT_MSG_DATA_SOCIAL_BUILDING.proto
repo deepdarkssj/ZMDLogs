@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message SCD_FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING {
+  uint64 creator_id = 1;
+  uint32 node_id = 2;
+  int32 scene_num_id = 3;
+  int32 template_id = 4;
+  VECTOR pos = 5;
+  int32 dir_y = 6;
+}

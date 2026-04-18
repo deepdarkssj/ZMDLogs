@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "RACING_ACHIEVEMENT_STATUS.proto";
+
+message RACING_DUNGEON_ACHIEVEMENT {
+  int32 node_id = 1;
+  RACING_ACHIEVEMENT_STATUS status = 2;
+  int32 condition_counter = 3;
+}

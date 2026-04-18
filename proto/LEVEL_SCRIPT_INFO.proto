@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "DYNAMIC_PARAMETER.proto";
+import "SCD_TRIGGER_VOLUME_INFO.proto";
+
+message LEVEL_SCRIPT_INFO {
+  uint64 script_id = 1;
+  int32 state = 2;
+  map<int32, DYNAMIC_PARAMETER> properties = 3;
+  bool is_done = 4;
+  int32 stage = 5;
+  repeated SCD_TRIGGER_VOLUME_INFO trigger_volume_infos = 6;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PRIMARY_ATTR_CALCULATION_RUNTIME_ARGS {
+  double client_attr_value = 1;
+  double client_value_scale = 2;
+}

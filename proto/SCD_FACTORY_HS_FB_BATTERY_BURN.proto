@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_FB_BATTERY_BURN {
+  int32 energy_loaded = 1;
+  int32 energy_current = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ACCEPT_GUIDE_GROUP {
+  string guide_group_id = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_KITE_STATION_LEVEL_UP {
+  string kite_station_id = 1;
+  int32 cur_level = 2;
+}

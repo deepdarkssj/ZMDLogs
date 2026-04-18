@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_STORE_ATTRIBUTE_VALUE_ACTION_RUNTIME {
+  float value = 1;
+}

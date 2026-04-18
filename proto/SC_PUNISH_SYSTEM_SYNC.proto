@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_PUNISH_INFO.proto";
+
+message SC_PUNISH_SYSTEM_SYNC {
+  map<int32, SCD_PUNISH_INFO> punish_infos = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_RECV_GIFT_FROM_CHAR {
+  string char_id = 1;
+}

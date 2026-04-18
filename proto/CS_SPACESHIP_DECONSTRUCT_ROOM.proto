@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_DECONSTRUCT_ROOM {
+  string room_id = 1;
+}

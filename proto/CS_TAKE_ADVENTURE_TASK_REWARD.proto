@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_TAKE_ADVENTURE_TASK_REWARD {
+  string task_id = 1;
+}

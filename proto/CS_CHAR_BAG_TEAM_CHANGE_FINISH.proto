@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_CHAR_BAG_TEAM_CHANGE_FINISH {
+  uint64 team_change_token = 1;
+}

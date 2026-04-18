@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum ITEM_FLAG {
+  ItemNormal = 0;
+  ItemLock = 1;
+  ItemTrash = 2;
+}

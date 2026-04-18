@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_WEEK_RAID_REFRESH_MISSION {
+  string game_id = 1;
+  string mission_id = 2;
+}

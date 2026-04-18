@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum FRIEND_REPORT_TYPE {
+  FrtUserInvalid = 0;
+  FrtUserUsrCard = 1;
+  FrtFriendList = 2;
+}

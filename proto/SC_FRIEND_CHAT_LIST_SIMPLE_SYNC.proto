@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_FRIEND_CHAT_LIST_DATA.proto";
+
+message SC_FRIEND_CHAT_LIST_SIMPLE_SYNC {
+  repeated SCD_FRIEND_CHAT_LIST_DATA data_list = 1;
+  int32 daily_social_building_share_cnt = 2;
+}

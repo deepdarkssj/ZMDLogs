@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BATTLE_UPDATE_ATB_INFO_REASON.proto";
+
+message BATTLE_ATB_DATA {
+  double atb_value = 1;
+  double atb_recovery_speed = 2;
+  int64 client_tick_ts = 3;
+  BATTLE_UPDATE_ATB_INFO_REASON reason = 4;
+}

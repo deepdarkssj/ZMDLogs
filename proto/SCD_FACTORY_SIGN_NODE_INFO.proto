@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FACTORY_SIGN_NODE_INFO {
+  string chapter_id = 1;
+  uint32 node_id = 2;
+  repeated int32 sign_id = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_WEEK_RAID_BATTLE_PASS_RECEIVE_REWARD {
+  string game_id = 1;
+  bool receive_all = 2;
+  int32 received_node_id = 3;
+}

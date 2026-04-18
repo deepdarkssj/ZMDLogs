@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_BP_PUBLIC_STATUS.proto";
+
+message SC_FACTORY_BP_PUBLIC_STATUS {
+  SCD_FACTORY_BP_PUBLIC_STATUS public_status = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FACTORY_STT_UNLOCK_NODE {
+  string node_id = 1;
+}

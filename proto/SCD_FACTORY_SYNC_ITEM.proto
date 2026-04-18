@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_FACTORY_SYNC_ITEM {
+  string id = 1;
+  int32 count = 2;
+  int32 offset = 3;
+  int64 tms = 11;
+}

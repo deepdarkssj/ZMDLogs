@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD.proto";
+
+message GLOBAL_BUFF_INFO {
+  int32 global_buff_num_id = 1;
+  BATTLE_BLACKBOARD assigned_items = 2;
+}

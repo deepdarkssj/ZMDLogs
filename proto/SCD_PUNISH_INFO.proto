@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_PUNISH_INFO {
+  int32 punish_type = 1;
+  string reason = 2;
+  int64 begin_time = 3;
+  int64 end_time = 4;
+}

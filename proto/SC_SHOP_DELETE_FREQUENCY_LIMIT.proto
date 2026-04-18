@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SHOP_DELETE_FREQUENCY_LIMIT {
+  repeated string frequency_limits = 1;
+  repeated string manual_refresh_limits = 2;
+}

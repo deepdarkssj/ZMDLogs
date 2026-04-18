@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_BP_ABSCENT_COUNT_MODIFY {
+  int32 abscent_cnt = 1;
+}

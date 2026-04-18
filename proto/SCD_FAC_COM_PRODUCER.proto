@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_PRODUCER {
+  string formula_id = 1;
+  int64 current_progress = 2;
+  bool in_block = 4;
+  bool in_produce = 5;
+  string last_formula_id = 11;
+}

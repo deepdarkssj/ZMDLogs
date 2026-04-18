@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_FB_FLUID_UD_PIPE {
+  int32 last_round_pass_count = 1;
+}

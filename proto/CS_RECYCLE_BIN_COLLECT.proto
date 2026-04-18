@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_RECYCLE_BIN_COLLECT {
+  string recycle_bin_id = 1;
+}

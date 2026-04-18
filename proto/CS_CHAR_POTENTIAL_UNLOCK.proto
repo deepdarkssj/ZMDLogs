@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_CHAR_POTENTIAL_UNLOCK {
+  uint64 char_obj_id = 1;
+  uint32 level = 2;
+  int32 item_id = 3;
+}

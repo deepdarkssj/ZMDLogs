@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_ASSIST.proto";
+import "SCD_SPACESHIP_CHAR.proto";
+import "SCD_SPACESHIP_EXPEDITION.proto";
+import "SCD_SPACESHIP_ROOM.proto";
+
+message SC_SPACESHIP_SYNC {
+  repeated SCD_SPACESHIP_ROOM rooms = 1;
+  repeated SCD_SPACESHIP_CHAR chars = 2;
+  map<int32, int32> blackboard_kvs = 3;
+  SCD_SPACESHIP_ASSIST assist_data = 4;
+  map<int32, int32> showcase_info = 5;
+  SCD_SPACESHIP_EXPEDITION expedition_data = 6;
+}

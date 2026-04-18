@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING_SIGN.proto";
+import "VECTOR.proto";
+
+message FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING {
+  uint64 creator_id = 1;
+  int32 scene_num_id = 2;
+  uint32 node_id = 3;
+  int32 template_id = 4;
+  VECTOR pos = 5;
+  int32 dir_y = 6;
+  VECTOR world_pos = 7;
+  VECTOR world_rot = 8;
+  uint64 like = 9;
+  oneof extra_data {
+    FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING_SIGN sign_data = 20;
+  }
+}

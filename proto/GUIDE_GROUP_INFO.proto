@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GUIDE_GROUP_INFO {
+  string guide_group_id = 1;
+  int32 guide_state = 2;
+}

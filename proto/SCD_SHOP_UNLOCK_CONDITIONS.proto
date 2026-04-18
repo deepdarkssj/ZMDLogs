@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_SHOP_UNLOCK_CONDITIONS {
+  string id = 1;
+  map<string, int32> unlock_condition_values = 2;
+  map<string, bool> unlock_condition_flags = 3;
+}

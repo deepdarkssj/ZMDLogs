@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FRIEND_PSN_FRIEND_LIST_QUERY {
+  repeated string account_list = 1;
+}

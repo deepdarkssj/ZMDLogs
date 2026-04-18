@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message DEV_BATTLE_CALCULATE_HEAL_RUNTIME_ARGS {
+  double client_heal_value = 1;
+  double client_heal_output_increase = 2;
+  double client_heal_taken_increase = 3;
+}

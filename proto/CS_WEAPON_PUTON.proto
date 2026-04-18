@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_WEAPON_PUTON {
+  uint64 charid = 1;
+  uint64 weaponid = 2;
+}

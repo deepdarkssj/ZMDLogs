@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_COMPLETE_MINI_GAME {
+  string mini_game_id = 2;
+  int32 completed_count = 3;
+}

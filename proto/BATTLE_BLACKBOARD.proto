@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_DATA.proto";
+
+message BATTLE_BLACKBOARD {
+  map<string, BATTLE_BLACKBOARD_DATA> blackboard = 1;
+}

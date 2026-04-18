@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCENE_DYNAMIC_MAP_MARK.proto";
+
+message SC_SCENE_DYNAMIC_MAP_MARK_MODIFY {
+  repeated SCENE_DYNAMIC_MAP_MARK modified_marks = 1;
+  repeated uint32 deleted_marks = 2;
+}

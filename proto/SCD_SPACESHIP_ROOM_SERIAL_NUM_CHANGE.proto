@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_ROOM_SERIAL_NUM_CHANGE {
+  string room_id = 1;
+  int32 serial_num = 2;
+}

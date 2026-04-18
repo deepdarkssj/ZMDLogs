@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_GUEST_ROOM_MUSIC_PLAYER.proto";
+
+message SPACESHIP_GUEST_ROOM_FURNITURE_DATA {
+  repeated uint32 char_picture_ids = 1;
+  SCD_SPACESHIP_GUEST_ROOM_MUSIC_PLAYER music_player = 2;
+}

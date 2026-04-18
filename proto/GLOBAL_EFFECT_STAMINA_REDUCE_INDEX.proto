@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum GLOBAL_EFFECT_STAMINA_REDUCE_INDEX {
+  GesrIndexGlobalVarType = 0;
+  GesrIndexDailyMaxCount = 1;
+  GesrIndexReduceAmount = 2;
+  GesrIndexMax = 3;
+}

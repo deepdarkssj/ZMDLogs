@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SETTLEMENT_SET_OFFICER {
+  string settlement_id = 1;
+  string officer_template_id = 2;
+}

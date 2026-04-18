@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_NPC_PROXY_INFO {
+  int32 proxy_num_id = 1;
+  map<int32, bytes> meta_kvs = 2;
+  int32 active_cond_index = 3;
+}

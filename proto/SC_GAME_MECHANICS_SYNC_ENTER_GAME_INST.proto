@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_GAME_MECHANICS_SYNC_ENTER_GAME_INST {
+  string game_id = 1;
+  bool is_hunter_mode = 2;
+  string game_inst_id = 3;
+  int64 game_unique_id = 4;
+}

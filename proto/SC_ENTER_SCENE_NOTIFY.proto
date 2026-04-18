@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "PASS_THROUGH_DATA.proto";
+import "VECTOR.proto";
+
+message SC_ENTER_SCENE_NOTIFY {
+  uint64 role_id = 1;
+  int32 scene_num_id = 2;
+  uint64 scene_id = 3;
+  VECTOR position = 4;
+  PASS_THROUGH_DATA pass_through_data = 5;
+}

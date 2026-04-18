@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "FRIEND_SEARCH_NAME_TYPE.proto";
+import "SCD_FRIEND_SEARCH_NAME_THIRD_ACCOUNT_DATA.proto";
+
+message SCD_FRIEND_SEARCH_NAME_STRANGER_SIMPLE_INFO {
+  uint64 role_id = 1;
+  FRIEND_SEARCH_NAME_TYPE data_type = 2;
+  oneof extra_data {
+    SCD_FRIEND_SEARCH_NAME_THIRD_ACCOUNT_DATA third_account_data = 11;
+  }
+}

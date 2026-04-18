@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_BLUE_PRINT_PARAM.proto";
+import "FACTORY_BLUE_PRINT_MODIFY_DATA.proto";
+
+message CS_FACTORY_MODIFY_BLUE_PRINT {
+  string index = 1;
+  repeated FACTORY_BLUE_PRINT_MODIFY_DATA modify_data = 2;
+  CSD_FACTORY_BLUE_PRINT_PARAM bp_param = 3;
+}

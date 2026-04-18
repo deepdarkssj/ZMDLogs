@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "FRIEND_STRANGER_USER_INFO.proto";
+
+message SC_FRIEND_SEARCH_NAME_QUERY {
+  repeated FRIEND_STRANGER_USER_INFO stranger_list = 1;
+  repeated uint64 deleted_role_id_list = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_NPC_CONFLICT_MULTI_CONDITION {
+  string proxy_id = 1;
+  repeated int32 cond_indexes = 2;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_BITSET_REMOVE {
+  int32 type = 1;
+  repeated uint32 value = 2;
+  int32 source = 3;
+}

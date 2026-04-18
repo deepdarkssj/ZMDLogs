@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GAME_MECHANICS_WORLD_ENERGY_POINT_GROUP_RECORD {
+  repeated string select_terms = 1;
+  string unreceived_reward_game_id = 2;
+  int32 daily_start_count = 3;
+}

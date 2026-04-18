@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_FB_BOX_ROUTER_M1 {
+  repeated uint32 items = 1;
+  map<int32, uint32> last_item_in = 2;
+  map<int32, uint32> last_item_out = 3;
+}

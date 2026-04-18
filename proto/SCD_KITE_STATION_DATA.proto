@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "KITE_STATION_ENTRUST_TASK_STATUS.proto";
+import "SCD_KITESTATION_ENTRUST_TASK.proto";
+
+message SCD_KITE_STATION_DATA {
+  int32 cur_level = 1;
+  uint64 collection_records = 2;
+  uint32 collection_reward = 3;
+  map<int32, KITE_STATION_ENTRUST_TASK_STATUS> cur_entrust_task_idx = 4;
+  map<int32, SCD_KITESTATION_ENTRUST_TASK> cur_entrust_task_data = 5;
+  int64 unlock_tms = 6;
+}

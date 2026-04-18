@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SROLE_INFO.proto";
+
+message FRIEND_BUSINESS_CARD_DATA_STRANGER {
+  SROLE_INFO base_data = 1;
+}

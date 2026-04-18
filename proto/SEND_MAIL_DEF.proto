@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "MAIL_CONTENT.proto";
+import "REWARD_ITEM.proto";
+
+message SEND_MAIL_DEF {
+  MAIL_CONTENT mail_content = 1;
+  repeated REWARD_ITEM item_list = 2;
+  int64 send_time = 3;
+  int64 expire_time = 4;
+  int32 mail_type = 5;
+  int32 mail_sub_type = 6;
+  bool is_global = 7;
+  bool is_star = 8;
+  bool ignore_cap_check = 9;
+  string gm_unique_task_id = 10;
+}

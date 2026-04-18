@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SOCIAL_USER_LIST_QUERY {
+  repeated uint64 role_id_list = 1;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ATK_CALCULATION_TYPE.proto";
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message MULTIPLY_ATTRIBUTE_CALCULATION {
+  ATK_CALCULATION_TYPE type = 1;
+  int32 value_source = 2;
+  int32 attr_type = 3;
+  BATTLE_BLACKBOARD_FLOAT multiplier = 4;
+  BATTLE_BLACKBOARD_FLOAT add_value = 5;
+}

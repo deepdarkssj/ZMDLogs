@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FACTORY_SYNC_MAP_WIRE {
+  uint64 index = 1;
+  uint64 from_com_id = 2;
+  uint64 to_com_id = 3;
+}

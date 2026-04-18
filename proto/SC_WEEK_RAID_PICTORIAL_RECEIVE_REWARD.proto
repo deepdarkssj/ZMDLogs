@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_WEEK_RAID_PICTORIAL_RECEIVE_REWARD {
+  string pictorial_id = 1;
+  string reward_id = 2;
+}

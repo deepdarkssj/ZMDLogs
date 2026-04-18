@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message RECYCLE_BIN {
+  string recycle_bin_id = 1;
+  int32 lv = 2;
+  int64 last_collect_time = 3;
+}

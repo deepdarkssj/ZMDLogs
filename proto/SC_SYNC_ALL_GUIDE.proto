@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GUIDE_GROUP_INFO.proto";
+
+message SC_SYNC_ALL_GUIDE {
+  repeated GUIDE_GROUP_INFO guide_group_list = 1;
+  repeated string completed_repeat_accept_guide_group_list = 2;
+}

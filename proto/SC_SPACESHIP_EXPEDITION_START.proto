@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_EXPEDITION_START {
+  uint64 expedition_instance_id = 1;
+  string room_id = 2;
+  repeated string char_ids = 3;
+}

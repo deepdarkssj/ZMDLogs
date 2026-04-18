@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_PRTS_RICH_CONTENT_READ {
+  string id = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_BITSET_REMOVE_ALL {
+  int32 type = 1;
+}

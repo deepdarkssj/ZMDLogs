@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SCENE_INTERACT_SP_INTERACTIVE {
+  uint64 obj_id = 1;
+}

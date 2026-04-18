@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_WEEK_RAID_REFRESH_MISSION {
+  string game_id = 1;
+  string org_mission_id = 2;
+  string new_mission_id = 3;
+  int32 refresh_count = 4;
+}

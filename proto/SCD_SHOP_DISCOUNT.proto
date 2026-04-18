@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SHOP_DISCOUNT {
+  string goods_id = 1;
+  float discount = 2;
+}

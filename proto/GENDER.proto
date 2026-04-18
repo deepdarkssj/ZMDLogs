@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum GENDER {
+  GenInvalid = 0;
+  GenMale = 1;
+  GenFemale = 2;
+  GenTotal = 3;
+}

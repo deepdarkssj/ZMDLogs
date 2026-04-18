@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+enum MOVE_OBJECT_TYPE {
+  Invalid = 0;
+  Role = 1;
+  Npc = 2;
+  Monster = 3;
+  Character = 4;
+  Interactive = 5;
+  Summon = 6;
+}

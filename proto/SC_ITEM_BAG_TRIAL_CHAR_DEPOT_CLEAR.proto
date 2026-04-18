@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ITEM_BAG_TRIAL_CHAR_DEPOT_CLEAR {
+  int32 scope_name = 1;
+}

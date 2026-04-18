@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_ACCEPT_MISSION {
+  string mission_id = 1;
+}

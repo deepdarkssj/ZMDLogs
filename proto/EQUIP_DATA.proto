@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "ATTR_ENHANCE_FAILED_DATA.proto";
+import "EQUIP_ENHANCE_DATA.proto";
+
+message EQUIP_DATA {
+  uint64 equipid = 1;
+  int32 templateid = 2;
+  uint64 equip_char_id = 3;
+  map<int32, int32> legacy_enhance = 4;
+  EQUIP_ENHANCE_DATA legacy_equip_enhance_data = 5;
+  map<int32, int32> enhance = 8;
+  EQUIP_ENHANCE_DATA equip_enhance_data = 9;
+}

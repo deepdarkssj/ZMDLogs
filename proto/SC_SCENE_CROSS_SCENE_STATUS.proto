@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_CROSS_SCENE_STATUS {
+  uint64 obj_id = 1;
+  int32 scene_num_id = 2;
+}

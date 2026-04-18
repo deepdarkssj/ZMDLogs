@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum BP_TASK_STATE {
+  NotAccept = 0;
+  InProcessing = 1;
+  HasCompleted = 2;
+  TakeReward = 3;
+  Disable = 4;
+}

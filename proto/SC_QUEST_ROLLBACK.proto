@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_QUEST_ROLLBACK {
+  string quest_id = 1;
+}

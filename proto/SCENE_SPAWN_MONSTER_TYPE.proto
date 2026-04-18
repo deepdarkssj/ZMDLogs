@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum SCENE_SPAWN_MONSTER_TYPE {
+  SpawnMstByTemplate = 0;
+  SpawnMstByLevelConfig = 1;
+}

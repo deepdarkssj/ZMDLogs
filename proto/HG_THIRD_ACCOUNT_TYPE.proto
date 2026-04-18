@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum HG_THIRD_ACCOUNT_TYPE {
+  AccountTypeDefault = 0;
+  AccountTypePsn = 1;
+}

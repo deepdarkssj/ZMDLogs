@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_NPC_RESET_META_DATA_NTF {
+  repeated int32 proxy_num_ids = 1;
+}

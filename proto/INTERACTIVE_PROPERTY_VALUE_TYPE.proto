@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum INTERACTIVE_PROPERTY_VALUE_TYPE {
+  Bool = 0;
+  Int = 1;
+  Float = 2;
+  String = 3;
+}

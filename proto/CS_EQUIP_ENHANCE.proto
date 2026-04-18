@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_EQUIP_ENHANCE {
+  uint64 equip_inst_id = 1;
+  uint64 ingredient_inst_id = 2;
+  int32 attr_index = 3;
+}

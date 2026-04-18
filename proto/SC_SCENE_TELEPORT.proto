@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "PASS_THROUGH_DATA.proto";
+import "VECTOR.proto";
+
+message SC_SCENE_TELEPORT {
+  repeated uint64 obj_id_list = 1;
+  int32 scene_num_id = 2;
+  VECTOR position = 3;
+  VECTOR rotation = 4;
+  uint32 server_time = 5;
+  int32 teleport_reason = 6;
+  uint64 tp_uuid = 7;
+  PASS_THROUGH_DATA pass_through_data = 8;
+}

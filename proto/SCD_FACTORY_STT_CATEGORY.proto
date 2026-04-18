@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_STT_CATEGORY {
+  string id = 1;
+  bool hidden = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_STATISTIC_RECORD.proto";
+
+message SC_FACTORY_STATISTIC_REQUIRE {
+  string chapter = 1;
+  SCD_FACTORY_STATISTIC_RECORD power = 2;
+  map<string, SCD_FACTORY_STATISTIC_RECORD> productivity = 3;
+}

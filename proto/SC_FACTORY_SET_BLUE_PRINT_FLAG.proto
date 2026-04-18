@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_SET_BP_FLAG.proto";
+
+message SC_FACTORY_SET_BLUE_PRINT_FLAG {
+  string index = 1;
+  repeated CSD_FACTORY_SET_BP_FLAG success_set = 2;
+}

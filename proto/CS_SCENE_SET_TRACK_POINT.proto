@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCENE_TRACK_POINT.proto";
+
+message CS_SCENE_SET_TRACK_POINT {
+  SCENE_TRACK_POINT track_point = 1;
+}

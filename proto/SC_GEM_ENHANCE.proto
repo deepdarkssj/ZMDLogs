@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "GEM_TERM.proto";
+import "REWARD_ITEM.proto";
+
+message SC_GEM_ENHANCE {
+  uint64 gem_inst_id = 1;
+  repeated GEM_TERM terms = 2;
+  bool is_success = 3;
+  REWARD_ITEM refund_item = 4;
+}

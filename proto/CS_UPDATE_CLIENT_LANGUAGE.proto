@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_UPDATE_CLIENT_LANGUAGE {
+  int32 client_language = 1;
+}

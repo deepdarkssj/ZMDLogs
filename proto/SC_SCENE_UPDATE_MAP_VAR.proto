@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_UPDATE_MAP_VAR {
+  string map_name = 1;
+  map<int32, int64> map_vars = 2;
+}

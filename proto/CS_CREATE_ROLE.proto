@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GENDER.proto";
+
+message CS_CREATE_ROLE {
+  string role_name = 1;
+  GENDER gender = 2;
+}

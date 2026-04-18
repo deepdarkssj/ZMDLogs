@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "WALLET_MONEY_RECORD.proto";
+
+message SC_SYNC_WALLET_RECORD {
+  WALLET_MONEY_RECORD record = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "LEAVE_OBJECT_INFO.proto";
+
+message SC_OBJECT_LEAVE_VIEW {
+  repeated LEAVE_OBJECT_INFO obj_list = 1;
+}

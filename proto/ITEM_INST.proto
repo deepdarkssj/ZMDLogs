@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "EQUIP_DATA.proto";
+import "GEM_DATA.proto";
+import "ITEM_FLAG.proto";
+import "ITEM_INST_EMPTY.proto";
+import "WEAPON_DATA.proto";
+
+message ITEM_INST {
+  uint64 inst_id = 1;
+  bool is_lock = 101;
+  bool is_new = 102;
+  ITEM_FLAG legacy_item_flag = 4;
+  int64 legacy_expire_ts = 5;
+  ITEM_FLAG item_flag = 103;
+  int64 expire_ts = 104;
+  oneof inst_impl {
+    EQUIP_DATA equip = 2;
+    GEM_DATA gem = 3;
+    WEAPON_DATA weapon = 4;
+    ITEM_INST_EMPTY empty = 31;
+  }
+}

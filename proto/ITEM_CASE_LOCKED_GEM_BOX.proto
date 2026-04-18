@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ITEM_CASE_LOCKED_GEM_BOX {
+  repeated string locked_term = 1;
+}

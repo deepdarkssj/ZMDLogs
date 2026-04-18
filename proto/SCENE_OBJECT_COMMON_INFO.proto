@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message SCENE_OBJECT_COMMON_INFO {
+  uint64 id = 1;
+  int32 type = 2;
+  string templateid = 3;
+  VECTOR position = 4;
+  VECTOR rotation = 5;
+  uint64 belong_level_script_id = 6;
+  int32 scene_num_id = 7;
+  double hp = 8;
+  uint32 belong_script_slot_id = 9;
+  bool is_battle_create = 10;
+}

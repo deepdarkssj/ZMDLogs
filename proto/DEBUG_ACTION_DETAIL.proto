@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "DYNAMIC_PARAMETER.proto";
+
+message DEBUG_ACTION_DETAIL {
+  string action_id = 1;
+  repeated DYNAMIC_PARAMETER input_parameters = 2;
+  bool invoke_result = 3;
+}

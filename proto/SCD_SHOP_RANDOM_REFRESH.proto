@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SHOP_DYNAMIC_GOODS.proto";
+
+message SCD_SHOP_RANDOM_REFRESH {
+  repeated SCD_SHOP_DYNAMIC_GOODS dynamic_goods = 1;
+}

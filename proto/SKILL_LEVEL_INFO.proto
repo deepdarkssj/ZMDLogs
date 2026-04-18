@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SKILL_LEVEL_INFO {
+  string skill_id = 1;
+  int32 skill_level = 2;
+  int32 skill_max_level = 3;
+  int32 skill_enhanced_level = 4;
+}

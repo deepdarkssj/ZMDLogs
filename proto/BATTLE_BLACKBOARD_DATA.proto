@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_BLACKBOARD_DATA {
+  string str_value = 1;
+  double float_value = 2;
+  bool is_dynamic = 3;
+}

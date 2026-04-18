@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_GUEST_ROOM_JOIN_FRIEND_INFO_EXCHANGE {
+  uint64 friend_role_id = 1;
+  uint64 info_exchange_inst_id = 2;
+  map<uint64, bool> friend_role_map = 3;
+}

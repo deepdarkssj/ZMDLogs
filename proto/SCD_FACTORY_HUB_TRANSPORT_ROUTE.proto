@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HUB_TRANSPORT_ROUTE {
+  string chapter_id = 1;
+  int32 index = 2;
+  string target_chapter_id = 3;
+  string item_id = 4;
+  int32 item_num = 5;
+  int32 item_num_max = 6;
+  int32 status = 7;
+  int64 progress = 8;
+  bool lossless = 9;
+}

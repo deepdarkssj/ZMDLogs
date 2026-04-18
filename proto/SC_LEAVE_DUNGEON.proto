@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_LEAVE_DUNGEON {
+  string dungeon_id = 1;
+}

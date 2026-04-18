@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_GLOBAL_EFFECT.proto";
+
+message SC_GLOBAL_EFFECT_MODIFY_SYNC {
+  int32 effect_type = 1;
+  SCD_GLOBAL_EFFECT effect_info = 2;
+  bool is_delete = 3;
+}

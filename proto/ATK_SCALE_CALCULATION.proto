@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ATK_CALCULATION_TYPE.proto";
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message ATK_SCALE_CALCULATION {
+  ATK_CALCULATION_TYPE type = 1;
+  BATTLE_BLACKBOARD_FLOAT atk_scale = 2;
+}

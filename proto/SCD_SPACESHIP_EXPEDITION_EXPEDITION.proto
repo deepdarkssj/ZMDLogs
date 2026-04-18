@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ExpeditionStatus.proto";
+
+message SCD_SPACESHIP_EXPEDITION_EXPEDITION {
+  uint64 instance_id = 1;
+  string expedition_id = 2;
+  ExpeditionStatus status = 3;
+  int64 expire_time = 4;
+  string assigned_room_id = 5;
+  float progress = 6;
+}

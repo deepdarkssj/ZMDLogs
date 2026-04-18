@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "DYNAMIC_PARAMETER.proto";
+
+message MISSION {
+  string mission_id = 1;
+  int32 mission_state = 2;
+  int32 succeed_id = 3;
+  map<int32, DYNAMIC_PARAMETER> properties = 4;
+  int32 external_system_type = 5;
+  string external_system_id = 6;
+  int64 accept_time = 7;
+  bool is_pasued = 8;
+}

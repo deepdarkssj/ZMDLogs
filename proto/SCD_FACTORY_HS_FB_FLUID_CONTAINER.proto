@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_FB_FLUID_CONTAINER {
+  repeated uint32 items = 1;
+  bool infinite = 2;
+}

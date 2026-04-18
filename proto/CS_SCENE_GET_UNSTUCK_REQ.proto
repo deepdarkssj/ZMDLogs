@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SCENE_GET_UNSTUCK_REQ {
+  int32 scene_num_id = 1;
+}

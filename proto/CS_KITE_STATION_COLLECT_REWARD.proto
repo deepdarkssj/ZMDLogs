@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_KITE_STATION_COLLECT_REWARD {
+  string kite_station_id = 1;
+  repeated int32 coll_cnt = 2;
+}

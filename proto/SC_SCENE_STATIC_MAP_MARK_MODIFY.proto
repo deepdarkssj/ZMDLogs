@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCENE_STATIC_MAP_MARK.proto";
+
+message SC_SCENE_STATIC_MAP_MARK_MODIFY {
+  repeated SCENE_STATIC_MAP_MARK added_list = 1;
+  repeated int32 deleted_list = 2;
+}

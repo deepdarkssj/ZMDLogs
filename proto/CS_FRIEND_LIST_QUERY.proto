@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "FRIEND_USER_INFO_TYPE.proto";
+
+message CS_FRIEND_LIST_QUERY {
+  FRIEND_USER_INFO_TYPE info_type = 1;
+  repeated uint64 role_id_list = 2;
+}

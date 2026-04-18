@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_RECONNECT_INCR {
+  bool is_client_reconnect = 1;
+}

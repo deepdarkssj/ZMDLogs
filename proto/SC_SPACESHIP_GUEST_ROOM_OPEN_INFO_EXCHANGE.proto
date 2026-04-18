@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_GUEST_ROOM_OPEN_INFO_EXCHANGE {
+  uint64 info_exchange_inst_id = 1;
+  int64 expire_ts = 2;
+}

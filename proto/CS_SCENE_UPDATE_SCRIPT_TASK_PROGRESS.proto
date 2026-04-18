@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCRIPT_TASK_OBJECTIVE_VALUE_OP.proto";
+
+message CS_SCENE_UPDATE_SCRIPT_TASK_PROGRESS {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string task_id = 3;
+  repeated SCRIPT_TASK_OBJECTIVE_VALUE_OP objective_value_ops = 4;
+}

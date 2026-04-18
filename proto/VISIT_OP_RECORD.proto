@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "VISIT_RECORD_PROD_SUPPORT_INFO.proto";
+
+message VISIT_OP_RECORD {
+  uint64 role_id = 1;
+  int64 start_ts = 2;
+  int64 last_ts = 3;
+  bool joined_info_exchange = 4;
+  map<int32, int64> money_id_to_sold_price = 5;
+  repeated VISIT_RECORD_PROD_SUPPORT_INFO prod_support_list = 6;
+}

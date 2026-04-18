@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_CASH_SHOP_MGR.proto";
+
+message SC_PAY_SYNC_CASH_SHOPS {
+  SCD_CASH_SHOP_MGR shop_mgr = 1;
+}

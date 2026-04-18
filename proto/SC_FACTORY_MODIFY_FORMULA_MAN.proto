@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_FACTORY_MODIFY_FORMULA_MAN {
+  repeated string new_unlocked = 1;
+  repeated string new_product_manual = 2;
+  repeated string new_level_up = 3;
+}

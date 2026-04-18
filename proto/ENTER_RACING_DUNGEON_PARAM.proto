@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ENTER_RACING_DUNGEON_PARAM {
+  int32 level = 1;
+  string tactics_id = 2;
+}

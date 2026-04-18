@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "SCD_CASH_SHOP_CONDS.proto";
+import "SCD_CASH_SHOP_GOODS.proto";
+
+message SCD_CASH_SHOP {
+  string cash_shop_id = 1;
+  repeated SCD_CASH_SHOP_CONDS shop_conds = 2;
+  map<string, SCD_CASH_SHOP_GOODS> goods = 3;
+  int64 open_tms = 4;
+  int64 close_tms = 5;
+}

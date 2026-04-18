@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ATK_CALCULATION_TYPE.proto";
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message DEFINITE_VALUE_CALCULATION {
+  ATK_CALCULATION_TYPE type = 1;
+  BATTLE_BLACKBOARD_FLOAT definite_value = 2;
+  bool apply_scale = 3;
+  BATTLE_BLACKBOARD_FLOAT value_scale = 4;
+}

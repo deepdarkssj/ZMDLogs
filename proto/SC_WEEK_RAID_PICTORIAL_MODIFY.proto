@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_WEEK_RAID_PICTORIAL_MODIFY {
+  string game_id = 1;
+  repeated string new_unlock_pictorial_id = 2;
+}

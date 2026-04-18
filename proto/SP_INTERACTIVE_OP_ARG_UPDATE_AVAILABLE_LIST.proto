@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SP_INTERACTIVE_OP_ARG_UPDATE_AVAILABLE_LIST {
+  repeated bool available_list = 1;
+}

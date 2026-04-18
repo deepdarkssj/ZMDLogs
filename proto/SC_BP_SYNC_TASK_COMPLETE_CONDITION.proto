@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_BP_CONDITION_DATA.proto";
+
+message SC_BP_SYNC_TASK_COMPLETE_CONDITION {
+  string task_id = 1;
+  repeated SCD_BP_CONDITION_DATA conditions = 2;
+}

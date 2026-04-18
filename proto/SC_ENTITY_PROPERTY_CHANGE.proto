@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_INFO.proto";
+
+message SC_ENTITY_PROPERTY_CHANGE {
+  uint64 inst_id = 1;
+  BATTLE_INFO info = 2;
+}

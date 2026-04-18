@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_DUNGEON_TOUCH_ENTRANCE {
+  string dungeon_series_id = 1;
+}

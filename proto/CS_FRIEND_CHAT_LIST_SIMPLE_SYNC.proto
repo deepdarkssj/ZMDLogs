@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "FRIEND_CHAT_LIST_SIMPLE_SYNC_TYPE.proto";
+
+message CS_FRIEND_CHAT_LIST_SIMPLE_SYNC {
+  FRIEND_CHAT_LIST_SIMPLE_SYNC_TYPE type = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_ROOM_ATTR_SOURCE.proto";
+
+message SCD_SPACESHIP_ROOM_ATTR_UNIT {
+  int32 type = 1;
+  float value = 2;
+  bool is_not_working = 3;
+  SCD_SPACESHIP_ROOM_ATTR_SOURCE source = 4;
+}

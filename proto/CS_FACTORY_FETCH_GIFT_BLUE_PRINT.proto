@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_FACTORY_FETCH_GIFT_BLUE_PRINT {
+  string index = 1;
+  string share_code = 2;
+}

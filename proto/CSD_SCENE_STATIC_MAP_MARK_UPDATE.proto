@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCENE_STATIC_MAP_MARK.proto";
+
+message CSD_SCENE_STATIC_MAP_MARK_UPDATE {
+  SCENE_STATIC_MAP_MARK mark = 1;
+  bool is_add = 2;
+}

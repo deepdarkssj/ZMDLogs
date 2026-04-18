@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_CLIENT_SOCIAL_SHARE_CONTROL {
+  int64 control = 1;
+}

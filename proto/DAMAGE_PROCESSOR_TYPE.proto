@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+enum DAMAGE_PROCESSOR_TYPE {
+  AttackerCritRate = 0;
+  AttackerAtk = 1;
+  AttackerCritDamage = 2;
+  AttackerPen = 3;
+  DamageScale = 4;
+  DefenderDef = 5;
+  ModifyCalculateResult = 6;
+  InstantModifyAttribute = 7;
+  ProcessorTypeNone = 999;
+}

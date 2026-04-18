@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "GAME_MECHANICS_WORLD_ENERGY_POINT_GROUP_RECORD.proto";
+
+message SCD_GAME_MECHANICS_GROUP_RECORD {
+  string game_group_id = 1;
+  int64 last_enter_game_group_ts = 2;
+  repeated int32 rewarded_type_list = 3;
+  oneof extra_details {
+    GAME_MECHANICS_WORLD_ENERGY_POINT_GROUP_RECORD world_energy_point = 20;
+  }
+}

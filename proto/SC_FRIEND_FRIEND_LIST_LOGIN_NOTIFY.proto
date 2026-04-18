@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_FRIEND_LIST_LOGIN_NOTIFY {
+  repeated uint64 role_id_list = 1;
+}

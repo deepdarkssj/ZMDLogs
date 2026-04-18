@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_CHAR_BAG_NPC_TEAMMATE {
+  uint64 obj_id = 1;
+  int32 team_index = 2;
+}

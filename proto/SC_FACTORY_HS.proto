@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_HS_BB.proto";
+import "SCD_FACTORY_HS_CE.proto";
+import "SCD_FACTORY_HS_CT.proto";
+import "SCD_FACTORY_HS_FB.proto";
+
+message SC_FACTORY_HS {
+  int64 tms = 1;
+  repeated SCD_FACTORY_HS_CT ct_list = 2;
+  repeated SCD_FACTORY_HS_FB fb_list = 3;
+  repeated SCD_FACTORY_HS_CE ce_list = 4;
+  SCD_FACTORY_HS_BB blackboard = 5;
+  string chapter_id = 11;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_ADVENTURE_LEVEL_MODIFY {
+  int32 level = 1;
+  int64 exp = 2;
+}

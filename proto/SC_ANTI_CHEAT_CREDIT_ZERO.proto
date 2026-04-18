@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ANTI_CHEAT_CREDIT_ZERO {
+  int64 last_credit_zero_ts = 1;
+}

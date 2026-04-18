@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCENE_GAMEPLAY_ELECTRIC_NODE {
+  uint64 obj_id = 1;
+  bool has_power = 2;
+  bool is_terminal = 3;
+}

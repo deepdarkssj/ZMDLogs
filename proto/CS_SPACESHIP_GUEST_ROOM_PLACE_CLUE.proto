@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_GUEST_ROOM_PLACE_CLUE {
+  uint64 clue_inst_id = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_ACTIVITY_CONDITIONS.proto";
+
+message ACTIVITY_CONDITIONAL_STAGE_INFO {
+  string id = 1;
+  int32 status = 2;
+  SCD_ACTIVITY_CONDITIONS conditions = 3;
+}

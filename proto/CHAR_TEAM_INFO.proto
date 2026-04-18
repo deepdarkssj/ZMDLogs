@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CHAR_TEAM_INFO {
+  string team_name = 1;
+  repeated uint64 char_team = 2;
+  uint64 leaderid = 3;
+}

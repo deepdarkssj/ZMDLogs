@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_EQUIP_PRODUCE {
+  string formula_id = 1;
+}

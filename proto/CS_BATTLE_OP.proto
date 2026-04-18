@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BATTLE_CLIENT_DATA.proto";
+
+message CS_BATTLE_OP {
+  BATTLE_CLIENT_DATA client_data = 1;
+}

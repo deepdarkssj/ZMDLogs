@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "DEBUG_ACTION_DETAIL.proto";
+import "DEBUG_CONDITION_DETAIL.proto";
+import "DEBUG_CUSTOM_EVENT_DETAIL.proto";
+import "DEBUG_NATIVE_EVENT_DETAIL.proto";
+import "SERVER_SCRIPT_UNIT_TYPE.proto";
+
+message SC_SCENE_DEBUG_SERVER_SCRIPT {
+  SERVER_SCRIPT_UNIT_TYPE unit_type = 1;
+  string scene_name = 2;
+  uint64 script_id = 3;
+  repeated string error_logs = 4;
+  oneof unit {
+    DEBUG_ACTION_DETAIL action = 1;
+    DEBUG_CONDITION_DETAIL condition = 2;
+    DEBUG_CUSTOM_EVENT_DETAIL custom_event = 3;
+    DEBUG_NATIVE_EVENT_DETAIL native_event = 4;
+  }
+}

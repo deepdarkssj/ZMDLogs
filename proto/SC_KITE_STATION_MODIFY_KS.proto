@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_KITE_STATION_DATA.proto";
+
+message SC_KITE_STATION_MODIFY_KS {
+  map<string, SCD_KITE_STATION_DATA> kite_stations = 1;
+}

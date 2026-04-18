@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CS_SCENE_INTERACT_SP_INTERACTIVE.proto";
+
+message CS_SCENE_INTERACT_SP_INTERACTIVE_LIST {
+  repeated CS_SCENE_INTERACT_SP_INTERACTIVE interact_list = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_GROW_BOX.proto";
+import "SCD_SPACESHIP_REPORT.proto";
+
+message SCD_SPACESHIP_GROW_CABIN {
+  repeated SCD_SPACESHIP_GROW_BOX boxes = 1;
+  map<int64, SCD_SPACESHIP_REPORT> reports = 2;
+}

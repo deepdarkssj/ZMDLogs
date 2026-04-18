@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_ADVENTURE_SET_WORLD_LEVEL {
+  int32 world_level = 1;
+}

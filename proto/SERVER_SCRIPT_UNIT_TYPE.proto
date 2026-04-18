@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum SERVER_SCRIPT_UNIT_TYPE {
+  ScriptUnitTypeNone = 0;
+  ScriptUnitTypeAction = 1;
+  ScriptUnitTypeCondition = 2;
+  ScriptUnitTypeCustomEvent = 3;
+  ScriptUnitTypeNativeEvent = 4;
+}

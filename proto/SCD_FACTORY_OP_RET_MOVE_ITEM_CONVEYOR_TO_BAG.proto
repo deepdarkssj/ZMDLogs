@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SCD_FACTORY_OP_RET_MOVE_ITEM_CONVEYOR_TO_BAG {
+}

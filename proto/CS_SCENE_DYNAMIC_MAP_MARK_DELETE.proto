@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_SCENE_DYNAMIC_MAP_MARK_DELETE {
+  int32 scene_num_id = 1;
+  repeated uint32 id = 2;
+}

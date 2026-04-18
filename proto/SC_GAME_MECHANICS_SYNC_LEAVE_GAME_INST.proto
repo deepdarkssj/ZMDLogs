@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_GAME_MECHANICS_SYNC_LEAVE_GAME_INST {
+  string game_id = 1;
+  string game_inst_id = 2;
+  int64 game_unique_id = 3;
+}

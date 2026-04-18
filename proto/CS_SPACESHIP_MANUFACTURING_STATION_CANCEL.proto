@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_MANUFACTURING_STATION_CANCEL {
+  string room_id = 1;
+}

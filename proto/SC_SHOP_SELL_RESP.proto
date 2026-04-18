@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CSD_SHOP_SELL_GOODS.proto";
+
+message SC_SHOP_SELL_RESP {
+  string shop_id = 1;
+  string goods_id = 2;
+  int32 count = 3;
+  uint64 role_id = 4;
+  repeated CSD_SHOP_SELL_GOODS sell_goods = 5;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_BB_POWER {
+  bool is_stop_by_power = 1;
+  int64 power_cost_sum = 2;
+  int64 power_save_max = 3;
+  int64 power_save_current = 4;
+  int64 power_gen_last_sec = 5;
+}

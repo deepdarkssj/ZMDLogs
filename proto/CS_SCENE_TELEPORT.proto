@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "CLT_TP_REASON_CUTSCENE_DETAIL.proto";
+import "CLT_TP_REASON_GUIDE_DETAIL.proto";
+import "CLT_TP_REASON_SPATIAL_CROSSING_IN_MOVE_DETAIL.proto";
+import "PASS_THROUGH_DATA.proto";
+import "SVR_TP_REASON_GOTO_CAMP_DETAIL.proto";
+import "SVR_TP_REASON_GOTO_HUB_DETAIL.proto";
+import "VECTOR.proto";
+
+message CS_SCENE_TELEPORT {
+  int32 scene_num_id = 1;
+  VECTOR position = 2;
+  VECTOR rotation = 3;
+  int32 teleport_reason = 4;
+  PASS_THROUGH_DATA pass_through_data = 5;
+  string tp_pos_id = 6;
+  oneof tp_reason_detail {
+    SVR_TP_REASON_GOTO_HUB_DETAIL svr_tp_goto_hub_detail = 21;
+    SVR_TP_REASON_GOTO_CAMP_DETAIL svr_tp_goto_camp_detail = 22;
+    CLT_TP_REASON_SPATIAL_CROSSING_IN_MOVE_DETAIL clt_tp_spatial_crossing_in_move = 121;
+    CLT_TP_REASON_CUTSCENE_DETAIL clt_tp_cutscene = 122;
+    CLT_TP_REASON_GUIDE_DETAIL clt_tp_guide = 123;
+  }
+}

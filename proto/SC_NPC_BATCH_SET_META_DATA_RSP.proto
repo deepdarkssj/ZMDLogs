@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_NPC_SET_META_DATA.proto";
+
+message SC_NPC_BATCH_SET_META_DATA_RSP {
+  repeated SCD_NPC_SET_META_DATA npc_meta_datas = 1;
+}

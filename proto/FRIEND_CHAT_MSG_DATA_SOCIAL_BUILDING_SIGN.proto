@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING_SIGN {
+  repeated int32 signs = 1;
+}

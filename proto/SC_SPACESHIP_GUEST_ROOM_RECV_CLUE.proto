@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SPACESHIP_GUEST_ROOM_CLUE.proto";
+
+message SC_SPACESHIP_GUEST_ROOM_RECV_CLUE {
+  SPACESHIP_GUEST_ROOM_CLUE clue = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+import "RET_FLUID_WITH_LIQUID_BODY.proto";
+
+message SCD_FACTORY_OP_RET_TAKE_OUT_FLUID_FROM_LIQUID_BODY {
+  repeated ITEM_BUNDLE cost_bottle_items = 1;
+  repeated ITEM_BUNDLE gain_bottle_water_items = 2;
+  int32 cost_liquid = 3;
+  RET_FLUID_WITH_LIQUID_BODY ret = 4;
+}

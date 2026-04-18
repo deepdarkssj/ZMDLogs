@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "INST_ITEM_BUNDLE.proto";
+import "ITEM_BUNDLE.proto";
+
+message CS_DUNGEON_RECOVER_AP {
+  repeated ITEM_BUNDLE items = 1;
+  bool use_money = 2;
+  repeated INST_ITEM_BUNDLE inst_items = 3;
+  int32 expect_money_buy_count = 4;
+}

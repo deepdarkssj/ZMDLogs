@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum SUBMIT_SOURCE_TYPE {
+  None = 0;
+  Mission = 1;
+  Interactive = 2;
+  Activity = 3;
+}

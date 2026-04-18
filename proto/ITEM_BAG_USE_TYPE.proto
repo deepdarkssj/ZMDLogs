@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+enum ITEM_BAG_USE_TYPE {
+  Default = 0;
+  TrialCharEquipMedicine = 1;
+  Bomb = 2;
+  ItemCase = 3;
+  EquipMedicine = 4;
+  MapDetector = 5;
+  GemLockedTermBox = 6;
+  Fertilize = 7;
+  Monthlycard = 8;
+  BpTicket = 9;
+}

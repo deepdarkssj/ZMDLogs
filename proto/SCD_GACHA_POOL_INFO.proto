@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_GACHA_POOL_INFO {
+  string gacha_pool_id = 1;
+  int64 open_time = 2;
+  int64 close_time = 3;
+  bool is_closed = 4;
+  int32 public_close_reason = 5;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "FRIEND_FRIEND_INFO.proto";
+
+message SC_FRIEND_REQUEST_ACCEPT {
+  FRIEND_FRIEND_INFO friend_info = 1;
+}

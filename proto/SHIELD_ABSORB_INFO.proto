@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message SHIELD_ABSORB_INFO {
+  BATTLE_BLACKBOARD_FLOAT dmg_absorption_rate = 1;
+  BATTLE_BLACKBOARD_FLOAT dmg_to_shield_ratio = 2;
+}

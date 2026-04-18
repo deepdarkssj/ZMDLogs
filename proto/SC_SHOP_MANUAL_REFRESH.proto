@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SHOP_MANUAL_REFRESH {
+  string shop_group_id = 1;
+  string shop_id = 2;
+  int32 refresh_count = 3;
+}

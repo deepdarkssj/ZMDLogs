@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_WORLD_ENERGY_POINT_SET_TERMS {
+  string game_group_id = 1;
+  repeated string terms = 2;
+}

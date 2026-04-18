@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum AREA_TYPE {
+  Default = 0;
+  China = 1;
+  Oversea = 2;
+  ChinaPre = 10;
+  OverseaPre = 11;
+}

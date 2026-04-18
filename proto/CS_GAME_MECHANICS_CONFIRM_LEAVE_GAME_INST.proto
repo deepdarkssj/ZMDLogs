@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_GAME_MECHANICS_CONFIRM_LEAVE_GAME_INST {
+  string game_id = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message SCENE_TRANSFORM {
+  VECTOR position = 1;
+  VECTOR rotation = 2;
+}

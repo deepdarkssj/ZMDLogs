@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_ITEM_BAG_TAKEOUT_LOST_AND_FOUND {
+  bool all = 1;
+  map<string, int32> items = 2;
+  repeated uint64 inst_id_list = 3;
+}

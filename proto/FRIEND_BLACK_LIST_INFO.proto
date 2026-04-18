@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "HG_THIRD_ACCOUNT_TYPE.proto";
+import "THIRD_ACCOUNT_DATA.proto";
+
+message FRIEND_BLACK_LIST_INFO {
+  uint64 role_id = 1;
+  string name = 2;
+  string short_id = 3;
+  bool online = 4;
+  int64 last_logout_time = 5;
+  uint32 adventure_level = 6;
+  int32 business_card_topic_id = 7;
+  int32 user_avatar_id = 8;
+  int32 user_avatar_frame_id = 9;
+  HG_THIRD_ACCOUNT_TYPE last_login_type = 10;
+  THIRD_ACCOUNT_DATA third_account_data = 11;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_UNLOCK_WIKI {
+  uint32 wiki_id = 1;
+}

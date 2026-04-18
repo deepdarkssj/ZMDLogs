@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_FRIEND_PSN_FRIEND_LIST_SIMPLE_SYNC {
+  string auth_code = 1;
+  string psn_env = 2;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+import "LEVEL_SCRIPT_INFO.proto";
+import "SCD_SCENE_TEAM_INFO.proto";
+import "SCENE_DROP.proto";
+import "SCENE_IMPL_DUNGEON.proto";
+import "SCENE_IMPL_EMPTY.proto";
+import "SCENE_OBJECT_DETAIL_CONTAINER.proto";
+
+message SC_SELF_SCENE_INFO {
+  int32 scene_num_id = 1;
+  uint64 scene_id = 2;
+  SCENE_OBJECT_DETAIL_CONTAINER detail = 3;
+  repeated uint64 revive_chars = 7;
+  repeated LEVEL_SCRIPT_INFO level_scripts = 8;
+  int32 self_info_reason = 9;
+  repeated string unlock_area = 10;
+  repeated SCENE_DROP drop_list = 14;
+  SCD_SCENE_TEAM_INFO team_info = 16;
+  oneof scene_impl {
+    SCENE_IMPL_DUNGEON dungeon = 11;
+    SCENE_IMPL_EMPTY empty = 12;
+  }
+}

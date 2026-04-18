@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_ITEM_BAG_LT_ITEMS_EXPIRE_CONFIRM_REQ {
+  repeated int32 record_id_list = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SUBMIT_SOURCE_PARAM_MISSION {
+  string quest_id = 1;
+}

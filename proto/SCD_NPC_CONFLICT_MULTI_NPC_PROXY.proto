@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_NPC_CONFLICT_MULTI_NPC_PROXY {
+  string npc_id = 1;
+  repeated string npc_proxy_ids = 2;
+}

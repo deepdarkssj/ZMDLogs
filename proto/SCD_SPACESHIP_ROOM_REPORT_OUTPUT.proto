@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_ROOM_REPORT_OUTPUT {
+  map<int32, int32> output = 1;
+}

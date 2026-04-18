@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "CSD_FRIEND_CHAT_MSG_DATA_BLUE_PRINT.proto";
+import "CSD_FRIEND_CHAT_MSG_DATA_EMOJI.proto";
+import "CSD_FRIEND_CHAT_MSG_DATA_PRESET_TEXT.proto";
+import "CSD_FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING.proto";
+import "FRIEND_CHAT_MSG_EXTRA_FLAG.proto";
+import "FRIEND_CHAT_MSG_TYPE.proto";
+
+message CS_FRIEND_CHAT_MSG_SEND {
+  uint64 target_role_id = 1;
+  FRIEND_CHAT_MSG_EXTRA_FLAG extra_flag = 2;
+  FRIEND_CHAT_MSG_TYPE type = 3;
+  oneof data {
+    CSD_FRIEND_CHAT_MSG_DATA_PRESET_TEXT preset_text_data = 11;
+    CSD_FRIEND_CHAT_MSG_DATA_EMOJI emoji_data = 12;
+    CSD_FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING social_building_data = 13;
+    CSD_FRIEND_CHAT_MSG_DATA_BLUE_PRINT blue_print_data = 14;
+  }
+}

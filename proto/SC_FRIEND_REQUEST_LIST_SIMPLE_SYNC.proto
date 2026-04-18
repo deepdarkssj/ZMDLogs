@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FRIEND_REQUEST_SIMPLE_INFO.proto";
+
+message SC_FRIEND_REQUEST_LIST_SIMPLE_SYNC {
+  repeated SCD_FRIEND_REQUEST_SIMPLE_INFO friend_request_list = 1;
+}

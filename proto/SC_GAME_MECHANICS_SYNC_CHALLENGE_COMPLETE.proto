@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_GAME_MECHANICS_SYNC_CHALLENGE_COMPLETE {
+  string game_id = 1;
+  bool is_pass = 2;
+  int64 force_leave_ts = 3;
+  int32 pass_time = 4;
+}

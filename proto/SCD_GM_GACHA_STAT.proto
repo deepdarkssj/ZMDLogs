@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message SCD_GM_GACHA_STAT {
+  string gacha_pool_id = 1;
+  int32 gacha_type = 2;
+  int32 total_pull_count = 3;
+  map<int32, int32> up_got_pull_count_map = 4;
+  int32 up_got_count = 5;
+  map<int32, int32> star6_got_pull_count_map = 6;
+  int32 star6_got_count = 7;
+  int32 star6_ge2_got_count = 8;
+  map<int32, int32> star5_got_pull_count_map = 9;
+  int32 star5_got_count = 10;
+  int32 star5_ge2_got_count = 11;
+  map<string, int32> up_item_count_map = 12;
+  map<string, int32> star6_item_count_map = 13;
+  map<string, int32> star5_item_count_map = 14;
+  map<string, int32> starother_item_count_map = 15;
+  int32 rate_index = 16;
+}

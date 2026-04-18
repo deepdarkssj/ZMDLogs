@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_FRIEND_CHAT_MSG.proto";
+
+message SC_FRIEND_CHAT_MSG_QUERY {
+  uint64 target_role_id = 1;
+  repeated SCD_FRIEND_CHAT_MSG msg_list = 2;
+}

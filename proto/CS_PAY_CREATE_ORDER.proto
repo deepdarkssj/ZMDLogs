@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_PAY_CREATE_ORDER {
+  string goods_id = 1;
+  string cash_shop_id = 2;
+  int32 count = 3;
+}

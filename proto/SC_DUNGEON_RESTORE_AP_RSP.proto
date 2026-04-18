@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+
+message SC_DUNGEON_RESTORE_AP_RSP {
+  ITEM_BUNDLE cost_empty_lunch_box_item = 1;
+  int32 cost_stamina = 2;
+  ITEM_BUNDLE reward_full_lunch_box_item = 3;
+}

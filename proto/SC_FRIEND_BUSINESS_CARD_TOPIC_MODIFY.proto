@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_BUSINESS_CARD_TOPIC_MODIFY {
+  uint32 id = 1;
+}

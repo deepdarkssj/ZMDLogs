@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message MULTIPLY_ATTRIBUTE_CALCULATION_RUNTIME_ARGS {
+  double client_multiplier = 1;
+  double client_add_value = 2;
+  double client_value = 3;
+}

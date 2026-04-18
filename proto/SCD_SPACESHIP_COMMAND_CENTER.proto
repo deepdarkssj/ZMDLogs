@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_REPORT.proto";
+
+message SCD_SPACESHIP_COMMAND_CENTER {
+  uint64 in_progress_expedition_instance_id = 1;
+  map<int64, SCD_SPACESHIP_REPORT> report = 2;
+}

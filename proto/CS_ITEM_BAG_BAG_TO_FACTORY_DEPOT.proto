@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ITEM_MOVE_MODE.proto";
+
+message CS_ITEM_BAG_BAG_TO_FACTORY_DEPOT {
+  repeated int32 grid_list = 1;
+  ITEM_MOVE_MODE mode = 2;
+  int32 scope_name = 11;
+  string chapter_id = 12;
+}

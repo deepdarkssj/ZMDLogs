@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_ACHIEVE_PERSONAL_INFO.proto";
+
+message SC_ACHIEVE_SYNC_PERSONAL_INFO {
+  repeated SCD_ACHIEVE_PERSONAL_INFO achieve_personal_infos = 1;
+}

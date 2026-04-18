@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "ITEM_BAG_USE_TYPE.proto";
+import "ITEM_CASE_FERTILIZE.proto";
+import "ITEM_CASE_LOCKED_GEM_BOX.proto";
+import "ITEM_CASE_SPECIFIC_INFO.proto";
+
+message CS_ITEM_BAG_USE_ITEM {
+  ITEM_BAG_USE_TYPE use_type = 12;
+  int32 grid_index = 1;
+  string item_id = 3;
+  int32 count = 2;
+  uint64 item_inst_id = 5;
+  repeated uint64 char_inst_id_list = 3;
+  uint64 equip_medicine_char_inst_id = 4;
+  repeated string item_use_args = 5;
+  int32 scope_name = 11;
+  oneof specific_info {
+    ITEM_CASE_SPECIFIC_INFO item_case_specific_info = 31;
+    ITEM_CASE_LOCKED_GEM_BOX gem_box = 32;
+    ITEM_CASE_FERTILIZE fertilize = 33;
+  }
+}

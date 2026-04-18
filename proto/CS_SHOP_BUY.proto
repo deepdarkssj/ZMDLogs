@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message CS_SHOP_BUY {
+  string shop_id = 1;
+  string goods_id = 2;
+  int32 count = 3;
+  int64 timestamp = 4;
+  bool use_weaponbox_ticket = 5;
+}

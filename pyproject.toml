@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endfieldlogs"
+version = "0.1.0"
+description = "Endfield damage log service"
+readme = "plan.md"
+requires-python = ">=3.13"
+dependencies = [
+  "dpkt",
+  "psutil",
+  "pycryptodome",
+  "protobuf",
+  "grpcio-tools",
+  "websockets",
+  "PySide6",
+  "PySide6-Fluent-Widgets",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+endfieldlogs = ["overlay_assets/*"]

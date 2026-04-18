@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum FRIEND_CHAT_LIST_SIMPLE_SYNC_TYPE {
+  ChatListSimpleSyncDefault = 0;
+  ChatListSimpleSyncThirdLogin = 1;
+}

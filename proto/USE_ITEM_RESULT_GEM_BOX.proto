@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message USE_ITEM_RESULT_GEM_BOX {
+  repeated uint64 gem_inst_id = 1;
+}

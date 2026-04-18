@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message WALLET_DAILY_SOURCE_MONEY_BOOK {
+  int64 ts = 1;
+  repeated int64 record = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_FINISH_BUFF_ACTION_DETAIL.proto";
+
+message BATTLE_FINISH_BUFF_ACTION_RUNTIME {
+  repeated BATTLE_FINISH_BUFF_ACTION_DETAIL finish_buffs = 1;
+  int32 finish_layer_cnt = 2;
+}

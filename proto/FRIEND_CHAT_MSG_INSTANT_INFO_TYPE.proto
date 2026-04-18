@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum FRIEND_CHAT_MSG_INSTANT_INFO_TYPE {
+  SocialBuilding = 0;
+  BluePrint = 1;
+}

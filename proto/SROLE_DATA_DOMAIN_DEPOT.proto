@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SROLE_DATA_DOMAIN_DEPOT {
+  map<uint64, int64> delegate_inst_id_to_timeout_ts = 1;
+}

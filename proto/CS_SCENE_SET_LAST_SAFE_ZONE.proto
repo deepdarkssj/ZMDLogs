@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message CS_SCENE_SET_LAST_SAFE_ZONE {
+  int32 scene_num_id = 1;
+  VECTOR position = 2;
+  VECTOR rotation = 3;
+  int32 reason = 4;
+  uint64 source_script_id = 5;
+}

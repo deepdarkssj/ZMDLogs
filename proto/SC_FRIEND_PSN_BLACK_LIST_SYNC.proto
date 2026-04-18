@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FRIEND_PSN_BLACK_LIST_INFO.proto";
+
+message SC_FRIEND_PSN_BLACK_LIST_SYNC {
+  repeated SCD_FRIEND_PSN_BLACK_LIST_INFO black_list = 1;
+}

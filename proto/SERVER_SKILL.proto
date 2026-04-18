@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD.proto";
+import "BATTLE_SKILL_SOURCE.proto";
+import "TEMPLATE_ID.proto";
+
+message SERVER_SKILL {
+  TEMPLATE_ID skill_id = 1;
+  uint64 inst_id = 2;
+  int32 potential_lv = 3;
+  int32 level = 4;
+  BATTLE_BLACKBOARD blackboard = 5;
+  BATTLE_SKILL_SOURCE source = 6;
+  repeated string talent_node_ids = 7;
+  bool is_server_init = 8;
+  bool is_enable = 9;
+  bool is_passive = 10;
+}

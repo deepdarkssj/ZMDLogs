@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ITEM_MOVE_MODE.proto";
+
+message CSD_FACTORY_OP_MOVE_ITEM_GRID_BOX_TO_DEPOT {
+  uint32 component_id = 1;
+  int32 grid_box_index = 2;
+  ITEM_MOVE_MODE mode = 3;
+}

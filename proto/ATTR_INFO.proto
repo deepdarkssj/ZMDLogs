@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ATTR_INFO {
+  int32 attr_type = 1;
+  double basic_value = 2;
+  double value = 3;
+}

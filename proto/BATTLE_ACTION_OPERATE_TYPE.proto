@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+enum BATTLE_ACTION_OPERATE_TYPE {
+  BattleOpNone = 0;
+  BattleOpAddBuff = 1;
+  BattleOpFinishBuff = 2;
+  BattleOpSkillAttach = 3;
+  BattleOpSkillDetach = 4;
+  BattleOpSkillStartCast = 5;
+  BattleOpSkillEndCast = 6;
+  BattleOpSwitchMode = 7;
+  BattleOpTriggerAction = 8;
+  BattleOpEntityDie = 10;
+  BattleOpEntityValueModify = 11;
+  BattleOpResetBattleData = 12;
+  BattleOpUpdateDataVersion = 13;
+  BattleOpEnablePassiveSkill = 14;
+  BattleOpTriggerKeyword = 15;
+  BattleOpShieldValueModify = 16;
+  BattleOpUpdateAtbInfo = 17;
+  BattleOpModifyBattleState = 18;
+  BattleOpModifyPoiseValue = 19;
+  BattleOpSetBuffEnableState = 20;
+}

@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message CS_ADVENTURE_TAKE_REWARD_ALL {
+}

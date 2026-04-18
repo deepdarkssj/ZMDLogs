@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_BATTLE_REMOVE_GLOBAL_BUFF {
+  int32 global_buff_num_id = 1;
+}

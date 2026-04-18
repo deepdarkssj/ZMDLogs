@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "ACTIVITY_INFO_SPECIFIED.proto";
+import "SCD_ACTIVITY_CONDITIONS.proto";
+
+message ACTIVITY_INFO {
+  bool is_enable = 2;
+  string id = 3;
+  int64 start_time = 5;
+  int64 end_time = 6;
+  int32 typ = 7;
+  ACTIVITY_INFO_SPECIFIED data = 8;
+  bool is_completed = 7;
+  bool is_unlocked = 8;
+  int32 status = 9;
+  bool reward_all = 10;
+  SCD_ACTIVITY_CONDITIONS conditions = 11;
+}

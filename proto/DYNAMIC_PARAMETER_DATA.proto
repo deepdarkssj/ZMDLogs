@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "VALUE_DATA.proto";
+
+message DYNAMIC_PARAMETER_DATA {
+  int32 value_type = 1;
+  int32 real_type = 2;
+  repeated VALUE_DATA details = 3;
+}

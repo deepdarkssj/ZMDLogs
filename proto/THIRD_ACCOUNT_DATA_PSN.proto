@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message THIRD_ACCOUNT_DATA_PSN {
+  string account_id = 1;
+  string online_id = 2;
+}

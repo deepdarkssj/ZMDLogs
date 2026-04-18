@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "DYNAMIC_PARAMETER.proto";
+
+message CS_SCENE_INTERACTIVE_EVENT_TRIGGER {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  string event_name = 3;
+  map<string, DYNAMIC_PARAMETER> properties = 4;
+}

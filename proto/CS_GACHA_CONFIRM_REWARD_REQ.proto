@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "GACHA_CONFIRM_REWARD_TYPE.proto";
+
+message CS_GACHA_CONFIRM_REWARD_REQ {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  GACHA_CONFIRM_REWARD_TYPE gacha_reward_type = 3;
+  repeated int32 reward_indexes = 4;
+}

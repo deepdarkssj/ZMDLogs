@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SKILL_COST_TYPE.proto";
+
+message SKILL_COST_DATA {
+  SKILL_COST_TYPE cost_type = 1;
+  float cost_value = 2;
+}

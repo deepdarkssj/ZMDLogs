@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "MOTION_INFO.proto";
+
+message MOVE_OBJECT_MOVE_INFO {
+  uint64 objid = 1;
+  MOTION_INFO motion_info = 2;
+  uint32 server_time = 3;
+  int32 scene_num_id = 4;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_MANUFACTURING_STATION_COLLECT {
+  string room_id = 1;
+}

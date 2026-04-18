@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_ORDER_SETTLE.proto";
+
+message SCD_REMIND_CB_NTF {
+  repeated SCD_ORDER_SETTLE orders_settle = 1;
+}

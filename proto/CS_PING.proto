@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_PING {
+  uint64 client_ts = 1;
+  uint64 logical_ts = 2;
+}

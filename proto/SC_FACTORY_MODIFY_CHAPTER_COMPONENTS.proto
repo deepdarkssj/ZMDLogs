@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_FAC_COM.proto";
+
+message SC_FACTORY_MODIFY_CHAPTER_COMPONENTS {
+  int64 tms = 1;
+  string chapter_id = 2;
+  repeated SCD_FAC_COM components = 3;
+}

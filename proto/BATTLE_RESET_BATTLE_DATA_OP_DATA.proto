@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message BATTLE_RESET_BATTLE_DATA_OP_DATA {
+}

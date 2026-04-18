@@ -1,0 +1,176 @@
+{
+  "chr_0002_endminm": {
+    "avatarPath": "icon_chr_0002_endminm",
+    "bustPath": "icon_chr_0002_endminm",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0006_wolfgd": {
+    "avatarPath": "icon_chr_0006_wolfgd",
+    "bustPath": "icon_chr_0006_wolfgd",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": "chapter_character_char_icon_01"
+  },
+  "chr_0007_ikut": {
+    "avatarPath": "icon_chr_0007_ikut",
+    "bustPath": "icon_chr_0007_ikut",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "npc_1005_fabian": {
+    "avatarPath": "icon_npc_1005_fabian",
+    "bustPath": "icon_npc_1005_fabian",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0003_endminf": {
+    "avatarPath": "icon_chr_0003_endminf",
+    "bustPath": "icon_chr_0003_endminf",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0004_pelica": {
+    "avatarPath": "icon_chr_0004_pelica",
+    "bustPath": "icon_chr_0004_pelica",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0005_chen": {
+    "avatarPath": "icon_chr_0005_chen",
+    "bustPath": "icon_chr_0005_chen",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0031_mifu": {
+    "avatarPath": "icon_chr_0031_mifu",
+    "bustPath": "icon_chr_0031_mifu",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0009_azrila": {
+    "avatarPath": "icon_chr_0009_azrila",
+    "bustPath": "icon_chr_0009_azrila",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "npc_1002_qinjc": {
+    "avatarPath": "icon_npc_1002_qinjc",
+    "bustPath": "icon_npc_1002_qinjc",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0011_seraph": {
+    "avatarPath": "icon_chr_0011_seraph",
+    "bustPath": "icon_chr_0011_seraph",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "npc_common": {
+    "avatarPath": "icon_chr_unknown_man",
+    "bustPath": "icon_chr_unknown_man",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0012_avywen": {
+    "avatarPath": "icon_chr_0012_avywen",
+    "bustPath": "icon_chr_0012_avywen",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0030_zhuangfy": {
+    "avatarPath": "icon_chr_0030_zhuangfy",
+    "bustPath": "icon_chr_0030_zhuangfy",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0013_aglina": {
+    "avatarPath": "icon_chr_0013_aglina",
+    "bustPath": "icon_chr_0013_aglina",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": "chapter_character_char_icon_02"
+  },
+  "chr_0015_lifeng": {
+    "avatarPath": "icon_chr_0015_lifeng",
+    "bustPath": "icon_chr_0015_lifeng",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0014_aurora": {
+    "avatarPath": "icon_chr_0014_aurora",
+    "bustPath": "icon_chr_0014_aurora",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0016_laevat": {
+    "avatarPath": "icon_chr_0016_laevat",
+    "bustPath": "icon_chr_0016_laevat",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": "chapter_character_char_icon_03"
+  },
+  "chr_0017_yvonne": {
+    "avatarPath": "icon_chr_0017_yvonne",
+    "bustPath": "icon_chr_0017_yvonne",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": "chapter_character_char_icon_04"
+  },
+  "chr_0018_dapan": {
+    "avatarPath": "icon_chr_0018_dapan",
+    "bustPath": "icon_chr_0018_dapan",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0027_tangtang": {
+    "avatarPath": "icon_chr_0027_tangtang",
+    "bustPath": "icon_chr_0027_tangtang",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": "chapter_character_char_icon_05"
+  },
+  "chr_0028_wulfa": {
+    "avatarPath": "icon_chr_0028_wulfa",
+    "bustPath": "icon_chr_0028_wulfa",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": "chapter_character_char_icon_06"
+  },
+  "npc_1001_andrew": {
+    "avatarPath": "icon_npc_1001_andrew",
+    "bustPath": "icon_npc_1001_andrew",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "npc_1003_fiona": {
+    "avatarPath": "icon_chr_0102_fiona",
+    "bustPath": "icon_chr_0102_fiona",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "npc_1006_eliza": {
+    "avatarPath": "icon_npc_1006_eliza",
+    "bustPath": "icon_npc_1006_eliza",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0021_whiten": {
+    "avatarPath": "icon_chr_0021_whiten",
+    "bustPath": "icon_chr_0021_whiten",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0019_karin": {
+    "avatarPath": "icon_chr_0019_karin",
+    "bustPath": "icon_chr_0019_karin",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0025_ardelia": {
+    "avatarPath": "icon_chr_0025_ardelia",
+    "bustPath": "icon_chr_0025_ardelia",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  },
+  "chr_0023_antal": {
+    "avatarPath": "icon_chr_0023_antal",
+    "bustPath": "icon_chr_0023_antal",
+    "illustrationPath": "",
+    "missionPanelChrAvatarPath": ""
+  }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message SPACESHIP_GUEST_ROOM_CLUE {
+  string clue_id = 1;
+  uint64 inst_id = 2;
+  uint64 from_role_id = 3;
+  int64 expire_ts = 4;
+  map<int32, bool> char_num_id_to_prob_acc = 5;
+  int64 generate_ts = 6;
+  bool is_read = 7;
+}

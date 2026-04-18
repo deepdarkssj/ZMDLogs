@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_GAME_MECHANICS_INST_TIME_FREEZE.proto";
+
+message SC_GAME_MECHANICS_MODIFY_INST_TIME_FREEZE {
+  string game_id = 1;
+  repeated SCD_GAME_MECHANICS_INST_TIME_FREEZE time_freeze_infos = 2;
+}

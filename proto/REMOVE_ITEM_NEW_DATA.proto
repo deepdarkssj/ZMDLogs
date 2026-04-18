@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message REMOVE_ITEM_NEW_DATA {
+  int32 depot_type = 1;
+  repeated uint64 inst_ids = 2;
+}

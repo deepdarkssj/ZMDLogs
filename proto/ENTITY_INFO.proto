@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ENTITY_OP_TYPE.proto";
+
+message ENTITY_INFO {
+  ENTITY_OP_TYPE entity_op_type = 2;
+  uint64 id = 3;
+  int32 type = 4;
+}

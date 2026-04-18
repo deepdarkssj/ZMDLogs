@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CSD_BATCH_PLACE_COM.proto";
+
+message CSD_BATCH_PLACE_COM_LIST {
+  repeated CSD_BATCH_PLACE_COM coms = 1;
+}

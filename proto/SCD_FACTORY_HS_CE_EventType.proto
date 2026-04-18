@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+enum SCD_FACTORY_HS_CE_EventType {
+  ScdFactoryHsCeNone = 0;
+  ScdFactoryHsCeInPowerUp = 1;
+  ScdFactoryHsCeInPowerDown = 2;
+  ScdFactoryHsCeFluidHeightChange = 3;
+  ScdFactoryHsCeFluidContentChange = 4;
+  ScdFactoryHsCeProducerChangeFormula = 5;
+  ScdFactoryHsCeBusLoaderChangeLastPutIn = 6;
+  ScdFactoryHsCeBattleEnergyChange = 7;
+  ScdFactoryHsCeJoinWorking = 8;
+  ScdFactoryHsCeLeaveWorking = 9;
+  ScdFactoryHsCeRegionPower = 10;
+  ScdFactoryHsCeBlockComponent = 11;
+  ScdFactoryHsCeUnBlockComponent = 12;
+  ScdFactoryHsCeSubPortBlock = 21;
+  ScdFactoryHsCeSubPortUnBlock = 22;
+  ScdFactoryHsCeChangeProduct = 31;
+  ScdFactoryHsCeCacheContentChange = 32;
+  ScdFactoryHsCeUdPipeChageLastPutIn = 35;
+}

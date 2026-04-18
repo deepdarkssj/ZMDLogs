@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_REWARD_TOAST_BEGIN {
+  int32 reward_source_type = 1;
+  uint64 reward_toast_inst_id = 2;
+}

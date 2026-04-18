@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_DOMAIN_DEPOT_COLLECT_DELEGATE_REWARD_RSP {
+  repeated uint64 deliver_inst_id = 1;
+  map<string, int64> money_id_to_add_value = 2;
+}

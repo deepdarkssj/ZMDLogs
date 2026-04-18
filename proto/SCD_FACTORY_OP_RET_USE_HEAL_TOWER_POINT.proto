@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FACTORY_OP_RET_USE_HEAL_TOWER_POINT {
+  uint32 used_count = 1;
+}

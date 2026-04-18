@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_NTF_ERROR_CODE {
+  int32 error_code = 1;
+  string details = 2;
+}

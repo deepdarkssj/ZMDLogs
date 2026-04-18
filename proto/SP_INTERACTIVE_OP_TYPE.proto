@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+enum SP_INTERACTIVE_OP_TYPE {
+  DefaultInteract = 0;
+  PickDropPackItem = 1;
+  DoodadCommonBreak = 2;
+  SetState = 3;
+  ResetSwitch = 4;
+  UpdateAvailableList = 5;
+  SetStateMulti = 6;
+  InteractHorn = 7;
+  SetLsEnable = 8;
+  UpdateMovingPlatform = 9;
+  IronActive = 10;
+  IronComplete = 11;
+  ErosionScan = 12;
+  Max = 13;
+}

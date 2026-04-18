@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_ACTIVITY_WEEKLY_TASK_TASK_GAIN_REWARD {
+  string activity_id = 1;
+  repeated string task_id_list = 2;
+}

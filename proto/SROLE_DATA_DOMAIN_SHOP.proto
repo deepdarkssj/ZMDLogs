@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SROLED_DOMAIN_SHOP_GOODS.proto";
+
+message SROLE_DATA_DOMAIN_SHOP {
+  repeated SROLED_DOMAIN_SHOP_GOODS shop_goods = 1;
+}

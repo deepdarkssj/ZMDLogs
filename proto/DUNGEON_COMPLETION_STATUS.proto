@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum DUNGEON_COMPLETION_STATUS {
+  DcStatusNone = 0;
+  DcStatusBeforeCompletion = 1;
+  DcStatusBeforeReward = 2;
+  DcStatusAfterReward = 3;
+}

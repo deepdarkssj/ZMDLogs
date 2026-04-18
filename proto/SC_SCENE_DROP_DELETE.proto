@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SCENE_DROP_DELETE {
+  uint64 drop_id = 1;
+}

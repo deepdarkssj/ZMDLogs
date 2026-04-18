@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message DOMAIN_DEVELOPMENT_DEGREE {
+  uint64 exp = 1;
+  uint32 level = 2;
+  uint64 rewarded_level = 3;
+  repeated uint64 source = 4;
+}

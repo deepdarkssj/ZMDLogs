@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "BATTLE_HEAL_MODIFIER_ARGS.proto";
+import "BATTLE_REPORT_INFO.proto";
+import "CLIENT_ATTR_MODIFIER_DEBUG_DATA.proto";
+import "DEV_BATTLE_CALCULATE_HEAL_RUNTIME_ARGS.proto";
+import "DEV_BATTLE_CALCULATION_RUNTIME_ARGS.proto";
+
+message BATTLE_HEAL_ACTION_DETAIL {
+  uint64 source_id = 1;
+  uint64 target_id = 2;
+  double value = 3;
+  BATTLE_HEAL_MODIFIER_ARGS modifier_args = 4;
+  double cur_hp = 5;
+  BATTLE_REPORT_INFO battle_report_info = 6;
+  DEV_BATTLE_CALCULATION_RUNTIME_ARGS calculation_check_args = 7;
+  CLIENT_ATTR_MODIFIER_DEBUG_DATA healer_attr_modifier_debug_data = 8;
+  CLIENT_ATTR_MODIFIER_DEBUG_DATA receiver_attr_modifier_debug_data = 9;
+  DEV_BATTLE_CALCULATE_HEAL_RUNTIME_ARGS calculate_heal_check_args = 10;
+}

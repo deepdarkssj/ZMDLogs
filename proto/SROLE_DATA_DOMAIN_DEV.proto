@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SROLE_DATA_DOMAIN_DEV {
+  string domain_id = 1;
+  uint32 level = 2;
+}

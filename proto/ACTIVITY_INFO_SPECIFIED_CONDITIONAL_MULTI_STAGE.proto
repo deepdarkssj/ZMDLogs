@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "ACTIVITY_CONDITIONAL_STAGE_INFO.proto";
+import "ACTIVITY_INFO_CONDITIONAL_MULTI_STAGE_EXTRA_DATA_PHOTO_TAKING.proto";
+
+message ACTIVITY_INFO_SPECIFIED_CONDITIONAL_MULTI_STAGE {
+  bool complete_intro_mission = 1;
+  bool complete_finale_mission = 2;
+  repeated ACTIVITY_CONDITIONAL_STAGE_INFO stage_list = 3;
+  repeated string show_preview_stage_list = 4;
+  oneof extra_data {
+    ACTIVITY_INFO_CONDITIONAL_MULTI_STAGE_EXTRA_DATA_PHOTO_TAKING photo_taking = 15;
+  }
+}

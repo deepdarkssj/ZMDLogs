@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_REPORT_CLIENT_REMOTE_TASK_RET {
+  string task_id = 1;
+  string result = 2;
+}

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "ATTACKER_ATK_PROCESSOR.proto";
+import "ATTACKER_CRIT_DAMAGE_PROCESSOR.proto";
+import "ATTACKER_CRIT_RATE_PROCESSOR.proto";
+import "ATTACKER_PEN_PROCESSOR.proto";
+import "DAMAGE_PROCESSOR_TYPE.proto";
+import "DAMAGE_SCALE_PROCESSOR.proto";
+import "DEFENDER_DEF_PROCESSOR.proto";
+import "INSTANT_MODIFY_ATTRIBUTE_PROCESSOR.proto";
+import "MODIFY_CALCULATE_RESULT_PROCESSOR.proto";
+
+message BATTLE_DAMAGE_PROCESSOR {
+  DAMAGE_PROCESSOR_TYPE type = 1;
+  oneof processor_impl {
+    ATTACKER_CRIT_RATE_PROCESSOR attacker_crit_rate_processor = 2;
+    ATTACKER_ATK_PROCESSOR attacker_atk_processor = 3;
+    ATTACKER_CRIT_DAMAGE_PROCESSOR attacker_crit_damage_processor = 4;
+    ATTACKER_PEN_PROCESSOR attacker_pen_processor = 5;
+    DAMAGE_SCALE_PROCESSOR damage_scale_processor = 6;
+    DEFENDER_DEF_PROCESSOR defender_def_processor = 7;
+    MODIFY_CALCULATE_RESULT_PROCESSOR modify_calulate_result_processor = 8;
+    INSTANT_MODIFY_ATTRIBUTE_PROCESSOR instant_modify_attribute_processor = 9;
+  }
+}

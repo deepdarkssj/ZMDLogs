@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BATTLE_ATB_DATA.proto";
+import "BATTLE_TARGET_HANDLE.proto";
+
+message BATTLE_SKILL_START_CAST_OP_DATA {
+  uint64 inst_id = 1;
+  BATTLE_TARGET_HANDLE target = 2;
+  BATTLE_ATB_DATA atb_data = 3;
+}

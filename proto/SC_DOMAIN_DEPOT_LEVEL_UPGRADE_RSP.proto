@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_DOMAIN_DEPOT_LEVEL_UPGRADE_RSP {
+  string domain_depot_id = 1;
+  uint32 level = 2;
+}

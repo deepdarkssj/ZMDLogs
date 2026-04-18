@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum RegionStatus {
+  UnLocked = 0;
+  Explored = 1;
+  ExpeditionInProgress = 2;
+}

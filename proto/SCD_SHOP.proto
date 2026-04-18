@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "SCD_SHOP_DISCOUNT.proto";
+import "SCD_SHOP_RANDOM_DOMAIN.proto";
+import "SCD_SHOP_RANDOM_REFRESH.proto";
+import "SCD_SHOP_TIME_RANGE.proto";
+import "SCD_SHOP_UNLOCK_CONDITIONS.proto";
+import "SHOP_RANDOM_TYPE.proto";
+
+message SCD_SHOP {
+  string shop_id = 1;
+  int32 shop_refresh_type = 2;
+  map<string, int32> unlock_condition_values = 3;
+  map<string, bool> unlock_condition_flags = 4;
+  repeated SCD_SHOP_DISCOUNT discounts = 5;
+  repeated SCD_SHOP_UNLOCK_CONDITIONS goods_unlock_conditions = 6;
+  bool is_dynamic_good = 7;
+  bool is_dynamic_discount = 8;
+  map<string, SCD_SHOP_TIME_RANGE> goods_time_range = 9;
+  SHOP_RANDOM_TYPE random_type = 10;
+  oneof refresh_data {
+    SCD_SHOP_RANDOM_REFRESH random_refresh = 21;
+    SCD_SHOP_RANDOM_DOMAIN random_domain = 22;
+  }
+}

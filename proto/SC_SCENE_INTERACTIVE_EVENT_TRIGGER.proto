@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_SCENE_INTERACTIVE_EVENT_TRIGGER {
+}

@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_HS_FB_BATTERY_BURN.proto";
+import "SCD_FACTORY_HS_FB_BATTLE.proto";
+import "SCD_FACTORY_HS_FB_BOX_BRIDGE.proto";
+import "SCD_FACTORY_HS_FB_BOX_ROUTER_M1.proto";
+import "SCD_FACTORY_HS_FB_BOX_VALVE.proto";
+import "SCD_FACTORY_HS_FB_BURN_POWER.proto";
+import "SCD_FACTORY_HS_FB_CACHE.proto";
+import "SCD_FACTORY_HS_FB_CACHE_TRANSPORT.proto";
+import "SCD_FACTORY_HS_FB_COLLECTOR.proto";
+import "SCD_FACTORY_HS_FB_FLUID_BRIDGE.proto";
+import "SCD_FACTORY_HS_FB_FLUID_CONSUME.proto";
+import "SCD_FACTORY_HS_FB_FLUID_CONTAINER.proto";
+import "SCD_FACTORY_HS_FB_FLUID_PUMP_IN.proto";
+import "SCD_FACTORY_HS_FB_FLUID_PUMP_OUT.proto";
+import "SCD_FACTORY_HS_FB_FLUID_REACTION.proto";
+import "SCD_FACTORY_HS_FB_FLUID_ROUTER_M1.proto";
+import "SCD_FACTORY_HS_FB_FLUID_SPRAY.proto";
+import "SCD_FACTORY_HS_FB_FLUID_UD_PIPE.proto";
+import "SCD_FACTORY_HS_FB_FLUID_VALVE.proto";
+import "SCD_FACTORY_HS_FB_GRID_BOX.proto";
+import "SCD_FACTORY_HS_FB_PRODUCER.proto";
+import "SCD_FACTORY_HS_FB_WATER_COLLECTOR.proto";
+
+message SCD_FACTORY_HS_FB {
+  uint32 component_id = 1;
+  oneof component_payload {
+    SCD_FACTORY_HS_FB_CACHE cache = 2;
+    SCD_FACTORY_HS_FB_PRODUCER producer = 3;
+    SCD_FACTORY_HS_FB_COLLECTOR collector = 4;
+    SCD_FACTORY_HS_FB_BURN_POWER burn_power = 5;
+    SCD_FACTORY_HS_FB_CACHE_TRANSPORT cache_transport = 6;
+    SCD_FACTORY_HS_FB_GRID_BOX grid_box = 7;
+    SCD_FACTORY_HS_FB_BOX_ROUTER_M1 box_router_m1 = 8;
+    SCD_FACTORY_HS_FB_BOX_BRIDGE box_bridge = 9;
+    SCD_FACTORY_HS_FB_FLUID_BRIDGE fluid_bridge = 12;
+    SCD_FACTORY_HS_FB_FLUID_ROUTER_M1 fluid_router_m1 = 13;
+    SCD_FACTORY_HS_FB_FLUID_CONTAINER fluid_container = 14;
+    SCD_FACTORY_HS_FB_FLUID_PUMP_IN fluid_pump_in = 15;
+    SCD_FACTORY_HS_FB_BATTLE battle = 16;
+    SCD_FACTORY_HS_FB_BATTERY_BURN battery_burn = 17;
+    SCD_FACTORY_HS_FB_FLUID_SPRAY fluid_spray = 18;
+    SCD_FACTORY_HS_FB_FLUID_PUMP_OUT fluid_pump_out = 19;
+    SCD_FACTORY_HS_FB_FLUID_CONSUME fluid_consume = 20;
+    SCD_FACTORY_HS_FB_FLUID_REACTION fluid_reaction = 21;
+    SCD_FACTORY_HS_FB_WATER_COLLECTOR water_collector = 22;
+    SCD_FACTORY_HS_FB_BOX_VALVE box_valve = 23;
+    SCD_FACTORY_HS_FB_FLUID_VALVE fluid_valve = 24;
+    SCD_FACTORY_HS_FB_FLUID_UD_PIPE ud_pipe = 25;
+  }
+}

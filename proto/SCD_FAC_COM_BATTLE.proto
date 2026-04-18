@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_BATTLE {
+  int32 energy_current = 1;
+  int32 energy_max = 2;
+  bool in_overloading = 3;
+}

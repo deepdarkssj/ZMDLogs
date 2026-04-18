@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SC_ADVENTURE_SYNC_ALL {
+  int32 level = 1;
+  int64 exp = 2;
+  int32 world_level = 3;
+  int32 unlock_world_level = 4;
+  int64 last_set_world_level_ts = 5;
+}

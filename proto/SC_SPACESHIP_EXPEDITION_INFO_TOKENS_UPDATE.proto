@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_EXPEDITION_INFO_TOKENS_UPDATE {
+  int32 info_tokens = 1;
+}

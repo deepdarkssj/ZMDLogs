@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCENE_GAMEPLAY_ELECTRIC_NODE.proto";
+
+message SC_SCENE_GAMEPLAY_ELECTRICITY_DATA_SYNC {
+  int32 scene_num_id = 1;
+  repeated SCENE_GAMEPLAY_ELECTRIC_NODE nodes = 2;
+}

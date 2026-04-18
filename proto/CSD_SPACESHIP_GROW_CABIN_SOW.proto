@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_SPACESHIP_GROW_CABIN_SOW {
+  string recipe_id = 1;
+  int32 box_id = 2;
+}

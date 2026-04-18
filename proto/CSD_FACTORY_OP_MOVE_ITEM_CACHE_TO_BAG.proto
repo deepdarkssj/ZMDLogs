@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ITEM_MOVE_MODE.proto";
+
+message CSD_FACTORY_OP_MOVE_ITEM_CACHE_TO_BAG {
+  uint32 component_id = 1;
+  string item_id = 2;
+  bool all = 3;
+  int32 cache_grid_index = 4;
+  int32 grid_index = 5;
+  ITEM_MOVE_MODE mode = 6;
+}

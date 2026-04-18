@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_ITEM_BAG_LT_ITEM_EXPIRE_RECORD.proto";
+
+message SC_ITEM_BAG_LT_ITEMS_EXPIRE_NTF {
+  SCD_ITEM_BAG_LT_ITEM_EXPIRE_RECORD record = 1;
+}

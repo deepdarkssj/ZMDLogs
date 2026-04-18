@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ACTIVITY_INFO_SPECIFIED_CHECKIN {
+  int32 login_days = 1;
+  repeated uint64 reward_days = 2;
+}

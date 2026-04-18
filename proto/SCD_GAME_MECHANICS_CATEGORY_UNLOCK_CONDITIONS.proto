@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_GAME_MECHANICS_CATEGORY_UNLOCK_CONDITIONS {
+  string id = 1;
+  int32 unlock_state = 2;
+}

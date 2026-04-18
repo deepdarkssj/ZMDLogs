@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_ROOM_LEVEL_UP.proto";
+
+message SC_SPACESHIP_SYNC_ROOM_LEVEL_UP {
+  repeated SCD_SPACESHIP_ROOM_LEVEL_UP room_level_up_infos = 1;
+}

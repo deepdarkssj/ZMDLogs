@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ATTR_MODIFY_DATA.proto";
+
+message CLIENT_ATTR_MODIFIER {
+  uint64 attr_src_mask = 1;
+  ATTR_MODIFY_DATA modify_data = 2;
+}

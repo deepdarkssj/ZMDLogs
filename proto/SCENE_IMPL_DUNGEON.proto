@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SCENE_IMPL_DUNGEON {
+  string dungeon_id = 1;
+  int64 challenge_expire_ts = 2;
+  int64 leave_dungeon_ts = 3;
+  bool is_reward = 4;
+  bool is_calc = 5;
+  bool is_pass = 6;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SHOP_TIME_RANGE {
+  int64 open_tms = 1;
+  int64 close_tms = 2;
+}

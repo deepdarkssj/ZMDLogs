@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message BATTLE_SPAWN_CUSTOM_SUMMON_ACTION_DATA {
+}

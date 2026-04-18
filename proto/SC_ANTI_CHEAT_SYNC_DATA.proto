@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ANTI_CHEAT_SYNC_DATA {
+  bytes data = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum PSN_AUTHCODE_QUERY_TYPE {
+  PsnBlacklistUpdate = 0;
+  PsnFriendlistUpdate = 1;
+}

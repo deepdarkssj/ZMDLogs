@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+enum MOTION_STATE {
+  MotionNone = 0;
+  MotionStandby = 1;
+  MotionStandbyMove = 2;
+  MotionWalk = 3;
+  MotionRun = 4;
+  MotionClimb = 5;
+  MotionClimbJump = 6;
+}

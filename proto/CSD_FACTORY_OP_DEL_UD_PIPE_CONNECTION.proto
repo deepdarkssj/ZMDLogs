@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_DEL_UD_PIPE_CONNECTION {
+  uint64 from_com_id = 1;
+  uint64 to_com_id = 2;
+}

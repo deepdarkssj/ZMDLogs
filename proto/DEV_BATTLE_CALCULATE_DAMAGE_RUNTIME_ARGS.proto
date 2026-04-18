@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message DEV_BATTLE_CALCULATE_DAMAGE_RUNTIME_ARGS {
+  double client_calc_result_value = 1;
+  double client_final_damage_scale = 2;
+  double client_attack_value = 3;
+  double client_crit_add_scale = 4;
+  double client_def_attr_defender_def = 5;
+  double client_def_resistance = 6;
+  double client_dmg_type_resistance = 7;
+  double client_defender_poise_factor = 8;
+  double client_ignite_damage_scalar = 9;
+  double client_final_value = 10;
+  double client_weak_damage_scalar = 11;
+  double client_shelter_damage_scalar = 12;
+  double client_physical_infliction_damage_scalar = 13;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SNS_CHAT_INFO.proto";
+import "SNS_DIALOG_INFO.proto";
+
+message SC_SNS_GET_CHAT_LIST {
+  repeated SNS_CHAT_INFO chat_list = 1;
+  repeated SNS_DIALOG_INFO dialog_list = 2;
+}

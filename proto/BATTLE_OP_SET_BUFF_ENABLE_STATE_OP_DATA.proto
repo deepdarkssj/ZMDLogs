@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_OP_SET_BUFF_ENABLE_STATE_OP_DATA {
+  map<uint64, bool> buff_inst_id_to_enable_state = 1;
+}

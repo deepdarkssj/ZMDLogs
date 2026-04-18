@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_UPDATE_NPC_LAST_INTERACT_TIME {
+  uint64 obj_id = 1;
+  int64 last_interact_time_stamp = 2;
+}

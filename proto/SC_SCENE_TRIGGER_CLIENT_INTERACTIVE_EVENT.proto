@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SCENE_TRIGGER_CLIENT_INTERACTIVE_EVENT {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  string event_name = 3;
+}

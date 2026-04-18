@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FRIEND_CHAT_MSG_INSTANT_INFO_SOCIAL_BUILDING {
+  string name = 1;
+  string short_id = 2;
+  bool is_deleted = 3;
+}

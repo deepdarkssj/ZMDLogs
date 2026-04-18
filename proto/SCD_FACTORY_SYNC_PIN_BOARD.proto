@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_PIN_CARD.proto";
+
+message SCD_FACTORY_SYNC_PIN_BOARD {
+  repeated SCD_FACTORY_PIN_CARD cards = 1;
+}

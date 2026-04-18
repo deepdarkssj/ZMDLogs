@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_GUEST_ROOM_WEAPON_DATA_BY_TYPE {
+  repeated uint64 inst_id_list = 1;
+}

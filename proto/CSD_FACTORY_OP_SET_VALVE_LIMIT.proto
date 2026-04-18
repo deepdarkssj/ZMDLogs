@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_SET_VALVE_LIMIT {
+  uint32 com_id = 1;
+  bool enable = 2;
+  int32 limit = 3;
+}

@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message EMPTY_BATTLE_CLIENT_PROCESSOR_DEBUG_ARGS_ITEM {
+}

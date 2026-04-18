@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_CHAT_LIST_TOP {
+  uint64 role_id = 1;
+}

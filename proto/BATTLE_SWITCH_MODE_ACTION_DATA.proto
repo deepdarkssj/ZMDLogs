@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BATTLE_SWITCH_MODE_ACTION_DATA {
+  string mode_id = 1;
+  bool reset_on_end = 2;
+}

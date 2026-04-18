@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_SCENE_BANDWIDTH.proto";
+import "SCD_FACTORY_SYNC_SCENE_PANEL.proto";
+
+message SC_FACTORY_MODIFY_CHAPTER_SCENE {
+  int64 tms = 1;
+  string chapter_id = 2;
+  int32 scene_id = 3;
+  SCD_FACTORY_SYNC_SCENE_BANDWIDTH bandwidth = 13;
+  repeated SCD_FACTORY_SYNC_SCENE_PANEL panels = 14;
+  repeated SCD_FACTORY_SYNC_SCENE_PANEL soil_panels = 15;
+  map<string, SCD_FACTORY_SYNC_SCENE_BANDWIDTH> settlements = 7;
+}

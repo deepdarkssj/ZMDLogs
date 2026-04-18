@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+import "FRIEND_CHAR_INFO.proto";
+import "GENDER.proto";
+import "HG_THIRD_ACCOUNT_TYPE.proto";
+import "THIRD_ACCOUNT_DATA.proto";
+
+message FRIEND_BASE_USER_INFO {
+  uint64 role_id = 1;
+  string name = 2;
+  string short_id = 3;
+  int64 last_login_time = 4;
+  int64 last_logout_time = 5;
+  bool online = 6;
+  uint32 adventure_level = 7;
+  string signature = 8;
+  GENDER gender = 9;
+  int32 business_card_topic_id = 10;
+  int32 user_avatar_id = 11;
+  int32 user_avatar_frame_id = 12;
+  repeated FRIEND_CHAR_INFO char_data = 13;
+  HG_THIRD_ACCOUNT_TYPE last_login_type = 14;
+  THIRD_ACCOUNT_DATA third_account_data = 15;
+}

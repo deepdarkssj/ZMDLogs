@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message CS_STOP_TRACKING_MISSION {
+}

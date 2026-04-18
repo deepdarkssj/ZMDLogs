@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "RECYCLE_BIN.proto";
+
+message SC_RECYCLE_BIN_MODIFY {
+  RECYCLE_BIN recycle_bin = 1;
+}

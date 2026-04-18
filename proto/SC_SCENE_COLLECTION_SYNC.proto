@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCENE_COLLECTION.proto";
+
+message SC_SCENE_COLLECTION_SYNC {
+  repeated SCENE_COLLECTION collection_list = 1;
+}

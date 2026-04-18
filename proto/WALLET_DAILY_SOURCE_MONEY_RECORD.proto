@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "WALLET_DAILY_SOURCE_MONEY_BOOK.proto";
+
+message WALLET_DAILY_SOURCE_MONEY_RECORD {
+  repeated WALLET_DAILY_SOURCE_MONEY_BOOK books = 1;
+}

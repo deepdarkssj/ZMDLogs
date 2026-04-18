@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "FRIEND_SEARCH_NAME_TYPE.proto";
+
+message CS_FRIEND_SEARCH_NAME {
+  string name = 1;
+  FRIEND_SEARCH_NAME_TYPE type = 2;
+}

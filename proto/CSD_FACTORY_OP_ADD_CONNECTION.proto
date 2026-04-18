@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_ADD_CONNECTION {
+  int32 map_id = 1;
+  uint64 from_com_id = 4;
+  uint64 to_com_id = 5;
+}

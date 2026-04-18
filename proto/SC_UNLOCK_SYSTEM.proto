@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_UNLOCK_SYSTEM {
+  int32 unlock_system_type = 1;
+}

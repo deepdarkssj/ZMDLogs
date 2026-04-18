@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "MOTION_STATE.proto";
+import "VECTOR.proto";
+
+message MOTION_INFO {
+  VECTOR position = 1;
+  VECTOR rotation = 2;
+  VECTOR speed = 3;
+  MOTION_STATE state = 4;
+}

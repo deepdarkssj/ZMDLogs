@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_BLUE_PRINT_PARAM.proto";
+
+message SCD_FACTORY_SYS_BLUE_PRINT_DATA {
+  CSD_FACTORY_BLUE_PRINT_PARAM sys_bp_param = 1;
+  uint64 bp_uid = 2;
+  int32 use_count = 3;
+  int64 fetch_time = 4;
+  bool is_new = 5;
+}

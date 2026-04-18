@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum ITEM_MOVE_MODE {
+  Normal = 0;
+  BatchItemId = 1;
+  Grid = 2;
+  HalfGrid = 3;
+  AutoBatch = 4;
+}

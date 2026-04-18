@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SHOP_BUY_RESP {
+  string shop_id = 1;
+  string goods_id = 2;
+  int32 count = 3;
+}

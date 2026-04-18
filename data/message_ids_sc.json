@@ -1,0 +1,4160 @@
+{
+  "0": {
+    "msg_id": 0,
+    "enum_name": "ScMessageBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_MESSAGE_BEGIN",
+    "direction": "sc"
+  },
+  "1": {
+    "msg_id": 1,
+    "enum_name": "ScLogin",
+    "class_name": "MSG_B1",
+    "guessed_class_name": "SC_LOGIN",
+    "direction": "sc"
+  },
+  "2": {
+    "msg_id": 2,
+    "enum_name": "ScSyncBaseData",
+    "class_name": "SC_SYNC_BASE_DATA",
+    "guessed_class_name": "SC_SYNC_BASE_DATA",
+    "direction": "sc"
+  },
+  "3": {
+    "msg_id": 3,
+    "enum_name": "ScNtfErrorCode",
+    "class_name": "SC_NTF_ERROR_CODE",
+    "guessed_class_name": "SC_NTF_ERROR_CODE",
+    "direction": "sc"
+  },
+  "4": {
+    "msg_id": 4,
+    "enum_name": "ScGmCommand",
+    "class_name": "SC_GM_COMMAND",
+    "guessed_class_name": "SC_GM_COMMAND",
+    "direction": "sc"
+  },
+  "5": {
+    "msg_id": 5,
+    "enum_name": "ScPing",
+    "class_name": "SC_PING",
+    "guessed_class_name": "SC_PING",
+    "direction": "sc"
+  },
+  "6": {
+    "msg_id": 6,
+    "enum_name": "ScReconnectIncr",
+    "class_name": "SC_RECONNECT_INCR",
+    "guessed_class_name": "SC_RECONNECT_INCR",
+    "direction": "sc"
+  },
+  "7": {
+    "msg_id": 7,
+    "enum_name": "ScReconnectFull",
+    "class_name": "SC_RECONNECT_FULL",
+    "guessed_class_name": "SC_RECONNECT_FULL",
+    "direction": "sc"
+  },
+  "8": {
+    "msg_id": 8,
+    "enum_name": "ScFlushSync",
+    "class_name": "SC_FLUSH_SYNC",
+    "guessed_class_name": "SC_FLUSH_SYNC",
+    "direction": "sc"
+  },
+  "9": {
+    "msg_id": 9,
+    "enum_name": "ScNtfCode",
+    "class_name": "SC_NTF_CODE",
+    "guessed_class_name": "SC_NTF_CODE",
+    "direction": "sc"
+  },
+  "10": {
+    "msg_id": 10,
+    "enum_name": "ScSetName",
+    "class_name": "SC_SET_NAME",
+    "guessed_class_name": "SC_SET_NAME",
+    "direction": "sc"
+  },
+  "11": {
+    "msg_id": 11,
+    "enum_name": "ScSetGender",
+    "class_name": "SC_SET_GENDER",
+    "guessed_class_name": "SC_SET_GENDER",
+    "direction": "sc"
+  },
+  "12": {
+    "msg_id": 12,
+    "enum_name": "ScCheckName",
+    "class_name": "SC_CHECK_NAME",
+    "guessed_class_name": "SC_CHECK_NAME",
+    "direction": "sc"
+  },
+  "13": {
+    "msg_id": 13,
+    "enum_name": "ScCheckSensitive",
+    "class_name": "SC_CHECK_SENSITIVE",
+    "guessed_class_name": "SC_CHECK_SENSITIVE",
+    "direction": "sc"
+  },
+  "14": {
+    "msg_id": 14,
+    "enum_name": "ScSyncFullDataEnd",
+    "class_name": "SC_SYNC_FULL_DATA_END",
+    "guessed_class_name": "SC_SYNC_FULL_DATA_END",
+    "direction": "sc"
+  },
+  "15": {
+    "msg_id": 15,
+    "enum_name": "ScSetClientSetting",
+    "class_name": "SC_SET_CLIENT_SETTING",
+    "guessed_class_name": "SC_SET_CLIENT_SETTING",
+    "direction": "sc"
+  },
+  "16": {
+    "msg_id": 16,
+    "enum_name": "ScCreateRole",
+    "class_name": "SC_CREATE_ROLE",
+    "guessed_class_name": "SC_CREATE_ROLE",
+    "direction": "sc"
+  },
+  "17": {
+    "msg_id": 17,
+    "enum_name": "ScSyncClientSwitch",
+    "class_name": "SC_SYNC_CLIENT_SWITCH",
+    "guessed_class_name": "SC_SYNC_CLIENT_SWITCH",
+    "direction": "sc"
+  },
+  "20": {
+    "msg_id": 20,
+    "enum_name": "ScSyncAllRoleScene",
+    "class_name": "SC_SYNC_ALL_ROLE_SCENE",
+    "guessed_class_name": "SC_SYNC_ALL_ROLE_SCENE",
+    "direction": "sc"
+  },
+  "21": {
+    "msg_id": 21,
+    "enum_name": "ScObjectEnterView",
+    "class_name": "SC_OBJECT_ENTER_VIEW",
+    "guessed_class_name": "SC_OBJECT_ENTER_VIEW",
+    "direction": "sc"
+  },
+  "22": {
+    "msg_id": 22,
+    "enum_name": "ScObjectLeaveView",
+    "class_name": "SC_OBJECT_LEAVE_VIEW",
+    "guessed_class_name": "SC_OBJECT_LEAVE_VIEW",
+    "direction": "sc"
+  },
+  "23": {
+    "msg_id": 23,
+    "enum_name": "ScMoveObjectMove",
+    "class_name": "SC_MOVE_OBJECT_MOVE",
+    "guessed_class_name": "SC_MOVE_OBJECT_MOVE",
+    "direction": "sc"
+  },
+  "24": {
+    "msg_id": 24,
+    "enum_name": "ScEnterSceneNotify",
+    "class_name": "SC_ENTER_SCENE_NOTIFY",
+    "guessed_class_name": "SC_ENTER_SCENE_NOTIFY",
+    "direction": "sc"
+  },
+  "25": {
+    "msg_id": 25,
+    "enum_name": "ScSelfSceneInfo",
+    "class_name": "SC_SELF_SCENE_INFO",
+    "guessed_class_name": "SC_SELF_SCENE_INFO",
+    "direction": "sc"
+  },
+  "26": {
+    "msg_id": 26,
+    "enum_name": "ScLeaveSceneNotify",
+    "class_name": "SC_LEAVE_SCENE_NOTIFY",
+    "guessed_class_name": "SC_LEAVE_SCENE_NOTIFY",
+    "direction": "sc"
+  },
+  "27": {
+    "msg_id": 27,
+    "enum_name": "ScSceneSetLastRecordCampid",
+    "class_name": "SC_SCENE_SET_LAST_RECORD_CAMPID",
+    "guessed_class_name": "SC_SCENE_SET_LAST_RECORD_CAMPID",
+    "direction": "sc"
+  },
+  "28": {
+    "msg_id": 28,
+    "enum_name": "ScSceneUpdateInteractiveProperty",
+    "class_name": "SC_SCENE_UPDATE_INTERACTIVE_PROPERTY",
+    "guessed_class_name": "SC_SCENE_UPDATE_INTERACTIVE_PROPERTY",
+    "direction": "sc"
+  },
+  "30": {
+    "msg_id": 30,
+    "enum_name": "ScSceneRevival",
+    "class_name": "SC_SCENE_REVIVAL",
+    "guessed_class_name": "SC_SCENE_REVIVAL",
+    "direction": "sc"
+  },
+  "31": {
+    "msg_id": 31,
+    "enum_name": "ScSceneCreateEntity",
+    "class_name": "SC_SCENE_CREATE_ENTITY",
+    "guessed_class_name": "SC_SCENE_CREATE_ENTITY",
+    "direction": "sc"
+  },
+  "32": {
+    "msg_id": 32,
+    "enum_name": "ScSceneDestroyEntity",
+    "class_name": "SC_SCENE_DESTROY_ENTITY",
+    "guessed_class_name": "SC_SCENE_DESTROY_ENTITY",
+    "direction": "sc"
+  },
+  "35": {
+    "msg_id": 35,
+    "enum_name": "ScSceneSetSafeZone",
+    "class_name": "SC_SCENE_SET_SAFE_ZONE",
+    "guessed_class_name": "SC_SCENE_SET_SAFE_ZONE",
+    "direction": "sc"
+  },
+  "37": {
+    "msg_id": 37,
+    "enum_name": "ScSceneLevelScriptStateNotify",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_STATE_NOTIFY",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_STATE_NOTIFY",
+    "direction": "sc"
+  },
+  "39": {
+    "msg_id": 39,
+    "enum_name": "ScSceneUnlockArea",
+    "class_name": "SC_SCENE_UNLOCK_AREA",
+    "guessed_class_name": "SC_SCENE_UNLOCK_AREA",
+    "direction": "sc"
+  },
+  "40": {
+    "msg_id": 40,
+    "enum_name": "ScSceneSetTrackPoint",
+    "class_name": "SC_SCENE_SET_TRACK_POINT",
+    "guessed_class_name": "SC_SCENE_SET_TRACK_POINT",
+    "direction": "sc"
+  },
+  "42": {
+    "msg_id": 42,
+    "enum_name": "ScSceneCollectionSync",
+    "class_name": "SC_SCENE_COLLECTION_SYNC",
+    "guessed_class_name": "SC_SCENE_COLLECTION_SYNC",
+    "direction": "sc"
+  },
+  "43": {
+    "msg_id": 43,
+    "enum_name": "ScSceneCollectionModify",
+    "class_name": "SC_SCENE_COLLECTION_MODIFY",
+    "guessed_class_name": "SC_SCENE_COLLECTION_MODIFY",
+    "direction": "sc"
+  },
+  "44": {
+    "msg_id": 44,
+    "enum_name": "ScSceneMapMarkSync",
+    "class_name": "SC_SCENE_MAP_MARK_SYNC",
+    "guessed_class_name": "SC_SCENE_MAP_MARK_SYNC",
+    "direction": "sc"
+  },
+  "45": {
+    "msg_id": 45,
+    "enum_name": "ScSceneStaticMapMarkModify",
+    "class_name": "SC_SCENE_STATIC_MAP_MARK_MODIFY",
+    "guessed_class_name": "SC_SCENE_STATIC_MAP_MARK_MODIFY",
+    "direction": "sc"
+  },
+  "46": {
+    "msg_id": 46,
+    "enum_name": "ScSceneTeleport",
+    "class_name": "SC_SCENE_TELEPORT",
+    "guessed_class_name": "SC_SCENE_TELEPORT",
+    "direction": "sc"
+  },
+  "47": {
+    "msg_id": 47,
+    "enum_name": "ScSceneSubmitItem",
+    "class_name": "SC_SCENE_SUBMIT_ITEM",
+    "guessed_class_name": "SC_SCENE_SUBMIT_ITEM",
+    "direction": "sc"
+  },
+  "48": {
+    "msg_id": 48,
+    "enum_name": "ScSceneSubmitEther",
+    "class_name": "SC_SCENE_SUBMIT_ETHER",
+    "guessed_class_name": "SC_SCENE_SUBMIT_ETHER",
+    "direction": "sc"
+  },
+  "49": {
+    "msg_id": 49,
+    "enum_name": "ScSceneUpdateLevelScriptProperty",
+    "class_name": "SC_SCENE_UPDATE_LEVEL_SCRIPT_PROPERTY",
+    "guessed_class_name": "SC_SCENE_UPDATE_LEVEL_SCRIPT_PROPERTY",
+    "direction": "sc"
+  },
+  "50": {
+    "msg_id": 50,
+    "enum_name": "ScSceneResetEntity",
+    "class_name": "SC_SCENE_RESET_ENTITY",
+    "guessed_class_name": "SC_SCENE_RESET_ENTITY",
+    "direction": "sc"
+  },
+  "51": {
+    "msg_id": 51,
+    "enum_name": "ScSceneLevelScriptResetBegin",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_RESET_BEGIN",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_RESET_BEGIN",
+    "direction": "sc"
+  },
+  "52": {
+    "msg_id": 52,
+    "enum_name": "ScSceneLevelScriptResetEnd",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_RESET_END",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_RESET_END",
+    "direction": "sc"
+  },
+  "53": {
+    "msg_id": 53,
+    "enum_name": "ScSceneSetBattle",
+    "class_name": "SC_SCENE_SET_BATTLE",
+    "guessed_class_name": "SC_SCENE_SET_BATTLE",
+    "direction": "sc"
+  },
+  "55": {
+    "msg_id": 55,
+    "enum_name": "ScSceneLevelScriptEventTrigger",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_EVENT_TRIGGER",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_EVENT_TRIGGER",
+    "direction": "sc"
+  },
+  "56": {
+    "msg_id": 56,
+    "enum_name": "ScSceneInteractiveEventTrigger",
+    "class_name": "SC_SCENE_INTERACTIVE_EVENT_TRIGGER",
+    "guessed_class_name": "SC_SCENE_INTERACTIVE_EVENT_TRIGGER",
+    "direction": "sc"
+  },
+  "57": {
+    "msg_id": 57,
+    "enum_name": "ScSceneTriggerClientLevelScriptEvent",
+    "class_name": "SC_SCENE_TRIGGER_CLIENT_LEVEL_SCRIPT_EVENT",
+    "guessed_class_name": "SC_SCENE_TRIGGER_CLIENT_LEVEL_SCRIPT_EVENT",
+    "direction": "sc"
+  },
+  "58": {
+    "msg_id": 58,
+    "enum_name": "ScSceneTriggerClientInteractiveEvent",
+    "class_name": "SC_SCENE_TRIGGER_CLIENT_INTERACTIVE_EVENT",
+    "guessed_class_name": "SC_SCENE_TRIGGER_CLIENT_INTERACTIVE_EVENT",
+    "direction": "sc"
+  },
+  "59": {
+    "msg_id": 59,
+    "enum_name": "ScSceneCrossSceneStatus",
+    "class_name": "SC_SCENE_CROSS_SCENE_STATUS",
+    "guessed_class_name": "SC_SCENE_CROSS_SCENE_STATUS",
+    "direction": "sc"
+  },
+  "800": {
+    "msg_id": 800,
+    "enum_name": "ScSceneDropCreate",
+    "class_name": "SC_SCENE_DROP_CREATE",
+    "guessed_class_name": "SC_SCENE_DROP_CREATE",
+    "direction": "sc"
+  },
+  "801": {
+    "msg_id": 801,
+    "enum_name": "ScSceneDropDelete",
+    "class_name": "SC_SCENE_DROP_DELETE",
+    "guessed_class_name": "SC_SCENE_DROP_DELETE",
+    "direction": "sc"
+  },
+  "802": {
+    "msg_id": 802,
+    "enum_name": "ScSceneDropModify",
+    "class_name": "SC_SCENE_DROP_MODIFY",
+    "guessed_class_name": "SC_SCENE_DROP_MODIFY",
+    "direction": "sc"
+  },
+  "804": {
+    "msg_id": 804,
+    "enum_name": "ScSeamlessSceneDestroyNotify",
+    "class_name": "SC_SEAMLESS_SCENE_DESTROY_NOTIFY",
+    "guessed_class_name": "SC_SEAMLESS_SCENE_DESTROY_NOTIFY",
+    "direction": "sc"
+  },
+  "805": {
+    "msg_id": 805,
+    "enum_name": "ScSceneMonsterSpawnerStart",
+    "class_name": "SC_SCENE_MONSTER_SPAWNER_START",
+    "guessed_class_name": "SC_SCENE_MONSTER_SPAWNER_START",
+    "direction": "sc"
+  },
+  "806": {
+    "msg_id": 806,
+    "enum_name": "ScSceneMonsterSpawnerStop",
+    "class_name": "SC_SCENE_MONSTER_SPAWNER_STOP",
+    "guessed_class_name": "SC_SCENE_MONSTER_SPAWNER_STOP",
+    "direction": "sc"
+  },
+  "807": {
+    "msg_id": 807,
+    "enum_name": "ScSceneMonsterSpawnerComplete",
+    "class_name": "SC_SCENE_MONSTER_SPAWNER_COMPLETE",
+    "guessed_class_name": "SC_SCENE_MONSTER_SPAWNER_COMPLETE",
+    "direction": "sc"
+  },
+  "808": {
+    "msg_id": 808,
+    "enum_name": "ScSceneMonsterSpawnerBeginWave",
+    "class_name": "SC_SCENE_MONSTER_SPAWNER_BEGIN_WAVE",
+    "guessed_class_name": "SC_SCENE_MONSTER_SPAWNER_BEGIN_WAVE",
+    "direction": "sc"
+  },
+  "809": {
+    "msg_id": 809,
+    "enum_name": "ScSceneMonsterSpawnerWaveComplete",
+    "class_name": "SC_SCENE_MONSTER_SPAWNER_WAVE_COMPLETE",
+    "guessed_class_name": "SC_SCENE_MONSTER_SPAWNER_WAVE_COMPLETE",
+    "direction": "sc"
+  },
+  "810": {
+    "msg_id": 810,
+    "enum_name": "ScSceneMonsterSpawnerWavePreComplete",
+    "class_name": "SC_SCENE_MONSTER_SPAWNER_WAVE_PRE_COMPLETE",
+    "guessed_class_name": "SC_SCENE_MONSTER_SPAWNER_WAVE_PRE_COMPLETE",
+    "direction": "sc"
+  },
+  "811": {
+    "msg_id": 811,
+    "enum_name": "ScSceneMonsterSpawnerObjectDataBegin",
+    "class_name": "SC_SCENE_MONSTER_SPAWNER_OBJECT_DATA_BEGIN",
+    "guessed_class_name": "SC_SCENE_MONSTER_SPAWNER_OBJECT_DATA_BEGIN",
+    "direction": "sc"
+  },
+  "812": {
+    "msg_id": 812,
+    "enum_name": "ScSceneMonsterSpawnerObjectDataEnd",
+    "class_name": "SC_SCENE_MONSTER_SPAWNER_OBJECT_DATA_END",
+    "guessed_class_name": "SC_SCENE_MONSTER_SPAWNER_OBJECT_DATA_END",
+    "direction": "sc"
+  },
+  "813": {
+    "msg_id": 813,
+    "enum_name": "ScSceneLevelScriptTaskStateUpdate",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_TASK_STATE_UPDATE",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_TASK_STATE_UPDATE",
+    "direction": "sc"
+  },
+  "814": {
+    "msg_id": 814,
+    "enum_name": "ScSceneClientIdInfo",
+    "class_name": "SC_SCENE_CLIENT_ID_INFO",
+    "guessed_class_name": "SC_SCENE_CLIENT_ID_INFO",
+    "direction": "sc"
+  },
+  "815": {
+    "msg_id": 815,
+    "enum_name": "ScSceneLevelScriptTaskProgressUpdate",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_TASK_PROGRESS_UPDATE",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_TASK_PROGRESS_UPDATE",
+    "direction": "sc"
+  },
+  "816": {
+    "msg_id": 816,
+    "enum_name": "ScSceneLevelScriptTaskStartFinish",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_TASK_START_FINISH",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_TASK_START_FINISH",
+    "direction": "sc"
+  },
+  "817": {
+    "msg_id": 817,
+    "enum_name": "ScSceneInteractSpInteractive",
+    "class_name": "SC_SCENE_INTERACT_SP_INTERACTIVE",
+    "guessed_class_name": "SC_SCENE_INTERACT_SP_INTERACTIVE",
+    "direction": "sc"
+  },
+  "818": {
+    "msg_id": 818,
+    "enum_name": "ScSceneUpdateInteractiveMeta",
+    "class_name": "SC_SCENE_UPDATE_INTERACTIVE_META",
+    "guessed_class_name": "SC_SCENE_UPDATE_INTERACTIVE_META",
+    "direction": "sc"
+  },
+  "820": {
+    "msg_id": 820,
+    "enum_name": "ScSceneSetStorySafeZone",
+    "class_name": "SC_SCENE_SET_STORY_SAFE_ZONE",
+    "guessed_class_name": "SC_SCENE_SET_STORY_SAFE_ZONE",
+    "direction": "sc"
+  },
+  "821": {
+    "msg_id": 821,
+    "enum_name": "ScSceneRepatriate",
+    "class_name": "SC_SCENE_REPATRIATE",
+    "guessed_class_name": "SC_SCENE_REPATRIATE",
+    "direction": "sc"
+  },
+  "823": {
+    "msg_id": 823,
+    "enum_name": "ScSceneLevelScriptSetDone",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_SET_DONE",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_SET_DONE",
+    "direction": "sc"
+  },
+  "824": {
+    "msg_id": 824,
+    "enum_name": "ScSceneModifyTriggerVolumeSync",
+    "class_name": "SC_SCENE_MODIFY_TRIGGER_VOLUME_SYNC",
+    "guessed_class_name": "SC_SCENE_MODIFY_TRIGGER_VOLUME_SYNC",
+    "direction": "sc"
+  },
+  "825": {
+    "msg_id": 825,
+    "enum_name": "ScSceneLevelScriptStageChange",
+    "class_name": "SC_SCENE_LEVEL_SCRIPT_STAGE_CHANGE",
+    "guessed_class_name": "SC_SCENE_LEVEL_SCRIPT_STAGE_CHANGE",
+    "direction": "sc"
+  },
+  "826": {
+    "msg_id": 826,
+    "enum_name": "ScSceneDynamicMapMarkModify",
+    "class_name": "SC_SCENE_DYNAMIC_MAP_MARK_MODIFY",
+    "guessed_class_name": "SC_SCENE_DYNAMIC_MAP_MARK_MODIFY",
+    "direction": "sc"
+  },
+  "827": {
+    "msg_id": 827,
+    "enum_name": "ScSceneDetectMapMark",
+    "class_name": "SC_SCENE_DETECT_MAP_MARK",
+    "guessed_class_name": "SC_SCENE_DETECT_MAP_MARK",
+    "direction": "sc"
+  },
+  "828": {
+    "msg_id": 828,
+    "enum_name": "ScSceneInteractNpc",
+    "class_name": "SC_SCENE_INTERACT_NPC",
+    "guessed_class_name": "SC_SCENE_INTERACT_NPC",
+    "direction": "sc"
+  },
+  "829": {
+    "msg_id": 829,
+    "enum_name": "ScSceneUpdateNpcLastInteractTime",
+    "class_name": "SC_SCENE_UPDATE_NPC_LAST_INTERACT_TIME",
+    "guessed_class_name": "SC_SCENE_UPDATE_NPC_LAST_INTERACT_TIME",
+    "direction": "sc"
+  },
+  "830": {
+    "msg_id": 830,
+    "enum_name": "ScSceneGameplayElectricityDataSync",
+    "class_name": "SC_SCENE_GAMEPLAY_ELECTRICITY_DATA_SYNC",
+    "guessed_class_name": "SC_SCENE_GAMEPLAY_ELECTRICITY_DATA_SYNC",
+    "direction": "sc"
+  },
+  "831": {
+    "msg_id": 831,
+    "enum_name": "ScSceneInteractSpInteractiveList",
+    "class_name": "SC_SCENE_INTERACT_SP_INTERACTIVE_LIST",
+    "guessed_class_name": "SC_SCENE_INTERACT_SP_INTERACTIVE_LIST",
+    "direction": "sc"
+  },
+  "832": {
+    "msg_id": 832,
+    "enum_name": "ScSceneCrossBorderNotify",
+    "class_name": "SC_SCENE_CROSS_BORDER_NOTIFY",
+    "guessed_class_name": "SC_SCENE_CROSS_BORDER_NOTIFY",
+    "direction": "sc"
+  },
+  "833": {
+    "msg_id": 833,
+    "enum_name": "ScSceneCheckpointDebugInfo",
+    "class_name": "SC_SCENE_CHECKPOINT_DEBUG_INFO",
+    "guessed_class_name": "SC_SCENE_CHECKPOINT_DEBUG_INFO",
+    "direction": "sc"
+  },
+  "834": {
+    "msg_id": 834,
+    "enum_name": "ScSceneCheckpointSetDebugInfo",
+    "class_name": "SC_SCENE_CHECKPOINT_SET_DEBUG_INFO",
+    "guessed_class_name": "SC_SCENE_CHECKPOINT_SET_DEBUG_INFO",
+    "direction": "sc"
+  },
+  "835": {
+    "msg_id": 835,
+    "enum_name": "ScSceneDebugServerScript",
+    "class_name": "SC_SCENE_DEBUG_SERVER_SCRIPT",
+    "guessed_class_name": "SC_SCENE_DEBUG_SERVER_SCRIPT",
+    "direction": "sc"
+  },
+  "836": {
+    "msg_id": 836,
+    "enum_name": "ScSceneSyncCurMapVar",
+    "class_name": "SC_SCENE_SYNC_CUR_MAP_VAR",
+    "guessed_class_name": "SC_SCENE_SYNC_CUR_MAP_VAR",
+    "direction": "sc"
+  },
+  "837": {
+    "msg_id": 837,
+    "enum_name": "ScSceneUpdateMapVar",
+    "class_name": "SC_SCENE_UPDATE_MAP_VAR",
+    "guessed_class_name": "SC_SCENE_UPDATE_MAP_VAR",
+    "direction": "sc"
+  },
+  "838": {
+    "msg_id": 838,
+    "enum_name": "ScChangeSceneBeginNotify",
+    "class_name": "SC_CHANGE_SCENE_BEGIN_NOTIFY",
+    "guessed_class_name": "SC_CHANGE_SCENE_BEGIN_NOTIFY",
+    "direction": "sc"
+  },
+  "839": {
+    "msg_id": 839,
+    "enum_name": "ScSceneGetUnstuckRsp",
+    "class_name": "SC_SCENE_GET_UNSTUCK_RSP",
+    "guessed_class_name": "SC_SCENE_GET_UNSTUCK_RSP",
+    "direction": "sc"
+  },
+  "60": {
+    "msg_id": 60,
+    "enum_name": "ScSyncCharBagInfo",
+    "class_name": "SC_SYNC_CHAR_BAG_INFO",
+    "guessed_class_name": "SC_SYNC_CHAR_BAG_INFO",
+    "direction": "sc"
+  },
+  "61": {
+    "msg_id": 61,
+    "enum_name": "ScCharBagAddChar",
+    "class_name": "SC_CHAR_BAG_ADD_CHAR",
+    "guessed_class_name": "SC_CHAR_BAG_ADD_CHAR",
+    "direction": "sc"
+  },
+  "62": {
+    "msg_id": 62,
+    "enum_name": "ScCharBagSetTeam",
+    "class_name": "SC_CHAR_BAG_SET_TEAM",
+    "guessed_class_name": "SC_CHAR_BAG_SET_TEAM",
+    "direction": "sc"
+  },
+  "63": {
+    "msg_id": 63,
+    "enum_name": "ScCharBagSyncPersistentBuffs",
+    "class_name": "SC_CHAR_BAG_SYNC_PERSISTENT_BUFFS",
+    "guessed_class_name": "SC_CHAR_BAG_SYNC_PERSISTENT_BUFFS",
+    "direction": "sc"
+  },
+  "64": {
+    "msg_id": 64,
+    "enum_name": "ScCharBagSetTeamName",
+    "class_name": "SC_CHAR_BAG_SET_TEAM_NAME",
+    "guessed_class_name": "SC_CHAR_BAG_SET_TEAM_NAME",
+    "direction": "sc"
+  },
+  "65": {
+    "msg_id": 65,
+    "enum_name": "ScCharBagSetTeamLeader",
+    "class_name": "SC_CHAR_BAG_SET_TEAM_LEADER",
+    "guessed_class_name": "SC_CHAR_BAG_SET_TEAM_LEADER",
+    "direction": "sc"
+  },
+  "66": {
+    "msg_id": 66,
+    "enum_name": "ScCharBagSetMaxTeamMemberCount",
+    "class_name": "SC_CHAR_BAG_SET_MAX_TEAM_MEMBER_COUNT",
+    "guessed_class_name": "SC_CHAR_BAG_SET_MAX_TEAM_MEMBER_COUNT",
+    "direction": "sc"
+  },
+  "67": {
+    "msg_id": 67,
+    "enum_name": "ScCharBagTeamLeaderNotMatchNtf",
+    "class_name": "SC_CHAR_BAG_TEAM_LEADER_NOT_MATCH_NTF",
+    "guessed_class_name": "SC_CHAR_BAG_TEAM_LEADER_NOT_MATCH_NTF",
+    "direction": "sc"
+  },
+  "68": {
+    "msg_id": 68,
+    "enum_name": "ScCharBagDelChar",
+    "class_name": "SC_CHAR_BAG_DEL_CHAR",
+    "guessed_class_name": "SC_CHAR_BAG_DEL_CHAR",
+    "direction": "sc"
+  },
+  "69": {
+    "msg_id": 69,
+    "enum_name": "ScCharBagAddCharWithConversionNotify",
+    "class_name": "SC_CHAR_BAG_ADD_CHAR_WITH_CONVERSION_NOTIFY",
+    "guessed_class_name": "SC_CHAR_BAG_ADD_CHAR_WITH_CONVERSION_NOTIFY",
+    "direction": "sc"
+  },
+  "70": {
+    "msg_id": 70,
+    "enum_name": "ScSyncWallet",
+    "class_name": "SC_SYNC_WALLET",
+    "guessed_class_name": "SC_SYNC_WALLET",
+    "direction": "sc"
+  },
+  "71": {
+    "msg_id": 71,
+    "enum_name": "ScWalletSyncMoney",
+    "class_name": "SC_WALLET_SYNC_MONEY",
+    "guessed_class_name": "SC_WALLET_SYNC_MONEY",
+    "direction": "sc"
+  },
+  "72": {
+    "msg_id": 72,
+    "enum_name": "ScSyncWalletRecord",
+    "class_name": "SC_SYNC_WALLET_RECORD",
+    "guessed_class_name": "SC_SYNC_WALLET_RECORD",
+    "direction": "sc"
+  },
+  "78": {
+    "msg_id": 78,
+    "enum_name": "ScCharSkillInfos",
+    "class_name": "SC_CHAR_SKILL_INFOS",
+    "guessed_class_name": "SC_CHAR_SKILL_INFOS",
+    "direction": "sc"
+  },
+  "79": {
+    "msg_id": 79,
+    "enum_name": "ScCharPotentialUnlock",
+    "class_name": "SC_CHAR_POTENTIAL_UNLOCK",
+    "guessed_class_name": "SC_CHAR_POTENTIAL_UNLOCK",
+    "direction": "sc"
+  },
+  "80": {
+    "msg_id": 80,
+    "enum_name": "ScCharLevelUp",
+    "class_name": "SC_CHAR_LEVEL_UP",
+    "guessed_class_name": "SC_CHAR_LEVEL_UP",
+    "direction": "sc"
+  },
+  "81": {
+    "msg_id": 81,
+    "enum_name": "ScCharSetPotentialCg",
+    "class_name": "SC_CHAR_SET_POTENTIAL_CG",
+    "guessed_class_name": "SC_CHAR_SET_POTENTIAL_CG",
+    "direction": "sc"
+  },
+  "82": {
+    "msg_id": 82,
+    "enum_name": "ScCharSyncLevelExp",
+    "class_name": "SC_CHAR_SYNC_LEVEL_EXP",
+    "guessed_class_name": "SC_CHAR_SYNC_LEVEL_EXP",
+    "direction": "sc"
+  },
+  "84": {
+    "msg_id": 84,
+    "enum_name": "ScCharSkillLevelUp",
+    "class_name": "SC_CHAR_SKILL_LEVEL_UP",
+    "guessed_class_name": "SC_CHAR_SKILL_LEVEL_UP",
+    "direction": "sc"
+  },
+  "86": {
+    "msg_id": 86,
+    "enum_name": "ScCharGainExpToast",
+    "class_name": "SC_CHAR_GAIN_EXP_TOAST",
+    "guessed_class_name": "SC_CHAR_GAIN_EXP_TOAST",
+    "direction": "sc"
+  },
+  "87": {
+    "msg_id": 87,
+    "enum_name": "ScCharSyncStatus",
+    "class_name": "SC_CHAR_SYNC_STATUS",
+    "guessed_class_name": "SC_CHAR_SYNC_STATUS",
+    "direction": "sc"
+  },
+  "90": {
+    "msg_id": 90,
+    "enum_name": "ScEquipPuton",
+    "class_name": "SC_EQUIP_PUTON",
+    "guessed_class_name": "SC_EQUIP_PUTON",
+    "direction": "sc"
+  },
+  "91": {
+    "msg_id": 91,
+    "enum_name": "ScEquipPutoff",
+    "class_name": "SC_EQUIP_PUTOFF",
+    "guessed_class_name": "SC_EQUIP_PUTOFF",
+    "direction": "sc"
+  },
+  "92": {
+    "msg_id": 92,
+    "enum_name": "ScEquipMedicineModify",
+    "class_name": "SC_EQUIP_MEDICINE_MODIFY",
+    "guessed_class_name": "SC_EQUIP_MEDICINE_MODIFY",
+    "direction": "sc"
+  },
+  "93": {
+    "msg_id": 93,
+    "enum_name": "ScEquipRecycle",
+    "class_name": "SC_EQUIP_RECYCLE",
+    "guessed_class_name": "SC_EQUIP_RECYCLE",
+    "direction": "sc"
+  },
+  "94": {
+    "msg_id": 94,
+    "enum_name": "ScEquipEnhance",
+    "class_name": "SC_EQUIP_ENHANCE",
+    "guessed_class_name": "SC_EQUIP_ENHANCE",
+    "direction": "sc"
+  },
+  "96": {
+    "msg_id": 96,
+    "enum_name": "ScEquipProduce",
+    "class_name": "SC_EQUIP_PRODUCE",
+    "guessed_class_name": "SC_EQUIP_PRODUCE",
+    "direction": "sc"
+  },
+  "110": {
+    "msg_id": 110,
+    "enum_name": "ScSyncAllMission",
+    "class_name": "SC_SYNC_ALL_MISSION",
+    "guessed_class_name": "SC_SYNC_ALL_MISSION",
+    "direction": "sc"
+  },
+  "111": {
+    "msg_id": 111,
+    "enum_name": "ScQuestStateUpdate",
+    "class_name": "SC_QUEST_STATE_UPDATE",
+    "guessed_class_name": "SC_QUEST_STATE_UPDATE",
+    "direction": "sc"
+  },
+  "112": {
+    "msg_id": 112,
+    "enum_name": "ScMissionStateUpdate",
+    "class_name": "SC_MISSION_STATE_UPDATE",
+    "guessed_class_name": "SC_MISSION_STATE_UPDATE",
+    "direction": "sc"
+  },
+  "113": {
+    "msg_id": 113,
+    "enum_name": "ScQuestFailed",
+    "class_name": "SC_QUEST_FAILED",
+    "guessed_class_name": "SC_QUEST_FAILED",
+    "direction": "sc"
+  },
+  "114": {
+    "msg_id": 114,
+    "enum_name": "ScMissionFailed",
+    "class_name": "SC_MISSION_FAILED",
+    "guessed_class_name": "SC_MISSION_FAILED",
+    "direction": "sc"
+  },
+  "115": {
+    "msg_id": 115,
+    "enum_name": "ScTrackMissionChange",
+    "class_name": "SC_TRACK_MISSION_CHANGE",
+    "guessed_class_name": "SC_TRACK_MISSION_CHANGE",
+    "direction": "sc"
+  },
+  "116": {
+    "msg_id": 116,
+    "enum_name": "ScQuestObjectivesUpdate",
+    "class_name": "SC_QUEST_OBJECTIVES_UPDATE",
+    "guessed_class_name": "SC_QUEST_OBJECTIVES_UPDATE",
+    "direction": "sc"
+  },
+  "117": {
+    "msg_id": 117,
+    "enum_name": "ScMissionDeleted",
+    "class_name": "SC_MISSION_DELETED",
+    "guessed_class_name": "SC_MISSION_DELETED",
+    "direction": "sc"
+  },
+  "118": {
+    "msg_id": 118,
+    "enum_name": "ScUpdateMissionPauseState",
+    "class_name": "SC_UPDATE_MISSION_PAUSE_STATE",
+    "guessed_class_name": "SC_UPDATE_MISSION_PAUSE_STATE",
+    "direction": "sc"
+  },
+  "119": {
+    "msg_id": 119,
+    "enum_name": "ScUpdateQuestPauseState",
+    "class_name": "SC_UPDATE_QUEST_PAUSE_STATE",
+    "guessed_class_name": "SC_UPDATE_QUEST_PAUSE_STATE",
+    "direction": "sc"
+  },
+  "120": {
+    "msg_id": 120,
+    "enum_name": "ScTryTrackBlockQuestMission",
+    "class_name": "",
+    "guessed_class_name": "SC_TRY_TRACK_BLOCK_QUEST_MISSION",
+    "direction": "sc"
+  },
+  "123": {
+    "msg_id": 123,
+    "enum_name": "ScQuestRollback",
+    "class_name": "SC_QUEST_ROLLBACK",
+    "guessed_class_name": "SC_QUEST_ROLLBACK",
+    "direction": "sc"
+  },
+  "124": {
+    "msg_id": 124,
+    "enum_name": "ScUpdateMissionProperty",
+    "class_name": "SC_UPDATE_MISSION_PROPERTY",
+    "guessed_class_name": "SC_UPDATE_MISSION_PROPERTY",
+    "direction": "sc"
+  },
+  "125": {
+    "msg_id": 125,
+    "enum_name": "ScSceneTriggerClientMissionEvent",
+    "class_name": "SC_SCENE_TRIGGER_CLIENT_MISSION_EVENT",
+    "guessed_class_name": "SC_SCENE_TRIGGER_CLIENT_MISSION_EVENT",
+    "direction": "sc"
+  },
+  "126": {
+    "msg_id": 126,
+    "enum_name": "ScMissionEventTrigger",
+    "class_name": "SC_MISSION_EVENT_TRIGGER",
+    "guessed_class_name": "SC_MISSION_EVENT_TRIGGER",
+    "direction": "sc"
+  },
+  "127": {
+    "msg_id": 127,
+    "enum_name": "ScDailyMissionInfoUpdate",
+    "class_name": "SC_DAILY_MISSION_INFO_UPDATE",
+    "guessed_class_name": "SC_DAILY_MISSION_INFO_UPDATE",
+    "direction": "sc"
+  },
+  "128": {
+    "msg_id": 128,
+    "enum_name": "ScQuestDescriptionIndexUpdate",
+    "class_name": "SC_QUEST_DESCRIPTION_INDEX_UPDATE",
+    "guessed_class_name": "SC_QUEST_DESCRIPTION_INDEX_UPDATE",
+    "direction": "sc"
+  },
+  "130": {
+    "msg_id": 130,
+    "enum_name": "ScSyncAllDialog",
+    "class_name": "SC_SYNC_ALL_DIALOG",
+    "guessed_class_name": "SC_SYNC_ALL_DIALOG",
+    "direction": "sc"
+  },
+  "131": {
+    "msg_id": 131,
+    "enum_name": "ScFinishDialog",
+    "class_name": "SC_FINISH_DIALOG",
+    "guessed_class_name": "SC_FINISH_DIALOG",
+    "direction": "sc"
+  },
+  "140": {
+    "msg_id": 140,
+    "enum_name": "ScSyncAllGuide",
+    "class_name": "SC_SYNC_ALL_GUIDE",
+    "guessed_class_name": "SC_SYNC_ALL_GUIDE",
+    "direction": "sc"
+  },
+  "141": {
+    "msg_id": 141,
+    "enum_name": "ScCompleteGuideGroupKeyStep",
+    "class_name": "SC_COMPLETE_GUIDE_GROUP_KEY_STEP",
+    "guessed_class_name": "SC_COMPLETE_GUIDE_GROUP_KEY_STEP",
+    "direction": "sc"
+  },
+  "142": {
+    "msg_id": 142,
+    "enum_name": "ScCompleteGuideGroup",
+    "class_name": "SC_COMPLETE_GUIDE_GROUP",
+    "guessed_class_name": "SC_COMPLETE_GUIDE_GROUP",
+    "direction": "sc"
+  },
+  "143": {
+    "msg_id": 143,
+    "enum_name": "ScAcceptGuideGroup",
+    "class_name": "SC_ACCEPT_GUIDE_GROUP",
+    "guessed_class_name": "SC_ACCEPT_GUIDE_GROUP",
+    "direction": "sc"
+  },
+  "150": {
+    "msg_id": 150,
+    "enum_name": "ScSyncAttr",
+    "class_name": "SC_SYNC_ATTR",
+    "guessed_class_name": "SC_SYNC_ATTR",
+    "direction": "sc"
+  },
+  "160": {
+    "msg_id": 160,
+    "enum_name": "ScSyncAllUnlock",
+    "class_name": "SC_SYNC_ALL_UNLOCK",
+    "guessed_class_name": "SC_SYNC_ALL_UNLOCK",
+    "direction": "sc"
+  },
+  "161": {
+    "msg_id": 161,
+    "enum_name": "ScUnlockSystem",
+    "class_name": "SC_UNLOCK_SYSTEM",
+    "guessed_class_name": "SC_UNLOCK_SYSTEM",
+    "direction": "sc"
+  },
+  "165": {
+    "msg_id": 165,
+    "enum_name": "ScSyncAllBitset",
+    "class_name": "SC_SYNC_ALL_BITSET",
+    "guessed_class_name": "SC_SYNC_ALL_BITSET",
+    "direction": "sc"
+  },
+  "166": {
+    "msg_id": 166,
+    "enum_name": "ScBitsetAdd",
+    "class_name": "SC_BITSET_ADD",
+    "guessed_class_name": "SC_BITSET_ADD",
+    "direction": "sc"
+  },
+  "167": {
+    "msg_id": 167,
+    "enum_name": "ScBitsetRemove",
+    "class_name": "SC_BITSET_REMOVE",
+    "guessed_class_name": "SC_BITSET_REMOVE",
+    "direction": "sc"
+  },
+  "168": {
+    "msg_id": 168,
+    "enum_name": "ScBitsetRemoveAll",
+    "class_name": "SC_BITSET_REMOVE_ALL",
+    "guessed_class_name": "SC_BITSET_REMOVE_ALL",
+    "direction": "sc"
+  },
+  "180": {
+    "msg_id": 180,
+    "enum_name": "ScCharBagSetNpcTeammates",
+    "class_name": "SC_CHAR_BAG_SET_NPC_TEAMMATES",
+    "guessed_class_name": "SC_CHAR_BAG_SET_NPC_TEAMMATES",
+    "direction": "sc"
+  },
+  "200": {
+    "msg_id": 200,
+    "enum_name": "ScFactorySync",
+    "class_name": "SC_FACTORY_SYNC",
+    "guessed_class_name": "SC_FACTORY_SYNC",
+    "direction": "sc"
+  },
+  "201": {
+    "msg_id": 201,
+    "enum_name": "ScFactoryModifyFormulaMan",
+    "class_name": "SC_FACTORY_MODIFY_FORMULA_MAN",
+    "guessed_class_name": "SC_FACTORY_MODIFY_FORMULA_MAN",
+    "direction": "sc"
+  },
+  "202": {
+    "msg_id": 202,
+    "enum_name": "ScFactoryModifyStt",
+    "class_name": "SC_FACTORY_MODIFY_STT",
+    "guessed_class_name": "SC_FACTORY_MODIFY_STT",
+    "direction": "sc"
+  },
+  "203": {
+    "msg_id": 203,
+    "enum_name": "ScFactoryModifyVisibleFormula",
+    "class_name": "SC_FACTORY_MODIFY_VISIBLE_FORMULA",
+    "guessed_class_name": "SC_FACTORY_MODIFY_VISIBLE_FORMULA",
+    "direction": "sc"
+  },
+  "204": {
+    "msg_id": 204,
+    "enum_name": "ScFactoryModifyFormulaMode",
+    "class_name": "SC_FACTORY_MODIFY_FORMULA_MODE",
+    "guessed_class_name": "SC_FACTORY_MODIFY_FORMULA_MODE",
+    "direction": "sc"
+  },
+  "205": {
+    "msg_id": 205,
+    "enum_name": "ScFactorySyncOfflineInfo",
+    "class_name": "SC_FACTORY_SYNC_OFFLINE_INFO",
+    "guessed_class_name": "SC_FACTORY_SYNC_OFFLINE_INFO",
+    "direction": "sc"
+  },
+  "206": {
+    "msg_id": 206,
+    "enum_name": "ScFactoryModifyPanelStore",
+    "class_name": "SC_FACTORY_MODIFY_PANEL_STORE",
+    "guessed_class_name": "SC_FACTORY_MODIFY_PANEL_STORE",
+    "direction": "sc"
+  },
+  "207": {
+    "msg_id": 207,
+    "enum_name": "ScFactoryModifyProgressStatus",
+    "class_name": "SC_FACTORY_MODIFY_PROGRESS_STATUS",
+    "guessed_class_name": "SC_FACTORY_MODIFY_PROGRESS_STATUS",
+    "direction": "sc"
+  },
+  "210": {
+    "msg_id": 210,
+    "enum_name": "ScFactorySyncScope",
+    "class_name": "SC_FACTORY_SYNC_SCOPE",
+    "guessed_class_name": "SC_FACTORY_SYNC_SCOPE",
+    "direction": "sc"
+  },
+  "211": {
+    "msg_id": 211,
+    "enum_name": "ScFactoryReleaseScope",
+    "class_name": "SC_FACTORY_RELEASE_SCOPE",
+    "guessed_class_name": "SC_FACTORY_RELEASE_SCOPE",
+    "direction": "sc"
+  },
+  "212": {
+    "msg_id": 212,
+    "enum_name": "ScFactoryModifyScope",
+    "class_name": "SC_FACTORY_MODIFY_SCOPE",
+    "guessed_class_name": "SC_FACTORY_MODIFY_SCOPE",
+    "direction": "sc"
+  },
+  "213": {
+    "msg_id": 213,
+    "enum_name": "ScFactoryModifyQuickbar",
+    "class_name": "SC_FACTORY_MODIFY_QUICKBAR",
+    "guessed_class_name": "SC_FACTORY_MODIFY_QUICKBAR",
+    "direction": "sc"
+  },
+  "214": {
+    "msg_id": 214,
+    "enum_name": "ScFactoryManuallyWorkExec",
+    "class_name": "SC_FACTORY_MANUALLY_WORK_EXEC",
+    "guessed_class_name": "SC_FACTORY_MANUALLY_WORK_EXEC",
+    "direction": "sc"
+  },
+  "215": {
+    "msg_id": 215,
+    "enum_name": "ScFactoryProductManualUnlock",
+    "class_name": "SC_FACTORY_PRODUCT_MANUAL_UNLOCK",
+    "guessed_class_name": "SC_FACTORY_PRODUCT_MANUAL_UNLOCK",
+    "direction": "sc"
+  },
+  "216": {
+    "msg_id": 216,
+    "enum_name": "ScFactoryModifySignMgr",
+    "class_name": "SC_FACTORY_MODIFY_SIGN_MGR",
+    "guessed_class_name": "SC_FACTORY_MODIFY_SIGN_MGR",
+    "direction": "sc"
+  },
+  "217": {
+    "msg_id": 217,
+    "enum_name": "ScFactorySoilReclaim",
+    "class_name": "SC_FACTORY_SOIL_RECLAIM",
+    "guessed_class_name": "SC_FACTORY_SOIL_RECLAIM",
+    "direction": "sc"
+  },
+  "218": {
+    "msg_id": 218,
+    "enum_name": "ScFactorySoilWater",
+    "class_name": "SC_FACTORY_SOIL_WATER",
+    "guessed_class_name": "SC_FACTORY_SOIL_WATER",
+    "direction": "sc"
+  },
+  "219": {
+    "msg_id": 219,
+    "enum_name": "ScFactoryModifySharedMgr",
+    "class_name": "SC_FACTORY_MODIFY_SHARED_MGR",
+    "guessed_class_name": "SC_FACTORY_MODIFY_SHARED_MGR",
+    "direction": "sc"
+  },
+  "220": {
+    "msg_id": 220,
+    "enum_name": "ScFactorySoilHarvest",
+    "class_name": "SC_FACTORY_SOIL_HARVEST",
+    "guessed_class_name": "SC_FACTORY_SOIL_HARVEST",
+    "direction": "sc"
+  },
+  "221": {
+    "msg_id": 221,
+    "enum_name": "ScFactorySyncChapter",
+    "class_name": "SC_FACTORY_SYNC_CHAPTER",
+    "guessed_class_name": "SC_FACTORY_SYNC_CHAPTER",
+    "direction": "sc"
+  },
+  "222": {
+    "msg_id": 222,
+    "enum_name": "ScFactoryModifyChapterNodes",
+    "class_name": "SC_FACTORY_MODIFY_CHAPTER_NODES",
+    "guessed_class_name": "SC_FACTORY_MODIFY_CHAPTER_NODES",
+    "direction": "sc"
+  },
+  "223": {
+    "msg_id": 223,
+    "enum_name": "ScFactoryModifyChapterComponents",
+    "class_name": "SC_FACTORY_MODIFY_CHAPTER_COMPONENTS",
+    "guessed_class_name": "SC_FACTORY_MODIFY_CHAPTER_COMPONENTS",
+    "direction": "sc"
+  },
+  "224": {
+    "msg_id": 224,
+    "enum_name": "ScFactoryModifyChapterScene",
+    "class_name": "SC_FACTORY_MODIFY_CHAPTER_SCENE",
+    "guessed_class_name": "SC_FACTORY_MODIFY_CHAPTER_SCENE",
+    "direction": "sc"
+  },
+  "226": {
+    "msg_id": 226,
+    "enum_name": "ScFactoryModifyChapterPinBoard",
+    "class_name": "SC_FACTORY_MODIFY_CHAPTER_PIN_BOARD",
+    "guessed_class_name": "SC_FACTORY_MODIFY_CHAPTER_PIN_BOARD",
+    "direction": "sc"
+  },
+  "227": {
+    "msg_id": 227,
+    "enum_name": "ScFactoryModifyChapterMap",
+    "class_name": "SC_FACTORY_MODIFY_CHAPTER_MAP",
+    "guessed_class_name": "SC_FACTORY_MODIFY_CHAPTER_MAP",
+    "direction": "sc"
+  },
+  "228": {
+    "msg_id": 228,
+    "enum_name": "ScFactorySwitchChapter",
+    "class_name": "SC_FACTORY_SWITCH_CHAPTER",
+    "guessed_class_name": "SC_FACTORY_SWITCH_CHAPTER",
+    "direction": "sc"
+  },
+  "231": {
+    "msg_id": 231,
+    "enum_name": "ScFactoryHs",
+    "class_name": "SC_FACTORY_HS",
+    "guessed_class_name": "SC_FACTORY_HS",
+    "direction": "sc"
+  },
+  "232": {
+    "msg_id": 232,
+    "enum_name": "ScFactoryHsSync",
+    "class_name": "SC_FACTORY_HS_SYNC",
+    "guessed_class_name": "SC_FACTORY_HS_SYNC",
+    "direction": "sc"
+  },
+  "242": {
+    "msg_id": 242,
+    "enum_name": "ScFactoryModifyStatistic",
+    "class_name": "SC_FACTORY_MODIFY_STATISTIC",
+    "guessed_class_name": "SC_FACTORY_MODIFY_STATISTIC",
+    "direction": "sc"
+  },
+  "243": {
+    "msg_id": 243,
+    "enum_name": "ScFactoryStatisticRequire",
+    "class_name": "SC_FACTORY_STATISTIC_REQUIRE",
+    "guessed_class_name": "SC_FACTORY_STATISTIC_REQUIRE",
+    "direction": "sc"
+  },
+  "244": {
+    "msg_id": 244,
+    "enum_name": "ScFactoryHubWorkshopMake",
+    "class_name": "SC_FACTORY_HUB_WORKSHOP_MAKE",
+    "guessed_class_name": "SC_FACTORY_HUB_WORKSHOP_MAKE",
+    "direction": "sc"
+  },
+  "245": {
+    "msg_id": 245,
+    "enum_name": "ScFactoryHubTransportRouteModify",
+    "class_name": "SC_FACTORY_HUB_TRANSPORT_ROUTE_MODIFY",
+    "guessed_class_name": "SC_FACTORY_HUB_TRANSPORT_ROUTE_MODIFY",
+    "direction": "sc"
+  },
+  "246": {
+    "msg_id": 246,
+    "enum_name": "ScFactoryModifyStatisticBookmark",
+    "class_name": "SC_FACTORY_MODIFY_STATISTIC_BOOKMARK",
+    "guessed_class_name": "SC_FACTORY_MODIFY_STATISTIC_BOOKMARK",
+    "direction": "sc"
+  },
+  "238": {
+    "msg_id": 238,
+    "enum_name": "ScFactoryBpPublicStatus",
+    "class_name": "SC_FACTORY_BP_PUBLIC_STATUS",
+    "guessed_class_name": "SC_FACTORY_BP_PUBLIC_STATUS",
+    "direction": "sc"
+  },
+  "239": {
+    "msg_id": 239,
+    "enum_name": "ScFactorySetBluePrintFlag",
+    "class_name": "SC_FACTORY_SET_BLUE_PRINT_FLAG",
+    "guessed_class_name": "SC_FACTORY_SET_BLUE_PRINT_FLAG",
+    "direction": "sc"
+  },
+  "240": {
+    "msg_id": 240,
+    "enum_name": "ScFactoryQueryGiftBluePrint",
+    "class_name": "SC_FACTORY_QUERY_GIFT_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_QUERY_GIFT_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "241": {
+    "msg_id": 241,
+    "enum_name": "ScFactoryReportBluePrint",
+    "class_name": "SC_FACTORY_REPORT_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_REPORT_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "247": {
+    "msg_id": 247,
+    "enum_name": "ScFactoryReviewBluePrint",
+    "class_name": "SC_FACTORY_REVIEW_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_REVIEW_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "248": {
+    "msg_id": 248,
+    "enum_name": "ScFactoryShareBluePrint",
+    "class_name": "SC_FACTORY_SHARE_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_SHARE_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "249": {
+    "msg_id": 249,
+    "enum_name": "ScFactoryQuerySharedBluePrint",
+    "class_name": "SC_FACTORY_QUERY_SHARED_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_QUERY_SHARED_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "250": {
+    "msg_id": 250,
+    "enum_name": "ScFactoryFetchGiftBluePrint",
+    "class_name": "SC_FACTORY_FETCH_GIFT_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_FETCH_GIFT_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "251": {
+    "msg_id": 251,
+    "enum_name": "ScFactoryOpRet",
+    "class_name": "SC_FACTORY_OP_RET",
+    "guessed_class_name": "SC_FACTORY_OP_RET",
+    "direction": "sc"
+  },
+  "252": {
+    "msg_id": 252,
+    "enum_name": "ScFactorySyncPendingList",
+    "class_name": "SC_FACTORY_SYNC_PENDING_LIST",
+    "guessed_class_name": "SC_FACTORY_SYNC_PENDING_LIST",
+    "direction": "sc"
+  },
+  "253": {
+    "msg_id": 253,
+    "enum_name": "ScFactoryModifyPendingData",
+    "class_name": "SC_FACTORY_MODIFY_PENDING_DATA",
+    "guessed_class_name": "SC_FACTORY_MODIFY_PENDING_DATA",
+    "direction": "sc"
+  },
+  "254": {
+    "msg_id": 254,
+    "enum_name": "ScFactorySaveBluePrint",
+    "class_name": "SC_FACTORY_SAVE_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_SAVE_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "255": {
+    "msg_id": 255,
+    "enum_name": "ScFactoryDelBluePrint",
+    "class_name": "SC_FACTORY_DEL_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_DEL_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "256": {
+    "msg_id": 256,
+    "enum_name": "ScFactorySyncBluePrintData",
+    "class_name": "SC_FACTORY_SYNC_BLUE_PRINT_DATA",
+    "guessed_class_name": "SC_FACTORY_SYNC_BLUE_PRINT_DATA",
+    "direction": "sc"
+  },
+  "257": {
+    "msg_id": 257,
+    "enum_name": "ScFactorySyncBluePrintMgr",
+    "class_name": "SC_FACTORY_SYNC_BLUE_PRINT_MGR",
+    "guessed_class_name": "SC_FACTORY_SYNC_BLUE_PRINT_MGR",
+    "direction": "sc"
+  },
+  "258": {
+    "msg_id": 258,
+    "enum_name": "ScFactoryUseBluePrint",
+    "class_name": "SC_FACTORY_USE_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_USE_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "259": {
+    "msg_id": 259,
+    "enum_name": "ScFactoryModifyBluePrint",
+    "class_name": "SC_FACTORY_MODIFY_BLUE_PRINT",
+    "guessed_class_name": "SC_FACTORY_MODIFY_BLUE_PRINT",
+    "direction": "sc"
+  },
+  "260": {
+    "msg_id": 260,
+    "enum_name": "ScWeaponPuton",
+    "class_name": "SC_WEAPON_PUTON",
+    "guessed_class_name": "SC_WEAPON_PUTON",
+    "direction": "sc"
+  },
+  "262": {
+    "msg_id": 262,
+    "enum_name": "ScWeaponBreakthrough",
+    "class_name": "SC_WEAPON_BREAKTHROUGH",
+    "guessed_class_name": "SC_WEAPON_BREAKTHROUGH",
+    "direction": "sc"
+  },
+  "263": {
+    "msg_id": 263,
+    "enum_name": "ScWeaponAddExp",
+    "class_name": "SC_WEAPON_ADD_EXP",
+    "guessed_class_name": "SC_WEAPON_ADD_EXP",
+    "direction": "sc"
+  },
+  "264": {
+    "msg_id": 264,
+    "enum_name": "ScWeaponAttachGem",
+    "class_name": "SC_WEAPON_ATTACH_GEM",
+    "guessed_class_name": "SC_WEAPON_ATTACH_GEM",
+    "direction": "sc"
+  },
+  "265": {
+    "msg_id": 265,
+    "enum_name": "ScWeaponDetachGem",
+    "class_name": "SC_WEAPON_DETACH_GEM",
+    "guessed_class_name": "SC_WEAPON_DETACH_GEM",
+    "direction": "sc"
+  },
+  "266": {
+    "msg_id": 266,
+    "enum_name": "ScWeaponRefineUpgrade",
+    "class_name": "SC_WEAPON_REFINE_UPGRADE",
+    "guessed_class_name": "SC_WEAPON_REFINE_UPGRADE",
+    "direction": "sc"
+  },
+  "270": {
+    "msg_id": 270,
+    "enum_name": "ScRewardToastBegin",
+    "class_name": "SC_REWARD_TOAST_BEGIN",
+    "guessed_class_name": "SC_REWARD_TOAST_BEGIN",
+    "direction": "sc"
+  },
+  "271": {
+    "msg_id": 271,
+    "enum_name": "ScRewardToastEnd",
+    "class_name": "SC_REWARD_TOAST_END",
+    "guessed_class_name": "SC_REWARD_TOAST_END",
+    "direction": "sc"
+  },
+  "273": {
+    "msg_id": 273,
+    "enum_name": "ScRewardToSceneBegin",
+    "class_name": "SC_REWARD_TO_SCENE_BEGIN",
+    "guessed_class_name": "SC_REWARD_TO_SCENE_BEGIN",
+    "direction": "sc"
+  },
+  "274": {
+    "msg_id": 274,
+    "enum_name": "ScRewardToSceneEnd",
+    "class_name": "SC_REWARD_TO_SCENE_END",
+    "guessed_class_name": "SC_REWARD_TO_SCENE_END",
+    "direction": "sc"
+  },
+  "275": {
+    "msg_id": 275,
+    "enum_name": "ScRewardDropSpItemToast",
+    "class_name": "SC_REWARD_DROP_SP_ITEM_TOAST",
+    "guessed_class_name": "SC_REWARD_DROP_SP_ITEM_TOAST",
+    "direction": "sc"
+  },
+  "300": {
+    "msg_id": 300,
+    "enum_name": "ScDungeonBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_DUNGEON_BEGIN",
+    "direction": "sc"
+  },
+  "301": {
+    "msg_id": 301,
+    "enum_name": "ScEnterDungeon",
+    "class_name": "SC_ENTER_DUNGEON",
+    "guessed_class_name": "SC_ENTER_DUNGEON",
+    "direction": "sc"
+  },
+  "302": {
+    "msg_id": 302,
+    "enum_name": "ScRestartDungeon",
+    "class_name": "SC_RESTART_DUNGEON",
+    "guessed_class_name": "SC_RESTART_DUNGEON",
+    "direction": "sc"
+  },
+  "303": {
+    "msg_id": 303,
+    "enum_name": "ScLeaveDungeon",
+    "class_name": "SC_LEAVE_DUNGEON",
+    "guessed_class_name": "SC_LEAVE_DUNGEON",
+    "direction": "sc"
+  },
+  "304": {
+    "msg_id": 304,
+    "enum_name": "ScSyncStamina",
+    "class_name": "SC_SYNC_STAMINA",
+    "guessed_class_name": "SC_SYNC_STAMINA",
+    "direction": "sc"
+  },
+  "306": {
+    "msg_id": 306,
+    "enum_name": "ScSyncFullDungeonStatus",
+    "class_name": "SC_SYNC_FULL_DUNGEON_STATUS",
+    "guessed_class_name": "SC_SYNC_FULL_DUNGEON_STATUS",
+    "direction": "sc"
+  },
+  "307": {
+    "msg_id": 307,
+    "enum_name": "ScNtfApItemsExpireAutoUse",
+    "class_name": "SC_NTF_AP_ITEMS_EXPIRE_AUTO_USE",
+    "guessed_class_name": "SC_NTF_AP_ITEMS_EXPIRE_AUTO_USE",
+    "direction": "sc"
+  },
+  "308": {
+    "msg_id": 308,
+    "enum_name": "ScDungeonRestoreApRsp",
+    "class_name": "SC_DUNGEON_RESTORE_AP_RSP",
+    "guessed_class_name": "SC_DUNGEON_RESTORE_AP_RSP",
+    "direction": "sc"
+  },
+  "309": {
+    "msg_id": 309,
+    "enum_name": "ScRestartDungeonBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_RESTART_DUNGEON_BEGIN",
+    "direction": "sc"
+  },
+  "359": {
+    "msg_id": 359,
+    "enum_name": "ScDungeonEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_DUNGEON_END",
+    "direction": "sc"
+  },
+  "400": {
+    "msg_id": 400,
+    "enum_name": "ScSyncAllMail",
+    "class_name": "SC_SYNC_ALL_MAIL",
+    "guessed_class_name": "SC_SYNC_ALL_MAIL",
+    "direction": "sc"
+  },
+  "401": {
+    "msg_id": 401,
+    "enum_name": "ScGetMail",
+    "class_name": "SC_GET_MAIL",
+    "guessed_class_name": "SC_GET_MAIL",
+    "direction": "sc"
+  },
+  "402": {
+    "msg_id": 402,
+    "enum_name": "ScReadMail",
+    "class_name": "SC_READ_MAIL",
+    "guessed_class_name": "SC_READ_MAIL",
+    "direction": "sc"
+  },
+  "403": {
+    "msg_id": 403,
+    "enum_name": "ScGetMailAttachment",
+    "class_name": "SC_GET_MAIL_ATTACHMENT",
+    "guessed_class_name": "SC_GET_MAIL_ATTACHMENT",
+    "direction": "sc"
+  },
+  "404": {
+    "msg_id": 404,
+    "enum_name": "ScDelMailNotify",
+    "class_name": "SC_DEL_MAIL_NOTIFY",
+    "guessed_class_name": "SC_DEL_MAIL_NOTIFY",
+    "direction": "sc"
+  },
+  "405": {
+    "msg_id": 405,
+    "enum_name": "ScNewMailNotify",
+    "class_name": "SC_NEW_MAIL_NOTIFY",
+    "guessed_class_name": "SC_NEW_MAIL_NOTIFY",
+    "direction": "sc"
+  },
+  "406": {
+    "msg_id": 406,
+    "enum_name": "ScMarkStarMail",
+    "class_name": "SC_MARK_STAR_MAIL",
+    "guessed_class_name": "SC_MARK_STAR_MAIL",
+    "direction": "sc"
+  },
+  "430": {
+    "msg_id": 430,
+    "enum_name": "ScSyncGameMode",
+    "class_name": "SC_SYNC_GAME_MODE",
+    "guessed_class_name": "SC_SYNC_GAME_MODE",
+    "direction": "sc"
+  },
+  "440": {
+    "msg_id": 440,
+    "enum_name": "ScRemoveItemNewTags",
+    "class_name": "SC_REMOVE_ITEM_NEW_TAGS",
+    "guessed_class_name": "SC_REMOVE_ITEM_NEW_TAGS",
+    "direction": "sc"
+  },
+  "470": {
+    "msg_id": 470,
+    "enum_name": "ScSyncAllWiki",
+    "class_name": "SC_SYNC_ALL_WIKI",
+    "guessed_class_name": "SC_SYNC_ALL_WIKI",
+    "direction": "sc"
+  },
+  "500": {
+    "msg_id": 500,
+    "enum_name": "ScSyncAllStat",
+    "class_name": "SC_SYNC_ALL_STAT",
+    "guessed_class_name": "SC_SYNC_ALL_STAT",
+    "direction": "sc"
+  },
+  "501": {
+    "msg_id": 501,
+    "enum_name": "ScSyncStat",
+    "class_name": "SC_SYNC_STAT",
+    "guessed_class_name": "SC_SYNC_STAT",
+    "direction": "sc"
+  },
+  "511": {
+    "msg_id": 511,
+    "enum_name": "ScCharBagSetCurrTeamIndex",
+    "class_name": "SC_CHAR_BAG_SET_CURR_TEAM_INDEX",
+    "guessed_class_name": "SC_CHAR_BAG_SET_CURR_TEAM_INDEX",
+    "direction": "sc"
+  },
+  "512": {
+    "msg_id": 512,
+    "enum_name": "ScCharBagSetCurrTeamType",
+    "class_name": "SC_CHAR_BAG_SET_CURR_TEAM_TYPE",
+    "guessed_class_name": "SC_CHAR_BAG_SET_CURR_TEAM_TYPE",
+    "direction": "sc"
+  },
+  "600": {
+    "msg_id": 600,
+    "enum_name": "ScNewNoticeNotify",
+    "class_name": "SC_NEW_NOTICE_NOTIFY",
+    "guessed_class_name": "SC_NEW_NOTICE_NOTIFY",
+    "direction": "sc"
+  },
+  "652": {
+    "msg_id": 652,
+    "enum_name": "ScPayCreateOrder",
+    "class_name": "SC_PAY_CREATE_ORDER",
+    "guessed_class_name": "SC_PAY_CREATE_ORDER",
+    "direction": "sc"
+  },
+  "653": {
+    "msg_id": 653,
+    "enum_name": "ScPayOrderSettle",
+    "class_name": "SC_PAY_ORDER_SETTLE",
+    "guessed_class_name": "SC_PAY_ORDER_SETTLE",
+    "direction": "sc"
+  },
+  "654": {
+    "msg_id": 654,
+    "enum_name": "ScPaySyncCashShops",
+    "class_name": "SC_PAY_SYNC_CASH_SHOPS",
+    "guessed_class_name": "SC_PAY_SYNC_CASH_SHOPS",
+    "direction": "sc"
+  },
+  "655": {
+    "msg_id": 655,
+    "enum_name": "ScPayCashShopModify",
+    "class_name": "SC_PAY_CASH_SHOP_MODIFY",
+    "guessed_class_name": "SC_PAY_CASH_SHOP_MODIFY",
+    "direction": "sc"
+  },
+  "656": {
+    "msg_id": 656,
+    "enum_name": "ScPayCashShopGoodsModify",
+    "class_name": "SC_PAY_CASH_SHOP_GOODS_MODIFY",
+    "guessed_class_name": "SC_PAY_CASH_SHOP_GOODS_MODIFY",
+    "direction": "sc"
+  },
+  "657": {
+    "msg_id": 657,
+    "enum_name": "ScPayAcceptOrder",
+    "class_name": "SC_PAY_ACCEPT_ORDER",
+    "guessed_class_name": "SC_PAY_ACCEPT_ORDER",
+    "direction": "sc"
+  },
+  "658": {
+    "msg_id": 658,
+    "enum_name": "ScPayQueryPlatformData",
+    "class_name": "SC_PAY_QUERY_PLATFORM_DATA",
+    "guessed_class_name": "SC_PAY_QUERY_PLATFORM_DATA",
+    "direction": "sc"
+  },
+  "659": {
+    "msg_id": 659,
+    "enum_name": "ScPaySyncRemindOrder",
+    "class_name": "SC_PAY_SYNC_REMIND_ORDER",
+    "guessed_class_name": "SC_PAY_SYNC_REMIND_ORDER",
+    "direction": "sc"
+  },
+  "699": {
+    "msg_id": 699,
+    "enum_name": "ScPayEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_PAY_END",
+    "direction": "sc"
+  },
+  "700": {
+    "msg_id": 700,
+    "enum_name": "ScFriendBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_FRIEND_BEGIN",
+    "direction": "sc"
+  },
+  "701": {
+    "msg_id": 701,
+    "enum_name": "ScFriendRequestSubmit",
+    "class_name": "SC_FRIEND_REQUEST_SUBMIT",
+    "guessed_class_name": "SC_FRIEND_REQUEST_SUBMIT",
+    "direction": "sc"
+  },
+  "702": {
+    "msg_id": 702,
+    "enum_name": "ScFriendRequestReject",
+    "class_name": "SC_FRIEND_REQUEST_REJECT",
+    "guessed_class_name": "SC_FRIEND_REQUEST_REJECT",
+    "direction": "sc"
+  },
+  "703": {
+    "msg_id": 703,
+    "enum_name": "ScFriendRequestAccept",
+    "class_name": "SC_FRIEND_REQUEST_ACCEPT",
+    "guessed_class_name": "SC_FRIEND_REQUEST_ACCEPT",
+    "direction": "sc"
+  },
+  "704": {
+    "msg_id": 704,
+    "enum_name": "ScFriendDelete",
+    "class_name": "SC_FRIEND_DELETE",
+    "guessed_class_name": "SC_FRIEND_DELETE",
+    "direction": "sc"
+  },
+  "705": {
+    "msg_id": 705,
+    "enum_name": "ScFriendSearchName",
+    "class_name": "SC_FRIEND_SEARCH_NAME",
+    "guessed_class_name": "SC_FRIEND_SEARCH_NAME",
+    "direction": "sc"
+  },
+  "706": {
+    "msg_id": 706,
+    "enum_name": "ScFriendRequestListSync",
+    "class_name": "",
+    "guessed_class_name": "SC_FRIEND_REQUEST_LIST_SYNC",
+    "direction": "sc"
+  },
+  "707": {
+    "msg_id": 707,
+    "enum_name": "ScFriendListSync",
+    "class_name": "",
+    "guessed_class_name": "SC_FRIEND_LIST_SYNC",
+    "direction": "sc"
+  },
+  "708": {
+    "msg_id": 708,
+    "enum_name": "ScFriendRequestAddNotify",
+    "class_name": "SC_FRIEND_REQUEST_ADD_NOTIFY",
+    "guessed_class_name": "SC_FRIEND_REQUEST_ADD_NOTIFY",
+    "direction": "sc"
+  },
+  "709": {
+    "msg_id": 709,
+    "enum_name": "ScFriendAddNotify",
+    "class_name": "SC_FRIEND_ADD_NOTIFY",
+    "guessed_class_name": "SC_FRIEND_ADD_NOTIFY",
+    "direction": "sc"
+  },
+  "710": {
+    "msg_id": 710,
+    "enum_name": "ScFriendListSimpleSync",
+    "class_name": "SC_FRIEND_LIST_SIMPLE_SYNC",
+    "guessed_class_name": "SC_FRIEND_LIST_SIMPLE_SYNC",
+    "direction": "sc"
+  },
+  "711": {
+    "msg_id": 711,
+    "enum_name": "ScFriendListQuery",
+    "class_name": "SC_FRIEND_LIST_QUERY",
+    "guessed_class_name": "SC_FRIEND_LIST_QUERY",
+    "direction": "sc"
+  },
+  "712": {
+    "msg_id": 712,
+    "enum_name": "ScFriendRequestListSimpleSync",
+    "class_name": "SC_FRIEND_REQUEST_LIST_SIMPLE_SYNC",
+    "guessed_class_name": "SC_FRIEND_REQUEST_LIST_SIMPLE_SYNC",
+    "direction": "sc"
+  },
+  "713": {
+    "msg_id": 713,
+    "enum_name": "ScFriendRequestListQuery",
+    "class_name": "SC_FRIEND_REQUEST_LIST_QUERY",
+    "guessed_class_name": "SC_FRIEND_REQUEST_LIST_QUERY",
+    "direction": "sc"
+  },
+  "714": {
+    "msg_id": 714,
+    "enum_name": "ScFriendBlackListSync",
+    "class_name": "SC_FRIEND_BLACK_LIST_SYNC",
+    "guessed_class_name": "SC_FRIEND_BLACK_LIST_SYNC",
+    "direction": "sc"
+  },
+  "715": {
+    "msg_id": 715,
+    "enum_name": "ScFriendSearchNameQuery",
+    "class_name": "SC_FRIEND_SEARCH_NAME_QUERY",
+    "guessed_class_name": "SC_FRIEND_SEARCH_NAME_QUERY",
+    "direction": "sc"
+  },
+  "716": {
+    "msg_id": 716,
+    "enum_name": "ScFriendSearchPlatformRoleId",
+    "class_name": "SC_FRIEND_SEARCH_PLATFORM_ROLE_ID",
+    "guessed_class_name": "SC_FRIEND_SEARCH_PLATFORM_ROLE_ID",
+    "direction": "sc"
+  },
+  "717": {
+    "msg_id": 717,
+    "enum_name": "ScFriendStrangerRecommendQuery",
+    "class_name": "SC_FRIEND_STRANGER_RECOMMEND_QUERY",
+    "guessed_class_name": "SC_FRIEND_STRANGER_RECOMMEND_QUERY",
+    "direction": "sc"
+  },
+  "718": {
+    "msg_id": 718,
+    "enum_name": "ScFriendUserAvatarModify",
+    "class_name": "SC_FRIEND_USER_AVATAR_MODIFY",
+    "guessed_class_name": "SC_FRIEND_USER_AVATAR_MODIFY",
+    "direction": "sc"
+  },
+  "719": {
+    "msg_id": 719,
+    "enum_name": "ScFriendUserAvatarFrameModify",
+    "class_name": "SC_FRIEND_USER_AVATAR_FRAME_MODIFY",
+    "guessed_class_name": "SC_FRIEND_USER_AVATAR_FRAME_MODIFY",
+    "direction": "sc"
+  },
+  "720": {
+    "msg_id": 720,
+    "enum_name": "ScFriendSignatureModify",
+    "class_name": "SC_FRIEND_SIGNATURE_MODIFY",
+    "guessed_class_name": "SC_FRIEND_SIGNATURE_MODIFY",
+    "direction": "sc"
+  },
+  "721": {
+    "msg_id": 721,
+    "enum_name": "ScFriendBusinessCardTopicModify",
+    "class_name": "SC_FRIEND_BUSINESS_CARD_TOPIC_MODIFY",
+    "guessed_class_name": "SC_FRIEND_BUSINESS_CARD_TOPIC_MODIFY",
+    "direction": "sc"
+  },
+  "722": {
+    "msg_id": 722,
+    "enum_name": "ScFriendBusinessCardQuery",
+    "class_name": "SC_FRIEND_BUSINESS_CARD_QUERY",
+    "guessed_class_name": "SC_FRIEND_BUSINESS_CARD_QUERY",
+    "direction": "sc"
+  },
+  "723": {
+    "msg_id": 723,
+    "enum_name": "ScFriendRemarkNameModify",
+    "class_name": "SC_FRIEND_REMARK_NAME_MODIFY",
+    "guessed_class_name": "SC_FRIEND_REMARK_NAME_MODIFY",
+    "direction": "sc"
+  },
+  "724": {
+    "msg_id": 724,
+    "enum_name": "ScFriendBlackListModify",
+    "class_name": "SC_FRIEND_BLACK_LIST_MODIFY",
+    "guessed_class_name": "SC_FRIEND_BLACK_LIST_MODIFY",
+    "direction": "sc"
+  },
+  "725": {
+    "msg_id": 725,
+    "enum_name": "ScFriendRequestListLoginNotify",
+    "class_name": "SC_FRIEND_REQUEST_LIST_LOGIN_NOTIFY",
+    "guessed_class_name": "SC_FRIEND_REQUEST_LIST_LOGIN_NOTIFY",
+    "direction": "sc"
+  },
+  "726": {
+    "msg_id": 726,
+    "enum_name": "ScFriendVisitSpaceship",
+    "class_name": "SC_FRIEND_VISIT_SPACESHIP",
+    "guessed_class_name": "SC_FRIEND_VISIT_SPACESHIP",
+    "direction": "sc"
+  },
+  "727": {
+    "msg_id": 727,
+    "enum_name": "ScFriendSroleCharQuery",
+    "class_name": "SC_FRIEND_SROLE_CHAR_QUERY",
+    "guessed_class_name": "SC_FRIEND_SROLE_CHAR_QUERY",
+    "direction": "sc"
+  },
+  "728": {
+    "msg_id": 728,
+    "enum_name": "ScFriendDisplayCharModify",
+    "class_name": "SC_FRIEND_DISPLAY_CHAR_MODIFY",
+    "guessed_class_name": "SC_FRIEND_DISPLAY_CHAR_MODIFY",
+    "direction": "sc"
+  },
+  "729": {
+    "msg_id": 729,
+    "enum_name": "ScFriendPersonalDataSync",
+    "class_name": "SC_FRIEND_PERSONAL_DATA_SYNC",
+    "guessed_class_name": "SC_FRIEND_PERSONAL_DATA_SYNC",
+    "direction": "sc"
+  },
+  "730": {
+    "msg_id": 730,
+    "enum_name": "ScFriendFriendListLoginNotify",
+    "class_name": "SC_FRIEND_FRIEND_LIST_LOGIN_NOTIFY",
+    "guessed_class_name": "SC_FRIEND_FRIEND_LIST_LOGIN_NOTIFY",
+    "direction": "sc"
+  },
+  "731": {
+    "msg_id": 731,
+    "enum_name": "ScFriendBusinessCardExpandFlagModify",
+    "class_name": "SC_FRIEND_BUSINESS_CARD_EXPAND_FLAG_MODIFY",
+    "guessed_class_name": "SC_FRIEND_BUSINESS_CARD_EXPAND_FLAG_MODIFY",
+    "direction": "sc"
+  },
+  "732": {
+    "msg_id": 732,
+    "enum_name": "ScFriendPsnAuthcodeQuery",
+    "class_name": "SC_FRIEND_PSN_AUTHCODE_QUERY",
+    "guessed_class_name": "SC_FRIEND_PSN_AUTHCODE_QUERY",
+    "direction": "sc"
+  },
+  "733": {
+    "msg_id": 733,
+    "enum_name": "ScFriendPsnFriendListQuery",
+    "class_name": "SC_FRIEND_PSN_FRIEND_LIST_QUERY",
+    "guessed_class_name": "SC_FRIEND_PSN_FRIEND_LIST_QUERY",
+    "direction": "sc"
+  },
+  "734": {
+    "msg_id": 734,
+    "enum_name": "ScFriendPsnFriendListSimpleSync",
+    "class_name": "SC_FRIEND_PSN_FRIEND_LIST_SIMPLE_SYNC",
+    "guessed_class_name": "SC_FRIEND_PSN_FRIEND_LIST_SIMPLE_SYNC",
+    "direction": "sc"
+  },
+  "735": {
+    "msg_id": 735,
+    "enum_name": "ScFriendPsnBlackListSync",
+    "class_name": "SC_FRIEND_PSN_BLACK_LIST_SYNC",
+    "guessed_class_name": "SC_FRIEND_PSN_BLACK_LIST_SYNC",
+    "direction": "sc"
+  },
+  "736": {
+    "msg_id": 736,
+    "enum_name": "ScFriendSetPsnOnly",
+    "class_name": "SC_FRIEND_SET_PSN_ONLY",
+    "guessed_class_name": "SC_FRIEND_SET_PSN_ONLY",
+    "direction": "sc"
+  },
+  "737": {
+    "msg_id": 737,
+    "enum_name": "ScSocialUserListQuery",
+    "class_name": "SC_SOCIAL_USER_LIST_QUERY",
+    "guessed_class_name": "SC_SOCIAL_USER_LIST_QUERY",
+    "direction": "sc"
+  },
+  "738": {
+    "msg_id": 738,
+    "enum_name": "ScFriendRequestRejectedNotify",
+    "class_name": "SC_FRIEND_REQUEST_REJECTED_NOTIFY",
+    "guessed_class_name": "SC_FRIEND_REQUEST_REJECTED_NOTIFY",
+    "direction": "sc"
+  },
+  "771": {
+    "msg_id": 771,
+    "enum_name": "ScFriendChatMsgRead",
+    "class_name": "SC_FRIEND_CHAT_MSG_READ",
+    "guessed_class_name": "SC_FRIEND_CHAT_MSG_READ",
+    "direction": "sc"
+  },
+  "772": {
+    "msg_id": 772,
+    "enum_name": "ScFriendChatMsgQuery",
+    "class_name": "SC_FRIEND_CHAT_MSG_QUERY",
+    "guessed_class_name": "SC_FRIEND_CHAT_MSG_QUERY",
+    "direction": "sc"
+  },
+  "773": {
+    "msg_id": 773,
+    "enum_name": "ScFriendChatListSimpleSync",
+    "class_name": "SC_FRIEND_CHAT_LIST_SIMPLE_SYNC",
+    "guessed_class_name": "SC_FRIEND_CHAT_LIST_SIMPLE_SYNC",
+    "direction": "sc"
+  },
+  "774": {
+    "msg_id": 774,
+    "enum_name": "ScFriendChatListAdd",
+    "class_name": "SC_FRIEND_CHAT_LIST_ADD",
+    "guessed_class_name": "SC_FRIEND_CHAT_LIST_ADD",
+    "direction": "sc"
+  },
+  "775": {
+    "msg_id": 775,
+    "enum_name": "ScFriendChatListDelete",
+    "class_name": "SC_FRIEND_CHAT_LIST_DELETE",
+    "guessed_class_name": "SC_FRIEND_CHAT_LIST_DELETE",
+    "direction": "sc"
+  },
+  "776": {
+    "msg_id": 776,
+    "enum_name": "ScFriendChatListTop",
+    "class_name": "SC_FRIEND_CHAT_LIST_TOP",
+    "guessed_class_name": "SC_FRIEND_CHAT_LIST_TOP",
+    "direction": "sc"
+  },
+  "777": {
+    "msg_id": 777,
+    "enum_name": "ScFriendChatMsgReceiveNotify",
+    "class_name": "SC_FRIEND_CHAT_MSG_RECEIVE_NOTIFY",
+    "guessed_class_name": "SC_FRIEND_CHAT_MSG_RECEIVE_NOTIFY",
+    "direction": "sc"
+  },
+  "778": {
+    "msg_id": 778,
+    "enum_name": "ScFriendChatDailySocialBuildingShareCntModify",
+    "class_name": "SC_FRIEND_CHAT_DAILY_SOCIAL_BUILDING_SHARE_CNT_MODIFY",
+    "guessed_class_name": "SC_FRIEND_CHAT_DAILY_SOCIAL_BUILDING_SHARE_CNT_MODIFY",
+    "direction": "sc"
+  },
+  "779": {
+    "msg_id": 779,
+    "enum_name": "ScFriendChatMsgInstantInfoQuery",
+    "class_name": "SC_FRIEND_CHAT_MSG_INSTANT_INFO_QUERY",
+    "guessed_class_name": "SC_FRIEND_CHAT_MSG_INSTANT_INFO_QUERY",
+    "direction": "sc"
+  },
+  "780": {
+    "msg_id": 780,
+    "enum_name": "ScFriendChatSocialBuildingCheckArea",
+    "class_name": "SC_FRIEND_CHAT_SOCIAL_BUILDING_CHECK_AREA",
+    "guessed_class_name": "SC_FRIEND_CHAT_SOCIAL_BUILDING_CHECK_AREA",
+    "direction": "sc"
+  },
+  "799": {
+    "msg_id": 799,
+    "enum_name": "ScFriendEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_FRIEND_END",
+    "direction": "sc"
+  },
+  "901": {
+    "msg_id": 901,
+    "enum_name": "ScUpdateGameVar",
+    "class_name": "SC_UPDATE_GAME_VAR",
+    "guessed_class_name": "SC_UPDATE_GAME_VAR",
+    "direction": "sc"
+  },
+  "902": {
+    "msg_id": 902,
+    "enum_name": "ScSyncAllGameVar",
+    "class_name": "SC_SYNC_ALL_GAME_VAR",
+    "guessed_class_name": "SC_SYNC_ALL_GAME_VAR",
+    "direction": "sc"
+  },
+  "914": {
+    "msg_id": 914,
+    "enum_name": "ScSyncAllMiniGame",
+    "class_name": "SC_SYNC_ALL_MINI_GAME",
+    "guessed_class_name": "SC_SYNC_ALL_MINI_GAME",
+    "direction": "sc"
+  },
+  "915": {
+    "msg_id": 915,
+    "enum_name": "ScCompleteMiniGame",
+    "class_name": "SC_COMPLETE_MINI_GAME",
+    "guessed_class_name": "SC_COMPLETE_MINI_GAME",
+    "direction": "sc"
+  },
+  "1000": {
+    "msg_id": 1000,
+    "enum_name": "ScItemBagCommonSync",
+    "class_name": "SC_ITEM_BAG_COMMON_SYNC",
+    "guessed_class_name": "SC_ITEM_BAG_COMMON_SYNC",
+    "direction": "sc"
+  },
+  "1001": {
+    "msg_id": 1001,
+    "enum_name": "ScItemBagCommonModify",
+    "class_name": "SC_ITEM_BAG_COMMON_MODIFY",
+    "guessed_class_name": "SC_ITEM_BAG_COMMON_MODIFY",
+    "direction": "sc"
+  },
+  "1002": {
+    "msg_id": 1002,
+    "enum_name": "ScItemBagScopeSync",
+    "class_name": "SC_ITEM_BAG_SCOPE_SYNC",
+    "guessed_class_name": "SC_ITEM_BAG_SCOPE_SYNC",
+    "direction": "sc"
+  },
+  "1003": {
+    "msg_id": 1003,
+    "enum_name": "ScItemBagScopeModify",
+    "class_name": "SC_ITEM_BAG_SCOPE_MODIFY",
+    "guessed_class_name": "SC_ITEM_BAG_SCOPE_MODIFY",
+    "direction": "sc"
+  },
+  "1004": {
+    "msg_id": 1004,
+    "enum_name": "ScItemBagUseItem",
+    "class_name": "SC_ITEM_BAG_USE_ITEM",
+    "guessed_class_name": "SC_ITEM_BAG_USE_ITEM",
+    "direction": "sc"
+  },
+  "1005": {
+    "msg_id": 1005,
+    "enum_name": "ScItemBagSetQuickBar",
+    "class_name": "SC_ITEM_BAG_SET_QUICK_BAR",
+    "guessed_class_name": "SC_ITEM_BAG_SET_QUICK_BAR",
+    "direction": "sc"
+  },
+  "1006": {
+    "msg_id": 1006,
+    "enum_name": "ScItemBagSetQuickBarPos",
+    "class_name": "SC_ITEM_BAG_SET_QUICK_BAR_POS",
+    "guessed_class_name": "SC_ITEM_BAG_SET_QUICK_BAR_POS",
+    "direction": "sc"
+  },
+  "1007": {
+    "msg_id": 1007,
+    "enum_name": "ScItemBagSetItemLock",
+    "class_name": "SC_ITEM_BAG_SET_ITEM_LOCK",
+    "guessed_class_name": "SC_ITEM_BAG_SET_ITEM_LOCK",
+    "direction": "sc"
+  },
+  "1008": {
+    "msg_id": 1008,
+    "enum_name": "ScItemBagAbandonInBag",
+    "class_name": "SC_ITEM_BAG_ABANDON_IN_BAG",
+    "guessed_class_name": "SC_ITEM_BAG_ABANDON_IN_BAG",
+    "direction": "sc"
+  },
+  "1031": {
+    "msg_id": 1031,
+    "enum_name": "ScItemBagTakeoutLostAndFound",
+    "class_name": "SC_ITEM_BAG_TAKEOUT_LOST_AND_FOUND",
+    "guessed_class_name": "SC_ITEM_BAG_TAKEOUT_LOST_AND_FOUND",
+    "direction": "sc"
+  },
+  "1032": {
+    "msg_id": 1032,
+    "enum_name": "ScItemBagGotItemToast",
+    "class_name": "SC_ITEM_BAG_GOT_ITEM_TOAST",
+    "guessed_class_name": "SC_ITEM_BAG_GOT_ITEM_TOAST",
+    "direction": "sc"
+  },
+  "1033": {
+    "msg_id": 1033,
+    "enum_name": "ScItemBagTrialCharDepotModify",
+    "class_name": "SC_ITEM_BAG_TRIAL_CHAR_DEPOT_MODIFY",
+    "guessed_class_name": "SC_ITEM_BAG_TRIAL_CHAR_DEPOT_MODIFY",
+    "direction": "sc"
+  },
+  "1034": {
+    "msg_id": 1034,
+    "enum_name": "ScItemBagTrialCharDepotClear",
+    "class_name": "SC_ITEM_BAG_TRIAL_CHAR_DEPOT_CLEAR",
+    "guessed_class_name": "SC_ITEM_BAG_TRIAL_CHAR_DEPOT_CLEAR",
+    "direction": "sc"
+  },
+  "1035": {
+    "msg_id": 1035,
+    "enum_name": "ScItemBagUseItemCase",
+    "class_name": "SC_ITEM_BAG_USE_ITEM_CASE",
+    "guessed_class_name": "SC_ITEM_BAG_USE_ITEM_CASE",
+    "direction": "sc"
+  },
+  "1036": {
+    "msg_id": 1036,
+    "enum_name": "ScItemBagChgSpaceshipChapter",
+    "class_name": "SC_ITEM_BAG_CHG_SPACESHIP_CHAPTER",
+    "guessed_class_name": "SC_ITEM_BAG_CHG_SPACESHIP_CHAPTER",
+    "direction": "sc"
+  },
+  "1037": {
+    "msg_id": 1037,
+    "enum_name": "ScItemBagLtItemsExpireNtf",
+    "class_name": "SC_ITEM_BAG_LT_ITEMS_EXPIRE_NTF",
+    "guessed_class_name": "SC_ITEM_BAG_LT_ITEMS_EXPIRE_NTF",
+    "direction": "sc"
+  },
+  "1038": {
+    "msg_id": 1038,
+    "enum_name": "ScItemBagLtItemsExpireConfirmRsp",
+    "class_name": "SC_ITEM_BAG_LT_ITEMS_EXPIRE_CONFIRM_RSP",
+    "guessed_class_name": "SC_ITEM_BAG_LT_ITEMS_EXPIRE_CONFIRM_RSP",
+    "direction": "sc"
+  },
+  "1049": {
+    "msg_id": 1049,
+    "enum_name": "ScItemBagEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_ITEM_BAG_END",
+    "direction": "sc"
+  },
+  "1170": {
+    "msg_id": 1170,
+    "enum_name": "ScSpawnEnemy",
+    "class_name": "SC_SPAWN_ENEMY",
+    "guessed_class_name": "SC_SPAWN_ENEMY",
+    "direction": "sc"
+  },
+  "1172": {
+    "msg_id": 1172,
+    "enum_name": "ScEntityPropertyChange",
+    "class_name": "SC_ENTITY_PROPERTY_CHANGE",
+    "guessed_class_name": "SC_ENTITY_PROPERTY_CHANGE",
+    "direction": "sc"
+  },
+  "1173": {
+    "msg_id": 1173,
+    "enum_name": "ScBattleDebugInfo",
+    "class_name": "SC_BATTLE_DEBUG_INFO",
+    "guessed_class_name": "SC_BATTLE_DEBUG_INFO",
+    "direction": "sc"
+  },
+  "1174": {
+    "msg_id": 1174,
+    "enum_name": "ScBattleGenerationChange",
+    "class_name": "SC_BATTLE_GENERATION_CHANGE",
+    "guessed_class_name": "SC_BATTLE_GENERATION_CHANGE",
+    "direction": "sc"
+  },
+  "1175": {
+    "msg_id": 1175,
+    "enum_name": "ScAttachServerSkill",
+    "class_name": "SC_ATTACH_SERVER_SKILL",
+    "guessed_class_name": "SC_ATTACH_SERVER_SKILL",
+    "direction": "sc"
+  },
+  "1176": {
+    "msg_id": 1176,
+    "enum_name": "ScDetachServerSkill",
+    "class_name": "SC_DETACH_SERVER_SKILL",
+    "guessed_class_name": "SC_DETACH_SERVER_SKILL",
+    "direction": "sc"
+  },
+  "1177": {
+    "msg_id": 1177,
+    "enum_name": "ScAddServerBuff",
+    "class_name": "SC_ADD_SERVER_BUFF",
+    "guessed_class_name": "SC_ADD_SERVER_BUFF",
+    "direction": "sc"
+  },
+  "1178": {
+    "msg_id": 1178,
+    "enum_name": "ScRemoveServerBuff",
+    "class_name": "SC_REMOVE_SERVER_BUFF",
+    "guessed_class_name": "SC_REMOVE_SERVER_BUFF",
+    "direction": "sc"
+  },
+  "1179": {
+    "msg_id": 1179,
+    "enum_name": "ScBattleSyncSeqId",
+    "class_name": "SC_BATTLE_SYNC_SEQ_ID",
+    "guessed_class_name": "SC_BATTLE_SYNC_SEQ_ID",
+    "direction": "sc"
+  },
+  "1180": {
+    "msg_id": 1180,
+    "enum_name": "ScUpdateServerSkill",
+    "class_name": "SC_UPDATE_SERVER_SKILL",
+    "guessed_class_name": "SC_UPDATE_SERVER_SKILL",
+    "direction": "sc"
+  },
+  "1181": {
+    "msg_id": 1181,
+    "enum_name": "ScResetBattleStatus",
+    "class_name": "SC_RESET_BATTLE_STATUS",
+    "guessed_class_name": "SC_RESET_BATTLE_STATUS",
+    "direction": "sc"
+  },
+  "1182": {
+    "msg_id": 1182,
+    "enum_name": "ScBattleSyncGlobalBuffInfo",
+    "class_name": "SC_BATTLE_SYNC_GLOBAL_BUFF_INFO",
+    "guessed_class_name": "SC_BATTLE_SYNC_GLOBAL_BUFF_INFO",
+    "direction": "sc"
+  },
+  "1183": {
+    "msg_id": 1183,
+    "enum_name": "ScBattleAddGlobalBuff",
+    "class_name": "SC_BATTLE_ADD_GLOBAL_BUFF",
+    "guessed_class_name": "SC_BATTLE_ADD_GLOBAL_BUFF",
+    "direction": "sc"
+  },
+  "1184": {
+    "msg_id": 1184,
+    "enum_name": "ScBattleRemoveGlobalBuff",
+    "class_name": "SC_BATTLE_REMOVE_GLOBAL_BUFF",
+    "guessed_class_name": "SC_BATTLE_REMOVE_GLOBAL_BUFF",
+    "direction": "sc"
+  },
+  "1185": {
+    "msg_id": 1185,
+    "enum_name": "ScSpaceshipGuestRoomAutoRecvClue",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_AUTO_RECV_CLUE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_AUTO_RECV_CLUE",
+    "direction": "sc"
+  },
+  "1186": {
+    "msg_id": 1186,
+    "enum_name": "ScSpaceshipGuestRoomDeleteSelfClue",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_DELETE_SELF_CLUE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_DELETE_SELF_CLUE",
+    "direction": "sc"
+  },
+  "1200": {
+    "msg_id": 1200,
+    "enum_name": "ScSpaceshipSync",
+    "class_name": "SC_SPACESHIP_SYNC",
+    "guessed_class_name": "SC_SPACESHIP_SYNC",
+    "direction": "sc"
+  },
+  "1201": {
+    "msg_id": 1201,
+    "enum_name": "ScSpaceshipModifyRoom",
+    "class_name": "SC_SPACESHIP_MODIFY_ROOM",
+    "guessed_class_name": "SC_SPACESHIP_MODIFY_ROOM",
+    "direction": "sc"
+  },
+  "1202": {
+    "msg_id": 1202,
+    "enum_name": "ScSpaceshipModifyChar",
+    "class_name": "SC_SPACESHIP_MODIFY_CHAR",
+    "guessed_class_name": "SC_SPACESHIP_MODIFY_CHAR",
+    "direction": "sc"
+  },
+  "1203": {
+    "msg_id": 1203,
+    "enum_name": "ScSpaceshipPresentCharInfo",
+    "class_name": "SC_SPACESHIP_PRESENT_CHAR_INFO",
+    "guessed_class_name": "SC_SPACESHIP_PRESENT_CHAR_INFO",
+    "direction": "sc"
+  },
+  "1204": {
+    "msg_id": 1204,
+    "enum_name": "ScSpaceshipCharFavorabilityChange",
+    "class_name": "SC_SPACESHIP_CHAR_FAVORABILITY_CHANGE",
+    "guessed_class_name": "SC_SPACESHIP_CHAR_FAVORABILITY_CHANGE",
+    "direction": "sc"
+  },
+  "1205": {
+    "msg_id": 1205,
+    "enum_name": "ScSpaceshipRecvGiftFromChar",
+    "class_name": "SC_SPACESHIP_RECV_GIFT_FROM_CHAR",
+    "guessed_class_name": "SC_SPACESHIP_RECV_GIFT_FROM_CHAR",
+    "direction": "sc"
+  },
+  "1206": {
+    "msg_id": 1206,
+    "enum_name": "ScSpaceshipPresentGiftToChar",
+    "class_name": "SC_SPACESHIP_PRESENT_GIFT_TO_CHAR",
+    "guessed_class_name": "SC_SPACESHIP_PRESENT_GIFT_TO_CHAR",
+    "direction": "sc"
+  },
+  "1207": {
+    "msg_id": 1207,
+    "enum_name": "ScSpaceshipSyncRoomLevelUp",
+    "class_name": "SC_SPACESHIP_SYNC_ROOM_LEVEL_UP",
+    "guessed_class_name": "SC_SPACESHIP_SYNC_ROOM_LEVEL_UP",
+    "direction": "sc"
+  },
+  "1208": {
+    "msg_id": 1208,
+    "enum_name": "ScSpaceshipSyncCharSkill",
+    "class_name": "SC_SPACESHIP_SYNC_CHAR_SKILL",
+    "guessed_class_name": "SC_SPACESHIP_SYNC_CHAR_SKILL",
+    "direction": "sc"
+  },
+  "1209": {
+    "msg_id": 1209,
+    "enum_name": "ScSpaceshipSyncRoomStation",
+    "class_name": "SC_SPACESHIP_SYNC_ROOM_STATION",
+    "guessed_class_name": "SC_SPACESHIP_SYNC_ROOM_STATION",
+    "direction": "sc"
+  },
+  "1210": {
+    "msg_id": 1210,
+    "enum_name": "ScSpaceshipManufacturingStationSync",
+    "class_name": "SC_SPACESHIP_MANUFACTURING_STATION_SYNC",
+    "guessed_class_name": "SC_SPACESHIP_MANUFACTURING_STATION_SYNC",
+    "direction": "sc"
+  },
+  "1211": {
+    "msg_id": 1211,
+    "enum_name": "ScSpaceshipManufacturingStationStart",
+    "class_name": "SC_SPACESHIP_MANUFACTURING_STATION_START",
+    "guessed_class_name": "SC_SPACESHIP_MANUFACTURING_STATION_START",
+    "direction": "sc"
+  },
+  "1212": {
+    "msg_id": 1212,
+    "enum_name": "ScSpaceshipManufacturingStationCancel",
+    "class_name": "SC_SPACESHIP_MANUFACTURING_STATION_CANCEL",
+    "guessed_class_name": "SC_SPACESHIP_MANUFACTURING_STATION_CANCEL",
+    "direction": "sc"
+  },
+  "1213": {
+    "msg_id": 1213,
+    "enum_name": "ScSpaceshipManufacturingStationCollect",
+    "class_name": "SC_SPACESHIP_MANUFACTURING_STATION_COLLECT",
+    "guessed_class_name": "SC_SPACESHIP_MANUFACTURING_STATION_COLLECT",
+    "direction": "sc"
+  },
+  "1214": {
+    "msg_id": 1214,
+    "enum_name": "ScSpaceshipModifyGrowCabin",
+    "class_name": "SC_SPACESHIP_MODIFY_GROW_CABIN",
+    "guessed_class_name": "SC_SPACESHIP_MODIFY_GROW_CABIN",
+    "direction": "sc"
+  },
+  "1215": {
+    "msg_id": 1215,
+    "enum_name": "ScSpaceshipGrowCabinBreed",
+    "class_name": "SC_SPACESHIP_GROW_CABIN_BREED",
+    "guessed_class_name": "SC_SPACESHIP_GROW_CABIN_BREED",
+    "direction": "sc"
+  },
+  "1216": {
+    "msg_id": 1216,
+    "enum_name": "ScSpaceshipGrowCabinSow",
+    "class_name": "SC_SPACESHIP_GROW_CABIN_SOW",
+    "guessed_class_name": "SC_SPACESHIP_GROW_CABIN_SOW",
+    "direction": "sc"
+  },
+  "1217": {
+    "msg_id": 1217,
+    "enum_name": "ScSpaceshipGrowCabinHarvest",
+    "class_name": "SC_SPACESHIP_GROW_CABIN_HARVEST",
+    "guessed_class_name": "SC_SPACESHIP_GROW_CABIN_HARVEST",
+    "direction": "sc"
+  },
+  "1218": {
+    "msg_id": 1218,
+    "enum_name": "ScSpaceshipGrowCabinCancel",
+    "class_name": "SC_SPACESHIP_GROW_CABIN_CANCEL",
+    "guessed_class_name": "SC_SPACESHIP_GROW_CABIN_CANCEL",
+    "direction": "sc"
+  },
+  "1219": {
+    "msg_id": 1219,
+    "enum_name": "ScSpaceshipReportCharWorkModify",
+    "class_name": "SC_SPACESHIP_REPORT_CHAR_WORK_MODIFY",
+    "guessed_class_name": "SC_SPACESHIP_REPORT_CHAR_WORK_MODIFY",
+    "direction": "sc"
+  },
+  "1220": {
+    "msg_id": 1220,
+    "enum_name": "ScSpaceshipReportOutputModify",
+    "class_name": "SC_SPACESHIP_REPORT_OUTPUT_MODIFY",
+    "guessed_class_name": "SC_SPACESHIP_REPORT_OUTPUT_MODIFY",
+    "direction": "sc"
+  },
+  "1221": {
+    "msg_id": 1221,
+    "enum_name": "ScSpaceshipVisitSync",
+    "class_name": "SC_SPACESHIP_VISIT_SYNC",
+    "guessed_class_name": "SC_SPACESHIP_VISIT_SYNC",
+    "direction": "sc"
+  },
+  "1222": {
+    "msg_id": 1222,
+    "enum_name": "ScSpaceshipModifyBlackboard",
+    "class_name": "SC_SPACESHIP_MODIFY_BLACKBOARD",
+    "guessed_class_name": "SC_SPACESHIP_MODIFY_BLACKBOARD",
+    "direction": "sc"
+  },
+  "1223": {
+    "msg_id": 1223,
+    "enum_name": "ScSpaceshipRoomSerialNumChange",
+    "class_name": "SC_SPACESHIP_ROOM_SERIAL_NUM_CHANGE",
+    "guessed_class_name": "SC_SPACESHIP_ROOM_SERIAL_NUM_CHANGE",
+    "direction": "sc"
+  },
+  "1224": {
+    "msg_id": 1224,
+    "enum_name": "ScSpaceshipHelpRoom",
+    "class_name": "SC_SPACESHIP_HELP_ROOM",
+    "guessed_class_name": "SC_SPACESHIP_HELP_ROOM",
+    "direction": "sc"
+  },
+  "1225": {
+    "msg_id": 1225,
+    "enum_name": "ScSpaceshipUseHelpCredit",
+    "class_name": "SC_SPACESHIP_USE_HELP_CREDIT",
+    "guessed_class_name": "SC_SPACESHIP_USE_HELP_CREDIT",
+    "direction": "sc"
+  },
+  "1226": {
+    "msg_id": 1226,
+    "enum_name": "ScSpaceshipAssistData",
+    "class_name": "SC_SPACESHIP_ASSIST_DATA",
+    "guessed_class_name": "SC_SPACESHIP_ASSIST_DATA",
+    "direction": "sc"
+  },
+  "1227": {
+    "msg_id": 1227,
+    "enum_name": "ScSpaceshipGuestRoomRecvClue",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_RECV_CLUE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_RECV_CLUE",
+    "direction": "sc"
+  },
+  "1228": {
+    "msg_id": 1228,
+    "enum_name": "ScSpaceshipGuestRoomRecvFriendClue",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_RECV_FRIEND_CLUE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_RECV_FRIEND_CLUE",
+    "direction": "sc"
+  },
+  "1229": {
+    "msg_id": 1229,
+    "enum_name": "ScSpaceshipGuestRoomPresentFriendClue",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_PRESENT_FRIEND_CLUE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_PRESENT_FRIEND_CLUE",
+    "direction": "sc"
+  },
+  "1230": {
+    "msg_id": 1230,
+    "enum_name": "ScSpaceshipGuestRoomPlaceClue",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_PLACE_CLUE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_PLACE_CLUE",
+    "direction": "sc"
+  },
+  "1231": {
+    "msg_id": 1231,
+    "enum_name": "ScSpaceshipGuestRoomCancelPlaceClue",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_CANCEL_PLACE_CLUE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_CANCEL_PLACE_CLUE",
+    "direction": "sc"
+  },
+  "1232": {
+    "msg_id": 1232,
+    "enum_name": "ScSpaceshipGuestRoomOpenInfoExchange",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_OPEN_INFO_EXCHANGE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_OPEN_INFO_EXCHANGE",
+    "direction": "sc"
+  },
+  "1233": {
+    "msg_id": 1233,
+    "enum_name": "ScSpaceshipGuestRoomSettleInfoExchange",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_SETTLE_INFO_EXCHANGE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_SETTLE_INFO_EXCHANGE",
+    "direction": "sc"
+  },
+  "1234": {
+    "msg_id": 1234,
+    "enum_name": "ScSpaceshipGuestRoomJoinFriendInfoExchange",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_JOIN_FRIEND_INFO_EXCHANGE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_JOIN_FRIEND_INFO_EXCHANGE",
+    "direction": "sc"
+  },
+  "1235": {
+    "msg_id": 1235,
+    "enum_name": "ScSpaceshipGuestRoomGetClueInfo",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_GET_CLUE_INFO",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_GET_CLUE_INFO",
+    "direction": "sc"
+  },
+  "1236": {
+    "msg_id": 1236,
+    "enum_name": "ScSpaceshipGuestRoomSetCharPictureList",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_SET_CHAR_PICTURE_LIST",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_SET_CHAR_PICTURE_LIST",
+    "direction": "sc"
+  },
+  "1237": {
+    "msg_id": 1237,
+    "enum_name": "ScSpaceshipGuestRoomMusicPlayerModify",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_MUSIC_PLAYER_MODIFY",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_MUSIC_PLAYER_MODIFY",
+    "direction": "sc"
+  },
+  "1238": {
+    "msg_id": 1238,
+    "enum_name": "ScSpaceshipGuestRoomQueryVisitList",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_QUERY_VISIT_LIST",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_QUERY_VISIT_LIST",
+    "direction": "sc"
+  },
+  "1239": {
+    "msg_id": 1239,
+    "enum_name": "ScSpaceshipGuestRoomRecvVisitListReward",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_RECV_VISIT_LIST_REWARD",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_RECV_VISIT_LIST_REWARD",
+    "direction": "sc"
+  },
+  "1240": {
+    "msg_id": 1240,
+    "enum_name": "ScSpaceshipGuestRoomNewVisitorOpNotify",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_NEW_VISITOR_OP_NOTIFY",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_NEW_VISITOR_OP_NOTIFY",
+    "direction": "sc"
+  },
+  "1241": {
+    "msg_id": 1241,
+    "enum_name": "ScSpaceshipExpeditionStart",
+    "class_name": "SC_SPACESHIP_EXPEDITION_START",
+    "guessed_class_name": "SC_SPACESHIP_EXPEDITION_START",
+    "direction": "sc"
+  },
+  "1242": {
+    "msg_id": 1242,
+    "enum_name": "ScSpaceshipExpeditionCancel",
+    "class_name": "SC_SPACESHIP_EXPEDITION_CANCEL",
+    "guessed_class_name": "SC_SPACESHIP_EXPEDITION_CANCEL",
+    "direction": "sc"
+  },
+  "1243": {
+    "msg_id": 1243,
+    "enum_name": "ScSpaceshipExpeditionCollect",
+    "class_name": "SC_SPACESHIP_EXPEDITION_COLLECT",
+    "guessed_class_name": "SC_SPACESHIP_EXPEDITION_COLLECT",
+    "direction": "sc"
+  },
+  "1244": {
+    "msg_id": 1244,
+    "enum_name": "ScSpaceshipExpeditionRefresh",
+    "class_name": "SC_SPACESHIP_EXPEDITION_REFRESH",
+    "guessed_class_name": "SC_SPACESHIP_EXPEDITION_REFRESH",
+    "direction": "sc"
+  },
+  "1246": {
+    "msg_id": 1246,
+    "enum_name": "ScSpaceshipExpeditionInfoTokensUpdate",
+    "class_name": "SC_SPACESHIP_EXPEDITION_INFO_TOKENS_UPDATE",
+    "guessed_class_name": "SC_SPACESHIP_EXPEDITION_INFO_TOKENS_UPDATE",
+    "direction": "sc"
+  },
+  "1247": {
+    "msg_id": 1247,
+    "enum_name": "ScSpaceshipExpeditionRegionUpdate",
+    "class_name": "SC_SPACESHIP_EXPEDITION_REGION_UPDATE",
+    "guessed_class_name": "SC_SPACESHIP_EXPEDITION_REGION_UPDATE",
+    "direction": "sc"
+  },
+  "1248": {
+    "msg_id": 1248,
+    "enum_name": "ScSpaceshipExpeditionExpeditionUpdate",
+    "class_name": "SC_SPACESHIP_EXPEDITION_EXPEDITION_UPDATE",
+    "guessed_class_name": "SC_SPACESHIP_EXPEDITION_EXPEDITION_UPDATE",
+    "direction": "sc"
+  },
+  "1245": {
+    "msg_id": 1245,
+    "enum_name": "ScSpaceshipShowcaseModify",
+    "class_name": "SC_SPACESHIP_SHOWCASE_MODIFY",
+    "guessed_class_name": "SC_SPACESHIP_SHOWCASE_MODIFY",
+    "direction": "sc"
+  },
+  "1249": {
+    "msg_id": 1249,
+    "enum_name": "ScSpaceshipGuestRoomWeaponChange",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_WEAPON_CHANGE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_WEAPON_CHANGE",
+    "direction": "sc"
+  },
+  "1199": {
+    "msg_id": 1199,
+    "enum_name": "ScSpaceshipGuestRoomCharChange",
+    "class_name": "SC_SPACESHIP_GUEST_ROOM_CHAR_CHANGE",
+    "guessed_class_name": "SC_SPACESHIP_GUEST_ROOM_CHAR_CHANGE",
+    "direction": "sc"
+  },
+  "1198": {
+    "msg_id": 1198,
+    "enum_name": "ScSpaceshipReportExpeditionModify",
+    "class_name": "SC_SPACESHIP_REPORT_EXPEDITION_MODIFY",
+    "guessed_class_name": "SC_SPACESHIP_REPORT_EXPEDITION_MODIFY",
+    "direction": "sc"
+  },
+  "1250": {
+    "msg_id": 1250,
+    "enum_name": "ScGameMechanicsBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_GAME_MECHANICS_BEGIN",
+    "direction": "sc"
+  },
+  "1251": {
+    "msg_id": 1251,
+    "enum_name": "ScGameMechanicsSync",
+    "class_name": "SC_GAME_MECHANICS_SYNC",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC",
+    "direction": "sc"
+  },
+  "1252": {
+    "msg_id": 1252,
+    "enum_name": "ScGameMechanicsSyncUnlockCondition",
+    "class_name": "SC_GAME_MECHANICS_SYNC_UNLOCK_CONDITION",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC_UNLOCK_CONDITION",
+    "direction": "sc"
+  },
+  "1253": {
+    "msg_id": 1253,
+    "enum_name": "ScGameMechanicsModifyRecords",
+    "class_name": "SC_GAME_MECHANICS_MODIFY_RECORDS",
+    "guessed_class_name": "SC_GAME_MECHANICS_MODIFY_RECORDS",
+    "direction": "sc"
+  },
+  "1254": {
+    "msg_id": 1254,
+    "enum_name": "ScGameMechanicsSyncChallengeStart",
+    "class_name": "SC_GAME_MECHANICS_SYNC_CHALLENGE_START",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC_CHALLENGE_START",
+    "direction": "sc"
+  },
+  "1255": {
+    "msg_id": 1255,
+    "enum_name": "ScGameMechanicsSyncChallengeComplete",
+    "class_name": "SC_GAME_MECHANICS_SYNC_CHALLENGE_COMPLETE",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC_CHALLENGE_COMPLETE",
+    "direction": "sc"
+  },
+  "1256": {
+    "msg_id": 1256,
+    "enum_name": "ScGameMechanicsSyncCompletionReward",
+    "class_name": "SC_GAME_MECHANICS_SYNC_COMPLETION_REWARD",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC_COMPLETION_REWARD",
+    "direction": "sc"
+  },
+  "1257": {
+    "msg_id": 1257,
+    "enum_name": "ScGameMechanicsSyncEnterGameInst",
+    "class_name": "SC_GAME_MECHANICS_SYNC_ENTER_GAME_INST",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC_ENTER_GAME_INST",
+    "direction": "sc"
+  },
+  "1258": {
+    "msg_id": 1258,
+    "enum_name": "ScGameMechanicsSyncLeaveGameInst",
+    "class_name": "SC_GAME_MECHANICS_SYNC_LEAVE_GAME_INST",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC_LEAVE_GAME_INST",
+    "direction": "sc"
+  },
+  "1259": {
+    "msg_id": 1259,
+    "enum_name": "ScGameMechanicsSyncRestartGameInst",
+    "class_name": "SC_GAME_MECHANICS_SYNC_RESTART_GAME_INST",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC_RESTART_GAME_INST",
+    "direction": "sc"
+  },
+  "1260": {
+    "msg_id": 1260,
+    "enum_name": "ScGameMechanicsModifyInstTimeFreeze",
+    "class_name": "SC_GAME_MECHANICS_MODIFY_INST_TIME_FREEZE",
+    "guessed_class_name": "SC_GAME_MECHANICS_MODIFY_INST_TIME_FREEZE",
+    "direction": "sc"
+  },
+  "1261": {
+    "msg_id": 1261,
+    "enum_name": "ScGameMechanicsSyncCategoryUnlockCondition",
+    "class_name": "SC_GAME_MECHANICS_SYNC_CATEGORY_UNLOCK_CONDITION",
+    "guessed_class_name": "SC_GAME_MECHANICS_SYNC_CATEGORY_UNLOCK_CONDITION",
+    "direction": "sc"
+  },
+  "1262": {
+    "msg_id": 1262,
+    "enum_name": "ScGameMechanicsModifyGroupRecords",
+    "class_name": "SC_GAME_MECHANICS_MODIFY_GROUP_RECORDS",
+    "guessed_class_name": "SC_GAME_MECHANICS_MODIFY_GROUP_RECORDS",
+    "direction": "sc"
+  },
+  "1263": {
+    "msg_id": 1263,
+    "enum_name": "ScGameMechanicsBlackboxDirectRewardRsp",
+    "class_name": "",
+    "guessed_class_name": "SC_GAME_MECHANICS_BLACKBOX_DIRECT_REWARD_RSP",
+    "direction": "sc"
+  },
+  "1299": {
+    "msg_id": 1299,
+    "enum_name": "ScGameMechanicsEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_GAME_MECHANICS_END",
+    "direction": "sc"
+  },
+  "1300": {
+    "msg_id": 1300,
+    "enum_name": "ScSnsBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_SNS_BEGIN",
+    "direction": "sc"
+  },
+  "1302": {
+    "msg_id": 1302,
+    "enum_name": "ScSnsGetChatList",
+    "class_name": "SC_SNS_GET_CHAT_LIST",
+    "guessed_class_name": "SC_SNS_GET_CHAT_LIST",
+    "direction": "sc"
+  },
+  "1305": {
+    "msg_id": 1305,
+    "enum_name": "ScSyncSnsDialogModify",
+    "class_name": "SC_SYNC_SNS_DIALOG_MODIFY",
+    "guessed_class_name": "SC_SYNC_SNS_DIALOG_MODIFY",
+    "direction": "sc"
+  },
+  "1309": {
+    "msg_id": 1309,
+    "enum_name": "ScSyncSnsChatModify",
+    "class_name": "SC_SYNC_SNS_CHAT_MODIFY",
+    "guessed_class_name": "SC_SYNC_SNS_CHAT_MODIFY",
+    "direction": "sc"
+  },
+  "1330": {
+    "msg_id": 1330,
+    "enum_name": "ScSnsEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_SNS_END",
+    "direction": "sc"
+  },
+  "1331": {
+    "msg_id": 1331,
+    "enum_name": "ScSettlementBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_SETTLEMENT_BEGIN",
+    "direction": "sc"
+  },
+  "1332": {
+    "msg_id": 1332,
+    "enum_name": "ScSettlementSyncAll",
+    "class_name": "SC_SETTLEMENT_SYNC_ALL",
+    "guessed_class_name": "SC_SETTLEMENT_SYNC_ALL",
+    "direction": "sc"
+  },
+  "1333": {
+    "msg_id": 1333,
+    "enum_name": "ScSettlementSyncModify",
+    "class_name": "SC_SETTLEMENT_SYNC_MODIFY",
+    "guessed_class_name": "SC_SETTLEMENT_SYNC_MODIFY",
+    "direction": "sc"
+  },
+  "1335": {
+    "msg_id": 1335,
+    "enum_name": "ScSettlementSetOfficer",
+    "class_name": "SC_SETTLEMENT_SET_OFFICER",
+    "guessed_class_name": "SC_SETTLEMENT_SET_OFFICER",
+    "direction": "sc"
+  },
+  "1338": {
+    "msg_id": 1338,
+    "enum_name": "ScSettlementRemainMoneySync",
+    "class_name": "SC_SETTLEMENT_REMAIN_MONEY_SYNC",
+    "guessed_class_name": "SC_SETTLEMENT_REMAIN_MONEY_SYNC",
+    "direction": "sc"
+  },
+  "1339": {
+    "msg_id": 1339,
+    "enum_name": "ScSettlementSellItem",
+    "class_name": "SC_SETTLEMENT_SELL_ITEM",
+    "guessed_class_name": "SC_SETTLEMENT_SELL_ITEM",
+    "direction": "sc"
+  },
+  "1350": {
+    "msg_id": 1350,
+    "enum_name": "ScSettlementEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_SETTLEMENT_END",
+    "direction": "sc"
+  },
+  "1351": {
+    "msg_id": 1351,
+    "enum_name": "ScShopBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_SHOP_BEGIN",
+    "direction": "sc"
+  },
+  "1352": {
+    "msg_id": 1352,
+    "enum_name": "ScShopSync",
+    "class_name": "SC_SHOP_SYNC",
+    "guessed_class_name": "SC_SHOP_SYNC",
+    "direction": "sc"
+  },
+  "1353": {
+    "msg_id": 1353,
+    "enum_name": "ScShopSyncShopGroupCondition",
+    "class_name": "SC_SHOP_SYNC_SHOP_GROUP_CONDITION",
+    "guessed_class_name": "SC_SHOP_SYNC_SHOP_GROUP_CONDITION",
+    "direction": "sc"
+  },
+  "1354": {
+    "msg_id": 1354,
+    "enum_name": "ScShopModifyShop",
+    "class_name": "SC_SHOP_MODIFY_SHOP",
+    "guessed_class_name": "SC_SHOP_MODIFY_SHOP",
+    "direction": "sc"
+  },
+  "1355": {
+    "msg_id": 1355,
+    "enum_name": "ScShopSyncShopCondition",
+    "class_name": "SC_SHOP_SYNC_SHOP_CONDITION",
+    "guessed_class_name": "SC_SHOP_SYNC_SHOP_CONDITION",
+    "direction": "sc"
+  },
+  "1356": {
+    "msg_id": 1356,
+    "enum_name": "ScShopSyncGoodsCondition",
+    "class_name": "SC_SHOP_SYNC_GOODS_CONDITION",
+    "guessed_class_name": "SC_SHOP_SYNC_GOODS_CONDITION",
+    "direction": "sc"
+  },
+  "1357": {
+    "msg_id": 1357,
+    "enum_name": "ScShopModifyFrequencyLimit",
+    "class_name": "SC_SHOP_MODIFY_FREQUENCY_LIMIT",
+    "guessed_class_name": "SC_SHOP_MODIFY_FREQUENCY_LIMIT",
+    "direction": "sc"
+  },
+  "1358": {
+    "msg_id": 1358,
+    "enum_name": "ScShopDeleteFrequencyLimit",
+    "class_name": "SC_SHOP_DELETE_FREQUENCY_LIMIT",
+    "guessed_class_name": "SC_SHOP_DELETE_FREQUENCY_LIMIT",
+    "direction": "sc"
+  },
+  "1359": {
+    "msg_id": 1359,
+    "enum_name": "ScShopBuyResp",
+    "class_name": "SC_SHOP_BUY_RESP",
+    "guessed_class_name": "SC_SHOP_BUY_RESP",
+    "direction": "sc"
+  },
+  "1360": {
+    "msg_id": 1360,
+    "enum_name": "ScShopSwapMoney",
+    "class_name": "SC_SHOP_SWAP_MONEY",
+    "guessed_class_name": "SC_SHOP_SWAP_MONEY",
+    "direction": "sc"
+  },
+  "1361": {
+    "msg_id": 1361,
+    "enum_name": "ScShopDomainChannelLevelUp",
+    "class_name": "SC_SHOP_DOMAIN_CHANNEL_LEVEL_UP",
+    "guessed_class_name": "SC_SHOP_DOMAIN_CHANNEL_LEVEL_UP",
+    "direction": "sc"
+  },
+  "1362": {
+    "msg_id": 1362,
+    "enum_name": "ScShopModifyDomainShopPositions",
+    "class_name": "SC_SHOP_MODIFY_DOMAIN_SHOP_POSITIONS",
+    "guessed_class_name": "SC_SHOP_MODIFY_DOMAIN_SHOP_POSITIONS",
+    "direction": "sc"
+  },
+  "1363": {
+    "msg_id": 1363,
+    "enum_name": "ScShopSellResp",
+    "class_name": "SC_SHOP_SELL_RESP",
+    "guessed_class_name": "SC_SHOP_SELL_RESP",
+    "direction": "sc"
+  },
+  "1364": {
+    "msg_id": 1364,
+    "enum_name": "ScShopQueryFriendGoodsPrice",
+    "class_name": "SC_SHOP_QUERY_FRIEND_GOODS_PRICE",
+    "guessed_class_name": "SC_SHOP_QUERY_FRIEND_GOODS_PRICE",
+    "direction": "sc"
+  },
+  "1365": {
+    "msg_id": 1365,
+    "enum_name": "ScShopManualRefresh",
+    "class_name": "SC_SHOP_MANUAL_REFRESH",
+    "guessed_class_name": "SC_SHOP_MANUAL_REFRESH",
+    "direction": "sc"
+  },
+  "1366": {
+    "msg_id": 1366,
+    "enum_name": "ScShopQueryFriendShop",
+    "class_name": "SC_SHOP_QUERY_FRIEND_SHOP",
+    "guessed_class_name": "SC_SHOP_QUERY_FRIEND_SHOP",
+    "direction": "sc"
+  },
+  "1367": {
+    "msg_id": 1367,
+    "enum_name": "ScShopSwapCharPotentialUp",
+    "class_name": "SC_SHOP_SWAP_CHAR_POTENTIAL_UP",
+    "guessed_class_name": "SC_SHOP_SWAP_CHAR_POTENTIAL_UP",
+    "direction": "sc"
+  },
+  "1370": {
+    "msg_id": 1370,
+    "enum_name": "ScShopEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_SHOP_END",
+    "direction": "sc"
+  },
+  "1371": {
+    "msg_id": 1371,
+    "enum_name": "ScTdBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_TD_BEGIN",
+    "direction": "sc"
+  },
+  "1375": {
+    "msg_id": 1375,
+    "enum_name": "ScSyncTdSettlement",
+    "class_name": "SC_SYNC_TD_SETTLEMENT",
+    "guessed_class_name": "SC_SYNC_TD_SETTLEMENT",
+    "direction": "sc"
+  },
+  "1400": {
+    "msg_id": 1400,
+    "enum_name": "ScTdEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_TD_END",
+    "direction": "sc"
+  },
+  "1401": {
+    "msg_id": 1401,
+    "enum_name": "ScAdventureBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_ADVENTURE_BEGIN",
+    "direction": "sc"
+  },
+  "1402": {
+    "msg_id": 1402,
+    "enum_name": "ScAdventureLevelModify",
+    "class_name": "SC_ADVENTURE_LEVEL_MODIFY",
+    "guessed_class_name": "SC_ADVENTURE_LEVEL_MODIFY",
+    "direction": "sc"
+  },
+  "1403": {
+    "msg_id": 1403,
+    "enum_name": "ScAdventureSyncAll",
+    "class_name": "SC_ADVENTURE_SYNC_ALL",
+    "guessed_class_name": "SC_ADVENTURE_SYNC_ALL",
+    "direction": "sc"
+  },
+  "1404": {
+    "msg_id": 1404,
+    "enum_name": "ScAdventureWorldLevelModify",
+    "class_name": "SC_ADVENTURE_WORLD_LEVEL_MODIFY",
+    "guessed_class_name": "SC_ADVENTURE_WORLD_LEVEL_MODIFY",
+    "direction": "sc"
+  },
+  "1430": {
+    "msg_id": 1430,
+    "enum_name": "ScAdventureEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_ADVENTURE_END",
+    "direction": "sc"
+  },
+  "1431": {
+    "msg_id": 1431,
+    "enum_name": "ScGemRecast",
+    "class_name": "SC_GEM_RECAST",
+    "guessed_class_name": "SC_GEM_RECAST",
+    "direction": "sc"
+  },
+  "1432": {
+    "msg_id": 1432,
+    "enum_name": "ScGemEnhance",
+    "class_name": "SC_GEM_ENHANCE",
+    "guessed_class_name": "SC_GEM_ENHANCE",
+    "direction": "sc"
+  },
+  "1433": {
+    "msg_id": 1433,
+    "enum_name": "ScGemDismantle",
+    "class_name": "SC_GEM_DISMANTLE",
+    "guessed_class_name": "SC_GEM_DISMANTLE",
+    "direction": "sc"
+  },
+  "1440": {
+    "msg_id": 1440,
+    "enum_name": "ScGemEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_GEM_END",
+    "direction": "sc"
+  },
+  "1441": {
+    "msg_id": 1441,
+    "enum_name": "ScResetDailyAdventureTask",
+    "class_name": "SC_RESET_DAILY_ADVENTURE_TASK",
+    "guessed_class_name": "SC_RESET_DAILY_ADVENTURE_TASK",
+    "direction": "sc"
+  },
+  "1443": {
+    "msg_id": 1443,
+    "enum_name": "ScDailyActivationModify",
+    "class_name": "SC_DAILY_ACTIVATION_MODIFY",
+    "guessed_class_name": "SC_DAILY_ACTIVATION_MODIFY",
+    "direction": "sc"
+  },
+  "1444": {
+    "msg_id": 1444,
+    "enum_name": "ScAdventureTaskModify",
+    "class_name": "SC_ADVENTURE_TASK_MODIFY",
+    "guessed_class_name": "SC_ADVENTURE_TASK_MODIFY",
+    "direction": "sc"
+  },
+  "1445": {
+    "msg_id": 1445,
+    "enum_name": "ScAdventureBookSync",
+    "class_name": "SC_ADVENTURE_BOOK_SYNC",
+    "guessed_class_name": "SC_ADVENTURE_BOOK_SYNC",
+    "direction": "sc"
+  },
+  "1447": {
+    "msg_id": 1447,
+    "enum_name": "ScAdventureBookStageModify",
+    "class_name": "SC_ADVENTURE_BOOK_STAGE_MODIFY",
+    "guessed_class_name": "SC_ADVENTURE_BOOK_STAGE_MODIFY",
+    "direction": "sc"
+  },
+  "1490": {
+    "msg_id": 1490,
+    "enum_name": "ScTalentBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_TALENT_BEGIN",
+    "direction": "sc"
+  },
+  "1491": {
+    "msg_id": 1491,
+    "enum_name": "ScCharUnlockTalentNode",
+    "class_name": "SC_CHAR_UNLOCK_TALENT_NODE",
+    "guessed_class_name": "SC_CHAR_UNLOCK_TALENT_NODE",
+    "direction": "sc"
+  },
+  "1529": {
+    "msg_id": 1529,
+    "enum_name": "ScTalentEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_TALENT_END",
+    "direction": "sc"
+  },
+  "1530": {
+    "msg_id": 1530,
+    "enum_name": "ScRacingDungeonBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_RACING_DUNGEON_BEGIN",
+    "direction": "sc"
+  },
+  "1531": {
+    "msg_id": 1531,
+    "enum_name": "ScSyncRacingDungeonPassedLevel",
+    "class_name": "SC_SYNC_RACING_DUNGEON_PASSED_LEVEL",
+    "guessed_class_name": "SC_SYNC_RACING_DUNGEON_PASSED_LEVEL",
+    "direction": "sc"
+  },
+  "1532": {
+    "msg_id": 1532,
+    "enum_name": "ScRacingDungeonEnter",
+    "class_name": "SC_RACING_DUNGEON_ENTER",
+    "guessed_class_name": "SC_RACING_DUNGEON_ENTER",
+    "direction": "sc"
+  },
+  "1533": {
+    "msg_id": 1533,
+    "enum_name": "ScSyncRacingDungeonSettlement",
+    "class_name": "SC_SYNC_RACING_DUNGEON_SETTLEMENT",
+    "guessed_class_name": "SC_SYNC_RACING_DUNGEON_SETTLEMENT",
+    "direction": "sc"
+  },
+  "1534": {
+    "msg_id": 1534,
+    "enum_name": "ScSyncRacingDungeonReconnect",
+    "class_name": "SC_SYNC_RACING_DUNGEON_RECONNECT",
+    "guessed_class_name": "SC_SYNC_RACING_DUNGEON_RECONNECT",
+    "direction": "sc"
+  },
+  "1535": {
+    "msg_id": 1535,
+    "enum_name": "ScRacingDungeonBattlePassReceiveReward",
+    "class_name": "SC_RACING_DUNGEON_BATTLE_PASS_RECEIVE_REWARD",
+    "guessed_class_name": "SC_RACING_DUNGEON_BATTLE_PASS_RECEIVE_REWARD",
+    "direction": "sc"
+  },
+  "1536": {
+    "msg_id": 1536,
+    "enum_name": "ScRacingDungeonGetBattlePass",
+    "class_name": "SC_RACING_DUNGEON_GET_BATTLE_PASS",
+    "guessed_class_name": "SC_RACING_DUNGEON_GET_BATTLE_PASS",
+    "direction": "sc"
+  },
+  "1537": {
+    "msg_id": 1537,
+    "enum_name": "ScRacingDungeonGetAchievement",
+    "class_name": "SC_RACING_DUNGEON_GET_ACHIEVEMENT",
+    "guessed_class_name": "SC_RACING_DUNGEON_GET_ACHIEVEMENT",
+    "direction": "sc"
+  },
+  "1538": {
+    "msg_id": 1538,
+    "enum_name": "ScRacingDungeonAchievementReceiveReward",
+    "class_name": "SC_RACING_DUNGEON_ACHIEVEMENT_RECEIVE_REWARD",
+    "guessed_class_name": "SC_RACING_DUNGEON_ACHIEVEMENT_RECEIVE_REWARD",
+    "direction": "sc"
+  },
+  "1539": {
+    "msg_id": 1539,
+    "enum_name": "ScSyncRacingDungeonBuffModify",
+    "class_name": "SC_SYNC_RACING_DUNGEON_BUFF_MODIFY",
+    "guessed_class_name": "SC_SYNC_RACING_DUNGEON_BUFF_MODIFY",
+    "direction": "sc"
+  },
+  "1540": {
+    "msg_id": 1540,
+    "enum_name": "ScSyncRacingDungeonAchievementModify",
+    "class_name": "SC_SYNC_RACING_DUNGEON_ACHIEVEMENT_MODIFY",
+    "guessed_class_name": "SC_SYNC_RACING_DUNGEON_ACHIEVEMENT_MODIFY",
+    "direction": "sc"
+  },
+  "1541": {
+    "msg_id": 1541,
+    "enum_name": "ScSyncRacingTimerPause",
+    "class_name": "SC_SYNC_RACING_TIMER_PAUSE",
+    "guessed_class_name": "SC_SYNC_RACING_TIMER_PAUSE",
+    "direction": "sc"
+  },
+  "1542": {
+    "msg_id": 1542,
+    "enum_name": "ScSyncRacingDungeonCompleteRoom",
+    "class_name": "SC_SYNC_RACING_DUNGEON_COMPLETE_ROOM",
+    "guessed_class_name": "SC_SYNC_RACING_DUNGEON_COMPLETE_ROOM",
+    "direction": "sc"
+  },
+  "1600": {
+    "msg_id": 1600,
+    "enum_name": "ScRacingDungeonEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_RACING_DUNGEON_END",
+    "direction": "sc"
+  },
+  "1602": {
+    "msg_id": 1602,
+    "enum_name": "ScCharBagRemoveTrialCharacter",
+    "class_name": "SC_CHAR_BAG_REMOVE_TRIAL_CHARACTER",
+    "guessed_class_name": "SC_CHAR_BAG_REMOVE_TRIAL_CHARACTER",
+    "direction": "sc"
+  },
+  "1603": {
+    "msg_id": 1603,
+    "enum_name": "ScTrialCharacterEquipMedicineModify",
+    "class_name": "SC_TRIAL_CHARACTER_EQUIP_MEDICINE_MODIFY",
+    "guessed_class_name": "SC_TRIAL_CHARACTER_EQUIP_MEDICINE_MODIFY",
+    "direction": "sc"
+  },
+  "1610": {
+    "msg_id": 1610,
+    "enum_name": "ScGachaBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_GACHA_BEGIN",
+    "direction": "sc"
+  },
+  "1611": {
+    "msg_id": 1611,
+    "enum_name": "ScGachaSync",
+    "class_name": "SC_GACHA_SYNC",
+    "guessed_class_name": "SC_GACHA_SYNC",
+    "direction": "sc"
+  },
+  "1612": {
+    "msg_id": 1612,
+    "enum_name": "ScGachaModifyPoolInfo",
+    "class_name": "SC_GACHA_MODIFY_POOL_INFO",
+    "guessed_class_name": "SC_GACHA_MODIFY_POOL_INFO",
+    "direction": "sc"
+  },
+  "1613": {
+    "msg_id": 1613,
+    "enum_name": "ScGachaSyncPullResult",
+    "class_name": "SC_GACHA_SYNC_PULL_RESULT",
+    "guessed_class_name": "SC_GACHA_SYNC_PULL_RESULT",
+    "direction": "sc"
+  },
+  "1614": {
+    "msg_id": 1614,
+    "enum_name": "ScGachaModifyPoolRoleData",
+    "class_name": "SC_GACHA_MODIFY_POOL_ROLE_DATA",
+    "guessed_class_name": "SC_GACHA_MODIFY_POOL_ROLE_DATA",
+    "direction": "sc"
+  },
+  "1615": {
+    "msg_id": 1615,
+    "enum_name": "ScGachaTestimonialConvertNtf",
+    "class_name": "SC_GACHA_TESTIMONIAL_CONVERT_NTF",
+    "guessed_class_name": "SC_GACHA_TESTIMONIAL_CONVERT_NTF",
+    "direction": "sc"
+  },
+  "1640": {
+    "msg_id": 1640,
+    "enum_name": "ScGachaEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_GACHA_END",
+    "direction": "sc"
+  },
+  "1641": {
+    "msg_id": 1641,
+    "enum_name": "ScGameTimeFreezeBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_GAME_TIME_FREEZE_BEGIN",
+    "direction": "sc"
+  },
+  "1642": {
+    "msg_id": 1642,
+    "enum_name": "ScGameTimeFreezeStartRsp",
+    "class_name": "SC_GAME_TIME_FREEZE_START_RSP",
+    "guessed_class_name": "SC_GAME_TIME_FREEZE_START_RSP",
+    "direction": "sc"
+  },
+  "1643": {
+    "msg_id": 1643,
+    "enum_name": "ScGameTimeFreezeEndRsp",
+    "class_name": "SC_GAME_TIME_FREEZE_END_RSP",
+    "guessed_class_name": "SC_GAME_TIME_FREEZE_END_RSP",
+    "direction": "sc"
+  },
+  "1650": {
+    "msg_id": 1650,
+    "enum_name": "ScGameTimeFreezeEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_GAME_TIME_FREEZE_END",
+    "direction": "sc"
+  },
+  "1651": {
+    "msg_id": 1651,
+    "enum_name": "ScActivityBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_ACTIVITY_BEGIN",
+    "direction": "sc"
+  },
+  "1652": {
+    "msg_id": 1652,
+    "enum_name": "ScActivitySync",
+    "class_name": "SC_ACTIVITY_SYNC",
+    "guessed_class_name": "SC_ACTIVITY_SYNC",
+    "direction": "sc"
+  },
+  "1653": {
+    "msg_id": 1653,
+    "enum_name": "ScActivityModify",
+    "class_name": "SC_ACTIVITY_MODIFY",
+    "guessed_class_name": "SC_ACTIVITY_MODIFY",
+    "direction": "sc"
+  },
+  "1654": {
+    "msg_id": 1654,
+    "enum_name": "ScActivityProgressChange",
+    "class_name": "SC_ACTIVITY_PROGRESS_CHANGE",
+    "guessed_class_name": "SC_ACTIVITY_PROGRESS_CHANGE",
+    "direction": "sc"
+  },
+  "1655": {
+    "msg_id": 1655,
+    "enum_name": "ScBaseMultiStageActivityReceiveReward",
+    "class_name": "SC_BASE_MULTI_STAGE_ACTIVITY_RECEIVE_REWARD",
+    "guessed_class_name": "SC_BASE_MULTI_STAGE_ACTIVITY_RECEIVE_REWARD",
+    "direction": "sc"
+  },
+  "1656": {
+    "msg_id": 1656,
+    "enum_name": "ScActivityConditionalMultiStageBaseChange",
+    "class_name": "SC_ACTIVITY_CONDITIONAL_MULTI_STAGE_BASE_CHANGE",
+    "guessed_class_name": "SC_ACTIVITY_CONDITIONAL_MULTI_STAGE_BASE_CHANGE",
+    "direction": "sc"
+  },
+  "1657": {
+    "msg_id": 1657,
+    "enum_name": "ScConditionalMultiStageActivityGainReward",
+    "class_name": "SC_CONDITIONAL_MULTI_STAGE_ACTIVITY_GAIN_REWARD",
+    "guessed_class_name": "SC_CONDITIONAL_MULTI_STAGE_ACTIVITY_GAIN_REWARD",
+    "direction": "sc"
+  },
+  "1658": {
+    "msg_id": 1658,
+    "enum_name": "ScActivityConditionalStageProgressChange",
+    "class_name": "SC_ACTIVITY_CONDITIONAL_STAGE_PROGRESS_CHANGE",
+    "guessed_class_name": "SC_ACTIVITY_CONDITIONAL_STAGE_PROGRESS_CHANGE",
+    "direction": "sc"
+  },
+  "1659": {
+    "msg_id": 1659,
+    "enum_name": "ScActivityWeeklyTaskTaskGainReward",
+    "class_name": "SC_ACTIVITY_WEEKLY_TASK_TASK_GAIN_REWARD",
+    "guessed_class_name": "SC_ACTIVITY_WEEKLY_TASK_TASK_GAIN_REWARD",
+    "direction": "sc"
+  },
+  "1660": {
+    "msg_id": 1660,
+    "enum_name": "ScActivityWeeklyTaskMilestoneGainReward",
+    "class_name": "SC_ACTIVITY_WEEKLY_TASK_MILESTONE_GAIN_REWARD",
+    "guessed_class_name": "SC_ACTIVITY_WEEKLY_TASK_MILESTONE_GAIN_REWARD",
+    "direction": "sc"
+  },
+  "1661": {
+    "msg_id": 1661,
+    "enum_name": "ScDailyCheckin",
+    "class_name": "SC_DAILY_CHECKIN",
+    "guessed_class_name": "SC_DAILY_CHECKIN",
+    "direction": "sc"
+  },
+  "1662": {
+    "msg_id": 1662,
+    "enum_name": "ScActivityReqFriendRank",
+    "class_name": "",
+    "guessed_class_name": "SC_ACTIVITY_REQ_FRIEND_RANK",
+    "direction": "sc"
+  },
+  "1663": {
+    "msg_id": 1663,
+    "enum_name": "ScActivityOwnRankInfoChange",
+    "class_name": "",
+    "guessed_class_name": "SC_ACTIVITY_OWN_RANK_INFO_CHANGE",
+    "direction": "sc"
+  },
+  "1690": {
+    "msg_id": 1690,
+    "enum_name": "ScActivityEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_ACTIVITY_END",
+    "direction": "sc"
+  },
+  "1691": {
+    "msg_id": 1691,
+    "enum_name": "ScNpcBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_NPC_BEGIN",
+    "direction": "sc"
+  },
+  "1692": {
+    "msg_id": 1692,
+    "enum_name": "ScNpcSetMetaDataRsp",
+    "class_name": "SC_NPC_SET_META_DATA_RSP",
+    "guessed_class_name": "SC_NPC_SET_META_DATA_RSP",
+    "direction": "sc"
+  },
+  "1693": {
+    "msg_id": 1693,
+    "enum_name": "ScNpcEnterMapResync",
+    "class_name": "SC_NPC_ENTER_MAP_RESYNC",
+    "guessed_class_name": "SC_NPC_ENTER_MAP_RESYNC",
+    "direction": "sc"
+  },
+  "1694": {
+    "msg_id": 1694,
+    "enum_name": "ScNpcActiveChangeNtf",
+    "class_name": "SC_NPC_ACTIVE_CHANGE_NTF",
+    "guessed_class_name": "SC_NPC_ACTIVE_CHANGE_NTF",
+    "direction": "sc"
+  },
+  "1695": {
+    "msg_id": 1695,
+    "enum_name": "ScNpcResetMetaDataNtf",
+    "class_name": "SC_NPC_RESET_META_DATA_NTF",
+    "guessed_class_name": "SC_NPC_RESET_META_DATA_NTF",
+    "direction": "sc"
+  },
+  "1696": {
+    "msg_id": 1696,
+    "enum_name": "ScNpcConflictNtf",
+    "class_name": "SC_NPC_CONFLICT_NTF",
+    "guessed_class_name": "SC_NPC_CONFLICT_NTF",
+    "direction": "sc"
+  },
+  "1697": {
+    "msg_id": 1697,
+    "enum_name": "ScNpcBatchSetMetaDataRsp",
+    "class_name": "SC_NPC_BATCH_SET_META_DATA_RSP",
+    "guessed_class_name": "SC_NPC_BATCH_SET_META_DATA_RSP",
+    "direction": "sc"
+  },
+  "1698": {
+    "msg_id": 1698,
+    "enum_name": "ScNpcActiveChangeApplyNtf",
+    "class_name": "SC_NPC_ACTIVE_CHANGE_APPLY_NTF",
+    "guessed_class_name": "SC_NPC_ACTIVE_CHANGE_APPLY_NTF",
+    "direction": "sc"
+  },
+  "1710": {
+    "msg_id": 1710,
+    "enum_name": "ScNpcEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_NPC_END",
+    "direction": "sc"
+  },
+  "1711": {
+    "msg_id": 1711,
+    "enum_name": "ScFocusModeBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_FOCUS_MODE_BEGIN",
+    "direction": "sc"
+  },
+  "1712": {
+    "msg_id": 1712,
+    "enum_name": "ScFocusModeEnterNtf",
+    "class_name": "SC_FOCUS_MODE_ENTER_NTF",
+    "guessed_class_name": "SC_FOCUS_MODE_ENTER_NTF",
+    "direction": "sc"
+  },
+  "1713": {
+    "msg_id": 1713,
+    "enum_name": "ScFocusModeLeaveNtf",
+    "class_name": "SC_FOCUS_MODE_LEAVE_NTF",
+    "guessed_class_name": "SC_FOCUS_MODE_LEAVE_NTF",
+    "direction": "sc"
+  },
+  "1714": {
+    "msg_id": 1714,
+    "enum_name": "ScFocusModeLeaveEndNtf",
+    "class_name": "SC_FOCUS_MODE_LEAVE_END_NTF",
+    "guessed_class_name": "SC_FOCUS_MODE_LEAVE_END_NTF",
+    "direction": "sc"
+  },
+  "1740": {
+    "msg_id": 1740,
+    "enum_name": "ScFocusModeEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_FOCUS_MODE_END",
+    "direction": "sc"
+  },
+  "1741": {
+    "msg_id": 1741,
+    "enum_name": "ScDomainDevelopmentBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_DOMAIN_DEVELOPMENT_BEGIN",
+    "direction": "sc"
+  },
+  "1742": {
+    "msg_id": 1742,
+    "enum_name": "ScDomainDevelopmentSystemSync",
+    "class_name": "SC_DOMAIN_DEVELOPMENT_SYSTEM_SYNC",
+    "guessed_class_name": "SC_DOMAIN_DEVELOPMENT_SYSTEM_SYNC",
+    "direction": "sc"
+  },
+  "1743": {
+    "msg_id": 1743,
+    "enum_name": "ScDomainDevelopmentDegreeModify",
+    "class_name": "SC_DOMAIN_DEVELOPMENT_DEGREE_MODIFY",
+    "guessed_class_name": "SC_DOMAIN_DEVELOPMENT_DEGREE_MODIFY",
+    "direction": "sc"
+  },
+  "1744": {
+    "msg_id": 1744,
+    "enum_name": "ScDomainDevelopmentRewardedLevelModify",
+    "class_name": "SC_DOMAIN_DEVELOPMENT_REWARDED_LEVEL_MODIFY",
+    "guessed_class_name": "SC_DOMAIN_DEVELOPMENT_REWARDED_LEVEL_MODIFY",
+    "direction": "sc"
+  },
+  "1745": {
+    "msg_id": 1745,
+    "enum_name": "ScDomainDevelopmentSync",
+    "class_name": "SC_DOMAIN_DEVELOPMENT_SYNC",
+    "guessed_class_name": "SC_DOMAIN_DEVELOPMENT_SYNC",
+    "direction": "sc"
+  },
+  "1746": {
+    "msg_id": 1746,
+    "enum_name": "ScDomainDevelopmentReadVersionInfoModify",
+    "class_name": "SC_DOMAIN_DEVELOPMENT_READ_VERSION_INFO_MODIFY",
+    "guessed_class_name": "SC_DOMAIN_DEVELOPMENT_READ_VERSION_INFO_MODIFY",
+    "direction": "sc"
+  },
+  "1790": {
+    "msg_id": 1790,
+    "enum_name": "ScDomainDevelopmentEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_DOMAIN_DEVELOPMENT_END",
+    "direction": "sc"
+  },
+  "1791": {
+    "msg_id": 1791,
+    "enum_name": "ScRecycleBinBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_RECYCLE_BIN_BEGIN",
+    "direction": "sc"
+  },
+  "1792": {
+    "msg_id": 1792,
+    "enum_name": "ScRecycleBinModify",
+    "class_name": "SC_RECYCLE_BIN_MODIFY",
+    "guessed_class_name": "SC_RECYCLE_BIN_MODIFY",
+    "direction": "sc"
+  },
+  "1793": {
+    "msg_id": 1793,
+    "enum_name": "ScRecycleBinSystemSyncAll",
+    "class_name": "SC_RECYCLE_BIN_SYSTEM_SYNC_ALL",
+    "guessed_class_name": "SC_RECYCLE_BIN_SYSTEM_SYNC_ALL",
+    "direction": "sc"
+  },
+  "1799": {
+    "msg_id": 1799,
+    "enum_name": "ScRecycleBinEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_RECYCLE_BIN_END",
+    "direction": "sc"
+  },
+  "1800": {
+    "msg_id": 1800,
+    "enum_name": "ScSyncAllDoodadGroup",
+    "class_name": "SC_SYNC_ALL_DOODAD_GROUP",
+    "guessed_class_name": "SC_SYNC_ALL_DOODAD_GROUP",
+    "direction": "sc"
+  },
+  "1801": {
+    "msg_id": 1801,
+    "enum_name": "ScDoodadGroupModify",
+    "class_name": "SC_DOODAD_GROUP_MODIFY",
+    "guessed_class_name": "SC_DOODAD_GROUP_MODIFY",
+    "direction": "sc"
+  },
+  "1811": {
+    "msg_id": 1811,
+    "enum_name": "ScKiteStationBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_KITE_STATION_BEGIN",
+    "direction": "sc"
+  },
+  "1812": {
+    "msg_id": 1812,
+    "enum_name": "ScKiteStationLevelUp",
+    "class_name": "SC_KITE_STATION_LEVEL_UP",
+    "guessed_class_name": "SC_KITE_STATION_LEVEL_UP",
+    "direction": "sc"
+  },
+  "1813": {
+    "msg_id": 1813,
+    "enum_name": "ScKiteStationSyncAll",
+    "class_name": "SC_KITE_STATION_SYNC_ALL",
+    "guessed_class_name": "SC_KITE_STATION_SYNC_ALL",
+    "direction": "sc"
+  },
+  "1816": {
+    "msg_id": 1816,
+    "enum_name": "ScKiteStationModifyKs",
+    "class_name": "SC_KITE_STATION_MODIFY_KS",
+    "guessed_class_name": "SC_KITE_STATION_MODIFY_KS",
+    "direction": "sc"
+  },
+  "1817": {
+    "msg_id": 1817,
+    "enum_name": "ScKiteStationRefresh",
+    "class_name": "SC_KITE_STATION_REFRESH",
+    "guessed_class_name": "SC_KITE_STATION_REFRESH",
+    "direction": "sc"
+  },
+  "1830": {
+    "msg_id": 1830,
+    "enum_name": "ScKiteStationEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_KITE_STATION_END",
+    "direction": "sc"
+  },
+  "1831": {
+    "msg_id": 1831,
+    "enum_name": "ScAchieveBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_ACHIEVE_BEGIN",
+    "direction": "sc"
+  },
+  "1832": {
+    "msg_id": 1832,
+    "enum_name": "ScAchieveSync",
+    "class_name": "SC_ACHIEVE_SYNC",
+    "guessed_class_name": "SC_ACHIEVE_SYNC",
+    "direction": "sc"
+  },
+  "1833": {
+    "msg_id": 1833,
+    "enum_name": "ScAchieveSyncPublicInfo",
+    "class_name": "SC_ACHIEVE_SYNC_PUBLIC_INFO",
+    "guessed_class_name": "SC_ACHIEVE_SYNC_PUBLIC_INFO",
+    "direction": "sc"
+  },
+  "1834": {
+    "msg_id": 1834,
+    "enum_name": "ScAchieveSyncPersonalInfo",
+    "class_name": "SC_ACHIEVE_SYNC_PERSONAL_INFO",
+    "guessed_class_name": "SC_ACHIEVE_SYNC_PERSONAL_INFO",
+    "direction": "sc"
+  },
+  "1835": {
+    "msg_id": 1835,
+    "enum_name": "ScAchieveDisplayInfoChange",
+    "class_name": "SC_ACHIEVE_DISPLAY_INFO_CHANGE",
+    "guessed_class_name": "SC_ACHIEVE_DISPLAY_INFO_CHANGE",
+    "direction": "sc"
+  },
+  "1850": {
+    "msg_id": 1850,
+    "enum_name": "ScAchieveEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_ACHIEVE_END",
+    "direction": "sc"
+  },
+  "1851": {
+    "msg_id": 1851,
+    "enum_name": "ScDevDataVersionNotify",
+    "class_name": "SC_DEV_DATA_VERSION_NOTIFY",
+    "guessed_class_name": "SC_DEV_DATA_VERSION_NOTIFY",
+    "direction": "sc"
+  },
+  "1901": {
+    "msg_id": 1901,
+    "enum_name": "ScWeekRaidBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_WEEK_RAID_BEGIN",
+    "direction": "sc"
+  },
+  "1902": {
+    "msg_id": 1902,
+    "enum_name": "ScWeekRaidBattlePassReceiveReward",
+    "class_name": "SC_WEEK_RAID_BATTLE_PASS_RECEIVE_REWARD",
+    "guessed_class_name": "SC_WEEK_RAID_BATTLE_PASS_RECEIVE_REWARD",
+    "direction": "sc"
+  },
+  "1903": {
+    "msg_id": 1903,
+    "enum_name": "ScWeekRaidPictorialReceiveReward",
+    "class_name": "SC_WEEK_RAID_PICTORIAL_RECEIVE_REWARD",
+    "guessed_class_name": "SC_WEEK_RAID_PICTORIAL_RECEIVE_REWARD",
+    "direction": "sc"
+  },
+  "1904": {
+    "msg_id": 1904,
+    "enum_name": "ScWeekRaidPictorialModify",
+    "class_name": "SC_WEEK_RAID_PICTORIAL_MODIFY",
+    "guessed_class_name": "SC_WEEK_RAID_PICTORIAL_MODIFY",
+    "direction": "sc"
+  },
+  "1905": {
+    "msg_id": 1905,
+    "enum_name": "ScSyncWeekRaidDangerMeterModify",
+    "class_name": "SC_SYNC_WEEK_RAID_DANGER_METER_MODIFY",
+    "guessed_class_name": "SC_SYNC_WEEK_RAID_DANGER_METER_MODIFY",
+    "direction": "sc"
+  },
+  "1906": {
+    "msg_id": 1906,
+    "enum_name": "ScSyncWeekRaidSettlement",
+    "class_name": "SC_SYNC_WEEK_RAID_SETTLEMENT",
+    "guessed_class_name": "SC_SYNC_WEEK_RAID_SETTLEMENT",
+    "direction": "sc"
+  },
+  "1907": {
+    "msg_id": 1907,
+    "enum_name": "ScWeekRaidRefreshMission",
+    "class_name": "SC_WEEK_RAID_REFRESH_MISSION",
+    "guessed_class_name": "SC_WEEK_RAID_REFRESH_MISSION",
+    "direction": "sc"
+  },
+  "1908": {
+    "msg_id": 1908,
+    "enum_name": "ScSyncWeekRaid",
+    "class_name": "SC_SYNC_WEEK_RAID",
+    "guessed_class_name": "SC_SYNC_WEEK_RAID",
+    "direction": "sc"
+  },
+  "1909": {
+    "msg_id": 1909,
+    "enum_name": "ScSyncWeekRaidBattlePassModify",
+    "class_name": "SC_SYNC_WEEK_RAID_BATTLE_PASS_MODIFY",
+    "guessed_class_name": "SC_SYNC_WEEK_RAID_BATTLE_PASS_MODIFY",
+    "direction": "sc"
+  },
+  "1910": {
+    "msg_id": 1910,
+    "enum_name": "ScWeekRaidCompleteMission",
+    "class_name": "SC_WEEK_RAID_COMPLETE_MISSION",
+    "guessed_class_name": "SC_WEEK_RAID_COMPLETE_MISSION",
+    "direction": "sc"
+  },
+  "1911": {
+    "msg_id": 1911,
+    "enum_name": "ScWeekRaidTechModify",
+    "class_name": "SC_WEEK_RAID_TECH_MODIFY",
+    "guessed_class_name": "SC_WEEK_RAID_TECH_MODIFY",
+    "direction": "sc"
+  },
+  "1912": {
+    "msg_id": 1912,
+    "enum_name": "ScSyncWeekRaidGameStart",
+    "class_name": "SC_SYNC_WEEK_RAID_GAME_START",
+    "guessed_class_name": "SC_SYNC_WEEK_RAID_GAME_START",
+    "direction": "sc"
+  },
+  "1913": {
+    "msg_id": 1913,
+    "enum_name": "ScWeekRaidMissionModify",
+    "class_name": "SC_WEEK_RAID_MISSION_MODIFY",
+    "guessed_class_name": "SC_WEEK_RAID_MISSION_MODIFY",
+    "direction": "sc"
+  },
+  "1999": {
+    "msg_id": 1999,
+    "enum_name": "ScWeekRaidEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_WEEK_RAID_END",
+    "direction": "sc"
+  },
+  "2000": {
+    "msg_id": 2000,
+    "enum_name": "ScDomainDepotBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_BEGIN",
+    "direction": "sc"
+  },
+  "2001": {
+    "msg_id": 2001,
+    "enum_name": "ScDomainDepotSyncAllInfo",
+    "class_name": "SC_DOMAIN_DEPOT_SYNC_ALL_INFO",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_SYNC_ALL_INFO",
+    "direction": "sc"
+  },
+  "2002": {
+    "msg_id": 2002,
+    "enum_name": "ScReduceCargoIntegrityRsp",
+    "class_name": "SC_REDUCE_CARGO_INTEGRITY_RSP",
+    "guessed_class_name": "SC_REDUCE_CARGO_INTEGRITY_RSP",
+    "direction": "sc"
+  },
+  "2003": {
+    "msg_id": 2003,
+    "enum_name": "ScDomainDepotUnlockRsp",
+    "class_name": "SC_DOMAIN_DEPOT_UNLOCK_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_UNLOCK_RSP",
+    "direction": "sc"
+  },
+  "2004": {
+    "msg_id": 2004,
+    "enum_name": "ScDomainDepotLevelUpgradeRsp",
+    "class_name": "SC_DOMAIN_DEPOT_LEVEL_UPGRADE_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_LEVEL_UPGRADE_RSP",
+    "direction": "sc"
+  },
+  "2005": {
+    "msg_id": 2005,
+    "enum_name": "ScDomainDepotPackItemRsp",
+    "class_name": "SC_DOMAIN_DEPOT_PACK_ITEM_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_PACK_ITEM_RSP",
+    "direction": "sc"
+  },
+  "2006": {
+    "msg_id": 2006,
+    "enum_name": "ScDomainDepotSelectBuyerRsp",
+    "class_name": "SC_DOMAIN_DEPOT_SELECT_BUYER_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_SELECT_BUYER_RSP",
+    "direction": "sc"
+  },
+  "2007": {
+    "msg_id": 2007,
+    "enum_name": "ScDomainDepotFetchDelegateRsp",
+    "class_name": "SC_DOMAIN_DEPOT_FETCH_DELEGATE_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_FETCH_DELEGATE_RSP",
+    "direction": "sc"
+  },
+  "2008": {
+    "msg_id": 2008,
+    "enum_name": "ScDomainDepotDelegateRsp",
+    "class_name": "SC_DOMAIN_DEPOT_DELEGATE_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_DELEGATE_RSP",
+    "direction": "sc"
+  },
+  "2009": {
+    "msg_id": 2009,
+    "enum_name": "ScDomainDepotTakeDelegateRsp",
+    "class_name": "SC_DOMAIN_DEPOT_TAKE_DELEGATE_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_TAKE_DELEGATE_RSP",
+    "direction": "sc"
+  },
+  "2010": {
+    "msg_id": 2010,
+    "enum_name": "ScDomainDepotUpdateDelegateInstState",
+    "class_name": "SC_DOMAIN_DEPOT_UPDATE_DELEGATE_INST_STATE",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_UPDATE_DELEGATE_INST_STATE",
+    "direction": "sc"
+  },
+  "2011": {
+    "msg_id": 2011,
+    "enum_name": "ScDomainDepotCollectDelegateRewardRsp",
+    "class_name": "SC_DOMAIN_DEPOT_COLLECT_DELEGATE_REWARD_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_COLLECT_DELEGATE_REWARD_RSP",
+    "direction": "sc"
+  },
+  "2012": {
+    "msg_id": 2012,
+    "enum_name": "ScDomainDepotRecvPackageForDeliverRsp",
+    "class_name": "SC_DOMAIN_DEPOT_RECV_PACKAGE_FOR_DELIVER_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_RECV_PACKAGE_FOR_DELIVER_RSP",
+    "direction": "sc"
+  },
+  "2013": {
+    "msg_id": 2013,
+    "enum_name": "ScDomainDepotSendPackageForDeliverRsp",
+    "class_name": "SC_DOMAIN_DEPOT_SEND_PACKAGE_FOR_DELIVER_RSP",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_SEND_PACKAGE_FOR_DELIVER_RSP",
+    "direction": "sc"
+  },
+  "2014": {
+    "msg_id": 2014,
+    "enum_name": "ScDomainDepotDailyRefreshTrigger",
+    "class_name": "SC_DOMAIN_DEPOT_DAILY_REFRESH_TRIGGER",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_DAILY_REFRESH_TRIGGER",
+    "direction": "sc"
+  },
+  "2050": {
+    "msg_id": 2050,
+    "enum_name": "ScDomainDepotEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_DOMAIN_DEPOT_END",
+    "direction": "sc"
+  },
+  "2051": {
+    "msg_id": 2051,
+    "enum_name": "ScFactorySoilFertilize",
+    "class_name": "SC_FACTORY_SOIL_FERTILIZE",
+    "guessed_class_name": "SC_FACTORY_SOIL_FERTILIZE",
+    "direction": "sc"
+  },
+  "2061": {
+    "msg_id": 2061,
+    "enum_name": "ScGlobalEffectSyncAll",
+    "class_name": "SC_GLOBAL_EFFECT_SYNC_ALL",
+    "guessed_class_name": "SC_GLOBAL_EFFECT_SYNC_ALL",
+    "direction": "sc"
+  },
+  "2062": {
+    "msg_id": 2062,
+    "enum_name": "ScGlobalEffectModifySync",
+    "class_name": "SC_GLOBAL_EFFECT_MODIFY_SYNC",
+    "guessed_class_name": "SC_GLOBAL_EFFECT_MODIFY_SYNC",
+    "direction": "sc"
+  },
+  "2070": {
+    "msg_id": 2070,
+    "enum_name": "ScPunishSystemBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_PUNISH_SYSTEM_BEGIN",
+    "direction": "sc"
+  },
+  "2071": {
+    "msg_id": 2071,
+    "enum_name": "ScPunishSystemSync",
+    "class_name": "SC_PUNISH_SYSTEM_SYNC",
+    "guessed_class_name": "SC_PUNISH_SYSTEM_SYNC",
+    "direction": "sc"
+  },
+  "2072": {
+    "msg_id": 2072,
+    "enum_name": "ScClientSocialShareControl",
+    "class_name": "SC_CLIENT_SOCIAL_SHARE_CONTROL",
+    "guessed_class_name": "SC_CLIENT_SOCIAL_SHARE_CONTROL",
+    "direction": "sc"
+  },
+  "2079": {
+    "msg_id": 2079,
+    "enum_name": "ScPunishSystemEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_PUNISH_SYSTEM_END",
+    "direction": "sc"
+  },
+  "2080": {
+    "msg_id": 2080,
+    "enum_name": "ScMonthlycardBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_MONTHLYCARD_BEGIN",
+    "direction": "sc"
+  },
+  "2081": {
+    "msg_id": 2081,
+    "enum_name": "ScMonthlycardSync",
+    "class_name": "SC_MONTHLYCARD_SYNC",
+    "guessed_class_name": "SC_MONTHLYCARD_SYNC",
+    "direction": "sc"
+  },
+  "2089": {
+    "msg_id": 2089,
+    "enum_name": "ScMonthlycardEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_MONTHLYCARD_END",
+    "direction": "sc"
+  },
+  "2090": {
+    "msg_id": 2090,
+    "enum_name": "ScBpBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_BP_BEGIN",
+    "direction": "sc"
+  },
+  "2091": {
+    "msg_id": 2091,
+    "enum_name": "ScBpSyncAll",
+    "class_name": "SC_BP_SYNC_ALL",
+    "guessed_class_name": "SC_BP_SYNC_ALL",
+    "direction": "sc"
+  },
+  "2092": {
+    "msg_id": 2092,
+    "enum_name": "ScBpLevelModify",
+    "class_name": "SC_BP_LEVEL_MODIFY",
+    "guessed_class_name": "SC_BP_LEVEL_MODIFY",
+    "direction": "sc"
+  },
+  "2093": {
+    "msg_id": 2093,
+    "enum_name": "ScBpTrackMgrModify",
+    "class_name": "SC_BP_TRACK_MGR_MODIFY",
+    "guessed_class_name": "SC_BP_TRACK_MGR_MODIFY",
+    "direction": "sc"
+  },
+  "2094": {
+    "msg_id": 2094,
+    "enum_name": "ScBpTakeTrackReward",
+    "class_name": "SC_BP_TAKE_TRACK_REWARD",
+    "guessed_class_name": "SC_BP_TAKE_TRACK_REWARD",
+    "direction": "sc"
+  },
+  "2095": {
+    "msg_id": 2095,
+    "enum_name": "ScBpTaskStateModify",
+    "class_name": "SC_BP_TASK_STATE_MODIFY",
+    "guessed_class_name": "SC_BP_TASK_STATE_MODIFY",
+    "direction": "sc"
+  },
+  "2096": {
+    "msg_id": 2096,
+    "enum_name": "ScBpSyncVisibleCondition",
+    "class_name": "SC_BP_SYNC_VISIBLE_CONDITION",
+    "guessed_class_name": "SC_BP_SYNC_VISIBLE_CONDITION",
+    "direction": "sc"
+  },
+  "2097": {
+    "msg_id": 2097,
+    "enum_name": "ScBpSyncTaskCompleteCondition",
+    "class_name": "SC_BP_SYNC_TASK_COMPLETE_CONDITION",
+    "guessed_class_name": "SC_BP_SYNC_TASK_COMPLETE_CONDITION",
+    "direction": "sc"
+  },
+  "2098": {
+    "msg_id": 2098,
+    "enum_name": "ScBpAbscentCountModify",
+    "class_name": "SC_BP_ABSCENT_COUNT_MODIFY",
+    "guessed_class_name": "SC_BP_ABSCENT_COUNT_MODIFY",
+    "direction": "sc"
+  },
+  "2099": {
+    "msg_id": 2099,
+    "enum_name": "ScBpSyncTaskLabelModify",
+    "class_name": "SC_BP_SYNC_TASK_LABEL_MODIFY",
+    "guessed_class_name": "SC_BP_SYNC_TASK_LABEL_MODIFY",
+    "direction": "sc"
+  },
+  "2100": {
+    "msg_id": 2100,
+    "enum_name": "ScBpBuyLevel",
+    "class_name": "SC_BP_BUY_LEVEL",
+    "guessed_class_name": "SC_BP_BUY_LEVEL",
+    "direction": "sc"
+  },
+  "2140": {
+    "msg_id": 2140,
+    "enum_name": "ScBpEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_BP_END",
+    "direction": "sc"
+  },
+  "2141": {
+    "msg_id": 2141,
+    "enum_name": "ScWorldEnergyPointBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_WORLD_ENERGY_POINT_BEGIN",
+    "direction": "sc"
+  },
+  "2142": {
+    "msg_id": 2142,
+    "enum_name": "ScWorldEnergyPointReqGroupReward",
+    "class_name": "SC_WORLD_ENERGY_POINT_REQ_GROUP_REWARD",
+    "guessed_class_name": "SC_WORLD_ENERGY_POINT_REQ_GROUP_REWARD",
+    "direction": "sc"
+  },
+  "2160": {
+    "msg_id": 2160,
+    "enum_name": "ScWorldEnergyPointEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_WORLD_ENERGY_POINT_END",
+    "direction": "sc"
+  },
+  "2161": {
+    "msg_id": 2161,
+    "enum_name": "ScAntiCheatBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_ANTI_CHEAT_BEGIN",
+    "direction": "sc"
+  },
+  "2162": {
+    "msg_id": 2162,
+    "enum_name": "ScAntiCheatSyncData",
+    "class_name": "SC_ANTI_CHEAT_SYNC_DATA",
+    "guessed_class_name": "SC_ANTI_CHEAT_SYNC_DATA",
+    "direction": "sc"
+  },
+  "2163": {
+    "msg_id": 2163,
+    "enum_name": "ScAntiCheatTicket",
+    "class_name": "SC_ANTI_CHEAT_TICKET",
+    "guessed_class_name": "SC_ANTI_CHEAT_TICKET",
+    "direction": "sc"
+  },
+  "2164": {
+    "msg_id": 2164,
+    "enum_name": "ScAntiCheatSendAntiData4",
+    "class_name": "SC_ANTI_CHEAT_SEND_ANTI_DATA4",
+    "guessed_class_name": "SC_ANTI_CHEAT_SEND_ANTI_DATA4",
+    "direction": "sc"
+  },
+  "2165": {
+    "msg_id": 2165,
+    "enum_name": "ScAntiCheatGetLightFeature",
+    "class_name": "SC_ANTI_CHEAT_GET_LIGHT_FEATURE",
+    "guessed_class_name": "SC_ANTI_CHEAT_GET_LIGHT_FEATURE",
+    "direction": "sc"
+  },
+  "2166": {
+    "msg_id": 2166,
+    "enum_name": "ScAntiCheatCreditWarning",
+    "class_name": "SC_ANTI_CHEAT_CREDIT_WARNING",
+    "guessed_class_name": "SC_ANTI_CHEAT_CREDIT_WARNING",
+    "direction": "sc"
+  },
+  "2167": {
+    "msg_id": 2167,
+    "enum_name": "ScAntiCheatCreditZero",
+    "class_name": "SC_ANTI_CHEAT_CREDIT_ZERO",
+    "guessed_class_name": "SC_ANTI_CHEAT_CREDIT_ZERO",
+    "direction": "sc"
+  },
+  "2180": {
+    "msg_id": 2180,
+    "enum_name": "ScAntiCheatEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_ANTI_CHEAT_END",
+    "direction": "sc"
+  },
+  "2181": {
+    "msg_id": 2181,
+    "enum_name": "ScToolsBegin",
+    "class_name": "",
+    "guessed_class_name": "SC_TOOLS_BEGIN",
+    "direction": "sc"
+  },
+  "2182": {
+    "msg_id": 2182,
+    "enum_name": "ScSyncClientRemoteTask",
+    "class_name": "SC_SYNC_CLIENT_REMOTE_TASK",
+    "guessed_class_name": "SC_SYNC_CLIENT_REMOTE_TASK",
+    "direction": "sc"
+  },
+  "2199": {
+    "msg_id": 2199,
+    "enum_name": "ScToolsEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_TOOLS_END",
+    "direction": "sc"
+  },
+  "4095": {
+    "msg_id": 4095,
+    "enum_name": "ScMessageEnd",
+    "class_name": "",
+    "guessed_class_name": "SC_MESSAGE_END",
+    "direction": "sc"
+  }
+}

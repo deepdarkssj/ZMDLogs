@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "CSD_BLUE_PRINT_NODE.proto";
+import "CSD_FACTORY_BLUE_PRINT_ICON.proto";
+import "CSD_FACTORY_BLUE_PRINT_PARAM.proto";
+import "CSD_FACTORY_BLUE_PRINT_SIZE.proto";
+import "FACTORY_BP_REVIEW_STATUS.proto";
+
+message CSD_FACTORY_BLUE_PRINT_DATA {
+  string name = 1;
+  string desc = 2;
+  CSD_FACTORY_BLUE_PRINT_SIZE bp_size = 3;
+  CSD_FACTORY_BLUE_PRINT_ICON bp_icon = 4;
+  repeated int32 bp_tags = 5;
+  FACTORY_BP_REVIEW_STATUS review_status = 6;
+  CSD_FACTORY_BLUE_PRINT_PARAM bp_param = 7;
+  int32 use_count = 8;
+  uint64 creator_role_id = 9;
+  string creator_user_id = 10;
+  repeated CSD_BLUE_PRINT_NODE nodes = 11;
+  bool is_new = 12;
+  int64 fetch_time = 13;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_GACHA_POOL_INFO.proto";
+
+message SC_GACHA_MODIFY_POOL_INFO {
+  repeated SCD_GACHA_POOL_INFO char_gacha_pools = 1;
+  repeated SCD_GACHA_POOL_INFO weapon_gacha_pools = 2;
+}

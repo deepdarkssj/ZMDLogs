@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_FORMULA_MODE.proto";
+
+message SCD_FACTORY_SYNC_FORMULA_MAN {
+  repeated string unlocked = 1;
+  repeated string visible = 2;
+  map<string, SCD_FACTORY_SYNC_FORMULA_MODE> modes = 3;
+  repeated string level_up = 4;
+  repeated string product_manual = 5;
+}

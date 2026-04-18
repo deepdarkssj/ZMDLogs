@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_ACHIEVE_DISPLAY_INFO.proto";
+import "SCD_ACHIEVE_PERSONAL_INFO.proto";
+import "SCD_ACHIEVE_PUBLIC_INFO.proto";
+
+message SC_ACHIEVE_SYNC {
+  repeated SCD_ACHIEVE_PUBLIC_INFO achieve_public_infos = 1;
+  repeated SCD_ACHIEVE_PERSONAL_INFO achieve_personal_infos = 2;
+  SCD_ACHIEVE_DISPLAY_INFO achieve_display_info = 3;
+}

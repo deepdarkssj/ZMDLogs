@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_TRIGGER_VOLUME_INFO {
+  uint64 script_local_id = 1;
+  bool is_hidden = 2;
+  int32 trigger_count = 3;
+}

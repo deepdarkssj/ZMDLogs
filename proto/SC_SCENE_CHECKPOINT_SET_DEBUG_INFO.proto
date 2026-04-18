@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCENE_CHECKPOINT.proto";
+
+message SC_SCENE_CHECKPOINT_SET_DEBUG_INFO {
+  bool is_set = 1;
+  repeated SCENE_CHECKPOINT sp_checkpoints = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AREA_UNLOCK_INFO {
+  string scene_id = 1;
+  repeated string unlock_area_id = 2;
+}

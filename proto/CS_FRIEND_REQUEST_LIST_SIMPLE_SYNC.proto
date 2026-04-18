@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message CS_FRIEND_REQUEST_LIST_SIMPLE_SYNC {
+}

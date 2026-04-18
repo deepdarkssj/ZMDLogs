@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SYNC_RACING_DUNGEON_PASSED_LEVEL {
+  map<string, int32> max_passed_level = 1;
+}

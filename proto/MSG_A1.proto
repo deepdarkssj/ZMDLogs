@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "AREA_TYPE.proto";
+import "CLIENT_PLATFORM_TYPE.proto";
+import "DEVICE_INFO.proto";
+import "ENV_TYPE.proto";
+
+message MSG_A1 {
+  string a14 = 1;
+  string a7 = 2;
+  string a6 = 3;
+  string a13 = 4;
+  string a1 = 5;
+  string a2 = 6;
+  bytes a8 = 7;
+  CLIENT_PLATFORM_TYPE a9 = 8;
+  AREA_TYPE a10 = 9;
+  int32 a12 = 10;
+  uint64 a5 = 11;
+  ENV_TYPE a11 = 12;
+  int32 a21 = 13;
+  int32 a22 = 14;
+  int32 a4 = 15;
+  int32 client_language = 16;
+  DEVICE_INFO a23 = 17;
+}

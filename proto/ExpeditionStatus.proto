@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum ExpeditionStatus {
+  Available = 0;
+  InProgress = 1;
+  Completed = 2;
+}

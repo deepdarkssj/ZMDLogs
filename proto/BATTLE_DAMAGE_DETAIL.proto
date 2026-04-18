@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "BATTLE_CLIENT_PROCESSOR_DEBUG_ARGS_ITEM.proto";
+import "BATTLE_DAMAGE_MODIFIER_ARGS.proto";
+import "BATTLE_REPORT_INFO.proto";
+import "CLIENT_ATTR_MODIFIER_DEBUG_DATA.proto";
+import "DAMAGE_ABSORB_INFO.proto";
+import "DEV_BATTLE_CALCULATE_DAMAGE_RUNTIME_ARGS.proto";
+import "DEV_BATTLE_CALCULATION_RUNTIME_ARGS.proto";
+
+message BATTLE_DAMAGE_DETAIL {
+  uint64 target_id = 1;
+  int32 damage_unit_index = 2;
+  bool is_crit = 3;
+  double value = 4;
+  BATTLE_DAMAGE_MODIFIER_ARGS modifier_args = 5;
+  double cur_hp = 6;
+  uint64 part_inst_id = 7;
+  repeated DAMAGE_ABSORB_INFO damage_absorb_info = 8;
+  BATTLE_REPORT_INFO battle_report_info = 9;
+  DEV_BATTLE_CALCULATION_RUNTIME_ARGS calculation_check_args = 10;
+  map<int32, BATTLE_CLIENT_PROCESSOR_DEBUG_ARGS_ITEM> processor_debug_args = 11;
+  DEV_BATTLE_CALCULATE_DAMAGE_RUNTIME_ARGS calculate_damage_check_args = 12;
+  CLIENT_ATTR_MODIFIER_DEBUG_DATA attacker_attr_modifier_debug_data = 13;
+  CLIENT_ATTR_MODIFIER_DEBUG_DATA defender_attr_modifier_debug_data = 14;
+}

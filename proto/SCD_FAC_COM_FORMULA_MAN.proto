@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_FORMULA_MAN {
+  repeated string formula_ids = 1;
+  string locked_formula_id = 2;
+  string current_mode = 11;
+  string current_group = 12;
+}

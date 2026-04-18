@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_BATTLE_DEBUG_INFO {
+  string msg = 1;
+  int32 reason = 2;
+}

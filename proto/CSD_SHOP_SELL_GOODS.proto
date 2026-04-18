@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_SHOP_SELL_GOODS {
+  string goods_id = 1;
+  int32 count = 2;
+}

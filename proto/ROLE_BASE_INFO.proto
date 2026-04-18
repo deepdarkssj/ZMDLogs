@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message ROLE_BASE_INFO {
+  uint64 leader_char_id = 1;
+  VECTOR leader_position = 2;
+  VECTOR leader_rotation = 3;
+  string scene_name = 4;
+  uint64 server_ts = 11;
+}

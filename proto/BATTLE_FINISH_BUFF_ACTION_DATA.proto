@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_TARGET_SETTING.proto";
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message BATTLE_FINISH_BUFF_ACTION_DATA {
+  BATTLE_ACTION_TARGET_SETTING buff_owner = 1;
+  repeated string buff_ids = 2;
+  bool finish_all_buff = 3;
+  BATTLE_BLACKBOARD_FLOAT finish_layer_cnt = 4;
+  bool ignore_check = 5;
+}

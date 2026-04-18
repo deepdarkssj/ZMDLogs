@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message BATTLE_TARGET_WRAPPER {
+  uint64 target_id = 1;
+  VECTOR target_pos = 2;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message SCD_GAME_MECHANICS_RECORD {
+  string game_id = 1;
+  int64 last_enter_game_ts = 2;
+  int32 best_pass_time = 3;
+  int64 best_pass_ts = 4;
+  bool is_pass = 5;
+  bool is_challenged = 6;
+  bool is_active = 7;
+  bool once_reward_got = 8;
+  repeated int32 rewarded_id_list = 9;
+  int32 custom_reward_index = 10;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FACTORY_STATISTIC_OTHER {
+  int32 power_net_length_sum = 1;
+  int32 in_power_building = 2;
+  float power_net_coverage = 3;
+}

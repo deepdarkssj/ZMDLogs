@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_BP_LEVEL_DATA.proto";
+
+message SC_BP_LEVEL_MODIFY {
+  SCD_BP_LEVEL_DATA level_data = 1;
+}

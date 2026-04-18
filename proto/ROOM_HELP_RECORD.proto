@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ROOM_HELP_RECORD {
+  int32 control_center = 1;
+  int32 manufacturing_station = 2;
+  map<int32, int32> grow_cabin = 3;
+  int32 command_center = 4;
+  int32 control_center_left = 5;
+  int32 manufacturing_station_left = 6;
+  map<int32, int32> grow_cabin_left = 7;
+  int32 command_center_left = 8;
+  int32 can_be_helped_flag = 9;
+  repeated int32 can_be_helped_grow_cabin_box = 10;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message BATTLE_BLACKBOARD_ASSIGN_ITEM {
+  string target_key = 1;
+  string input_value_key = 2;
+  bool use_direct_value = 3;
+  float numeric_value = 4;
+  string string_value = 5;
+}

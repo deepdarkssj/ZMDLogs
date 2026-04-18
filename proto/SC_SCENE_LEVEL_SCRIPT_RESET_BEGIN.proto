@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_LEVEL_SCRIPT_RESET_BEGIN {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+}

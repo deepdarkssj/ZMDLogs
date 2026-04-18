@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_BLUE_PRINT_DATA.proto";
+import "SCD_FACTORY_BP_PUBLIC_STATUS.proto";
+import "SCD_FACTORY_GIFT_BLUE_PRINT_DATA.proto";
+import "SCD_FACTORY_SYS_BLUE_PRINT_DATA.proto";
+
+message SC_FACTORY_SYNC_BLUE_PRINT_MGR {
+  repeated CSD_FACTORY_BLUE_PRINT_DATA blue_print_info = 1;
+  repeated SCD_FACTORY_SYS_BLUE_PRINT_DATA sys_blue_print = 2;
+  repeated SCD_FACTORY_GIFT_BLUE_PRINT_DATA gift_blue_print = 3;
+  SCD_FACTORY_BP_PUBLIC_STATUS fac_bp_pub_status = 4;
+}

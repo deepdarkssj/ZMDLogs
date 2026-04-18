@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_HS_BB_POWER.proto";
+
+message SCD_FACTORY_HS_BB {
+  SCD_FACTORY_HS_BB_POWER power = 1;
+}

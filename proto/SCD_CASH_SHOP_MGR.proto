@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_CASH_SHOP.proto";
+import "SCD_CASH_SHOP_FREQUENCY_LIMIT.proto";
+
+message SCD_CASH_SHOP_MGR {
+  repeated SCD_CASH_SHOP cash_shops = 1;
+  repeated SCD_CASH_SHOP_FREQUENCY_LIMIT fre_limit = 2;
+}

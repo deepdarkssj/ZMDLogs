@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FRIEND_BLACK_LIST_ADD {
+  uint64 role_id = 1;
+}

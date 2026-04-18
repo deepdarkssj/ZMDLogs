@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_ITEM_BAG_CHG_SPACESHIP_CHAPTER {
+  string spaceship_chapter_id = 1;
+}

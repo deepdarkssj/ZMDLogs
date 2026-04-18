@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_VEC3_INT.proto";
+
+message CSD_FACTORY_OP_PLACE_CONVEYOR {
+  string template_id = 1;
+  SCD_VEC3_INT direction_in = 2;
+  SCD_VEC3_INT direction_out = 3;
+  repeated SCD_VEC3_INT points = 4;
+  int32 map_id = 5;
+}

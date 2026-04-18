@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_TAKE_ADVENTURE_BOOK_STAGE_REWARD {
+  int32 adventure_book_stage = 1;
+}

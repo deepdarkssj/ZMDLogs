@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SYNC_ALL_GAME_VAR {
+  map<int32, int64> server_vars = 1;
+  map<int32, int64> client_vars = 2;
+}

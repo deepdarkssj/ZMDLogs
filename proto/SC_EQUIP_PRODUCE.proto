@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_EQUIP_PRODUCE {
+  string formula_id = 1;
+  uint64 equip_instid = 2;
+}

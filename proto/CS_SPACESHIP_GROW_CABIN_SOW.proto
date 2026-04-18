@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CSD_SPACESHIP_GROW_CABIN_SOW.proto";
+
+message CS_SPACESHIP_GROW_CABIN_SOW {
+  string room_id = 1;
+  repeated CSD_SPACESHIP_GROW_CABIN_SOW boxes = 2;
+}

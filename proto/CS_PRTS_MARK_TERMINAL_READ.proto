@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_PRTS_MARK_TERMINAL_READ {
+  string terminal_content_id = 1;
+}

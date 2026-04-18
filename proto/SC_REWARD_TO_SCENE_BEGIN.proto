@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_REWARD_TO_SCENE_BEGIN {
+  int32 reward_source_type = 1;
+  string source_template_id = 2;
+  uint64 source_obj_id = 3;
+}

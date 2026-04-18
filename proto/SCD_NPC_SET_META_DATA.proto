@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_NPC_SET_META_DATA {
+  string proxy_id = 1;
+  map<int32, bytes> meta_kvs = 2;
+}

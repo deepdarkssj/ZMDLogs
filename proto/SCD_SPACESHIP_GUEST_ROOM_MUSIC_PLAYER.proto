@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_GUEST_ROOM_MUSIC_PLAYER {
+  string cur_music_item = 1;
+  repeated string unlock_music_item_list = 2;
+}

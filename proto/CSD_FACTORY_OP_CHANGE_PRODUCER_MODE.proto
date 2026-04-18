@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_CHANGE_PRODUCER_MODE {
+  uint32 node_id = 1;
+  string to_mode = 2;
+}

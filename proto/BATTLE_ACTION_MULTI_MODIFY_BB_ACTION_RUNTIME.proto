@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BATTLE_ACTION_MULTI_MODIFY_BB_ACTION_RUNTIME {
+  string key = 1;
+  double value = 2;
+}

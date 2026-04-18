@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_DEV_DATA_VERSION_NOTIFY {
+  string changelist = 1;
+  uint64 timestamp = 2;
+}

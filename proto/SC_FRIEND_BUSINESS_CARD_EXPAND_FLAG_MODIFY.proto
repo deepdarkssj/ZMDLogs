@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_BUSINESS_CARD_EXPAND_FLAG_MODIFY {
+  bool flag = 1;
+}

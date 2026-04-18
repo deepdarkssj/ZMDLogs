@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_GAME_TIME_FREEZE_START_RSP {
+  int32 reason = 1;
+  bool in_time_freeze = 2;
+}

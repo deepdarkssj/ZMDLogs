@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message CS_FRIEND_BLACK_LIST_SYNC {
+}

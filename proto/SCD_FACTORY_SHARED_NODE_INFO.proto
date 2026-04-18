@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_FACTORY_SHARED_NODE_INFO {
+  int32 scene_num_id = 1;
+  uint32 node_id = 2;
+  uint64 owner_id = 3;
+  uint64 shared_role_id = 4;
+  int64 create_timestamp = 5;
+}

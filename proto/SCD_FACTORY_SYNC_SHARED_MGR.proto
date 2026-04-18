@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SHARED_NODE_INFO.proto";
+
+message SCD_FACTORY_SYNC_SHARED_MGR {
+  repeated SCD_FACTORY_SHARED_NODE_INFO recevie_shared_nodes = 1;
+}

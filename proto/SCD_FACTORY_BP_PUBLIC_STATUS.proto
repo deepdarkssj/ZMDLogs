@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_BP_PUBLIC_STATUS {
+  bool forbid_share = 1;
+  bool forbid_fetch = 2;
+}

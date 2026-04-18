@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_INTERACTIVE_PARAM.proto";
+import "SCD_VEC3_INT.proto";
+
+message CSD_FACTORY_OP_MOVE_NODE {
+  uint32 node_id = 1;
+  SCD_VEC3_INT position = 2;
+  SCD_VEC3_INT direction = 3;
+  CSD_FACTORY_INTERACTIVE_PARAM interactive_param = 5;
+}

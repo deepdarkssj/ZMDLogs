@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_WEAPON_BREAKTHROUGH {
+  uint64 weaponid = 1;
+  uint32 breakthrough_lv = 2;
+}

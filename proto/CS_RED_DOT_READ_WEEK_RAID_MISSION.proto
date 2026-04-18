@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_RED_DOT_READ_WEEK_RAID_MISSION {
+  repeated uint32 mission_ids = 1;
+}

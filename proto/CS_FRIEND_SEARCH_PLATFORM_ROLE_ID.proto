@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FRIEND_SEARCH_PLATFORM_ROLE_ID {
+  string platform_role_id = 1;
+}

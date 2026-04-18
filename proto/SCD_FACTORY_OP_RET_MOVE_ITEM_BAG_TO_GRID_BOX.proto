@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_OP_RET_MOVE_ITEM_BAG_TO_GRID_BOX {
+  uint32 to_component_id = 1;
+  repeated int32 to_grid_index = 2;
+}

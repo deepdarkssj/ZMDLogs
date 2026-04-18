@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum BATTLE_PROTO_VERSION {
+  None = 0;
+  Current = 2;
+}

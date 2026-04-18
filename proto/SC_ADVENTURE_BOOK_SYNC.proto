@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ADVENTURE_TASK.proto";
+
+message SC_ADVENTURE_BOOK_SYNC {
+  int32 adventure_book_stage = 1;
+  repeated ADVENTURE_TASK tasks = 2;
+  int32 daily_activation = 3;
+  repeated int32 daily_activation_gathered_reward_ids = 4;
+}

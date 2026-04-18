@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_MOVE_ITEM_CACHE_TO_CACHE {
+  uint32 from_component_id = 1;
+  uint32 to_component_id = 2;
+  string item_id = 3;
+}

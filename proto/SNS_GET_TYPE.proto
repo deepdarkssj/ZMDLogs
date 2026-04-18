@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum SNS_GET_TYPE {
+  All = 0;
+  Moment = 1;
+  Chat = 2;
+}

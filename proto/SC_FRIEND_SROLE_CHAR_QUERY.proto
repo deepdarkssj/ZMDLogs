@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SROLE_DATA_CHAR.proto";
+
+message SC_FRIEND_SROLE_CHAR_QUERY {
+  uint64 role_id = 1;
+  repeated SROLE_DATA_CHAR char_data = 2;
+}

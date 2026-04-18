@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SNS_DIALOG_INFO {
+  string dialog_id = 1;
+  int64 timestamp = 2;
+  int32 cur_content_id = 3;
+  repeated int32 options = 4;
+  int64 finish_timestamp = 5;
+  bool is_unread = 6;
+}

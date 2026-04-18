@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FRIEND_SIGNATURE_MODIFY {
+  string signature = 1;
+}

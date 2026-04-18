@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "FOCUS_MODE_LEAVE_REASON.proto";
+
+message SC_FOCUS_MODE_LEAVE_NTF {
+  string focus_mode_id = 1;
+  FOCUS_MODE_LEAVE_REASON leave_reason = 2;
+}

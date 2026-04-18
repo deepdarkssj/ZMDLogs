@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ObjStateType.proto";
+
+message OBJ_STATE {
+  string objid = 1;
+  ObjStateType state = 2;
+}

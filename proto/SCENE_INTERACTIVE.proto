@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "BATTLE_MGR_INFO.proto";
+import "DYNAMIC_PARAMETER.proto";
+import "SCENE_OBJECT_COMMON_INFO.proto";
+
+message SCENE_INTERACTIVE {
+  SCENE_OBJECT_COMMON_INFO common_info = 1;
+  uint64 origin_id = 2;
+  map<int32, DYNAMIC_PARAMETER> properties = 3;
+  int32 meta = 5;
+  BATTLE_MGR_INFO battle_info = 6;
+  uint64 bond_id = 6;
+}

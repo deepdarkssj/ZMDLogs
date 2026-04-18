@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_SUBMIT_ITEM_TO_PENDING_DATA {
+  int32 slot_id = 1;
+  map<string, int32> submit_items = 2;
+}

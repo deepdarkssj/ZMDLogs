@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CSD_BP_TRACK_REWARD.proto";
+import "ITEM_BUNDLE.proto";
+
+message SC_BP_TAKE_TRACK_REWARD {
+  repeated CSD_BP_TRACK_REWARD failed_reward = 1;
+  repeated ITEM_BUNDLE items = 2;
+}

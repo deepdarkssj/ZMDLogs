@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "SCD_GAME_MECHANICS_CATEGORY_UNLOCK_CONDITIONS.proto";
+import "SCD_GAME_MECHANICS_GROUP_RECORD.proto";
+import "SCD_GAME_MECHANICS_RECORD.proto";
+import "SCD_GAME_MECHANICS_UNLOCK_CONDITIONS.proto";
+
+message SC_GAME_MECHANICS_SYNC {
+  repeated SCD_GAME_MECHANICS_UNLOCK_CONDITIONS game_unlock_conditions = 1;
+  repeated SCD_GAME_MECHANICS_RECORD game_records = 2;
+  repeated SCD_GAME_MECHANICS_CATEGORY_UNLOCK_CONDITIONS game_category_unlock_conditions = 3;
+  repeated SCD_GAME_MECHANICS_GROUP_RECORD game_group_records = 4;
+}

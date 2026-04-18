@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ATTR_MODIFY_INFO.proto";
+
+message BATTLE_REPORT_INFO {
+  repeated ATTR_MODIFY_INFO attacker_attr_modify_info = 1;
+  repeated ATTR_MODIFY_INFO defender_attr_modify_info = 2;
+}

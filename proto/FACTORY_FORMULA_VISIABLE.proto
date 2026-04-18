@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "FACTORY_FORMULA_VISIBLE_REASON.proto";
+
+message FACTORY_FORMULA_VISIABLE {
+  repeated string formula_list = 1;
+  repeated string output_list = 2;
+  repeated string source = 3;
+  FACTORY_FORMULA_VISIBLE_REASON reason = 4;
+}

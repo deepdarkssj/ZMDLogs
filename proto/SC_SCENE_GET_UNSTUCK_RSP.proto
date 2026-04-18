@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_GET_UNSTUCK_RSP {
+  int32 scene_num_id = 1;
+  int64 last_get_unstuck_exec_ts = 2;
+}

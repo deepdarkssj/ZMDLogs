@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_GROW_CABIN_BREED {
+  string room_id = 1;
+  string recipe_id = 3;
+  int32 multi = 4;
+}

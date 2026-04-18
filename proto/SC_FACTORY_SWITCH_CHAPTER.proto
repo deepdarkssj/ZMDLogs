@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_FACTORY_SWITCH_CHAPTER {
+  repeated string release_chapter_ids = 1;
+  repeated string active_chapter_ids = 2;
+}

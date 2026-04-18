@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_EXPEDITION_DOMAIN {
+  string domain_id = 1;
+  int32 progress = 2;
+}

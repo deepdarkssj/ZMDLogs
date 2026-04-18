@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_USE_HELP_CREDIT {
+  string room_id = 1;
+  int32 times = 2;
+}

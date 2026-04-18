@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_GROW_CABIN_SOW {
+}

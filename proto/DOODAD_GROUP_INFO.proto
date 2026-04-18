@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message DOODAD_GROUP_INFO {
+  int32 scene_num_id = 1;
+  uint64 group_id = 2;
+  int64 next_refresh_time = 3;
+  int32 next_refresh_count = 4;
+  int32 max_count = 5;
+  int32 cur_count = 6;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_SIGNATURE_MODIFY {
+  string signature = 1;
+}

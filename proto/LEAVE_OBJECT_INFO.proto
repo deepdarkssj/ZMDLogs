@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message LEAVE_OBJECT_INFO {
+  int32 obj_type = 1;
+  uint64 obj_id = 2;
+}

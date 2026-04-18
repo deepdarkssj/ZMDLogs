@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_OP_PLACE.proto";
+
+message CSD_FACTORY_OP_PLACE_SIGN {
+  CSD_FACTORY_OP_PLACE place = 1;
+  repeated int32 sign_param = 2;
+}

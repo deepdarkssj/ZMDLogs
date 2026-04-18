@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_BP_TAKE_TASK_REWARD {
+  repeated string task_ids = 1;
+}

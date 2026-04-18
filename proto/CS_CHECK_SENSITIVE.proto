@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_CHECK_SENSITIVE {
+  string content = 1;
+}

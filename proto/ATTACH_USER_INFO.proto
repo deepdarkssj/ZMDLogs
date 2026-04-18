@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ATTACH_USER_INFO {
+  uint64 original_role_id = 1;
+  string original_user_id = 2;
+  uint64 target_role_id = 3;
+  string target_user_id = 4;
+}

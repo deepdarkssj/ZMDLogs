@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_SPAWN_ENEMY_ACTION_DETAIL.proto";
+
+message BATTLE_SPAWN_ENEMY_ACTION_RUNTIME {
+  uint32 client_key = 1;
+  repeated BATTLE_SPAWN_ENEMY_ACTION_DETAIL details = 2;
+}

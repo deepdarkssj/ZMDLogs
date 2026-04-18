@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_BLUE_PRINT_DATA.proto";
+
+message SC_FACTORY_QUERY_GIFT_BLUE_PRINT {
+  string index = 1;
+  repeated CSD_FACTORY_BLUE_PRINT_DATA blue_print_data = 2;
+}

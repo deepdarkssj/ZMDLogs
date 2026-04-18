@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+import "DAMAGE_PROCESSOR_TYPE.proto";
+
+message ATTACKER_PEN_PROCESSOR {
+  DAMAGE_PROCESSOR_TYPE type = 1;
+  BATTLE_BLACKBOARD_FLOAT scale = 2;
+}

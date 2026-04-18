@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_INST.proto";
+import "BATTLE_ACTION_OWNER_TYPE.proto";
+import "BATTLE_TRIGGER_TYPE.proto";
+import "TEMPLATE_ID.proto";
+
+message BATTLE_TRIGGER_ACTION_OP_DATA {
+  uint64 owner_id = 1;
+  uint64 inst_id = 2;
+  TEMPLATE_ID template_id = 3;
+  BATTLE_ACTION_INST action = 5;
+  BATTLE_TRIGGER_TYPE trigger_type = 6;
+  BATTLE_ACTION_OWNER_TYPE owner_type = 7;
+}

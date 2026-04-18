@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "DOMAIN_DEVELOPMENT_READ_VERSION_TYPE.proto";
+
+message SCD_DOMAIN_DEVELOPMENT_READ_VERSION_INFO_MODIFY {
+  DOMAIN_DEVELOPMENT_READ_VERSION_TYPE data_type = 1;
+  string chapter_id = 2;
+  string version = 3;
+}

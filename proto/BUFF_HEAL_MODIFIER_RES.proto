@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_RES.proto";
+import "BATTLE_HEAL_PROCESSOR.proto";
+
+message BUFF_HEAL_MODIFIER_RES {
+  int32 enable_side = 1;
+  int32 index = 2;
+  repeated BATTLE_ACTION_RES cond_actions = 3;
+  repeated BATTLE_HEAL_PROCESSOR heal_processors = 4;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_RES.proto";
+import "BATTLE_ATTR_MODIFIER.proto";
+import "BATTLE_BLACKBOARD.proto";
+import "SKILL_COST_TYPE.proto";
+
+message SKILL_RES {
+  string skill_id = 1;
+  SKILL_COST_TYPE cost_type = 2;
+  int32 skill_lv = 3;
+  float cost_value = 4;
+  repeated int32 tag_during_attach = 5;
+  BATTLE_BLACKBOARD blackboard = 6;
+  map<int32, BATTLE_ACTION_RES> action_map = 7;
+  bool is_passive = 8;
+  repeated BATTLE_ATTR_MODIFIER attr_modifiers = 9;
+  int32 skill_type = 10;
+}

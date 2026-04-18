@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_GUEST_ROOM_PRESENT_FRIEND_CLUE {
+  uint64 friend_role_id = 1;
+  uint64 clue_inst_id = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message BeHelpedCount {
+  int32 control_center = 1;
+  int32 manufacturing_station = 2;
+  map<int32, int32> grow_cabin = 3;
+  int32 command_center = 4;
+}

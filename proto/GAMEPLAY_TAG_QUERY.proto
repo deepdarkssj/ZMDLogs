@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GAMEPLAY_TAG_QUERY {
+  int32 query_type = 1;
+  repeated int32 tag_ids = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BP_VISIBLE_CONDS_OBJ_TYPE.proto";
+import "SCD_BP_CONDITION_DATA.proto";
+
+message SC_BP_SYNC_VISIBLE_CONDITION {
+  BP_VISIBLE_CONDS_OBJ_TYPE obj_type = 1;
+  string id = 2;
+  repeated SCD_BP_CONDITION_DATA conditions = 3;
+}

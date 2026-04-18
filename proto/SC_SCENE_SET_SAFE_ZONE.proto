@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_SET_SAFE_ZONE {
+  bool in_zone = 1;
+  uint64 id = 2;
+}

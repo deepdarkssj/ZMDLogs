@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SCD_FACTORY_OP_RET_ADD_UD_PIPE_CONNECTION {
+}

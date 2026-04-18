@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_ITEM_BAG_ABANDON_IN_BAG {
+}

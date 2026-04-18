@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_ACHIEVE_CONDITIONS {
+  map<string, int32> condition_values = 1;
+}

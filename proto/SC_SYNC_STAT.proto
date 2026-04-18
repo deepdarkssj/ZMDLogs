@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "STAT_INFO.proto";
+
+message SC_SYNC_STAT {
+  STAT_INFO stat_info = 1;
+}

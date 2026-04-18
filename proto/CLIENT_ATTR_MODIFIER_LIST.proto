@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CLIENT_ATTR_MODIFIER.proto";
+
+message CLIENT_ATTR_MODIFIER_LIST {
+  repeated CLIENT_ATTR_MODIFIER attr_modifier_list = 1;
+  double basic_value = 2;
+}

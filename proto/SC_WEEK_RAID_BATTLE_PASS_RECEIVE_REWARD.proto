@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_WEEK_RAID_BATTLE_PASS_RECEIVE_REWARD {
+  string game_id = 1;
+  repeated string receive_rewards = 2;
+}

@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_EMPTY_RES.proto";
+import "BATTLE_ACTION_MULTI_MODIFY_BB_ACTION_DATA.proto";
+import "BATTLE_CREATE_BUFF_ACTION_DATA.proto";
+import "BATTLE_DAMAGE_ACTION_DATA.proto";
+import "BATTLE_FINISH_BUFF_ACTION_DATA.proto";
+import "BATTLE_GAIN_COST_ACTION_DATA.proto";
+import "BATTLE_HEAL_ACTION_DATA.proto";
+import "BATTLE_LAUNCH_PROJECTILE_ACTION_DATA.proto";
+import "BATTLE_MODIFY_DYNAMIC_BLACKBOARD_ACTION_DATA.proto";
+import "BATTLE_MODIFY_ENABLE_PART_ACTION_DATA.proto";
+import "BATTLE_MODIFY_PART_DAMAGE_TRANSFER_RATIO_ACTION_DATA.proto";
+import "BATTLE_READ_SKILL_SETTING_TO_BB_ACTION_DATA.proto";
+import "BATTLE_REFRESH_BUFF_ATTR_MODIFIER_VALUE_ACTION_DATA.proto";
+import "BATTLE_SET_BLACKBOARD_FROM_PRESET_DATA.proto";
+import "BATTLE_SIMPLE_CALC_BB_ACTION_DATA.proto";
+import "BATTLE_SPAWN_ABILITY_ENTITY_ACTION_DATA.proto";
+import "BATTLE_SPAWN_CUSTOM_SUMMON_ACTION_DATA.proto";
+import "BATTLE_SPAWN_ENEMY_ACTION_DATA.proto";
+import "BATTLE_STORE_ATTRIBUTE_VALUE_ACTION_DATA.proto";
+import "BATTLE_SWITCH_MODE_ACTION_DATA.proto";
+import "SERVER_BATTLE_ACTION_TYPE.proto";
+
+message BATTLE_ACTION_RES {
+  int32 action_id = 1;
+  SERVER_BATTLE_ACTION_TYPE action_type = 2;
+  oneof inst_impl {
+    BATTLE_DAMAGE_ACTION_DATA damage_action = 3;
+    BATTLE_CREATE_BUFF_ACTION_DATA create_buff_action = 4;
+    BATTLE_FINISH_BUFF_ACTION_DATA finish_buff_action = 5;
+    BATTLE_GAIN_COST_ACTION_DATA gain_cost_action = 6;
+    BATTLE_HEAL_ACTION_DATA heal_action = 7;
+    BATTLE_SWITCH_MODE_ACTION_DATA switch_mode_action = 8;
+    BATTLE_MODIFY_DYNAMIC_BLACKBOARD_ACTION_DATA modify_dynamic_blackboard_action = 9;
+    BATTLE_SPAWN_ENEMY_ACTION_DATA spawn_enemy_action = 10;
+    BATTLE_LAUNCH_PROJECTILE_ACTION_DATA launch_projectile_action = 25;
+    BATTLE_SPAWN_ABILITY_ENTITY_ACTION_DATA spawn_ability_entity_action = 26;
+    BATTLE_SPAWN_CUSTOM_SUMMON_ACTION_DATA spawn_custom_summon_action = 27;
+    BATTLE_REFRESH_BUFF_ATTR_MODIFIER_VALUE_ACTION_DATA refresh_buff_attr_modifier_value_action = 28;
+    BATTLE_STORE_ATTRIBUTE_VALUE_ACTION_DATA store_attribute_value_action = 29;
+    BATTLE_SET_BLACKBOARD_FROM_PRESET_DATA set_blackboard_from_preset_action = 30;
+    BATTLE_MODIFY_PART_DAMAGE_TRANSFER_RATIO_ACTION_DATA modify_part_damage_transfer_ratio_action = 31;
+    BATTLE_MODIFY_ENABLE_PART_ACTION_DATA enable_part_action = 32;
+    BATTLE_READ_SKILL_SETTING_TO_BB_ACTION_DATA read_skill_setting_to_bb_action = 33;
+    BATTLE_SIMPLE_CALC_BB_ACTION_DATA calc_bb_action = 34;
+    BATTLE_ACTION_MULTI_MODIFY_BB_ACTION_DATA multi_modify_bb_action = 35;
+    BATTLE_ACTION_EMPTY_RES empty_res = 999;
+  }
+}

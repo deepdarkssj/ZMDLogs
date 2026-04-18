@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_ANTI_CHEAT_TICKET {
+  string ticket = 1;
+  int32 zone_id = 2;
+}

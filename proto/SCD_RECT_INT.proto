@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SCD_RECT_INT {
+  int32 x = 1;
+  int32 y = 2;
+  int32 z = 3;
+  int32 l = 4;
+  int32 w = 5;
+  int32 h = 6;
+}

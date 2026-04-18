@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FRIEND_PSN_FRIEND_INFO.proto";
+
+message SC_FRIEND_PSN_FRIEND_LIST_QUERY {
+  repeated SCD_FRIEND_PSN_FRIEND_INFO friend_list = 1;
+}

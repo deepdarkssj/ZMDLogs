@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_CHAR_BAG_SET_CURR_TEAM_INDEX {
+  int32 team_index = 1;
+  uint64 leader_id = 2;
+}

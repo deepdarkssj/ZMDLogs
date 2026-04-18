@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "FRIEND_BLACK_LIST_INFO.proto";
+import "THIRD_ACCOUNT_DATA_PSN.proto";
+
+message SCD_FRIEND_PSN_BLACK_LIST_INFO {
+  THIRD_ACCOUNT_DATA_PSN psn_data = 1;
+  bool is_register = 2;
+  FRIEND_BLACK_LIST_INFO role_data = 3;
+}

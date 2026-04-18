@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_GAME_MECHANICS_UNLOCK_CONDITIONS {
+  string id = 1;
+  int32 unlock_state = 2;
+  map<string, int32> unlock_condition_values = 3;
+  map<string, bool> unlock_condition_flags = 4;
+}

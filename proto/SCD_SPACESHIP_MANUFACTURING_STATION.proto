@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_REPORT.proto";
+import "SPACESHIP_MANUFACTURING_ORDER.proto";
+
+message SCD_SPACESHIP_MANUFACTURING_STATION {
+  SPACESHIP_MANUFACTURING_ORDER remain_produce_order = 1;
+  map<string, int32> product_map = 2;
+  map<int64, SCD_SPACESHIP_REPORT> reports = 3;
+}

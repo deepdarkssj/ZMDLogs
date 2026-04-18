@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BATTLE_DAMAGE_DETAIL.proto";
+import "TEMPLATE_ID.proto";
+
+message BATTLE_DAMAGE_ACTION_RUNTIME {
+  uint64 attacker_id = 1;
+  repeated BATTLE_DAMAGE_DETAIL details = 2;
+  TEMPLATE_ID original_source_template_id = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_SHOP_DYN_FREQUENCY_UPLIMIT.proto";
+import "SCD_SHOP_FREQUENCY_LIMIT.proto";
+
+message SCD_SHOP_FREQUENCY_LIMIT_MGR {
+  repeated SCD_SHOP_FREQUENCY_LIMIT use_count = 1;
+  repeated SCD_SHOP_DYN_FREQUENCY_UPLIMIT dyn_uplimit = 2;
+  repeated SCD_SHOP_FREQUENCY_LIMIT manual_refresh_limits = 3;
+}

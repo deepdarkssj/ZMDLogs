@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message BATTLE_SPAWN_ENEMY_ACTION_DETAIL {
+  uint64 source_id = 1;
+  uint32 enemy_lv = 2;
+  VECTOR pos = 3;
+  VECTOR rotation = 4;
+  int32 scene_num_id = 5;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ITEM_INST_LOCK_INFO.proto";
+
+message SC_ITEM_BAG_SET_ITEM_LOCK {
+  repeated ITEM_INST_LOCK_INFO lock_info_list = 1;
+  int32 scope_name = 11;
+}

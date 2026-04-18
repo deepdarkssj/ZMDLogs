@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_PENDING_PLACE.proto";
+
+message SC_FACTORY_SYNC_PENDING_LIST {
+  int64 tms = 1;
+  string chapter_id = 2;
+  SCD_FACTORY_SYNC_PENDING_PLACE pending_place = 3;
+}

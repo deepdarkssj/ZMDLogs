@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+import "SHIELD_ABSORB_INFO.proto";
+
+message BUFF_SHIELD_SETTINGS {
+  bool infinite_shield = 1;
+  bool absorb_all_damage_when_shield_exhausted = 2;
+  bool finish_buff_when_shield_exhausted = 3;
+  BATTLE_BLACKBOARD_FLOAT max_absorption_count = 4;
+  map<int32, SHIELD_ABSORB_INFO> dmg_type_info = 5;
+}

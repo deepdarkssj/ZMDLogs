@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_WEEK_RAID_SET_PIN_MISSION {
+  string game_id = 1;
+  string pin_mission = 2;
+  bool is_clear = 3;
+}

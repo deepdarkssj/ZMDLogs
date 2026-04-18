@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_CACHE_TRANSPORT_TRANSFER {
+  uint32 component_id = 1;
+}

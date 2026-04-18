@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BATTLE_SPAWN_CUSTOM_SUMMON_DETAIL.proto";
+
+message BATTLE_SPAWN_CUSTOM_SUMMON_ACTION_RUNTIME {
+  repeated BATTLE_SPAWN_CUSTOM_SUMMON_DETAIL details = 1;
+}

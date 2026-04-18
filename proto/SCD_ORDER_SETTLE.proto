@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SCD_ORDER_SETTLE {
+  string goods_id = 1;
+  int32 quantity = 2;
+  int32 duplicate_cnt = 3;
+  int32 once_bonus_cnt = 4;
+  bool is_web = 5;
+  string order_id = 6;
+}

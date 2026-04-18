@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SCD_FACTORY_OP_RET_FILLING_FLUID_COM_WITH_BAG {
+}

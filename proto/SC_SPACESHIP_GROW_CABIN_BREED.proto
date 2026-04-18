@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+
+message SC_SPACESHIP_GROW_CABIN_BREED {
+  repeated ITEM_BUNDLE items = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum BP_VISIBLE_CONDS_OBJ_TYPE {
+  Task = 0;
+  TaskGroup = 1;
+  TaskLabel = 2;
+}

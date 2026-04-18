@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_SCENE_MONSTER_SPAWNER_OBJECT_DATA_BEGIN {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  int32 wave_id = 3;
+  int32 group_id = 4;
+}

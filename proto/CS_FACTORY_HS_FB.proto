@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_FACTORY_HS_FB {
+  string chapter_id = 1;
+  repeated uint32 node_id_list = 21;
+  bool undo = 3;
+}

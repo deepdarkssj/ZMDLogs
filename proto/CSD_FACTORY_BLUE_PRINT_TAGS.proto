@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_FACTORY_BLUE_PRINT_TAGS {
+  repeated int32 tags = 1;
+}

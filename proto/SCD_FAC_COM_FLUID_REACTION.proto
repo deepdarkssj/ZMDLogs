@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_FAC_FLUID_REACTION_FORMULA.proto";
+
+message SCD_FAC_COM_FLUID_REACTION {
+  repeated SCD_FAC_FLUID_REACTION_FORMULA formulas = 1;
+  bool in_block = 2;
+  bool in_produce = 3;
+}

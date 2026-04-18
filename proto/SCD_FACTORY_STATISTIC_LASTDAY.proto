@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_STATISTIC_LASTDAY_DAY.proto";
+
+message SCD_FACTORY_STATISTIC_LASTDAY {
+  repeated SCD_FACTORY_STATISTIC_LASTDAY_DAY days = 1;
+}

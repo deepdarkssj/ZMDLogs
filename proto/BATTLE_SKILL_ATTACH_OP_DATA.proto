@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "BATTLE_SKILL_SOURCE.proto";
+import "TEMPLATE_ID.proto";
+
+message BATTLE_SKILL_ATTACH_OP_DATA {
+  uint64 src_inst_id = 1;
+  TEMPLATE_ID skill_id = 2;
+  int32 skill_lv = 3;
+  BATTLE_SKILL_SOURCE skill_source = 4;
+  uint64 skill_inst_id = 5;
+}

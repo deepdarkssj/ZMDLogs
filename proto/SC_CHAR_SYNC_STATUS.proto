@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BATTLE_INFO.proto";
+
+message SC_CHAR_SYNC_STATUS {
+  uint64 objid = 1;
+  bool is_dead = 2;
+  BATTLE_INFO battle_info = 3;
+}

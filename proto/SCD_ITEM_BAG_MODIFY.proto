@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_ITEM_GRID.proto";
+
+message SCD_ITEM_BAG_MODIFY {
+  int32 grid_limit = 1;
+  repeated SCD_ITEM_GRID grids = 2;
+  repeated int32 del_list = 3;
+}

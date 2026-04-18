@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SYNC_LOGICAL_TS {
+  uint64 logical_ts = 1;
+}

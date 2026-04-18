@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_SET_LAST_RECORD_CAMPID {
+  uint64 last_camp_id = 1;
+  int32 scene_num_id = 2;
+}

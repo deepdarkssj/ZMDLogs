@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_BUS_LOADER {
+  string last_putin_item_id = 1;
+}

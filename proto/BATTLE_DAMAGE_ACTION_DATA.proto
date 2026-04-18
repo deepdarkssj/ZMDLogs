@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_DAMAGE_UNIT.proto";
+import "BATTLE_ACTION_TARGET_SETTING.proto";
+
+message BATTLE_DAMAGE_ACTION_DATA {
+  BATTLE_ACTION_TARGET_SETTING target = 1;
+  int32 attacker_type = 2;
+  repeated BATTLE_ACTION_DAMAGE_UNIT damage_unit = 3;
+  bool is_cache_damage = 4;
+}

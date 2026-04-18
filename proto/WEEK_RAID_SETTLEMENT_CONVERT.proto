@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+
+message WEEK_RAID_SETTLEMENT_CONVERT {
+  ITEM_BUNDLE loot_item = 1;
+  string convert_gold = 2;
+  int32 count = 3;
+}

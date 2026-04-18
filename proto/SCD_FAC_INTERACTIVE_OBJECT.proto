@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FAC_INTERACTIVE_OBJECT {
+  uint64 object_id = 1;
+}

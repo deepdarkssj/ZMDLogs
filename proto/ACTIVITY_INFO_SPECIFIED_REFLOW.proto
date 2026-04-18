@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ACTIVITY_INFO_SPECIFIED_REFLOW {
+  int64 start_time = 1;
+  int64 end_time = 2;
+}

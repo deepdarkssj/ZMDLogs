@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_SHOP_QUERY_FRIEND_GOODS_PRICE {
+  string shop_id = 1;
+  string goods_id = 2;
+  repeated uint64 role_ids = 3;
+}

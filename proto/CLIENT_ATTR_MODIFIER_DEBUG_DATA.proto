@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CLIENT_ATTR_MODIFIER_LIST.proto";
+
+message CLIENT_ATTR_MODIFIER_DEBUG_DATA {
+  map<int32, CLIENT_ATTR_MODIFIER_LIST> attr_modifier_map = 1;
+}

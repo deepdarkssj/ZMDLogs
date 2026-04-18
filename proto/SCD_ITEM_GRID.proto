@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ITEM_INST.proto";
+
+message SCD_ITEM_GRID {
+  int32 grid_index = 1;
+  string id = 2;
+  int32 count = 3;
+  ITEM_INST inst = 4;
+}

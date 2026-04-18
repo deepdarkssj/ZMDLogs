@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "SCD_BP_CLOSE_STATUS.proto";
+
+message SCD_BP_SEASON_DATA {
+  string season_id = 1;
+  int32 abscent_cnt = 2;
+  int64 open_time = 3;
+  int64 close_time = 4;
+  SCD_BP_CLOSE_STATUS close_status = 5;
+  int64 can_buy_level_tms = 6;
+}

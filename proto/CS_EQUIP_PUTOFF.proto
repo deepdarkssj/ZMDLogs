@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_EQUIP_PUTOFF {
+  uint64 charid = 1;
+  int32 slotid = 2;
+}

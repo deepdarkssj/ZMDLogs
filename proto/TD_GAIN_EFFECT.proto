@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message TD_GAIN_EFFECT {
+  string active_game_id = 1;
+  float gain_effect = 2;
+  int64 expiration_ts = 3;
+}

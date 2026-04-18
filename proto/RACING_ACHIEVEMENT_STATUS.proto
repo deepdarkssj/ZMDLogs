@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum RACING_ACHIEVEMENT_STATUS {
+  RacingStatusNone = 0;
+  RacingStatusActive = 1;
+  RacingStatusCompleted = 2;
+  RacingStatusReceived = 3;
+}

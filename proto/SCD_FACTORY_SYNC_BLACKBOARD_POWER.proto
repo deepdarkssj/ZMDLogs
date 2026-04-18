@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_FACTORY_SYNC_BLACKBOARD_POWER {
+  int64 power_cost = 1;
+  int64 power_gen = 2;
+  int64 power_save_max = 3;
+  int64 power_save_current = 4;
+  bool is_stop_by_power = 5;
+}

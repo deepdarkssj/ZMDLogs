@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SYNC_WEEK_RAID_GAME_START {
+  float convert_rate = 1;
+}

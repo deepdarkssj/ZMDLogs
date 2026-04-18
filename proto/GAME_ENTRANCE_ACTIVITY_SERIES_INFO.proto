@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GAME_ENTRANCE_ACTIVITY_SERIES_INFO {
+  string series_id = 1;
+  int64 open_time = 2;
+}

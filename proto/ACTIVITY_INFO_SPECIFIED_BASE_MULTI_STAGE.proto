@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ACTIVITY_INFO_SPECIFIED_BASE_MULTI_STAGE {
+  repeated int32 receive_stage_list = 1;
+  repeated int32 complete_stage_list = 2;
+}

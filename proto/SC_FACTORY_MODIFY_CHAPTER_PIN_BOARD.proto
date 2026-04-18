@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_PIN_CARD.proto";
+
+message SC_FACTORY_MODIFY_CHAPTER_PIN_BOARD {
+  int64 tms = 1;
+  string chapter_id = 2;
+  repeated SCD_FACTORY_PIN_CARD modified = 3;
+  repeated int32 release_pos = 4;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BATTLE_LAUNCH_PROJECTILE_ACTION_DATA {
+  string projectile_id = 1;
+  bool assign_blackboard = 3;
+}

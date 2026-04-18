@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_MISSION_EVENT_TRIGGER {
+  string mission_id = 1;
+  string event_name = 2;
+}

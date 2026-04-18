@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "PERSISTENT_BUFF_INFO.proto";
+
+message SC_CHAR_BAG_SYNC_PERSISTENT_BUFFS {
+  repeated PERSISTENT_BUFF_INFO buffs = 1;
+}

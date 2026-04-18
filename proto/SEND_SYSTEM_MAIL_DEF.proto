@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "GAME_CONDITION.proto";
+import "REWARD_ITEM.proto";
+
+message SEND_SYSTEM_MAIL_DEF {
+  uint64 mail_id = 1;
+  GAME_CONDITION condition = 2;
+  repeated REWARD_ITEM completed_item_list = 3;
+  int64 expire_time = 4;
+  bool is_star = 5;
+  string unique_id = 6;
+  int64 mail_expire_in = 7;
+  int64 mail_expire_at = 8;
+  bool has_attachment = 9;
+  int32 mail_sub_type = 10;
+  int64 task_expire_at = 11;
+  int32 channel_id = 12;
+}

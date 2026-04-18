@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_MODIFY_DYNAMIC_BLACKBOARD_ACTION_RUNTIME {
+  double client_value = 1;
+}

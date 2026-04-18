@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_SET_BLACKBOARD_FROM_PRESET_DATA {
+  repeated string valid_values = 1;
+  string key = 2;
+  bool skip_check = 3;
+}

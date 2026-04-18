@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SETTLEMENT_REMAIN_MONEY_SYNC {
+  map<string, int64> remain_money = 1;
+}

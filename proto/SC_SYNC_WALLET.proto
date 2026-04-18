@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "MONEY_INFO.proto";
+import "WALLET_MONEY_RECORD.proto";
+
+message SC_SYNC_WALLET {
+  repeated MONEY_INFO money_list = 1;
+  repeated WALLET_MONEY_RECORD record_mgr = 2;
+}

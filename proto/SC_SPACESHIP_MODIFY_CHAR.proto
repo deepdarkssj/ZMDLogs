@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_CHAR.proto";
+
+message SC_SPACESHIP_MODIFY_CHAR {
+  repeated SCD_SPACESHIP_CHAR chars = 1;
+}

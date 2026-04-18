@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_FRIEND_CHAT_MSG_INSTANT_INFO_QUERY_SOCIAL_BUILDING {
+  uint64 creator_id = 1;
+}

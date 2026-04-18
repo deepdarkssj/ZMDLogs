@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CLT_TP_REASON_GUIDE_DETAIL {
+  string guide_id = 1;
+}

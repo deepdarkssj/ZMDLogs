@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FRIEND_CHAT_LIST_DATA.proto";
+
+message SC_FRIEND_CHAT_LIST_ADD {
+  SCD_FRIEND_CHAT_LIST_DATA data = 1;
+}

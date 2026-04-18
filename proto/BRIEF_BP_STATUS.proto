@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum BRIEF_BP_STATUS {
+  None = 0;
+  Exist = 1;
+  Invalid = 2;
+}

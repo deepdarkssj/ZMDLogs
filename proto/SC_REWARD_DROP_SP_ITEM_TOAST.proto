@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message SC_REWARD_DROP_SP_ITEM_TOAST {
+  string item_id = 1;
+  int64 count = 2;
+  VECTOR pos = 3;
+  int32 reward_source_type = 4;
+  uint64 reward_toast_inst_id = 5;
+}

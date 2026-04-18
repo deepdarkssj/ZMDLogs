@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_REMOVE_ITEM_NEW_TAGS {
+}

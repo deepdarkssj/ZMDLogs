@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_BLUE_PRINT_ICON.proto";
+import "CSD_FACTORY_BLUE_PRINT_NODE_PRODUCT_ICON.proto";
+import "CSD_FACTORY_BLUE_PRINT_TAGS.proto";
+import "FACTORY_BP_MODIFY_TYPE.proto";
+
+message FACTORY_BLUE_PRINT_MODIFY_DATA {
+  FACTORY_BP_MODIFY_TYPE modify_type = 1;
+  oneof op_payload {
+    string modify_name = 11;
+    string modify_desc = 12;
+    CSD_FACTORY_BLUE_PRINT_ICON modify_bp_icon = 14;
+    CSD_FACTORY_BLUE_PRINT_NODE_PRODUCT_ICON nodes_prod_icon = 15;
+    CSD_FACTORY_BLUE_PRINT_TAGS modify_tags = 16;
+  }
+}

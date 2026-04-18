@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_RESTART_DUNGEON {
+  string dungeon_id = 1;
+}

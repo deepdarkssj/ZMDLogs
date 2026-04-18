@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_FILLING_FLUID_COM_WITH_BAG {
+  uint32 component_id = 1;
+  int32 bag_grid_index = 2;
+}

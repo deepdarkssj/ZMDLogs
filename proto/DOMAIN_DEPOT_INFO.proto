@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message DOMAIN_DEPOT_INFO {
+  string domain_depot_id = 1;
+  int32 level = 2;
+  bool can_package = 3;
+  uint64 domain_depot_deliver_inst_id = 4;
+}

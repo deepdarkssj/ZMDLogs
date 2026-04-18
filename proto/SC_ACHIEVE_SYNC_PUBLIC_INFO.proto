@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_ACHIEVE_PUBLIC_INFO.proto";
+
+message SC_ACHIEVE_SYNC_PUBLIC_INFO {
+  repeated SCD_ACHIEVE_PUBLIC_INFO achieve_public_infos = 1;
+}

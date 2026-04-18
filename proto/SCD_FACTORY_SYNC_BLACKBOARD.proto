@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_BLACKBOARD_POWER.proto";
+
+message SCD_FACTORY_SYNC_BLACKBOARD {
+  uint32 inventory_node_id = 1;
+  SCD_FACTORY_SYNC_BLACKBOARD_POWER power = 11;
+}

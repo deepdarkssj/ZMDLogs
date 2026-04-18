@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCENE_TRANSFORM.proto";
+
+message SCENE_LOC {
+  string scene_id = 1;
+  SCENE_TRANSFORM transform = 2;
+}

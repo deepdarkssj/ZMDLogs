@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_SCENE_COLLECTION_MODIFY {
+  string scene_name = 1;
+  string prefab_id = 2;
+  int32 count = 3;
+  uint64 new_detail_obj_id = 4;
+}

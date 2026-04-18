@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "DOODAD_GROUP_INFO.proto";
+
+message SC_DOODAD_GROUP_MODIFY {
+  repeated DOODAD_GROUP_INFO doodad_group_info_list = 1;
+}

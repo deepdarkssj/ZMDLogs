@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ROOM_HELP_RECORD.proto";
+
+message SPACESHIP_HELP_RECORD {
+  map<string, ROOM_HELP_RECORD> room_help_record = 1;
+  int64 ttl = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message SCD_GLOBAL_EFFECT {
+  int32 effect_type = 1;
+  repeated int32 effect_values = 2;
+  uint32 chapter_id = 3;
+  int64 end_time = 4;
+  int32 source_type = 5;
+  string sub_source_type = 6;
+  string effect_id = 7;
+}

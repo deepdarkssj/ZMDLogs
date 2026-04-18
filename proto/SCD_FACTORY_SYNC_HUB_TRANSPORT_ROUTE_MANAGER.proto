@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_HUB_TRANSPORT_ROUTE.proto";
+
+message SCD_FACTORY_SYNC_HUB_TRANSPORT_ROUTE_MANAGER {
+  int64 update_ts = 1;
+  repeated SCD_FACTORY_HUB_TRANSPORT_ROUTE routes = 2;
+}

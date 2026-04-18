@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_GM_COMMAND {
+  string result = 1;
+}

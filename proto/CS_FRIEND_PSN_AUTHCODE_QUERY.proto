@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "PSN_AUTHCODE_QUERY_TYPE.proto";
+
+message CS_FRIEND_PSN_AUTHCODE_QUERY {
+  string auth_code = 1;
+  string psn_env = 2;
+  PSN_AUTHCODE_QUERY_TYPE query_type = 3;
+}

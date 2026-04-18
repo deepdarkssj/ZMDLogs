@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "SCENE_DYNAMIC_MAP_MARK.proto";
+import "SCENE_STATIC_MAP_MARK.proto";
+import "SCENE_TRACK_POINT.proto";
+
+message SC_SCENE_MAP_MARK_SYNC {
+  repeated SCENE_STATIC_MAP_MARK scene_static_map_mark_list = 1;
+  repeated SCENE_DYNAMIC_MAP_MARK scene_dynamic_map_mark_list = 2;
+  repeated uint64 detected_entity_id = 3;
+  SCENE_TRACK_POINT track_point = 2;
+}

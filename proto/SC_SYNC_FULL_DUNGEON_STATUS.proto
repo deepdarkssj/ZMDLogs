@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SYNC_FULL_DUNGEON_STATUS {
+  uint32 cur_stamina = 1;
+  uint32 max_stamina = 2;
+  int64 next_recover_time = 3;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FACTORY_PANEL_STORE_BUY {
+  string id = 1;
+}

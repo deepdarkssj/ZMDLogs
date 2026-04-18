@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "PASS_THROUGH_DATA.proto";
+import "VECTOR.proto";
+
+message SC_CHANGE_SCENE_BEGIN_NOTIFY {
+  int32 scene_num_id = 1;
+  VECTOR position = 2;
+  PASS_THROUGH_DATA pass_through_data = 3;
+}

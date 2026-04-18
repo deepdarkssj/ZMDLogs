@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SPACESHIP_GUEST_ROOM_VISITOR_RECORD.proto";
+
+message SPACESHIP_GUEST_ROOM_VISIT_RECORD_DATA {
+  repeated SPACESHIP_GUEST_ROOM_VISITOR_RECORD records = 1;
+  repeated uint64 weekly_visit_role_ids = 2;
+  int32 weekly_join_info_exchange_cnt = 3;
+  int32 weekly_prod_support_cnt = 4;
+}

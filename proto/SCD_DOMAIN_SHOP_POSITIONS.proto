@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_DOMAIN_SHOP_POSITIONS {
+  int64 quantity = 1;
+  int32 avg_price = 2;
+}

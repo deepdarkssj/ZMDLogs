@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "PASS_THROUGH_DATA.proto";
+
+message CS_SCENE_REPATRIATE {
+  int32 scene_num_id = 1;
+  int32 repatriate_source = 2;
+  PASS_THROUGH_DATA pass_through_data = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PASS_THROUGH_DATA {
+  repeated string str_args = 1;
+  repeated int64 int_args = 2;
+}

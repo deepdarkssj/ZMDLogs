@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_RACING_DUNGEON_ACHIEVEMENT_RECEIVE_REWARD {
+  string dungeon_id = 1;
+  bool receive_all = 2;
+  int32 received_achievement = 3;
+}

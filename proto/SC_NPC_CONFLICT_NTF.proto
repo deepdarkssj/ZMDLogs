@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_NPC_CONFLICT_MULTI_CONDITION.proto";
+import "SCD_NPC_CONFLICT_MULTI_NPC_PROXY.proto";
+
+message SC_NPC_CONFLICT_NTF {
+  repeated SCD_NPC_CONFLICT_MULTI_NPC_PROXY conflict_npc_proxies = 1;
+  repeated SCD_NPC_CONFLICT_MULTI_CONDITION conflict_proxy_conditions = 2;
+}

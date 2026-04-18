@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message SCD_FACTORY_SYNC_SCENE_BANDWIDTH {
+  int32 current = 1;
+  int32 max = 2;
+  int32 travel_pole_current = 3;
+  int32 travel_pole_max = 4;
+  int32 battle_current = 5;
+  int32 battle_max = 6;
+  int32 sp_current = 11;
+  int32 sp_max = 12;
+}

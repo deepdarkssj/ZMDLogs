@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_GUEST_ROOM_DELETE_SELF_CLUE {
+  uint64 clue_inst_id = 1;
+  map<int32, uint64> placed_clue_status = 2;
+  int32 recycle_credit_reward_cnt = 3;
+}

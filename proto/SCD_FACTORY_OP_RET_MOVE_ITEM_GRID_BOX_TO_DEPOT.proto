@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FACTORY_OP_RET_MOVE_ITEM_GRID_BOX_TO_DEPOT {
+  bool not_all_success = 1;
+}

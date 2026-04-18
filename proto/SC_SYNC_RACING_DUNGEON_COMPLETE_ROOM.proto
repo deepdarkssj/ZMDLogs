@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SYNC_RACING_DUNGEON_COMPLETE_ROOM {
+  int64 room_id = 1;
+}

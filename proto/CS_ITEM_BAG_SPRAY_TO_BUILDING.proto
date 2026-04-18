@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message CS_ITEM_BAG_SPRAY_TO_BUILDING {
+  int32 scope_name = 1;
+  string item_id = 2;
+  map<uint32, int32> bullet_to = 5;
+  int32 bullet_waste = 6;
+  oneof liquid_source {
+    uint32 from_building_id = 4;
+    uint64 from_interactive_obj_id = 5;
+  }
+}

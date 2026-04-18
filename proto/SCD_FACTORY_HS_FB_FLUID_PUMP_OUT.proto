@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_FB_FLUID_PUMP_OUT {
+  int64 progress_incr_per_ms = 1;
+  int64 current_progress = 2;
+  int32 last_round_pump_count = 3;
+}

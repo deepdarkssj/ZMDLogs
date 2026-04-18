@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "REWARD_ITEM.proto";
+
+message SC_GEM_DISMANTLE {
+  repeated REWARD_ITEM refund_items = 1;
+  repeated REWARD_ITEM refund_money = 2;
+}

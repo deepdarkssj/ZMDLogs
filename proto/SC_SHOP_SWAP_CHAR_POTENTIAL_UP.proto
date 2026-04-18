@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_SHOP_SWAP_CHAR_POTENTIAL_UP {
+}

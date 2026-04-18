@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+enum BATTLE_SKILL_SOURCE {
+  Default = 0;
+  Mode = 1;
+  Weapon = 2;
+  EquipSuit = 3;
+  Other = 4;
+  Interactive = 5;
+  Summon = 6;
+  PlungingAttack = 7;
+  PowerAttack = 8;
+  TalentPotential = 9;
+  CharCommon = 10;
+  ClientTempAdd = 11;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SUBMIT_ITEM.proto";
+
+message SUBMIT_TERM {
+  repeated SUBMIT_ITEM submit_item_list = 1;
+}

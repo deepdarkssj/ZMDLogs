@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ITEM_INFO.proto";
+
+message CS_CHAR_LEVEL_UP {
+  uint64 char_obj_id = 1;
+  repeated ITEM_INFO items = 2;
+}

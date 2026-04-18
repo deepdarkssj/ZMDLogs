@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_WEEK_RAID_TECH_MODIFY {
+  string game_id = 1;
+  repeated string new_unlock_tech_id = 2;
+}

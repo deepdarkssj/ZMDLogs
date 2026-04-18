@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_NEW_NOTICE_NOTIFY {
+}

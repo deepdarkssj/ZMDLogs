@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_FACTORY_MANUALLY_WORK_EXEC {
+  int32 scope_name = 1;
+  string formula_id = 2;
+  int32 count = 3;
+}

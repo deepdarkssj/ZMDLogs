@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_DOMAIN_SHOP_GOODS.proto";
+import "SCD_DOMAIN_SHOP_POSITIONS.proto";
+
+message SCD_SHOP_RANDOM_DOMAIN {
+  repeated SCD_DOMAIN_SHOP_GOODS domain_rand_goods = 1;
+  map<string, SCD_DOMAIN_SHOP_POSITIONS> positions = 2;
+}

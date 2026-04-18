@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message CS_TAKE_ALL_ACTIVATION_REWARD {
+}

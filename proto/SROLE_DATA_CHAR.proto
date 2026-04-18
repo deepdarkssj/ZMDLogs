@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "EQUIP_DATA.proto";
+import "GEM_DATA.proto";
+import "SKILL_INFO.proto";
+import "TALENT.proto";
+import "WEAPON_DATA.proto";
+
+message SROLE_DATA_CHAR {
+  string template_id = 1;
+  uint32 level = 2;
+  uint32 exp = 3;
+  uint32 potential_level = 4;
+  map<int32, EQUIP_DATA> equip = 5;
+  map<uint64, GEM_DATA> gem = 6;
+  WEAPON_DATA weapon = 7;
+  SKILL_INFO skill_info = 8;
+  int32 equip_medicine_id = 9;
+  TALENT talent = 10;
+  map<int32, string> potential_cg = 11;
+}

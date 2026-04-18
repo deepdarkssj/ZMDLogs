@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_GUEST_ROOM_SET_PLAYING_MUSIC {
+  string music_item_id = 1;
+}

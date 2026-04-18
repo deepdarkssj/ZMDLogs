@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCENE_COLLECTION {
+  string scene_name = 1;
+  string prefab_id = 2;
+  int32 count = 3;
+  repeated uint64 detail_obj_id_list = 4;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "ATK_SCALE_CALCULATION_RUNTIME_ARGS.proto";
+import "BREAKING_ATTACK_CALCULATION_RUNTIME_ARGS.proto";
+import "DEFINITE_VALUE_CALCULATION_RUNTIME_ARGS.proto";
+import "MULTIPLY_ATTRIBUTE_CALCULATION_RUNTIME_ARGS.proto";
+import "PRIMARY_ATTR_CALCULATION_RUNTIME_ARGS.proto";
+import "SIMPLE_CALC_RUNTIME_ARGS.proto";
+
+message DEV_BATTLE_CALCULATION_RUNTIME_ARGS {
+  oneof calculation_args {
+    SIMPLE_CALC_RUNTIME_ARGS simple_calc_runtime_args = 100;
+    ATK_SCALE_CALCULATION_RUNTIME_ARGS atk_scale_calculation_runtime_args = 101;
+    DEFINITE_VALUE_CALCULATION_RUNTIME_ARGS definite_value_calculation_runtime_args = 102;
+    MULTIPLY_ATTRIBUTE_CALCULATION_RUNTIME_ARGS multiply_attribute_calculation_runtime_args = 103;
+    BREAKING_ATTACK_CALCULATION_RUNTIME_ARGS breaking_attack_calculation_runtime_args = 104;
+    PRIMARY_ATTR_CALCULATION_RUNTIME_ARGS primary_attr_calculation_runtime_args = 105;
+  }
+}

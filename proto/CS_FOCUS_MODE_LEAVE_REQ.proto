@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FOCUS_MODE_LEAVE_REQ {
+  string focus_mode_id = 1;
+}

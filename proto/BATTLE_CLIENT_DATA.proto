@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BATTLE_CLIENT_OP_DATA.proto";
+
+message BATTLE_CLIENT_DATA {
+  repeated BATTLE_CLIENT_OP_DATA op_list = 1;
+}

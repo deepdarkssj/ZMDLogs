@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SC_EQUIP_PUTON {
+  uint64 charid = 1;
+  int32 slotid = 2;
+  uint64 equipid = 3;
+  map<string, int32> suitinfo = 4;
+  uint64 put_off_charid = 5;
+  map<string, int32> old_owner_suitinfo = 6;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message FRIEND_CHAR_INFO {
+  string template_id = 1;
+  uint32 level = 2;
+  uint32 potential_level = 3;
+}

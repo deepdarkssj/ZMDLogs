@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_UPDATE_CLIENT_GAME_VAR {
+  int32 key = 1;
+  int64 value = 2;
+}

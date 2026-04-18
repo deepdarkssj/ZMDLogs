@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_CT {
+  uint32 component_id = 1;
+  repeated uint32 item_in = 2;
+  repeated uint32 item_out = 3;
+  repeated int32 index_in = 4;
+  repeated int32 index_out = 5;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SNS_GET_TYPE.proto";
+
+message CS_SNS_GET_LIST {
+  SNS_GET_TYPE sns_type = 1;
+}

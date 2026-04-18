@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ACTIVITY_INFO.proto";
+
+message SC_ACTIVITY_MODIFY {
+  repeated ACTIVITY_INFO info = 1;
+}

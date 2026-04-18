@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_MODIFY_PART_DAMAGE_TRANSFER_RATIO_ACTION_RUNTIME {
+  uint64 main_body_inst_id = 1;
+  repeated uint64 part_inst_ids = 2;
+  float client_ratio = 3;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCENE_STATIC_MAP_MARK {
+  int32 index = 1;
+}

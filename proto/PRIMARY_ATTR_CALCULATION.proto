@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message PRIMARY_ATTR_CALCULATION {
+  int32 value_source = 1;
+  int32 attr_type = 2;
+  bool apply_scale = 3;
+  BATTLE_BLACKBOARD_FLOAT value_scale = 4;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum SKILL_COST_TYPE {
+  SkillCostUltSp = 0;
+  SkillCostAtb = 1;
+}

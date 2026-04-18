@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FACTORY_OP_RET_DISMANTLE_BOX_CONVEYOR {
+  repeated uint32 node_id = 1;
+}

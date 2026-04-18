@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum FACTORY_BP_REVIEW_STATUS {
+  Pending = 0;
+  InProgress = 1;
+  Approved = 2;
+}

@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_ACHIEVE_DISPLAY_INFO_CHANGE {
+}

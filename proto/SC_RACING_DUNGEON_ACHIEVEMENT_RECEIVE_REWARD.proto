@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "RACING_DUNGEON_ACHIEVEMENT.proto";
+
+message SC_RACING_DUNGEON_ACHIEVEMENT_RECEIVE_REWARD {
+  string dungeon_id = 1;
+  repeated string receive_rewards = 2;
+  repeated RACING_DUNGEON_ACHIEVEMENT achievements = 3;
+}

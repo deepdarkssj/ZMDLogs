@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_LEVEL_UP_ROOM {
+  string room_id = 1;
+}

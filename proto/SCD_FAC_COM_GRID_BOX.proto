@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_ITEM.proto";
+
+message SCD_FAC_COM_GRID_BOX {
+  repeated SCD_FACTORY_SYNC_ITEM items = 1;
+}

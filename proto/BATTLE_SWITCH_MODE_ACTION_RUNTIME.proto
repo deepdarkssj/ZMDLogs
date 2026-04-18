@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_SWITCH_MODE_ACTION_RUNTIME {
+  uint64 source_id = 1;
+  string mode_id = 2;
+  uint32 mode_inst_id = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum FRIEND_CHAT_MSG_TYPE {
+  PresetText = 0;
+  Emoji = 1;
+  SocialBuilding = 2;
+  BluePrint = 3;
+}

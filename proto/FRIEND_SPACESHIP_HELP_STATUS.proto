@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum FRIEND_SPACESHIP_HELP_STATUS {
+  Invalid = 0;
+  CanHelp = 1;
+  Helped = 2;
+}

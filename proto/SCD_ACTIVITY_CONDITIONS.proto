@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_ACTIVITY_CONDITIONS {
+  map<string, int32> values = 1;
+  map<string, bool> flags = 2;
+}

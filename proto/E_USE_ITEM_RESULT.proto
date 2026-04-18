@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum E_USE_ITEM_RESULT {
+  Ok = 0;
+  UnknownFail = 1;
+  CondiitonFail = 2;
+}

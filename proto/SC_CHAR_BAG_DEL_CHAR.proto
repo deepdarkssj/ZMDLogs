@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_CHAR_BAG_DEL_CHAR {
+  uint64 char_inst_id = 1;
+  int32 scope_name = 2;
+}

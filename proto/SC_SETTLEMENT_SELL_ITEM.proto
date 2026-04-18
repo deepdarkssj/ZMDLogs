@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SC_SETTLEMENT_SELL_ITEM {
+  string settlement_id = 1;
+  string sell_item_id = 2;
+  int32 expect_sell_count = 3;
+  int32 real_sell_count = 4;
+  map<string, int64> reward_base = 5;
+  map<string, int64> reward_bonus = 6;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "CHAR_BAG_TEAM_TYPE.proto";
+import "CHAR_INFO.proto";
+import "CHAR_TEAM_INFO.proto";
+
+message SC_SYNC_CHAR_BAG_INFO {
+  repeated CHAR_INFO char_info = 1;
+  repeated CHAR_TEAM_INFO team_info = 2;
+  int32 curr_team_index = 3;
+  uint32 max_char_team_member_count = 4;
+  CHAR_TEAM_INFO temp_team_info = 5;
+  CHAR_BAG_TEAM_TYPE team_type = 6;
+  int32 scope_name = 10;
+  bool is_scope_delete = 11;
+}

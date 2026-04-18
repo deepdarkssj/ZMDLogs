@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_KITE_STATION_DATA.proto";
+
+message SC_KITE_STATION_SYNC_ALL {
+  map<string, SCD_KITE_STATION_DATA> kite_stations = 1;
+  map<string, string> version = 2;
+}

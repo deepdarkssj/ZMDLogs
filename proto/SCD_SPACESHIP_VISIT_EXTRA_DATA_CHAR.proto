@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_VISIT_EXTRA_DATA_CHAR {
+  int32 char_template_id = 1;
+  int32 potential_level = 2;
+}

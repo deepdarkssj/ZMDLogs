@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message BATTLE_SPAWN_ENEMY_ACTION_DATA {
+  string enemy_id = 1;
+  BATTLE_BLACKBOARD_FLOAT hp_ratio = 2;
+}

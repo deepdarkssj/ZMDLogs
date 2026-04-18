@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_BP_LEVEL_DATA {
+  int32 cur_level = 1;
+  int32 cur_exp = 2;
+}

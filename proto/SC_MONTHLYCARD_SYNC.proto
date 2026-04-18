@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_MONTHLYCARD_REWARD_RECORD.proto";
+
+message SC_MONTHLYCARD_SYNC {
+  int32 valid_end_ts = 1;
+  int32 last_reward_ts = 2;
+  repeated SCD_MONTHLYCARD_REWARD_RECORD last_reward_records = 3;
+}

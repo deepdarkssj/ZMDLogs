@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_CHAR_BAG_REMOVE_TRIAL_CHARACTER {
+  int32 scope_name = 1;
+}

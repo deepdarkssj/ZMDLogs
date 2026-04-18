@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_ITEM_GRID.proto";
+
+message SCD_ITEM_LOST_AND_FOUND_MODIFY {
+  map<string, int32> items = 1;
+  repeated SCD_ITEM_GRID inst_list = 2;
+  repeated uint64 del_inst_list = 3;
+}

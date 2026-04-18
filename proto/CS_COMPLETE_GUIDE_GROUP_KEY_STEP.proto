@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_COMPLETE_GUIDE_GROUP_KEY_STEP {
+  string guide_group_id = 1;
+}

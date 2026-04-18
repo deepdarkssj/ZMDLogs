@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SCENE_SET_BATTLE {
+  bool in_battle = 1;
+}

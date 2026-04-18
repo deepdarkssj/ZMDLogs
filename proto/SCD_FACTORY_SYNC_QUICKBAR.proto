@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_SYNC_QUICKBAR {
+  int32 type = 1;
+  repeated string list = 2;
+}

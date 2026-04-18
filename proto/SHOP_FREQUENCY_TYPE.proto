@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum SHOP_FREQUENCY_TYPE {
+  SftTypeGoods = 0;
+  SftTypeShop = 1;
+  SftTypeShopGroup = 2;
+}

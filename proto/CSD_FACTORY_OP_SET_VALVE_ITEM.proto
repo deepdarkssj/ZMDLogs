@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_SET_VALVE_ITEM {
+  uint32 com_id = 1;
+  string item_id = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FACTORY_STT_UNLOCK_LAYER {
+  string layer_id = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_DOMAIN_DEPOT_PACK_ITEM_REQ {
+  string domain_depot_id = 1;
+  int32 deliver_pack_type = 2;
+  int32 deliver_item_type = 3;
+  map<string, int64> items = 4;
+}

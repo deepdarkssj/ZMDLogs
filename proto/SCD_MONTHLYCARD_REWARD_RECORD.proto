@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_MONTHLYCARD_REWARD_RECORD {
+  int32 reward_ts = 1;
+  int32 confirm_ts = 2;
+}

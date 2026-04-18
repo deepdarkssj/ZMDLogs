@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BATTLE_TRIGGER_KEYWORD_MODIFY_DATA.proto";
+
+message BATTLE_TRIGGER_KEYWORD_OP_DATA {
+  uint64 buff_inst_id = 1;
+  int32 add_buff_num_id = 2;
+  repeated BATTLE_TRIGGER_KEYWORD_MODIFY_DATA modify = 3;
+}

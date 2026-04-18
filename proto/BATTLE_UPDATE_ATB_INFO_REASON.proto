@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum BATTLE_UPDATE_ATB_INFO_REASON {
+  None = 0;
+  ChangeRecoverySpeed = 1;
+  AddValue = 2;
+  SyncCurValue = 3;
+  Gm = 4;
+}

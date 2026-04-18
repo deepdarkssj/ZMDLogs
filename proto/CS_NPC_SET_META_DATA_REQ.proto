@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_NPC_SET_META_DATA_REQ {
+  string proxy_id = 1;
+  map<int32, bytes> meta_kvs = 2;
+}

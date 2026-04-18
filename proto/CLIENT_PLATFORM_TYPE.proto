@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+enum CLIENT_PLATFORM_TYPE {
+  Default = 0;
+  Andriod = 1;
+  Ios = 2;
+  Windows = 3;
+  Playstation = 4;
+  Harmonyos = 5;
+  Max = 6;
+}

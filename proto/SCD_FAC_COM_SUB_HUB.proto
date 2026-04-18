@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_SUB_HUB {
+  int32 level = 1;
+}

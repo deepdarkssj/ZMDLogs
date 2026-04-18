@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_DAILY_MISSION_INFO_UPDATE {
+  string daily_mission_id = 1;
+}

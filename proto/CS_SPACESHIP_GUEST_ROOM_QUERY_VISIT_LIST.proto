@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_GUEST_ROOM_QUERY_VISIT_LIST {
+}

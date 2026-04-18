@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum SCENE_CROSS_BORDER_REASON {
+  None = 0;
+  InvalidChunk = 1;
+  Locked = 2;
+  ExceedYAxis = 3;
+}

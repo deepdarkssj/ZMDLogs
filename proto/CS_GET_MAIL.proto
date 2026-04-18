@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_GET_MAIL {
+  repeated uint64 mail_id_list = 1;
+}

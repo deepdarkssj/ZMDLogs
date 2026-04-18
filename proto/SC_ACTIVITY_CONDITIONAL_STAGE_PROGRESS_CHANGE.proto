@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_ACTIVITY_CONDITIONS.proto";
+
+message SC_ACTIVITY_CONDITIONAL_STAGE_PROGRESS_CHANGE {
+  string stage_id = 1;
+  SCD_ACTIVITY_CONDITIONS conditions = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_CLIENT_PROCESSOR_DEBUG_ARGS_ITEM_DAMAGE_SCALE {
+  double client_value = 1;
+}

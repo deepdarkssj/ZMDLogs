@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_SUBMIT_ITEM {
+  string submit_id = 1;
+  bool ret = 2;
+}

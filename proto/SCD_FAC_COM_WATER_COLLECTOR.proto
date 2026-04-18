@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_ITEM.proto";
+
+message SCD_FAC_COM_WATER_COLLECTOR {
+  repeated SCD_FACTORY_SYNC_ITEM items_round = 1;
+  int64 current_progress = 2;
+  bool in_block = 4;
+  bool in_produce = 5;
+}

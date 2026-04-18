@@ -1,0 +1,3278 @@
+{
+  "0": {
+    "msg_id": 0,
+    "enum_name": "CsMessageBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_MESSAGE_BEGIN",
+    "direction": "cs"
+  },
+  "4": {
+    "msg_id": 4,
+    "enum_name": "CsGmCommand",
+    "class_name": "CS_GM_COMMAND",
+    "guessed_class_name": "CS_GM_COMMAND",
+    "direction": "cs"
+  },
+  "5": {
+    "msg_id": 5,
+    "enum_name": "CsPing",
+    "class_name": "CS_PING",
+    "guessed_class_name": "CS_PING",
+    "direction": "cs"
+  },
+  "6": {
+    "msg_id": 6,
+    "enum_name": "CsFlushSync",
+    "class_name": "CS_FLUSH_SYNC",
+    "guessed_class_name": "CS_FLUSH_SYNC",
+    "direction": "cs"
+  },
+  "7": {
+    "msg_id": 7,
+    "enum_name": "CsSetName",
+    "class_name": "CS_SET_NAME",
+    "guessed_class_name": "CS_SET_NAME",
+    "direction": "cs"
+  },
+  "8": {
+    "msg_id": 8,
+    "enum_name": "CsSetGender",
+    "class_name": "CS_SET_GENDER",
+    "guessed_class_name": "CS_SET_GENDER",
+    "direction": "cs"
+  },
+  "9": {
+    "msg_id": 9,
+    "enum_name": "CsCheckName",
+    "class_name": "CS_CHECK_NAME",
+    "guessed_class_name": "CS_CHECK_NAME",
+    "direction": "cs"
+  },
+  "10": {
+    "msg_id": 10,
+    "enum_name": "CsCheckSensitive",
+    "class_name": "CS_CHECK_SENSITIVE",
+    "guessed_class_name": "CS_CHECK_SENSITIVE",
+    "direction": "cs"
+  },
+  "11": {
+    "msg_id": 11,
+    "enum_name": "CsSyncLogicalTs",
+    "class_name": "CS_SYNC_LOGICAL_TS",
+    "guessed_class_name": "CS_SYNC_LOGICAL_TS",
+    "direction": "cs"
+  },
+  "12": {
+    "msg_id": 12,
+    "enum_name": "CsSetClientSetting",
+    "class_name": "CS_SET_CLIENT_SETTING",
+    "guessed_class_name": "CS_SET_CLIENT_SETTING",
+    "direction": "cs"
+  },
+  "13": {
+    "msg_id": 13,
+    "enum_name": "CsLogin",
+    "class_name": "MSG_A1",
+    "guessed_class_name": "CS_LOGIN",
+    "direction": "cs"
+  },
+  "14": {
+    "msg_id": 14,
+    "enum_name": "CsCreateRole",
+    "class_name": "CS_CREATE_ROLE",
+    "guessed_class_name": "CS_CREATE_ROLE",
+    "direction": "cs"
+  },
+  "15": {
+    "msg_id": 15,
+    "enum_name": "CsLogout",
+    "class_name": "CS_LOGOUT",
+    "guessed_class_name": "CS_LOGOUT",
+    "direction": "cs"
+  },
+  "16": {
+    "msg_id": 16,
+    "enum_name": "CsUpdateClientLanguage",
+    "class_name": "CS_UPDATE_CLIENT_LANGUAGE",
+    "guessed_class_name": "CS_UPDATE_CLIENT_LANGUAGE",
+    "direction": "cs"
+  },
+  "20": {
+    "msg_id": 20,
+    "enum_name": "CsCharBagBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_CHAR_BAG_BEGIN",
+    "direction": "cs"
+  },
+  "30": {
+    "msg_id": 30,
+    "enum_name": "CsCharBagReleaseNpcTeammatesFromAiControl",
+    "class_name": "CS_CHAR_BAG_RELEASE_NPC_TEAMMATES_FROM_AI_CONTROL",
+    "guessed_class_name": "CS_CHAR_BAG_RELEASE_NPC_TEAMMATES_FROM_AI_CONTROL",
+    "direction": "cs"
+  },
+  "31": {
+    "msg_id": 31,
+    "enum_name": "CsCharBagTeamBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_CHAR_BAG_TEAM_BEGIN",
+    "direction": "cs"
+  },
+  "32": {
+    "msg_id": 32,
+    "enum_name": "CsCharBagSetTeam",
+    "class_name": "CS_CHAR_BAG_SET_TEAM",
+    "guessed_class_name": "CS_CHAR_BAG_SET_TEAM",
+    "direction": "cs"
+  },
+  "33": {
+    "msg_id": 33,
+    "enum_name": "CsCharBagSetCurrTeamIndex",
+    "class_name": "CS_CHAR_BAG_SET_CURR_TEAM_INDEX",
+    "guessed_class_name": "CS_CHAR_BAG_SET_CURR_TEAM_INDEX",
+    "direction": "cs"
+  },
+  "34": {
+    "msg_id": 34,
+    "enum_name": "CsCharBagSetTeamName",
+    "class_name": "CS_CHAR_BAG_SET_TEAM_NAME",
+    "guessed_class_name": "CS_CHAR_BAG_SET_TEAM_NAME",
+    "direction": "cs"
+  },
+  "35": {
+    "msg_id": 35,
+    "enum_name": "CsCharBagSetTeamLeader",
+    "class_name": "CS_CHAR_BAG_SET_TEAM_LEADER",
+    "guessed_class_name": "CS_CHAR_BAG_SET_TEAM_LEADER",
+    "direction": "cs"
+  },
+  "36": {
+    "msg_id": 36,
+    "enum_name": "CsCharBagTeamChangeFinish",
+    "class_name": "CS_CHAR_BAG_TEAM_CHANGE_FINISH",
+    "guessed_class_name": "CS_CHAR_BAG_TEAM_CHANGE_FINISH",
+    "direction": "cs"
+  },
+  "37": {
+    "msg_id": 37,
+    "enum_name": "CsCharBagTeamEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_CHAR_BAG_TEAM_END",
+    "direction": "cs"
+  },
+  "38": {
+    "msg_id": 38,
+    "enum_name": "CsCharBagClientLocalTeamReport",
+    "class_name": "CS_CHAR_BAG_CLIENT_LOCAL_TEAM_REPORT",
+    "guessed_class_name": "CS_CHAR_BAG_CLIENT_LOCAL_TEAM_REPORT",
+    "direction": "cs"
+  },
+  "39": {
+    "msg_id": 39,
+    "enum_name": "CsCharBagEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_CHAR_BAG_END",
+    "direction": "cs"
+  },
+  "40": {
+    "msg_id": 40,
+    "enum_name": "CsCharBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_CHAR_BEGIN",
+    "direction": "cs"
+  },
+  "41": {
+    "msg_id": 41,
+    "enum_name": "CsCharLevelUp",
+    "class_name": "CS_CHAR_LEVEL_UP",
+    "guessed_class_name": "CS_CHAR_LEVEL_UP",
+    "direction": "cs"
+  },
+  "42": {
+    "msg_id": 42,
+    "enum_name": "CsCharSkillLevelUp",
+    "class_name": "CS_CHAR_SKILL_LEVEL_UP",
+    "guessed_class_name": "CS_CHAR_SKILL_LEVEL_UP",
+    "direction": "cs"
+  },
+  "43": {
+    "msg_id": 43,
+    "enum_name": "CsCharPotentialUnlock",
+    "class_name": "CS_CHAR_POTENTIAL_UNLOCK",
+    "guessed_class_name": "CS_CHAR_POTENTIAL_UNLOCK",
+    "direction": "cs"
+  },
+  "44": {
+    "msg_id": 44,
+    "enum_name": "CsCharSetPotentialCg",
+    "class_name": "CS_CHAR_SET_POTENTIAL_CG",
+    "guessed_class_name": "CS_CHAR_SET_POTENTIAL_CG",
+    "direction": "cs"
+  },
+  "49": {
+    "msg_id": 49,
+    "enum_name": "CsCharEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_CHAR_END",
+    "direction": "cs"
+  },
+  "50": {
+    "msg_id": 50,
+    "enum_name": "CsEquipBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_EQUIP_BEGIN",
+    "direction": "cs"
+  },
+  "51": {
+    "msg_id": 51,
+    "enum_name": "CsEquipPuton",
+    "class_name": "CS_EQUIP_PUTON",
+    "guessed_class_name": "CS_EQUIP_PUTON",
+    "direction": "cs"
+  },
+  "52": {
+    "msg_id": 52,
+    "enum_name": "CsEquipPutoff",
+    "class_name": "CS_EQUIP_PUTOFF",
+    "guessed_class_name": "CS_EQUIP_PUTOFF",
+    "direction": "cs"
+  },
+  "53": {
+    "msg_id": 53,
+    "enum_name": "CsEquipMedicineModify",
+    "class_name": "CS_EQUIP_MEDICINE_MODIFY",
+    "guessed_class_name": "CS_EQUIP_MEDICINE_MODIFY",
+    "direction": "cs"
+  },
+  "54": {
+    "msg_id": 54,
+    "enum_name": "CsEquipRecycle",
+    "class_name": "CS_EQUIP_RECYCLE",
+    "guessed_class_name": "CS_EQUIP_RECYCLE",
+    "direction": "cs"
+  },
+  "55": {
+    "msg_id": 55,
+    "enum_name": "CsEquipEnhance",
+    "class_name": "CS_EQUIP_ENHANCE",
+    "guessed_class_name": "CS_EQUIP_ENHANCE",
+    "direction": "cs"
+  },
+  "56": {
+    "msg_id": 56,
+    "enum_name": "CsEquipProduce",
+    "class_name": "CS_EQUIP_PRODUCE",
+    "guessed_class_name": "CS_EQUIP_PRODUCE",
+    "direction": "cs"
+  },
+  "59": {
+    "msg_id": 59,
+    "enum_name": "CsEquipEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_EQUIP_END",
+    "direction": "cs"
+  },
+  "80": {
+    "msg_id": 80,
+    "enum_name": "CsSceneBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SCENE_BEGIN",
+    "direction": "cs"
+  },
+  "81": {
+    "msg_id": 81,
+    "enum_name": "CsMoveObjectMove",
+    "class_name": "CS_MOVE_OBJECT_MOVE",
+    "guessed_class_name": "CS_MOVE_OBJECT_MOVE",
+    "direction": "cs"
+  },
+  "82": {
+    "msg_id": 82,
+    "enum_name": "CsEnterScene",
+    "class_name": "CS_ENTER_SCENE",
+    "guessed_class_name": "CS_ENTER_SCENE",
+    "direction": "cs"
+  },
+  "83": {
+    "msg_id": 83,
+    "enum_name": "CsSceneSetLastRecordCampid",
+    "class_name": "CS_SCENE_SET_LAST_RECORD_CAMPID",
+    "guessed_class_name": "CS_SCENE_SET_LAST_RECORD_CAMPID",
+    "direction": "cs"
+  },
+  "84": {
+    "msg_id": 84,
+    "enum_name": "CsSceneInteractiveEventTrigger",
+    "class_name": "CS_SCENE_INTERACTIVE_EVENT_TRIGGER",
+    "guessed_class_name": "CS_SCENE_INTERACTIVE_EVENT_TRIGGER",
+    "direction": "cs"
+  },
+  "85": {
+    "msg_id": 85,
+    "enum_name": "CsSceneLoadFinish",
+    "class_name": "CS_SCENE_LOAD_FINISH",
+    "guessed_class_name": "CS_SCENE_LOAD_FINISH",
+    "direction": "cs"
+  },
+  "86": {
+    "msg_id": 86,
+    "enum_name": "CsSceneRest",
+    "class_name": "CS_SCENE_REST",
+    "guessed_class_name": "CS_SCENE_REST",
+    "direction": "cs"
+  },
+  "87": {
+    "msg_id": 87,
+    "enum_name": "CsSceneSetSafeZone",
+    "class_name": "CS_SCENE_SET_SAFE_ZONE",
+    "guessed_class_name": "CS_SCENE_SET_SAFE_ZONE",
+    "direction": "cs"
+  },
+  "88": {
+    "msg_id": 88,
+    "enum_name": "CsSceneSetTrackPoint",
+    "class_name": "CS_SCENE_SET_TRACK_POINT",
+    "guessed_class_name": "CS_SCENE_SET_TRACK_POINT",
+    "direction": "cs"
+  },
+  "89": {
+    "msg_id": 89,
+    "enum_name": "CsSceneInteractTree",
+    "class_name": "CS_SCENE_INTERACT_TREE",
+    "guessed_class_name": "CS_SCENE_INTERACT_TREE",
+    "direction": "cs"
+  },
+  "90": {
+    "msg_id": 90,
+    "enum_name": "CsSceneStaticMapMarkUpdate",
+    "class_name": "CS_SCENE_STATIC_MAP_MARK_UPDATE",
+    "guessed_class_name": "CS_SCENE_STATIC_MAP_MARK_UPDATE",
+    "direction": "cs"
+  },
+  "91": {
+    "msg_id": 91,
+    "enum_name": "CsSceneTeleport",
+    "class_name": "CS_SCENE_TELEPORT",
+    "guessed_class_name": "CS_SCENE_TELEPORT",
+    "direction": "cs"
+  },
+  "92": {
+    "msg_id": 92,
+    "enum_name": "CsSceneSubmitItem",
+    "class_name": "CS_SCENE_SUBMIT_ITEM",
+    "guessed_class_name": "CS_SCENE_SUBMIT_ITEM",
+    "direction": "cs"
+  },
+  "93": {
+    "msg_id": 93,
+    "enum_name": "CsSceneSubmitEther",
+    "class_name": "CS_SCENE_SUBMIT_ETHER",
+    "guessed_class_name": "CS_SCENE_SUBMIT_ETHER",
+    "direction": "cs"
+  },
+  "94": {
+    "msg_id": 94,
+    "enum_name": "CsSceneSetLevelScriptActive",
+    "class_name": "CS_SCENE_SET_LEVEL_SCRIPT_ACTIVE",
+    "guessed_class_name": "CS_SCENE_SET_LEVEL_SCRIPT_ACTIVE",
+    "direction": "cs"
+  },
+  "95": {
+    "msg_id": 95,
+    "enum_name": "CsSceneLevelScriptEventTrigger",
+    "class_name": "CS_SCENE_LEVEL_SCRIPT_EVENT_TRIGGER",
+    "guessed_class_name": "CS_SCENE_LEVEL_SCRIPT_EVENT_TRIGGER",
+    "direction": "cs"
+  },
+  "96": {
+    "msg_id": 96,
+    "enum_name": "CsSceneRepatriate",
+    "class_name": "CS_SCENE_REPATRIATE",
+    "guessed_class_name": "CS_SCENE_REPATRIATE",
+    "direction": "cs"
+  },
+  "97": {
+    "msg_id": 97,
+    "enum_name": "CsSceneInteractSpInteractive",
+    "class_name": "CS_SCENE_INTERACT_SP_INTERACTIVE",
+    "guessed_class_name": "CS_SCENE_INTERACT_SP_INTERACTIVE",
+    "direction": "cs"
+  },
+  "98": {
+    "msg_id": 98,
+    "enum_name": "CsSceneSetLastSafeZone",
+    "class_name": "CS_SCENE_SET_LAST_SAFE_ZONE",
+    "guessed_class_name": "CS_SCENE_SET_LAST_SAFE_ZONE",
+    "direction": "cs"
+  },
+  "99": {
+    "msg_id": 99,
+    "enum_name": "CsSceneSetBattle",
+    "class_name": "CS_SCENE_SET_BATTLE",
+    "guessed_class_name": "CS_SCENE_SET_BATTLE",
+    "direction": "cs"
+  },
+  "100": {
+    "msg_id": 100,
+    "enum_name": "CsSceneRevival",
+    "class_name": "CS_SCENE_REVIVAL",
+    "guessed_class_name": "CS_SCENE_REVIVAL",
+    "direction": "cs"
+  },
+  "101": {
+    "msg_id": 101,
+    "enum_name": "CsSceneSetLevelScriptStart",
+    "class_name": "CS_SCENE_SET_LEVEL_SCRIPT_START",
+    "guessed_class_name": "CS_SCENE_SET_LEVEL_SCRIPT_START",
+    "direction": "cs"
+  },
+  "102": {
+    "msg_id": 102,
+    "enum_name": "CsSceneMonsterSpawnerBeginWave",
+    "class_name": "CS_SCENE_MONSTER_SPAWNER_BEGIN_WAVE",
+    "guessed_class_name": "CS_SCENE_MONSTER_SPAWNER_BEGIN_WAVE",
+    "direction": "cs"
+  },
+  "103": {
+    "msg_id": 103,
+    "enum_name": "CsSceneSpawnSummon",
+    "class_name": "CS_SCENE_SPAWN_SUMMON",
+    "guessed_class_name": "CS_SCENE_SPAWN_SUMMON",
+    "direction": "cs"
+  },
+  "104": {
+    "msg_id": 104,
+    "enum_name": "CsSceneLeavePlane",
+    "class_name": "CS_SCENE_LEAVE_PLANE",
+    "guessed_class_name": "CS_SCENE_LEAVE_PLANE",
+    "direction": "cs"
+  },
+  "105": {
+    "msg_id": 105,
+    "enum_name": "CsSceneUpdateScriptTaskProgress",
+    "class_name": "CS_SCENE_UPDATE_SCRIPT_TASK_PROGRESS",
+    "guessed_class_name": "CS_SCENE_UPDATE_SCRIPT_TASK_PROGRESS",
+    "direction": "cs"
+  },
+  "106": {
+    "msg_id": 106,
+    "enum_name": "CsSceneTeleportFinish",
+    "class_name": "CS_SCENE_TELEPORT_FINISH",
+    "guessed_class_name": "CS_SCENE_TELEPORT_FINISH",
+    "direction": "cs"
+  },
+  "107": {
+    "msg_id": 107,
+    "enum_name": "CsSceneSetStorySafeZone",
+    "class_name": "CS_SCENE_SET_STORY_SAFE_ZONE",
+    "guessed_class_name": "CS_SCENE_SET_STORY_SAFE_ZONE",
+    "direction": "cs"
+  },
+  "108": {
+    "msg_id": 108,
+    "enum_name": "CsSceneTouchTriggerVolumeReq",
+    "class_name": "CS_SCENE_TOUCH_TRIGGER_VOLUME_REQ",
+    "guessed_class_name": "CS_SCENE_TOUCH_TRIGGER_VOLUME_REQ",
+    "direction": "cs"
+  },
+  "109": {
+    "msg_id": 109,
+    "enum_name": "CsSceneDynamicMapMarkAdd",
+    "class_name": "CS_SCENE_DYNAMIC_MAP_MARK_ADD",
+    "guessed_class_name": "CS_SCENE_DYNAMIC_MAP_MARK_ADD",
+    "direction": "cs"
+  },
+  "110": {
+    "msg_id": 110,
+    "enum_name": "CsSceneDynamicMapMarkDelete",
+    "class_name": "CS_SCENE_DYNAMIC_MAP_MARK_DELETE",
+    "guessed_class_name": "CS_SCENE_DYNAMIC_MAP_MARK_DELETE",
+    "direction": "cs"
+  },
+  "111": {
+    "msg_id": 111,
+    "enum_name": "CsSceneDynamicMapMarkUpdate",
+    "class_name": "CS_SCENE_DYNAMIC_MAP_MARK_UPDATE",
+    "guessed_class_name": "CS_SCENE_DYNAMIC_MAP_MARK_UPDATE",
+    "direction": "cs"
+  },
+  "112": {
+    "msg_id": 112,
+    "enum_name": "CsSceneGetUnstuckReq",
+    "class_name": "CS_SCENE_GET_UNSTUCK_REQ",
+    "guessed_class_name": "CS_SCENE_GET_UNSTUCK_REQ",
+    "direction": "cs"
+  },
+  "113": {
+    "msg_id": 113,
+    "enum_name": "CsSceneMonsterSpawnerWaveConfirmComplete",
+    "class_name": "CS_SCENE_MONSTER_SPAWNER_WAVE_CONFIRM_COMPLETE",
+    "guessed_class_name": "CS_SCENE_MONSTER_SPAWNER_WAVE_CONFIRM_COMPLETE",
+    "direction": "cs"
+  },
+  "114": {
+    "msg_id": 114,
+    "enum_name": "CsSceneRefreshLsInteractiveMetaReq",
+    "class_name": "CS_SCENE_REFRESH_LS_INTERACTIVE_META_REQ",
+    "guessed_class_name": "CS_SCENE_REFRESH_LS_INTERACTIVE_META_REQ",
+    "direction": "cs"
+  },
+  "115": {
+    "msg_id": 115,
+    "enum_name": "CsSceneInteractNpc",
+    "class_name": "CS_SCENE_INTERACT_NPC",
+    "guessed_class_name": "CS_SCENE_INTERACT_NPC",
+    "direction": "cs"
+  },
+  "116": {
+    "msg_id": 116,
+    "enum_name": "CsSceneInteractSpInteractiveList",
+    "class_name": "CS_SCENE_INTERACT_SP_INTERACTIVE_LIST",
+    "guessed_class_name": "CS_SCENE_INTERACT_SP_INTERACTIVE_LIST",
+    "direction": "cs"
+  },
+  "199": {
+    "msg_id": 199,
+    "enum_name": "CsSceneEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SCENE_END",
+    "direction": "cs"
+  },
+  "200": {
+    "msg_id": 200,
+    "enum_name": "CsFactoryBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_FACTORY_BEGIN",
+    "direction": "cs"
+  },
+  "201": {
+    "msg_id": 201,
+    "enum_name": "CsFactorySttUnlockNode",
+    "class_name": "CS_FACTORY_STT_UNLOCK_NODE",
+    "guessed_class_name": "CS_FACTORY_STT_UNLOCK_NODE",
+    "direction": "cs"
+  },
+  "202": {
+    "msg_id": 202,
+    "enum_name": "CsFactorySttUnlockLayer",
+    "class_name": "CS_FACTORY_STT_UNLOCK_LAYER",
+    "guessed_class_name": "CS_FACTORY_STT_UNLOCK_LAYER",
+    "direction": "cs"
+  },
+  "203": {
+    "msg_id": 203,
+    "enum_name": "CsFactoryPanelStoreBuy",
+    "class_name": "CS_FACTORY_PANEL_STORE_BUY",
+    "guessed_class_name": "CS_FACTORY_PANEL_STORE_BUY",
+    "direction": "cs"
+  },
+  "211": {
+    "msg_id": 211,
+    "enum_name": "CsFactoryManuallyWorkExec",
+    "class_name": "CS_FACTORY_MANUALLY_WORK_EXEC",
+    "guessed_class_name": "CS_FACTORY_MANUALLY_WORK_EXEC",
+    "direction": "cs"
+  },
+  "212": {
+    "msg_id": 212,
+    "enum_name": "CsFactoryProductManualUnlock",
+    "class_name": "CS_FACTORY_PRODUCT_MANUAL_UNLOCK",
+    "guessed_class_name": "CS_FACTORY_PRODUCT_MANUAL_UNLOCK",
+    "direction": "cs"
+  },
+  "215": {
+    "msg_id": 215,
+    "enum_name": "CsFactoryQuickbarSetOne",
+    "class_name": "CS_FACTORY_QUICKBAR_SET_ONE",
+    "guessed_class_name": "CS_FACTORY_QUICKBAR_SET_ONE",
+    "direction": "cs"
+  },
+  "216": {
+    "msg_id": 216,
+    "enum_name": "CsFactoryQuickbarMoveOne",
+    "class_name": "CS_FACTORY_QUICKBAR_MOVE_ONE",
+    "guessed_class_name": "CS_FACTORY_QUICKBAR_MOVE_ONE",
+    "direction": "cs"
+  },
+  "217": {
+    "msg_id": 217,
+    "enum_name": "CsFactorySoilReclaim",
+    "class_name": "CS_FACTORY_SOIL_RECLAIM",
+    "guessed_class_name": "CS_FACTORY_SOIL_RECLAIM",
+    "direction": "cs"
+  },
+  "218": {
+    "msg_id": 218,
+    "enum_name": "CsFactorySoilWater",
+    "class_name": "CS_FACTORY_SOIL_WATER",
+    "guessed_class_name": "CS_FACTORY_SOIL_WATER",
+    "direction": "cs"
+  },
+  "220": {
+    "msg_id": 220,
+    "enum_name": "CsFactorySoilHarvest",
+    "class_name": "CS_FACTORY_SOIL_HARVEST",
+    "guessed_class_name": "CS_FACTORY_SOIL_HARVEST",
+    "direction": "cs"
+  },
+  "222": {
+    "msg_id": 222,
+    "enum_name": "CsFactoryHubWorkshopMake",
+    "class_name": "CS_FACTORY_HUB_WORKSHOP_MAKE",
+    "guessed_class_name": "CS_FACTORY_HUB_WORKSHOP_MAKE",
+    "direction": "cs"
+  },
+  "223": {
+    "msg_id": 223,
+    "enum_name": "CsFactoryHubTransportRouteSet",
+    "class_name": "CS_FACTORY_HUB_TRANSPORT_ROUTE_SET",
+    "guessed_class_name": "CS_FACTORY_HUB_TRANSPORT_ROUTE_SET",
+    "direction": "cs"
+  },
+  "224": {
+    "msg_id": 224,
+    "enum_name": "CsFactoryHubTransportRouteReset",
+    "class_name": "CS_FACTORY_HUB_TRANSPORT_ROUTE_RESET",
+    "guessed_class_name": "CS_FACTORY_HUB_TRANSPORT_ROUTE_RESET",
+    "direction": "cs"
+  },
+  "225": {
+    "msg_id": 225,
+    "enum_name": "CsFactoryHubTransportRouteRestart",
+    "class_name": "CS_FACTORY_HUB_TRANSPORT_ROUTE_RESTART",
+    "guessed_class_name": "CS_FACTORY_HUB_TRANSPORT_ROUTE_RESTART",
+    "direction": "cs"
+  },
+  "232": {
+    "msg_id": 232,
+    "enum_name": "CsFactoryHsFb",
+    "class_name": "CS_FACTORY_HS_FB",
+    "guessed_class_name": "CS_FACTORY_HS_FB",
+    "direction": "cs"
+  },
+  "234": {
+    "msg_id": 234,
+    "enum_name": "CsFactoryStatisticSetBookmarkItemIds",
+    "class_name": "CS_FACTORY_STATISTIC_SET_BOOKMARK_ITEM_IDS",
+    "guessed_class_name": "CS_FACTORY_STATISTIC_SET_BOOKMARK_ITEM_IDS",
+    "direction": "cs"
+  },
+  "235": {
+    "msg_id": 235,
+    "enum_name": "CsFactoryStatisticRequire",
+    "class_name": "CS_FACTORY_STATISTIC_REQUIRE",
+    "guessed_class_name": "CS_FACTORY_STATISTIC_REQUIRE",
+    "direction": "cs"
+  },
+  "236": {
+    "msg_id": 236,
+    "enum_name": "CsFactoryPinSet",
+    "class_name": "CS_FACTORY_PIN_SET",
+    "guessed_class_name": "CS_FACTORY_PIN_SET",
+    "direction": "cs"
+  },
+  "251": {
+    "msg_id": 251,
+    "enum_name": "CsFactoryOp",
+    "class_name": "CS_FACTORY_OP",
+    "guessed_class_name": "CS_FACTORY_OP",
+    "direction": "cs"
+  },
+  "256": {
+    "msg_id": 256,
+    "enum_name": "CsFactorySaveBluePrint",
+    "class_name": "CS_FACTORY_SAVE_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_SAVE_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "257": {
+    "msg_id": 257,
+    "enum_name": "CsFactoryDelBluePrint",
+    "class_name": "CS_FACTORY_DEL_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_DEL_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "258": {
+    "msg_id": 258,
+    "enum_name": "CsFactoryUseBluePrint",
+    "class_name": "CS_FACTORY_USE_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_USE_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "259": {
+    "msg_id": 259,
+    "enum_name": "CsFactoryModifyBluePrint",
+    "class_name": "CS_FACTORY_MODIFY_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_MODIFY_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "260": {
+    "msg_id": 260,
+    "enum_name": "CsFactoryReviewBluePrint",
+    "class_name": "CS_FACTORY_REVIEW_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_REVIEW_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "261": {
+    "msg_id": 261,
+    "enum_name": "CsFactoryShareBluePrint",
+    "class_name": "CS_FACTORY_SHARE_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_SHARE_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "262": {
+    "msg_id": 262,
+    "enum_name": "CsFactoryQuerySharedBluePrint",
+    "class_name": "CS_FACTORY_QUERY_SHARED_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_QUERY_SHARED_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "263": {
+    "msg_id": 263,
+    "enum_name": "CsFactoryFetchGiftBluePrint",
+    "class_name": "CS_FACTORY_FETCH_GIFT_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_FETCH_GIFT_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "264": {
+    "msg_id": 264,
+    "enum_name": "CsFactoryReportBluePrint",
+    "class_name": "CS_FACTORY_REPORT_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_REPORT_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "265": {
+    "msg_id": 265,
+    "enum_name": "CsFactoryQueryGiftBluePrint",
+    "class_name": "CS_FACTORY_QUERY_GIFT_BLUE_PRINT",
+    "guessed_class_name": "CS_FACTORY_QUERY_GIFT_BLUE_PRINT",
+    "direction": "cs"
+  },
+  "266": {
+    "msg_id": 266,
+    "enum_name": "CsFactorySetBluePrintFlag",
+    "class_name": "CS_FACTORY_SET_BLUE_PRINT_FLAG",
+    "guessed_class_name": "CS_FACTORY_SET_BLUE_PRINT_FLAG",
+    "direction": "cs"
+  },
+  "269": {
+    "msg_id": 269,
+    "enum_name": "CsFactoryEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_FACTORY_END",
+    "direction": "cs"
+  },
+  "270": {
+    "msg_id": 270,
+    "enum_name": "CsWeaponBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_WEAPON_BEGIN",
+    "direction": "cs"
+  },
+  "271": {
+    "msg_id": 271,
+    "enum_name": "CsWeaponPuton",
+    "class_name": "CS_WEAPON_PUTON",
+    "guessed_class_name": "CS_WEAPON_PUTON",
+    "direction": "cs"
+  },
+  "272": {
+    "msg_id": 272,
+    "enum_name": "CsWeaponBreakthrough",
+    "class_name": "CS_WEAPON_BREAKTHROUGH",
+    "guessed_class_name": "CS_WEAPON_BREAKTHROUGH",
+    "direction": "cs"
+  },
+  "273": {
+    "msg_id": 273,
+    "enum_name": "CsWeaponAddExp",
+    "class_name": "CS_WEAPON_ADD_EXP",
+    "guessed_class_name": "CS_WEAPON_ADD_EXP",
+    "direction": "cs"
+  },
+  "274": {
+    "msg_id": 274,
+    "enum_name": "CsWeaponAttachGem",
+    "class_name": "CS_WEAPON_ATTACH_GEM",
+    "guessed_class_name": "CS_WEAPON_ATTACH_GEM",
+    "direction": "cs"
+  },
+  "275": {
+    "msg_id": 275,
+    "enum_name": "CsWeaponDetachGem",
+    "class_name": "CS_WEAPON_DETACH_GEM",
+    "guessed_class_name": "CS_WEAPON_DETACH_GEM",
+    "direction": "cs"
+  },
+  "276": {
+    "msg_id": 276,
+    "enum_name": "CsWeaponRefineUpgrade",
+    "class_name": "CS_WEAPON_REFINE_UPGRADE",
+    "guessed_class_name": "CS_WEAPON_REFINE_UPGRADE",
+    "direction": "cs"
+  },
+  "279": {
+    "msg_id": 279,
+    "enum_name": "CsWeaponEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_WEAPON_END",
+    "direction": "cs"
+  },
+  "290": {
+    "msg_id": 290,
+    "enum_name": "CsWikiBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_WIKI_BEGIN",
+    "direction": "cs"
+  },
+  "291": {
+    "msg_id": 291,
+    "enum_name": "CsUnlockWiki",
+    "class_name": "CS_UNLOCK_WIKI",
+    "guessed_class_name": "CS_UNLOCK_WIKI",
+    "direction": "cs"
+  },
+  "292": {
+    "msg_id": 292,
+    "enum_name": "CsMarkWikiRead",
+    "class_name": "CS_MARK_WIKI_READ",
+    "guessed_class_name": "CS_MARK_WIKI_READ",
+    "direction": "cs"
+  },
+  "299": {
+    "msg_id": 299,
+    "enum_name": "CsWikiEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_WIKI_END",
+    "direction": "cs"
+  },
+  "310": {
+    "msg_id": 310,
+    "enum_name": "CsMissionBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_MISSION_BEGIN",
+    "direction": "cs"
+  },
+  "311": {
+    "msg_id": 311,
+    "enum_name": "CsFailMission",
+    "class_name": "CS_FAIL_MISSION",
+    "guessed_class_name": "CS_FAIL_MISSION",
+    "direction": "cs"
+  },
+  "312": {
+    "msg_id": 312,
+    "enum_name": "CsTrackMission",
+    "class_name": "CS_TRACK_MISSION",
+    "guessed_class_name": "CS_TRACK_MISSION",
+    "direction": "cs"
+  },
+  "313": {
+    "msg_id": 313,
+    "enum_name": "CsStopTrackingMission",
+    "class_name": "CS_STOP_TRACKING_MISSION",
+    "guessed_class_name": "CS_STOP_TRACKING_MISSION",
+    "direction": "cs"
+  },
+  "314": {
+    "msg_id": 314,
+    "enum_name": "CsUpdateQuestObjective",
+    "class_name": "CS_UPDATE_QUEST_OBJECTIVE",
+    "guessed_class_name": "CS_UPDATE_QUEST_OBJECTIVE",
+    "direction": "cs"
+  },
+  "315": {
+    "msg_id": 315,
+    "enum_name": "CsAcceptMission",
+    "class_name": "CS_ACCEPT_MISSION",
+    "guessed_class_name": "CS_ACCEPT_MISSION",
+    "direction": "cs"
+  },
+  "316": {
+    "msg_id": 316,
+    "enum_name": "CsMissionEventTrigger",
+    "class_name": "CS_MISSION_EVENT_TRIGGER",
+    "guessed_class_name": "CS_MISSION_EVENT_TRIGGER",
+    "direction": "cs"
+  },
+  "317": {
+    "msg_id": 317,
+    "enum_name": "CsMissionClientTriggerDone",
+    "class_name": "CS_MISSION_CLIENT_TRIGGER_DONE",
+    "guessed_class_name": "CS_MISSION_CLIENT_TRIGGER_DONE",
+    "direction": "cs"
+  },
+  "318": {
+    "msg_id": 318,
+    "enum_name": "CsSetNewMissionTagDone",
+    "class_name": "CS_SET_NEW_MISSION_TAG_DONE",
+    "guessed_class_name": "CS_SET_NEW_MISSION_TAG_DONE",
+    "direction": "cs"
+  },
+  "329": {
+    "msg_id": 329,
+    "enum_name": "CsMissionEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_MISSION_END",
+    "direction": "cs"
+  },
+  "330": {
+    "msg_id": 330,
+    "enum_name": "CsGuideBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_GUIDE_BEGIN",
+    "direction": "cs"
+  },
+  "331": {
+    "msg_id": 331,
+    "enum_name": "CsCompleteGuideGroupKeyStep",
+    "class_name": "CS_COMPLETE_GUIDE_GROUP_KEY_STEP",
+    "guessed_class_name": "CS_COMPLETE_GUIDE_GROUP_KEY_STEP",
+    "direction": "cs"
+  },
+  "332": {
+    "msg_id": 332,
+    "enum_name": "CsCompleteGuideGroup",
+    "class_name": "CS_COMPLETE_GUIDE_GROUP",
+    "guessed_class_name": "CS_COMPLETE_GUIDE_GROUP",
+    "direction": "cs"
+  },
+  "339": {
+    "msg_id": 339,
+    "enum_name": "CsGuideEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_GUIDE_END",
+    "direction": "cs"
+  },
+  "340": {
+    "msg_id": 340,
+    "enum_name": "CsDialogBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_DIALOG_BEGIN",
+    "direction": "cs"
+  },
+  "341": {
+    "msg_id": 341,
+    "enum_name": "CsFinishDialog",
+    "class_name": "CS_FINISH_DIALOG",
+    "guessed_class_name": "CS_FINISH_DIALOG",
+    "direction": "cs"
+  },
+  "349": {
+    "msg_id": 349,
+    "enum_name": "CsDialogEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_DIALOG_END",
+    "direction": "cs"
+  },
+  "350": {
+    "msg_id": 350,
+    "enum_name": "CsDungeonBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_DUNGEON_BEGIN",
+    "direction": "cs"
+  },
+  "370": {
+    "msg_id": 370,
+    "enum_name": "CsDungeonRestoreAp",
+    "class_name": "CS_DUNGEON_RESTORE_AP",
+    "guessed_class_name": "CS_DUNGEON_RESTORE_AP",
+    "direction": "cs"
+  },
+  "371": {
+    "msg_id": 371,
+    "enum_name": "CsEnterDungeon",
+    "class_name": "CS_ENTER_DUNGEON",
+    "guessed_class_name": "CS_ENTER_DUNGEON",
+    "direction": "cs"
+  },
+  "372": {
+    "msg_id": 372,
+    "enum_name": "CsRestartDungeon",
+    "class_name": "CS_RESTART_DUNGEON",
+    "guessed_class_name": "CS_RESTART_DUNGEON",
+    "direction": "cs"
+  },
+  "373": {
+    "msg_id": 373,
+    "enum_name": "CsLeaveDungeon",
+    "class_name": "CS_LEAVE_DUNGEON",
+    "guessed_class_name": "CS_LEAVE_DUNGEON",
+    "direction": "cs"
+  },
+  "375": {
+    "msg_id": 375,
+    "enum_name": "CsDungeonRecoverAp",
+    "class_name": "CS_DUNGEON_RECOVER_AP",
+    "guessed_class_name": "CS_DUNGEON_RECOVER_AP",
+    "direction": "cs"
+  },
+  "377": {
+    "msg_id": 377,
+    "enum_name": "CsDungeonTouchEntrance",
+    "class_name": "CS_DUNGEON_TOUCH_ENTRANCE",
+    "guessed_class_name": "CS_DUNGEON_TOUCH_ENTRANCE",
+    "direction": "cs"
+  },
+  "378": {
+    "msg_id": 378,
+    "enum_name": "CsDungeonEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_DUNGEON_END",
+    "direction": "cs"
+  },
+  "379": {
+    "msg_id": 379,
+    "enum_name": "CsEnterTrainDungeon",
+    "class_name": "CS_ENTER_TRAIN_DUNGEON",
+    "guessed_class_name": "CS_ENTER_TRAIN_DUNGEON",
+    "direction": "cs"
+  },
+  "380": {
+    "msg_id": 380,
+    "enum_name": "CsGameMechanicsBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_GAME_MECHANICS_BEGIN",
+    "direction": "cs"
+  },
+  "381": {
+    "msg_id": 381,
+    "enum_name": "CsGameMechanicsReqActive",
+    "class_name": "CS_GAME_MECHANICS_REQ_ACTIVE",
+    "guessed_class_name": "CS_GAME_MECHANICS_REQ_ACTIVE",
+    "direction": "cs"
+  },
+  "382": {
+    "msg_id": 382,
+    "enum_name": "CsGameMechanicsReqReward",
+    "class_name": "CS_GAME_MECHANICS_REQ_REWARD",
+    "guessed_class_name": "CS_GAME_MECHANICS_REQ_REWARD",
+    "direction": "cs"
+  },
+  "383": {
+    "msg_id": 383,
+    "enum_name": "CsGameMechanicsNtfInstPrepareFinish",
+    "class_name": "CS_GAME_MECHANICS_NTF_INST_PREPARE_FINISH",
+    "guessed_class_name": "CS_GAME_MECHANICS_NTF_INST_PREPARE_FINISH",
+    "direction": "cs"
+  },
+  "384": {
+    "msg_id": 384,
+    "enum_name": "CsGameMechanicsReqSetCustomRewardIndex",
+    "class_name": "CS_GAME_MECHANICS_REQ_SET_CUSTOM_REWARD_INDEX",
+    "guessed_class_name": "CS_GAME_MECHANICS_REQ_SET_CUSTOM_REWARD_INDEX",
+    "direction": "cs"
+  },
+  "385": {
+    "msg_id": 385,
+    "enum_name": "CsGameMechanicsReqStart",
+    "class_name": "CS_GAME_MECHANICS_REQ_START",
+    "guessed_class_name": "CS_GAME_MECHANICS_REQ_START",
+    "direction": "cs"
+  },
+  "386": {
+    "msg_id": 386,
+    "enum_name": "CsGameMechanicsReqStop",
+    "class_name": "CS_GAME_MECHANICS_REQ_STOP",
+    "guessed_class_name": "CS_GAME_MECHANICS_REQ_STOP",
+    "direction": "cs"
+  },
+  "387": {
+    "msg_id": 387,
+    "enum_name": "CsGameMechanicsConfirmLeaveGameInst",
+    "class_name": "CS_GAME_MECHANICS_CONFIRM_LEAVE_GAME_INST",
+    "guessed_class_name": "CS_GAME_MECHANICS_CONFIRM_LEAVE_GAME_INST",
+    "direction": "cs"
+  },
+  "388": {
+    "msg_id": 388,
+    "enum_name": "CsGameMechanicsBlackboxDirectRewardReq",
+    "class_name": "",
+    "guessed_class_name": "CS_GAME_MECHANICS_BLACKBOX_DIRECT_REWARD_REQ",
+    "direction": "cs"
+  },
+  "399": {
+    "msg_id": 399,
+    "enum_name": "CsGameMechanicsEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_GAME_MECHANICS_END",
+    "direction": "cs"
+  },
+  "400": {
+    "msg_id": 400,
+    "enum_name": "CsMailBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_MAIL_BEGIN",
+    "direction": "cs"
+  },
+  "401": {
+    "msg_id": 401,
+    "enum_name": "CsGetMail",
+    "class_name": "CS_GET_MAIL",
+    "guessed_class_name": "CS_GET_MAIL",
+    "direction": "cs"
+  },
+  "402": {
+    "msg_id": 402,
+    "enum_name": "CsReadMail",
+    "class_name": "CS_READ_MAIL",
+    "guessed_class_name": "CS_READ_MAIL",
+    "direction": "cs"
+  },
+  "403": {
+    "msg_id": 403,
+    "enum_name": "CsDeleteMail",
+    "class_name": "CS_DELETE_MAIL",
+    "guessed_class_name": "CS_DELETE_MAIL",
+    "direction": "cs"
+  },
+  "404": {
+    "msg_id": 404,
+    "enum_name": "CsDeleteAllMail",
+    "class_name": "CS_DELETE_ALL_MAIL",
+    "guessed_class_name": "CS_DELETE_ALL_MAIL",
+    "direction": "cs"
+  },
+  "405": {
+    "msg_id": 405,
+    "enum_name": "CsGetMailAttachment",
+    "class_name": "CS_GET_MAIL_ATTACHMENT",
+    "guessed_class_name": "CS_GET_MAIL_ATTACHMENT",
+    "direction": "cs"
+  },
+  "406": {
+    "msg_id": 406,
+    "enum_name": "CsGetAllMailAttachment",
+    "class_name": "CS_GET_ALL_MAIL_ATTACHMENT",
+    "guessed_class_name": "CS_GET_ALL_MAIL_ATTACHMENT",
+    "direction": "cs"
+  },
+  "407": {
+    "msg_id": 407,
+    "enum_name": "CsMarkStarMail",
+    "class_name": "CS_MARK_STAR_MAIL",
+    "guessed_class_name": "CS_MARK_STAR_MAIL",
+    "direction": "cs"
+  },
+  "419": {
+    "msg_id": 419,
+    "enum_name": "CsMailEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_MAIL_END",
+    "direction": "cs"
+  },
+  "430": {
+    "msg_id": 430,
+    "enum_name": "CsRedDotBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_RED_DOT_BEGIN",
+    "direction": "cs"
+  },
+  "431": {
+    "msg_id": 431,
+    "enum_name": "CsRemoveItemNewTags",
+    "class_name": "CS_REMOVE_ITEM_NEW_TAGS",
+    "guessed_class_name": "CS_REMOVE_ITEM_NEW_TAGS",
+    "direction": "cs"
+  },
+  "432": {
+    "msg_id": 432,
+    "enum_name": "CsRedDotReadFormula",
+    "class_name": "CS_RED_DOT_READ_FORMULA",
+    "guessed_class_name": "CS_RED_DOT_READ_FORMULA",
+    "direction": "cs"
+  },
+  "433": {
+    "msg_id": 433,
+    "enum_name": "CsRedDotReadCharDoc",
+    "class_name": "CS_RED_DOT_READ_CHAR_DOC",
+    "guessed_class_name": "CS_RED_DOT_READ_CHAR_DOC",
+    "direction": "cs"
+  },
+  "434": {
+    "msg_id": 434,
+    "enum_name": "CsRedDotReadCharVoice",
+    "class_name": "CS_RED_DOT_READ_CHAR_VOICE",
+    "guessed_class_name": "CS_RED_DOT_READ_CHAR_VOICE",
+    "direction": "cs"
+  },
+  "435": {
+    "msg_id": 435,
+    "enum_name": "CsRedDotReadEquipFormula",
+    "class_name": "CS_RED_DOT_READ_EQUIP_FORMULA",
+    "guessed_class_name": "CS_RED_DOT_READ_EQUIP_FORMULA",
+    "direction": "cs"
+  },
+  "436": {
+    "msg_id": 436,
+    "enum_name": "CsRedDotReadWeekRaidMission",
+    "class_name": "CS_RED_DOT_READ_WEEK_RAID_MISSION",
+    "guessed_class_name": "CS_RED_DOT_READ_WEEK_RAID_MISSION",
+    "direction": "cs"
+  },
+  "440": {
+    "msg_id": 440,
+    "enum_name": "CsRedDotEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_RED_DOT_END",
+    "direction": "cs"
+  },
+  "441": {
+    "msg_id": 441,
+    "enum_name": "CsPrtsBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_PRTS_BEGIN",
+    "direction": "cs"
+  },
+  "442": {
+    "msg_id": 442,
+    "enum_name": "CsPrtsMarkRead",
+    "class_name": "CS_PRTS_MARK_READ",
+    "guessed_class_name": "CS_PRTS_MARK_READ",
+    "direction": "cs"
+  },
+  "443": {
+    "msg_id": 443,
+    "enum_name": "CsPrtsMarkTerminalRead",
+    "class_name": "CS_PRTS_MARK_TERMINAL_READ",
+    "guessed_class_name": "CS_PRTS_MARK_TERMINAL_READ",
+    "direction": "cs"
+  },
+  "444": {
+    "msg_id": 444,
+    "enum_name": "CsPrtsRichContentRead",
+    "class_name": "CS_PRTS_RICH_CONTENT_READ",
+    "guessed_class_name": "CS_PRTS_RICH_CONTENT_READ",
+    "direction": "cs"
+  },
+  "445": {
+    "msg_id": 445,
+    "enum_name": "CsPrtsFinishInvestigate",
+    "class_name": "CS_PRTS_FINISH_INVESTIGATE",
+    "guessed_class_name": "CS_PRTS_FINISH_INVESTIGATE",
+    "direction": "cs"
+  },
+  "449": {
+    "msg_id": 449,
+    "enum_name": "CsPrtsEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_PRTS_END",
+    "direction": "cs"
+  },
+  "480": {
+    "msg_id": 480,
+    "enum_name": "CsBitsetBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_BITSET_BEGIN",
+    "direction": "cs"
+  },
+  "481": {
+    "msg_id": 481,
+    "enum_name": "CsBitsetAdd",
+    "class_name": "CS_BITSET_ADD",
+    "guessed_class_name": "CS_BITSET_ADD",
+    "direction": "cs"
+  },
+  "482": {
+    "msg_id": 482,
+    "enum_name": "CsBitsetRemove",
+    "class_name": "CS_BITSET_REMOVE",
+    "guessed_class_name": "CS_BITSET_REMOVE",
+    "direction": "cs"
+  },
+  "483": {
+    "msg_id": 483,
+    "enum_name": "CsBitsetRemoveAll",
+    "class_name": "CS_BITSET_REMOVE_ALL",
+    "guessed_class_name": "CS_BITSET_REMOVE_ALL",
+    "direction": "cs"
+  },
+  "499": {
+    "msg_id": 499,
+    "enum_name": "CsBitsetEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_BITSET_END",
+    "direction": "cs"
+  },
+  "500": {
+    "msg_id": 500,
+    "enum_name": "CsMergeMsg",
+    "class_name": "CS_MERGE_MSG",
+    "guessed_class_name": "CS_MERGE_MSG",
+    "direction": "cs"
+  },
+  "510": {
+    "msg_id": 510,
+    "enum_name": "CsPayBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_PAY_BEGIN",
+    "direction": "cs"
+  },
+  "512": {
+    "msg_id": 512,
+    "enum_name": "CsPayCreateOrder",
+    "class_name": "CS_PAY_CREATE_ORDER",
+    "guessed_class_name": "CS_PAY_CREATE_ORDER",
+    "direction": "cs"
+  },
+  "513": {
+    "msg_id": 513,
+    "enum_name": "CsPayAcceptOrder",
+    "class_name": "CS_PAY_ACCEPT_ORDER",
+    "guessed_class_name": "CS_PAY_ACCEPT_ORDER",
+    "direction": "cs"
+  },
+  "514": {
+    "msg_id": 514,
+    "enum_name": "CsPayQueryPlatformData",
+    "class_name": "CS_PAY_QUERY_PLATFORM_DATA",
+    "guessed_class_name": "CS_PAY_QUERY_PLATFORM_DATA",
+    "direction": "cs"
+  },
+  "529": {
+    "msg_id": 529,
+    "enum_name": "CsPayEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_PAY_END",
+    "direction": "cs"
+  },
+  "530": {
+    "msg_id": 530,
+    "enum_name": "CsFriendBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_FRIEND_BEGIN",
+    "direction": "cs"
+  },
+  "531": {
+    "msg_id": 531,
+    "enum_name": "CsFriendRequestSubmit",
+    "class_name": "CS_FRIEND_REQUEST_SUBMIT",
+    "guessed_class_name": "CS_FRIEND_REQUEST_SUBMIT",
+    "direction": "cs"
+  },
+  "532": {
+    "msg_id": 532,
+    "enum_name": "CsFriendRequestReject",
+    "class_name": "CS_FRIEND_REQUEST_REJECT",
+    "guessed_class_name": "CS_FRIEND_REQUEST_REJECT",
+    "direction": "cs"
+  },
+  "533": {
+    "msg_id": 533,
+    "enum_name": "CsFriendRequestAccept",
+    "class_name": "CS_FRIEND_REQUEST_ACCEPT",
+    "guessed_class_name": "CS_FRIEND_REQUEST_ACCEPT",
+    "direction": "cs"
+  },
+  "534": {
+    "msg_id": 534,
+    "enum_name": "CsFriendDelete",
+    "class_name": "CS_FRIEND_DELETE",
+    "guessed_class_name": "CS_FRIEND_DELETE",
+    "direction": "cs"
+  },
+  "535": {
+    "msg_id": 535,
+    "enum_name": "CsFriendSearchName",
+    "class_name": "CS_FRIEND_SEARCH_NAME",
+    "guessed_class_name": "CS_FRIEND_SEARCH_NAME",
+    "direction": "cs"
+  },
+  "536": {
+    "msg_id": 536,
+    "enum_name": "CsFriendSearchNameQuery",
+    "class_name": "CS_FRIEND_SEARCH_NAME_QUERY",
+    "guessed_class_name": "CS_FRIEND_SEARCH_NAME_QUERY",
+    "direction": "cs"
+  },
+  "537": {
+    "msg_id": 537,
+    "enum_name": "CsFriendRequestListSimpleSync",
+    "class_name": "CS_FRIEND_REQUEST_LIST_SIMPLE_SYNC",
+    "guessed_class_name": "CS_FRIEND_REQUEST_LIST_SIMPLE_SYNC",
+    "direction": "cs"
+  },
+  "538": {
+    "msg_id": 538,
+    "enum_name": "CsFriendRequestListQuery",
+    "class_name": "CS_FRIEND_REQUEST_LIST_QUERY",
+    "guessed_class_name": "CS_FRIEND_REQUEST_LIST_QUERY",
+    "direction": "cs"
+  },
+  "539": {
+    "msg_id": 539,
+    "enum_name": "CsFriendListSimpleSync",
+    "class_name": "CS_FRIEND_LIST_SIMPLE_SYNC",
+    "guessed_class_name": "CS_FRIEND_LIST_SIMPLE_SYNC",
+    "direction": "cs"
+  },
+  "540": {
+    "msg_id": 540,
+    "enum_name": "CsFriendListQuery",
+    "class_name": "CS_FRIEND_LIST_QUERY",
+    "guessed_class_name": "CS_FRIEND_LIST_QUERY",
+    "direction": "cs"
+  },
+  "541": {
+    "msg_id": 541,
+    "enum_name": "CsFriendBlackListSync",
+    "class_name": "CS_FRIEND_BLACK_LIST_SYNC",
+    "guessed_class_name": "CS_FRIEND_BLACK_LIST_SYNC",
+    "direction": "cs"
+  },
+  "542": {
+    "msg_id": 542,
+    "enum_name": "CsFriendSearchPlatformRoleId",
+    "class_name": "CS_FRIEND_SEARCH_PLATFORM_ROLE_ID",
+    "guessed_class_name": "CS_FRIEND_SEARCH_PLATFORM_ROLE_ID",
+    "direction": "cs"
+  },
+  "543": {
+    "msg_id": 543,
+    "enum_name": "CsFriendStrangerRecommendQuery",
+    "class_name": "CS_FRIEND_STRANGER_RECOMMEND_QUERY",
+    "guessed_class_name": "CS_FRIEND_STRANGER_RECOMMEND_QUERY",
+    "direction": "cs"
+  },
+  "544": {
+    "msg_id": 544,
+    "enum_name": "CsFriendUserAvatarModify",
+    "class_name": "CS_FRIEND_USER_AVATAR_MODIFY",
+    "guessed_class_name": "CS_FRIEND_USER_AVATAR_MODIFY",
+    "direction": "cs"
+  },
+  "545": {
+    "msg_id": 545,
+    "enum_name": "CsFriendUserAvatarFrameModify",
+    "class_name": "CS_FRIEND_USER_AVATAR_FRAME_MODIFY",
+    "guessed_class_name": "CS_FRIEND_USER_AVATAR_FRAME_MODIFY",
+    "direction": "cs"
+  },
+  "546": {
+    "msg_id": 546,
+    "enum_name": "CsFriendSignatureModify",
+    "class_name": "CS_FRIEND_SIGNATURE_MODIFY",
+    "guessed_class_name": "CS_FRIEND_SIGNATURE_MODIFY",
+    "direction": "cs"
+  },
+  "547": {
+    "msg_id": 547,
+    "enum_name": "CsFriendDisplayCharModify",
+    "class_name": "CS_FRIEND_DISPLAY_CHAR_MODIFY",
+    "guessed_class_name": "CS_FRIEND_DISPLAY_CHAR_MODIFY",
+    "direction": "cs"
+  },
+  "548": {
+    "msg_id": 548,
+    "enum_name": "CsFriendBusinessCardTopicModify",
+    "class_name": "CS_FRIEND_BUSINESS_CARD_TOPIC_MODIFY",
+    "guessed_class_name": "CS_FRIEND_BUSINESS_CARD_TOPIC_MODIFY",
+    "direction": "cs"
+  },
+  "549": {
+    "msg_id": 549,
+    "enum_name": "CsFriendBusinessCardQuery",
+    "class_name": "CS_FRIEND_BUSINESS_CARD_QUERY",
+    "guessed_class_name": "CS_FRIEND_BUSINESS_CARD_QUERY",
+    "direction": "cs"
+  },
+  "550": {
+    "msg_id": 550,
+    "enum_name": "CsFriendRemarkNameModify",
+    "class_name": "CS_FRIEND_REMARK_NAME_MODIFY",
+    "guessed_class_name": "CS_FRIEND_REMARK_NAME_MODIFY",
+    "direction": "cs"
+  },
+  "551": {
+    "msg_id": 551,
+    "enum_name": "CsFriendBlackListAdd",
+    "class_name": "CS_FRIEND_BLACK_LIST_ADD",
+    "guessed_class_name": "CS_FRIEND_BLACK_LIST_ADD",
+    "direction": "cs"
+  },
+  "552": {
+    "msg_id": 552,
+    "enum_name": "CsFriendBlackListDelete",
+    "class_name": "CS_FRIEND_BLACK_LIST_DELETE",
+    "guessed_class_name": "CS_FRIEND_BLACK_LIST_DELETE",
+    "direction": "cs"
+  },
+  "553": {
+    "msg_id": 553,
+    "enum_name": "CsFriendReportUser",
+    "class_name": "CS_FRIEND_REPORT_USER",
+    "guessed_class_name": "CS_FRIEND_REPORT_USER",
+    "direction": "cs"
+  },
+  "554": {
+    "msg_id": 554,
+    "enum_name": "CsFriendVisitSpaceship",
+    "class_name": "CS_FRIEND_VISIT_SPACESHIP",
+    "guessed_class_name": "CS_FRIEND_VISIT_SPACESHIP",
+    "direction": "cs"
+  },
+  "555": {
+    "msg_id": 555,
+    "enum_name": "CsFriendSroleCharQuery",
+    "class_name": "CS_FRIEND_SROLE_CHAR_QUERY",
+    "guessed_class_name": "CS_FRIEND_SROLE_CHAR_QUERY",
+    "direction": "cs"
+  },
+  "556": {
+    "msg_id": 556,
+    "enum_name": "CsFriendBusinessCardExpandFlagModify",
+    "class_name": "CS_FRIEND_BUSINESS_CARD_EXPAND_FLAG_MODIFY",
+    "guessed_class_name": "CS_FRIEND_BUSINESS_CARD_EXPAND_FLAG_MODIFY",
+    "direction": "cs"
+  },
+  "557": {
+    "msg_id": 557,
+    "enum_name": "CsFriendPsnFriendListSimpleSync",
+    "class_name": "CS_FRIEND_PSN_FRIEND_LIST_SIMPLE_SYNC",
+    "guessed_class_name": "CS_FRIEND_PSN_FRIEND_LIST_SIMPLE_SYNC",
+    "direction": "cs"
+  },
+  "558": {
+    "msg_id": 558,
+    "enum_name": "CsFriendPsnFriendListQuery",
+    "class_name": "CS_FRIEND_PSN_FRIEND_LIST_QUERY",
+    "guessed_class_name": "CS_FRIEND_PSN_FRIEND_LIST_QUERY",
+    "direction": "cs"
+  },
+  "559": {
+    "msg_id": 559,
+    "enum_name": "CsFriendPsnBlackListSync",
+    "class_name": "CS_FRIEND_PSN_BLACK_LIST_SYNC",
+    "guessed_class_name": "CS_FRIEND_PSN_BLACK_LIST_SYNC",
+    "direction": "cs"
+  },
+  "560": {
+    "msg_id": 560,
+    "enum_name": "CsFriendPsnAuthcodeQuery",
+    "class_name": "CS_FRIEND_PSN_AUTHCODE_QUERY",
+    "guessed_class_name": "CS_FRIEND_PSN_AUTHCODE_QUERY",
+    "direction": "cs"
+  },
+  "561": {
+    "msg_id": 561,
+    "enum_name": "CsFriendSetPsnOnly",
+    "class_name": "CS_FRIEND_SET_PSN_ONLY",
+    "guessed_class_name": "CS_FRIEND_SET_PSN_ONLY",
+    "direction": "cs"
+  },
+  "562": {
+    "msg_id": 562,
+    "enum_name": "CsSocialUserListQuery",
+    "class_name": "CS_SOCIAL_USER_LIST_QUERY",
+    "guessed_class_name": "CS_SOCIAL_USER_LIST_QUERY",
+    "direction": "cs"
+  },
+  "570": {
+    "msg_id": 570,
+    "enum_name": "CsFriendChatBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_FRIEND_CHAT_BEGIN",
+    "direction": "cs"
+  },
+  "571": {
+    "msg_id": 571,
+    "enum_name": "CsFriendChatCreate",
+    "class_name": "CS_FRIEND_CHAT_CREATE",
+    "guessed_class_name": "CS_FRIEND_CHAT_CREATE",
+    "direction": "cs"
+  },
+  "572": {
+    "msg_id": 572,
+    "enum_name": "CsFriendChatClose",
+    "class_name": "CS_FRIEND_CHAT_CLOSE",
+    "guessed_class_name": "CS_FRIEND_CHAT_CLOSE",
+    "direction": "cs"
+  },
+  "573": {
+    "msg_id": 573,
+    "enum_name": "CsFriendChatMsgQuery",
+    "class_name": "CS_FRIEND_CHAT_MSG_QUERY",
+    "guessed_class_name": "CS_FRIEND_CHAT_MSG_QUERY",
+    "direction": "cs"
+  },
+  "574": {
+    "msg_id": 574,
+    "enum_name": "CsFriendChatMsgRead",
+    "class_name": "CS_FRIEND_CHAT_MSG_READ",
+    "guessed_class_name": "CS_FRIEND_CHAT_MSG_READ",
+    "direction": "cs"
+  },
+  "575": {
+    "msg_id": 575,
+    "enum_name": "CsFriendChatMsgSend",
+    "class_name": "CS_FRIEND_CHAT_MSG_SEND",
+    "guessed_class_name": "CS_FRIEND_CHAT_MSG_SEND",
+    "direction": "cs"
+  },
+  "576": {
+    "msg_id": 576,
+    "enum_name": "CsFriendChatSocialBuildingReceive",
+    "class_name": "CS_FRIEND_CHAT_SOCIAL_BUILDING_RECEIVE",
+    "guessed_class_name": "CS_FRIEND_CHAT_SOCIAL_BUILDING_RECEIVE",
+    "direction": "cs"
+  },
+  "577": {
+    "msg_id": 577,
+    "enum_name": "CsFriendChatMsgInstantInfoQuery",
+    "class_name": "CS_FRIEND_CHAT_MSG_INSTANT_INFO_QUERY",
+    "guessed_class_name": "CS_FRIEND_CHAT_MSG_INSTANT_INFO_QUERY",
+    "direction": "cs"
+  },
+  "578": {
+    "msg_id": 578,
+    "enum_name": "CsFriendChatListSimpleSync",
+    "class_name": "CS_FRIEND_CHAT_LIST_SIMPLE_SYNC",
+    "guessed_class_name": "CS_FRIEND_CHAT_LIST_SIMPLE_SYNC",
+    "direction": "cs"
+  },
+  "579": {
+    "msg_id": 579,
+    "enum_name": "CsFriendChatSocialBuildingCheckArea",
+    "class_name": "CS_FRIEND_CHAT_SOCIAL_BUILDING_CHECK_AREA",
+    "guessed_class_name": "CS_FRIEND_CHAT_SOCIAL_BUILDING_CHECK_AREA",
+    "direction": "cs"
+  },
+  "598": {
+    "msg_id": 598,
+    "enum_name": "CsFriendChatEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_FRIEND_CHAT_END",
+    "direction": "cs"
+  },
+  "599": {
+    "msg_id": 599,
+    "enum_name": "CsFriendEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_FRIEND_END",
+    "direction": "cs"
+  },
+  "600": {
+    "msg_id": 600,
+    "enum_name": "CsWalletBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_WALLET_BEGIN",
+    "direction": "cs"
+  },
+  "601": {
+    "msg_id": 601,
+    "enum_name": "CsWalletRecordRequire",
+    "class_name": "CS_WALLET_RECORD_REQUIRE",
+    "guessed_class_name": "CS_WALLET_RECORD_REQUIRE",
+    "direction": "cs"
+  },
+  "630": {
+    "msg_id": 630,
+    "enum_name": "CsWalletEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_WALLET_END",
+    "direction": "cs"
+  },
+  "631": {
+    "msg_id": 631,
+    "enum_name": "CsGameVarBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_GAME_VAR_BEGIN",
+    "direction": "cs"
+  },
+  "632": {
+    "msg_id": 632,
+    "enum_name": "CsUpdateClientGameVar",
+    "class_name": "CS_UPDATE_CLIENT_GAME_VAR",
+    "guessed_class_name": "CS_UPDATE_CLIENT_GAME_VAR",
+    "direction": "cs"
+  },
+  "640": {
+    "msg_id": 640,
+    "enum_name": "CsGameVarEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_GAME_VAR_END",
+    "direction": "cs"
+  },
+  "641": {
+    "msg_id": 641,
+    "enum_name": "CsMiniGameBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_MINI_GAME_BEGIN",
+    "direction": "cs"
+  },
+  "642": {
+    "msg_id": 642,
+    "enum_name": "CsCompleteMiniGame",
+    "class_name": "CS_COMPLETE_MINI_GAME",
+    "guessed_class_name": "CS_COMPLETE_MINI_GAME",
+    "direction": "cs"
+  },
+  "650": {
+    "msg_id": 650,
+    "enum_name": "CsMiniGameEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_MINI_GAME_END",
+    "direction": "cs"
+  },
+  "701": {
+    "msg_id": 701,
+    "enum_name": "CsSnsBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SNS_BEGIN",
+    "direction": "cs"
+  },
+  "702": {
+    "msg_id": 702,
+    "enum_name": "CsSnsGetList",
+    "class_name": "CS_SNS_GET_LIST",
+    "guessed_class_name": "CS_SNS_GET_LIST",
+    "direction": "cs"
+  },
+  "706": {
+    "msg_id": 706,
+    "enum_name": "CsSnsFinishDialog",
+    "class_name": "CS_SNS_FINISH_DIALOG",
+    "guessed_class_name": "CS_SNS_FINISH_DIALOG",
+    "direction": "cs"
+  },
+  "707": {
+    "msg_id": 707,
+    "enum_name": "CsSnsReadDialog",
+    "class_name": "CS_SNS_READ_DIALOG",
+    "guessed_class_name": "CS_SNS_READ_DIALOG",
+    "direction": "cs"
+  },
+  "708": {
+    "msg_id": 708,
+    "enum_name": "CsSnsChatDialogJump",
+    "class_name": "CS_SNS_CHAT_DIALOG_JUMP",
+    "guessed_class_name": "CS_SNS_CHAT_DIALOG_JUMP",
+    "direction": "cs"
+  },
+  "730": {
+    "msg_id": 730,
+    "enum_name": "CsSnsEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SNS_END",
+    "direction": "cs"
+  },
+  "731": {
+    "msg_id": 731,
+    "enum_name": "CsSpaceshipBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_BEGIN",
+    "direction": "cs"
+  },
+  "732": {
+    "msg_id": 732,
+    "enum_name": "CsSpaceshipGuestRoomBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_BEGIN",
+    "direction": "cs"
+  },
+  "733": {
+    "msg_id": 733,
+    "enum_name": "CsSpaceshipGuestRoomRecvFriendClue",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_RECV_FRIEND_CLUE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_RECV_FRIEND_CLUE",
+    "direction": "cs"
+  },
+  "734": {
+    "msg_id": 734,
+    "enum_name": "CsSpaceshipGuestRoomPresentFriendClue",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_PRESENT_FRIEND_CLUE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_PRESENT_FRIEND_CLUE",
+    "direction": "cs"
+  },
+  "735": {
+    "msg_id": 735,
+    "enum_name": "CsSpaceshipGuestRoomPlaceClue",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_PLACE_CLUE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_PLACE_CLUE",
+    "direction": "cs"
+  },
+  "736": {
+    "msg_id": 736,
+    "enum_name": "CsSpaceshipGuestRoomCancelPlaceClue",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_CANCEL_PLACE_CLUE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_CANCEL_PLACE_CLUE",
+    "direction": "cs"
+  },
+  "737": {
+    "msg_id": 737,
+    "enum_name": "CsSpaceshipGuestRoomOpenInfoExchange",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_OPEN_INFO_EXCHANGE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_OPEN_INFO_EXCHANGE",
+    "direction": "cs"
+  },
+  "738": {
+    "msg_id": 738,
+    "enum_name": "CsSpaceshipGuestRoomGetClueInfo",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_GET_CLUE_INFO",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_GET_CLUE_INFO",
+    "direction": "cs"
+  },
+  "739": {
+    "msg_id": 739,
+    "enum_name": "CsSpaceshipGuestRoomSettleInfoExchange",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_SETTLE_INFO_EXCHANGE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_SETTLE_INFO_EXCHANGE",
+    "direction": "cs"
+  },
+  "740": {
+    "msg_id": 740,
+    "enum_name": "CsSpaceshipGuestRoomJoinFriendInfoExchange",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_JOIN_FRIEND_INFO_EXCHANGE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_JOIN_FRIEND_INFO_EXCHANGE",
+    "direction": "cs"
+  },
+  "741": {
+    "msg_id": 741,
+    "enum_name": "CsSpaceshipGuestRoomRecvClue",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_RECV_CLUE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_RECV_CLUE",
+    "direction": "cs"
+  },
+  "742": {
+    "msg_id": 742,
+    "enum_name": "CsSpaceshipGuestRoomSetCharPictureList",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_SET_CHAR_PICTURE_LIST",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_SET_CHAR_PICTURE_LIST",
+    "direction": "cs"
+  },
+  "743": {
+    "msg_id": 743,
+    "enum_name": "CsSpaceshipGuestRoomSetPlayingMusic",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_SET_PLAYING_MUSIC",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_SET_PLAYING_MUSIC",
+    "direction": "cs"
+  },
+  "744": {
+    "msg_id": 744,
+    "enum_name": "CsSpaceshipGuestRoomQueryVisitList",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_QUERY_VISIT_LIST",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_QUERY_VISIT_LIST",
+    "direction": "cs"
+  },
+  "745": {
+    "msg_id": 745,
+    "enum_name": "CsSpaceshipGuestRoomRecvVisitListReward",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_RECV_VISIT_LIST_REWARD",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_RECV_VISIT_LIST_REWARD",
+    "direction": "cs"
+  },
+  "746": {
+    "msg_id": 746,
+    "enum_name": "CsSpaceshipGuestRoomDeleteSelfClue",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_DELETE_SELF_CLUE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_DELETE_SELF_CLUE",
+    "direction": "cs"
+  },
+  "747": {
+    "msg_id": 747,
+    "enum_name": "CsSpaceshipGuestRoomReadClue",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_READ_CLUE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_READ_CLUE",
+    "direction": "cs"
+  },
+  "749": {
+    "msg_id": 749,
+    "enum_name": "CsSpaceshipGuestRoomEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_END",
+    "direction": "cs"
+  },
+  "750": {
+    "msg_id": 750,
+    "enum_name": "CsSpaceshipHelpRoom",
+    "class_name": "CS_SPACESHIP_HELP_ROOM",
+    "guessed_class_name": "CS_SPACESHIP_HELP_ROOM",
+    "direction": "cs"
+  },
+  "751": {
+    "msg_id": 751,
+    "enum_name": "CsSpaceshipUseHelpCredit",
+    "class_name": "CS_SPACESHIP_USE_HELP_CREDIT",
+    "guessed_class_name": "CS_SPACESHIP_USE_HELP_CREDIT",
+    "direction": "cs"
+  },
+  "752": {
+    "msg_id": 752,
+    "enum_name": "CsSpaceshipBuildRoom",
+    "class_name": "CS_SPACESHIP_BUILD_ROOM",
+    "guessed_class_name": "CS_SPACESHIP_BUILD_ROOM",
+    "direction": "cs"
+  },
+  "753": {
+    "msg_id": 753,
+    "enum_name": "CsSpaceshipLevelUpRoom",
+    "class_name": "CS_SPACESHIP_LEVEL_UP_ROOM",
+    "guessed_class_name": "CS_SPACESHIP_LEVEL_UP_ROOM",
+    "direction": "cs"
+  },
+  "754": {
+    "msg_id": 754,
+    "enum_name": "CsSpaceshipStationChar",
+    "class_name": "CS_SPACESHIP_STATION_CHAR",
+    "guessed_class_name": "CS_SPACESHIP_STATION_CHAR",
+    "direction": "cs"
+  },
+  "755": {
+    "msg_id": 755,
+    "enum_name": "CsSpaceshipStationCharChangeWorkState",
+    "class_name": "CS_SPACESHIP_STATION_CHAR_CHANGE_WORK_STATE",
+    "guessed_class_name": "CS_SPACESHIP_STATION_CHAR_CHANGE_WORK_STATE",
+    "direction": "cs"
+  },
+  "756": {
+    "msg_id": 756,
+    "enum_name": "CsSpaceshipPresentGiftToChar",
+    "class_name": "CS_SPACESHIP_PRESENT_GIFT_TO_CHAR",
+    "guessed_class_name": "CS_SPACESHIP_PRESENT_GIFT_TO_CHAR",
+    "direction": "cs"
+  },
+  "757": {
+    "msg_id": 757,
+    "enum_name": "CsSpaceshipRecvGiftFromChar",
+    "class_name": "CS_SPACESHIP_RECV_GIFT_FROM_CHAR",
+    "guessed_class_name": "CS_SPACESHIP_RECV_GIFT_FROM_CHAR",
+    "direction": "cs"
+  },
+  "758": {
+    "msg_id": 758,
+    "enum_name": "CsSpaceshipVisitReq",
+    "class_name": "CS_SPACESHIP_VISIT_REQ",
+    "guessed_class_name": "CS_SPACESHIP_VISIT_REQ",
+    "direction": "cs"
+  },
+  "759": {
+    "msg_id": 759,
+    "enum_name": "CsSpaceshipLeaveVisitReq",
+    "class_name": "CS_SPACESHIP_LEAVE_VISIT_REQ",
+    "guessed_class_name": "CS_SPACESHIP_LEAVE_VISIT_REQ",
+    "direction": "cs"
+  },
+  "760": {
+    "msg_id": 760,
+    "enum_name": "CsSpaceshipDeconstructRoom",
+    "class_name": "CS_SPACESHIP_DECONSTRUCT_ROOM",
+    "guessed_class_name": "CS_SPACESHIP_DECONSTRUCT_ROOM",
+    "direction": "cs"
+  },
+  "771": {
+    "msg_id": 771,
+    "enum_name": "CsSpaceshipManufacturingBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_MANUFACTURING_BEGIN",
+    "direction": "cs"
+  },
+  "772": {
+    "msg_id": 772,
+    "enum_name": "CsSpaceshipManufacturingStationStart",
+    "class_name": "CS_SPACESHIP_MANUFACTURING_STATION_START",
+    "guessed_class_name": "CS_SPACESHIP_MANUFACTURING_STATION_START",
+    "direction": "cs"
+  },
+  "775": {
+    "msg_id": 775,
+    "enum_name": "CsSpaceshipManufacturingStationCollect",
+    "class_name": "CS_SPACESHIP_MANUFACTURING_STATION_COLLECT",
+    "guessed_class_name": "CS_SPACESHIP_MANUFACTURING_STATION_COLLECT",
+    "direction": "cs"
+  },
+  "776": {
+    "msg_id": 776,
+    "enum_name": "CsSpaceshipManufacturingStationCancel",
+    "class_name": "CS_SPACESHIP_MANUFACTURING_STATION_CANCEL",
+    "guessed_class_name": "CS_SPACESHIP_MANUFACTURING_STATION_CANCEL",
+    "direction": "cs"
+  },
+  "777": {
+    "msg_id": 777,
+    "enum_name": "CsSpaceshipManufacturingStationChangeOrder",
+    "class_name": "CS_SPACESHIP_MANUFACTURING_STATION_CHANGE_ORDER",
+    "guessed_class_name": "CS_SPACESHIP_MANUFACTURING_STATION_CHANGE_ORDER",
+    "direction": "cs"
+  },
+  "785": {
+    "msg_id": 785,
+    "enum_name": "CsSpaceshipManufacturingEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_MANUFACTURING_END",
+    "direction": "cs"
+  },
+  "786": {
+    "msg_id": 786,
+    "enum_name": "CsSpaceshipGrowCabinBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_GROW_CABIN_BEGIN",
+    "direction": "cs"
+  },
+  "787": {
+    "msg_id": 787,
+    "enum_name": "CsSpaceshipGrowCabinBreed",
+    "class_name": "CS_SPACESHIP_GROW_CABIN_BREED",
+    "guessed_class_name": "CS_SPACESHIP_GROW_CABIN_BREED",
+    "direction": "cs"
+  },
+  "788": {
+    "msg_id": 788,
+    "enum_name": "CsSpaceshipGrowCabinSow",
+    "class_name": "CS_SPACESHIP_GROW_CABIN_SOW",
+    "guessed_class_name": "CS_SPACESHIP_GROW_CABIN_SOW",
+    "direction": "cs"
+  },
+  "789": {
+    "msg_id": 789,
+    "enum_name": "CsSpaceshipGrowCabinHarvest",
+    "class_name": "CS_SPACESHIP_GROW_CABIN_HARVEST",
+    "guessed_class_name": "CS_SPACESHIP_GROW_CABIN_HARVEST",
+    "direction": "cs"
+  },
+  "790": {
+    "msg_id": 790,
+    "enum_name": "CsSpaceshipGrowCabinCancel",
+    "class_name": "CS_SPACESHIP_GROW_CABIN_CANCEL",
+    "guessed_class_name": "CS_SPACESHIP_GROW_CABIN_CANCEL",
+    "direction": "cs"
+  },
+  "791": {
+    "msg_id": 791,
+    "enum_name": "CsSpaceshipGrowCabinClearPreviewRecipe",
+    "class_name": "CS_SPACESHIP_GROW_CABIN_CLEAR_PREVIEW_RECIPE",
+    "guessed_class_name": "CS_SPACESHIP_GROW_CABIN_CLEAR_PREVIEW_RECIPE",
+    "direction": "cs"
+  },
+  "799": {
+    "msg_id": 799,
+    "enum_name": "CsSpaceshipGrowCabinEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_GROW_CABIN_END",
+    "direction": "cs"
+  },
+  "800": {
+    "msg_id": 800,
+    "enum_name": "CsSpaceshipEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_END",
+    "direction": "cs"
+  },
+  "801": {
+    "msg_id": 801,
+    "enum_name": "CsGemBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_GEM_BEGIN",
+    "direction": "cs"
+  },
+  "802": {
+    "msg_id": 802,
+    "enum_name": "CsGemRecast",
+    "class_name": "CS_GEM_RECAST",
+    "guessed_class_name": "CS_GEM_RECAST",
+    "direction": "cs"
+  },
+  "803": {
+    "msg_id": 803,
+    "enum_name": "CsGemEnhance",
+    "class_name": "CS_GEM_ENHANCE",
+    "guessed_class_name": "CS_GEM_ENHANCE",
+    "direction": "cs"
+  },
+  "804": {
+    "msg_id": 804,
+    "enum_name": "CsGemDismantle",
+    "class_name": "CS_GEM_DISMANTLE",
+    "guessed_class_name": "CS_GEM_DISMANTLE",
+    "direction": "cs"
+  },
+  "820": {
+    "msg_id": 820,
+    "enum_name": "CsGemEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_GEM_END",
+    "direction": "cs"
+  },
+  "821": {
+    "msg_id": 821,
+    "enum_name": "CsSpaceshipMinorBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_MINOR_BEGIN",
+    "direction": "cs"
+  },
+  "822": {
+    "msg_id": 822,
+    "enum_name": "CsSpaceshipExpeditionStart",
+    "class_name": "CS_SPACESHIP_EXPEDITION_START",
+    "guessed_class_name": "CS_SPACESHIP_EXPEDITION_START",
+    "direction": "cs"
+  },
+  "823": {
+    "msg_id": 823,
+    "enum_name": "CsSpaceshipExpeditionCancel",
+    "class_name": "CS_SPACESHIP_EXPEDITION_CANCEL",
+    "guessed_class_name": "CS_SPACESHIP_EXPEDITION_CANCEL",
+    "direction": "cs"
+  },
+  "824": {
+    "msg_id": 824,
+    "enum_name": "CsSpaceshipExpeditionCollect",
+    "class_name": "CS_SPACESHIP_EXPEDITION_COLLECT",
+    "guessed_class_name": "CS_SPACESHIP_EXPEDITION_COLLECT",
+    "direction": "cs"
+  },
+  "825": {
+    "msg_id": 825,
+    "enum_name": "CsSpaceshipExpeditionRefresh",
+    "class_name": "CS_SPACESHIP_EXPEDITION_REFRESH",
+    "guessed_class_name": "CS_SPACESHIP_EXPEDITION_REFRESH",
+    "direction": "cs"
+  },
+  "830": {
+    "msg_id": 830,
+    "enum_name": "CsSpaceshipShowcaseModify",
+    "class_name": "CS_SPACESHIP_SHOWCASE_MODIFY",
+    "guessed_class_name": "CS_SPACESHIP_SHOWCASE_MODIFY",
+    "direction": "cs"
+  },
+  "831": {
+    "msg_id": 831,
+    "enum_name": "CsSpaceshipGuestRoomWeaponChange",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_WEAPON_CHANGE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_WEAPON_CHANGE",
+    "direction": "cs"
+  },
+  "832": {
+    "msg_id": 832,
+    "enum_name": "CsSpaceshipGuestRoomCharChange",
+    "class_name": "CS_SPACESHIP_GUEST_ROOM_CHAR_CHANGE",
+    "guessed_class_name": "CS_SPACESHIP_GUEST_ROOM_CHAR_CHANGE",
+    "direction": "cs"
+  },
+  "850": {
+    "msg_id": 850,
+    "enum_name": "CsSpaceshipMinorEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SPACESHIP_MINOR_END",
+    "direction": "cs"
+  },
+  "900": {
+    "msg_id": 900,
+    "enum_name": "CsBuffBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_BUFF_BEGIN",
+    "direction": "cs"
+  },
+  "901": {
+    "msg_id": 901,
+    "enum_name": "CsBattleOp",
+    "class_name": "CS_BATTLE_OP",
+    "guessed_class_name": "CS_BATTLE_OP",
+    "direction": "cs"
+  },
+  "902": {
+    "msg_id": 902,
+    "enum_name": "CsDevClearBattleInfo",
+    "class_name": "CS_DEV_CLEAR_BATTLE_INFO",
+    "guessed_class_name": "CS_DEV_CLEAR_BATTLE_INFO",
+    "direction": "cs"
+  },
+  "950": {
+    "msg_id": 950,
+    "enum_name": "CsBuffEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_BUFF_END",
+    "direction": "cs"
+  },
+  "1000": {
+    "msg_id": 1000,
+    "enum_name": "CsItemBagBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_ITEM_BAG_BEGIN",
+    "direction": "cs"
+  },
+  "1001": {
+    "msg_id": 1001,
+    "enum_name": "CsItemBagTidyInBag",
+    "class_name": "CS_ITEM_BAG_TIDY_IN_BAG",
+    "guessed_class_name": "CS_ITEM_BAG_TIDY_IN_BAG",
+    "direction": "cs"
+  },
+  "1002": {
+    "msg_id": 1002,
+    "enum_name": "CsItemBagMoveInBag",
+    "class_name": "CS_ITEM_BAG_MOVE_IN_BAG",
+    "guessed_class_name": "CS_ITEM_BAG_MOVE_IN_BAG",
+    "direction": "cs"
+  },
+  "1003": {
+    "msg_id": 1003,
+    "enum_name": "CsItemBagSplitInBag",
+    "class_name": "CS_ITEM_BAG_SPLIT_IN_BAG",
+    "guessed_class_name": "CS_ITEM_BAG_SPLIT_IN_BAG",
+    "direction": "cs"
+  },
+  "1004": {
+    "msg_id": 1004,
+    "enum_name": "CsItemBagFactoryDepotToBag",
+    "class_name": "CS_ITEM_BAG_FACTORY_DEPOT_TO_BAG",
+    "guessed_class_name": "CS_ITEM_BAG_FACTORY_DEPOT_TO_BAG",
+    "direction": "cs"
+  },
+  "1005": {
+    "msg_id": 1005,
+    "enum_name": "CsItemBagBagToFactoryDepot",
+    "class_name": "CS_ITEM_BAG_BAG_TO_FACTORY_DEPOT",
+    "guessed_class_name": "CS_ITEM_BAG_BAG_TO_FACTORY_DEPOT",
+    "direction": "cs"
+  },
+  "1007": {
+    "msg_id": 1007,
+    "enum_name": "CsItemBagUseItem",
+    "class_name": "CS_ITEM_BAG_USE_ITEM",
+    "guessed_class_name": "CS_ITEM_BAG_USE_ITEM",
+    "direction": "cs"
+  },
+  "1008": {
+    "msg_id": 1008,
+    "enum_name": "CsItemBagSetBatchMoveFlag",
+    "class_name": "CS_ITEM_BAG_SET_BATCH_MOVE_FLAG",
+    "guessed_class_name": "CS_ITEM_BAG_SET_BATCH_MOVE_FLAG",
+    "direction": "cs"
+  },
+  "1010": {
+    "msg_id": 1010,
+    "enum_name": "CsItemBagSetItemLock",
+    "class_name": "CS_ITEM_BAG_SET_ITEM_LOCK",
+    "guessed_class_name": "CS_ITEM_BAG_SET_ITEM_LOCK",
+    "direction": "cs"
+  },
+  "1011": {
+    "msg_id": 1011,
+    "enum_name": "CsItemBagAbandonInBag",
+    "class_name": "CS_ITEM_BAG_ABANDON_IN_BAG",
+    "guessed_class_name": "CS_ITEM_BAG_ABANDON_IN_BAG",
+    "direction": "cs"
+  },
+  "1012": {
+    "msg_id": 1012,
+    "enum_name": "CsItemBagDestroyInDepot",
+    "class_name": "CS_ITEM_BAG_DESTROY_IN_DEPOT",
+    "guessed_class_name": "CS_ITEM_BAG_DESTROY_IN_DEPOT",
+    "direction": "cs"
+  },
+  "1013": {
+    "msg_id": 1013,
+    "enum_name": "CsItemBagDestroyInFactoryDepot",
+    "class_name": "CS_ITEM_BAG_DESTROY_IN_FACTORY_DEPOT",
+    "guessed_class_name": "CS_ITEM_BAG_DESTROY_IN_FACTORY_DEPOT",
+    "direction": "cs"
+  },
+  "1014": {
+    "msg_id": 1014,
+    "enum_name": "CsItemBagDumpBottleInBag",
+    "class_name": "CS_ITEM_BAG_DUMP_BOTTLE_IN_BAG",
+    "guessed_class_name": "CS_ITEM_BAG_DUMP_BOTTLE_IN_BAG",
+    "direction": "cs"
+  },
+  "1015": {
+    "msg_id": 1015,
+    "enum_name": "CsItemBagDumpBottleInFactoryDepot",
+    "class_name": "CS_ITEM_BAG_DUMP_BOTTLE_IN_FACTORY_DEPOT",
+    "guessed_class_name": "CS_ITEM_BAG_DUMP_BOTTLE_IN_FACTORY_DEPOT",
+    "direction": "cs"
+  },
+  "1031": {
+    "msg_id": 1031,
+    "enum_name": "CsItemBagTakeoutLostAndFound",
+    "class_name": "CS_ITEM_BAG_TAKEOUT_LOST_AND_FOUND",
+    "guessed_class_name": "CS_ITEM_BAG_TAKEOUT_LOST_AND_FOUND",
+    "direction": "cs"
+  },
+  "1032": {
+    "msg_id": 1032,
+    "enum_name": "CsItemBagUseItemCase",
+    "class_name": "CS_ITEM_BAG_USE_ITEM_CASE",
+    "guessed_class_name": "CS_ITEM_BAG_USE_ITEM_CASE",
+    "direction": "cs"
+  },
+  "1033": {
+    "msg_id": 1033,
+    "enum_name": "CsItemBagChgSpaceshipChapter",
+    "class_name": "CS_ITEM_BAG_CHG_SPACESHIP_CHAPTER",
+    "guessed_class_name": "CS_ITEM_BAG_CHG_SPACESHIP_CHAPTER",
+    "direction": "cs"
+  },
+  "1034": {
+    "msg_id": 1034,
+    "enum_name": "CsItemBagSprayToBuilding",
+    "class_name": "CS_ITEM_BAG_SPRAY_TO_BUILDING",
+    "guessed_class_name": "CS_ITEM_BAG_SPRAY_TO_BUILDING",
+    "direction": "cs"
+  },
+  "1035": {
+    "msg_id": 1035,
+    "enum_name": "CsItemBagLtItemsExpireConfirmReq",
+    "class_name": "CS_ITEM_BAG_LT_ITEMS_EXPIRE_CONFIRM_REQ",
+    "guessed_class_name": "CS_ITEM_BAG_LT_ITEMS_EXPIRE_CONFIRM_REQ",
+    "direction": "cs"
+  },
+  "1049": {
+    "msg_id": 1049,
+    "enum_name": "CsItemBagEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_ITEM_BAG_END",
+    "direction": "cs"
+  },
+  "1050": {
+    "msg_id": 1050,
+    "enum_name": "CsSettlementBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SETTLEMENT_BEGIN",
+    "direction": "cs"
+  },
+  "1052": {
+    "msg_id": 1052,
+    "enum_name": "CsSettlementSetOfficer",
+    "class_name": "CS_SETTLEMENT_SET_OFFICER",
+    "guessed_class_name": "CS_SETTLEMENT_SET_OFFICER",
+    "direction": "cs"
+  },
+  "1055": {
+    "msg_id": 1055,
+    "enum_name": "CsSettlementSellItem",
+    "class_name": "CS_SETTLEMENT_SELL_ITEM",
+    "guessed_class_name": "CS_SETTLEMENT_SELL_ITEM",
+    "direction": "cs"
+  },
+  "1099": {
+    "msg_id": 1099,
+    "enum_name": "CsSettlementEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SETTLEMENT_END",
+    "direction": "cs"
+  },
+  "1100": {
+    "msg_id": 1100,
+    "enum_name": "CsShopBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_SHOP_BEGIN",
+    "direction": "cs"
+  },
+  "1111": {
+    "msg_id": 1111,
+    "enum_name": "CsShopBuy",
+    "class_name": "CS_SHOP_BUY",
+    "guessed_class_name": "CS_SHOP_BUY",
+    "direction": "cs"
+  },
+  "1112": {
+    "msg_id": 1112,
+    "enum_name": "CsShopSwapMoney",
+    "class_name": "CS_SHOP_SWAP_MONEY",
+    "guessed_class_name": "CS_SHOP_SWAP_MONEY",
+    "direction": "cs"
+  },
+  "1113": {
+    "msg_id": 1113,
+    "enum_name": "CsShopSell",
+    "class_name": "CS_SHOP_SELL",
+    "guessed_class_name": "CS_SHOP_SELL",
+    "direction": "cs"
+  },
+  "1114": {
+    "msg_id": 1114,
+    "enum_name": "CsShopDomainChannelLevelUp",
+    "class_name": "CS_SHOP_DOMAIN_CHANNEL_LEVEL_UP",
+    "guessed_class_name": "CS_SHOP_DOMAIN_CHANNEL_LEVEL_UP",
+    "direction": "cs"
+  },
+  "1115": {
+    "msg_id": 1115,
+    "enum_name": "CsShopQueryFriendGoodsPrice",
+    "class_name": "CS_SHOP_QUERY_FRIEND_GOODS_PRICE",
+    "guessed_class_name": "CS_SHOP_QUERY_FRIEND_GOODS_PRICE",
+    "direction": "cs"
+  },
+  "1116": {
+    "msg_id": 1116,
+    "enum_name": "CsShopManualRefresh",
+    "class_name": "CS_SHOP_MANUAL_REFRESH",
+    "guessed_class_name": "CS_SHOP_MANUAL_REFRESH",
+    "direction": "cs"
+  },
+  "1117": {
+    "msg_id": 1117,
+    "enum_name": "CsShopQueryFriendShop",
+    "class_name": "CS_SHOP_QUERY_FRIEND_SHOP",
+    "guessed_class_name": "CS_SHOP_QUERY_FRIEND_SHOP",
+    "direction": "cs"
+  },
+  "1118": {
+    "msg_id": 1118,
+    "enum_name": "CsShopSwapCharPotentialUp",
+    "class_name": "CS_SHOP_SWAP_CHAR_POTENTIAL_UP",
+    "guessed_class_name": "CS_SHOP_SWAP_CHAR_POTENTIAL_UP",
+    "direction": "cs"
+  },
+  "1149": {
+    "msg_id": 1149,
+    "enum_name": "CsShopEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_SHOP_END",
+    "direction": "cs"
+  },
+  "1150": {
+    "msg_id": 1150,
+    "enum_name": "CsAdventureBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_ADVENTURE_BEGIN",
+    "direction": "cs"
+  },
+  "1151": {
+    "msg_id": 1151,
+    "enum_name": "CsAdventureTakeRewardAll",
+    "class_name": "CS_ADVENTURE_TAKE_REWARD_ALL",
+    "guessed_class_name": "CS_ADVENTURE_TAKE_REWARD_ALL",
+    "direction": "cs"
+  },
+  "1152": {
+    "msg_id": 1152,
+    "enum_name": "CsAdventureSetWorldLevel",
+    "class_name": "CS_ADVENTURE_SET_WORLD_LEVEL",
+    "guessed_class_name": "CS_ADVENTURE_SET_WORLD_LEVEL",
+    "direction": "cs"
+  },
+  "1179": {
+    "msg_id": 1179,
+    "enum_name": "CsAdventureEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_ADVENTURE_END",
+    "direction": "cs"
+  },
+  "1250": {
+    "msg_id": 1250,
+    "enum_name": "CsAdventureBookBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_ADVENTURE_BOOK_BEGIN",
+    "direction": "cs"
+  },
+  "1251": {
+    "msg_id": 1251,
+    "enum_name": "CsTakeAllAdventureTaskReward",
+    "class_name": "CS_TAKE_ALL_ADVENTURE_TASK_REWARD",
+    "guessed_class_name": "CS_TAKE_ALL_ADVENTURE_TASK_REWARD",
+    "direction": "cs"
+  },
+  "1252": {
+    "msg_id": 1252,
+    "enum_name": "CsTakeAdventureTaskReward",
+    "class_name": "CS_TAKE_ADVENTURE_TASK_REWARD",
+    "guessed_class_name": "CS_TAKE_ADVENTURE_TASK_REWARD",
+    "direction": "cs"
+  },
+  "1253": {
+    "msg_id": 1253,
+    "enum_name": "CsTakeAdventureBookStageReward",
+    "class_name": "CS_TAKE_ADVENTURE_BOOK_STAGE_REWARD",
+    "guessed_class_name": "CS_TAKE_ADVENTURE_BOOK_STAGE_REWARD",
+    "direction": "cs"
+  },
+  "1254": {
+    "msg_id": 1254,
+    "enum_name": "CsTakeAllActivationReward",
+    "class_name": "CS_TAKE_ALL_ACTIVATION_REWARD",
+    "guessed_class_name": "CS_TAKE_ALL_ACTIVATION_REWARD",
+    "direction": "cs"
+  },
+  "1299": {
+    "msg_id": 1299,
+    "enum_name": "CsAdventureBookEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_ADVENTURE_BOOK_END",
+    "direction": "cs"
+  },
+  "1300": {
+    "msg_id": 1300,
+    "enum_name": "CsTalentBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_TALENT_BEGIN",
+    "direction": "cs"
+  },
+  "1301": {
+    "msg_id": 1301,
+    "enum_name": "CsCharUnlockTalentNode",
+    "class_name": "CS_CHAR_UNLOCK_TALENT_NODE",
+    "guessed_class_name": "CS_CHAR_UNLOCK_TALENT_NODE",
+    "direction": "cs"
+  },
+  "1329": {
+    "msg_id": 1329,
+    "enum_name": "CsTalentEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_TALENT_END",
+    "direction": "cs"
+  },
+  "1330": {
+    "msg_id": 1330,
+    "enum_name": "CsRacingDungeonBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_RACING_DUNGEON_BEGIN",
+    "direction": "cs"
+  },
+  "1332": {
+    "msg_id": 1332,
+    "enum_name": "CsRacingDungeonBattlePassReceiveReward",
+    "class_name": "CS_RACING_DUNGEON_BATTLE_PASS_RECEIVE_REWARD",
+    "guessed_class_name": "CS_RACING_DUNGEON_BATTLE_PASS_RECEIVE_REWARD",
+    "direction": "cs"
+  },
+  "1333": {
+    "msg_id": 1333,
+    "enum_name": "CsRacingDungeonGetBattlePass",
+    "class_name": "CS_RACING_DUNGEON_GET_BATTLE_PASS",
+    "guessed_class_name": "CS_RACING_DUNGEON_GET_BATTLE_PASS",
+    "direction": "cs"
+  },
+  "1334": {
+    "msg_id": 1334,
+    "enum_name": "CsRacingDungeonGetAchievement",
+    "class_name": "CS_RACING_DUNGEON_GET_ACHIEVEMENT",
+    "guessed_class_name": "CS_RACING_DUNGEON_GET_ACHIEVEMENT",
+    "direction": "cs"
+  },
+  "1335": {
+    "msg_id": 1335,
+    "enum_name": "CsRacingDungeonAchievementReceiveReward",
+    "class_name": "CS_RACING_DUNGEON_ACHIEVEMENT_RECEIVE_REWARD",
+    "guessed_class_name": "CS_RACING_DUNGEON_ACHIEVEMENT_RECEIVE_REWARD",
+    "direction": "cs"
+  },
+  "1336": {
+    "msg_id": 1336,
+    "enum_name": "CsRacingDungeonLeave",
+    "class_name": "CS_RACING_DUNGEON_LEAVE",
+    "guessed_class_name": "CS_RACING_DUNGEON_LEAVE",
+    "direction": "cs"
+  },
+  "1337": {
+    "msg_id": 1337,
+    "enum_name": "CsRacingDungeonUpdateBattleInfo",
+    "class_name": "CS_RACING_DUNGEON_UPDATE_BATTLE_INFO",
+    "guessed_class_name": "CS_RACING_DUNGEON_UPDATE_BATTLE_INFO",
+    "direction": "cs"
+  },
+  "1400": {
+    "msg_id": 1400,
+    "enum_name": "CsRacingDungeonEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_RACING_DUNGEON_END",
+    "direction": "cs"
+  },
+  "1401": {
+    "msg_id": 1401,
+    "enum_name": "CsTrialCharacterBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_TRIAL_CHARACTER_BEGIN",
+    "direction": "cs"
+  },
+  "1403": {
+    "msg_id": 1403,
+    "enum_name": "CsTrialCharacterEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_TRIAL_CHARACTER_END",
+    "direction": "cs"
+  },
+  "1431": {
+    "msg_id": 1431,
+    "enum_name": "CsGachaBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_GACHA_BEGIN",
+    "direction": "cs"
+  },
+  "1432": {
+    "msg_id": 1432,
+    "enum_name": "CsGachaSinglePullReq",
+    "class_name": "CS_GACHA_SINGLE_PULL_REQ",
+    "guessed_class_name": "CS_GACHA_SINGLE_PULL_REQ",
+    "direction": "cs"
+  },
+  "1433": {
+    "msg_id": 1433,
+    "enum_name": "CsGachaTenPullReq",
+    "class_name": "CS_GACHA_TEN_PULL_REQ",
+    "guessed_class_name": "CS_GACHA_TEN_PULL_REQ",
+    "direction": "cs"
+  },
+  "1434": {
+    "msg_id": 1434,
+    "enum_name": "CsGachaClaimCumulativeRewardReq",
+    "class_name": "CS_GACHA_CLAIM_CUMULATIVE_REWARD_REQ",
+    "guessed_class_name": "CS_GACHA_CLAIM_CUMULATIVE_REWARD_REQ",
+    "direction": "cs"
+  },
+  "1435": {
+    "msg_id": 1435,
+    "enum_name": "CsGachaConfirmRewardReq",
+    "class_name": "CS_GACHA_CONFIRM_REWARD_REQ",
+    "guessed_class_name": "CS_GACHA_CONFIRM_REWARD_REQ",
+    "direction": "cs"
+  },
+  "1436": {
+    "msg_id": 1436,
+    "enum_name": "CsGachaSelectChoicePackReq",
+    "class_name": "CS_GACHA_SELECT_CHOICE_PACK_REQ",
+    "guessed_class_name": "CS_GACHA_SELECT_CHOICE_PACK_REQ",
+    "direction": "cs"
+  },
+  "1450": {
+    "msg_id": 1450,
+    "enum_name": "CsGachaEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_GACHA_END",
+    "direction": "cs"
+  },
+  "1451": {
+    "msg_id": 1451,
+    "enum_name": "CsGameTimeFreezeBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_GAME_TIME_FREEZE_BEGIN",
+    "direction": "cs"
+  },
+  "1452": {
+    "msg_id": 1452,
+    "enum_name": "CsGameTimeFreezeStartReq",
+    "class_name": "CS_GAME_TIME_FREEZE_START_REQ",
+    "guessed_class_name": "CS_GAME_TIME_FREEZE_START_REQ",
+    "direction": "cs"
+  },
+  "1453": {
+    "msg_id": 1453,
+    "enum_name": "CsGameTimeFreezeEndReq",
+    "class_name": "CS_GAME_TIME_FREEZE_END_REQ",
+    "guessed_class_name": "CS_GAME_TIME_FREEZE_END_REQ",
+    "direction": "cs"
+  },
+  "1460": {
+    "msg_id": 1460,
+    "enum_name": "CsGameTimeFreezeEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_GAME_TIME_FREEZE_END",
+    "direction": "cs"
+  },
+  "1461": {
+    "msg_id": 1461,
+    "enum_name": "CsActivityBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_ACTIVITY_BEGIN",
+    "direction": "cs"
+  },
+  "1462": {
+    "msg_id": 1462,
+    "enum_name": "CsBaseMultiStageActivityReceiveReward",
+    "class_name": "CS_BASE_MULTI_STAGE_ACTIVITY_RECEIVE_REWARD",
+    "guessed_class_name": "CS_BASE_MULTI_STAGE_ACTIVITY_RECEIVE_REWARD",
+    "direction": "cs"
+  },
+  "1463": {
+    "msg_id": 1463,
+    "enum_name": "CsConditionalMultiStageActivityGainReward",
+    "class_name": "CS_CONDITIONAL_MULTI_STAGE_ACTIVITY_GAIN_REWARD",
+    "guessed_class_name": "CS_CONDITIONAL_MULTI_STAGE_ACTIVITY_GAIN_REWARD",
+    "direction": "cs"
+  },
+  "1464": {
+    "msg_id": 1464,
+    "enum_name": "CsActivityCharTrialClaimReward",
+    "class_name": "CS_ACTIVITY_CHAR_TRIAL_CLAIM_REWARD",
+    "guessed_class_name": "CS_ACTIVITY_CHAR_TRIAL_CLAIM_REWARD",
+    "direction": "cs"
+  },
+  "1465": {
+    "msg_id": 1465,
+    "enum_name": "CsActivityWeeklyTaskTaskGainReward",
+    "class_name": "CS_ACTIVITY_WEEKLY_TASK_TASK_GAIN_REWARD",
+    "guessed_class_name": "CS_ACTIVITY_WEEKLY_TASK_TASK_GAIN_REWARD",
+    "direction": "cs"
+  },
+  "1466": {
+    "msg_id": 1466,
+    "enum_name": "CsActivityWeeklyTaskMilestoneGainReward",
+    "class_name": "CS_ACTIVITY_WEEKLY_TASK_MILESTONE_GAIN_REWARD",
+    "guessed_class_name": "CS_ACTIVITY_WEEKLY_TASK_MILESTONE_GAIN_REWARD",
+    "direction": "cs"
+  },
+  "1471": {
+    "msg_id": 1471,
+    "enum_name": "CsDailyCheckin",
+    "class_name": "CS_DAILY_CHECKIN",
+    "guessed_class_name": "CS_DAILY_CHECKIN",
+    "direction": "cs"
+  },
+  "1472": {
+    "msg_id": 1472,
+    "enum_name": "CsActivityReadNotify",
+    "class_name": "CS_ACTIVITY_READ_NOTIFY",
+    "guessed_class_name": "CS_ACTIVITY_READ_NOTIFY",
+    "direction": "cs"
+  },
+  "1473": {
+    "msg_id": 1473,
+    "enum_name": "CsActivityReqFriendRank",
+    "class_name": "",
+    "guessed_class_name": "CS_ACTIVITY_REQ_FRIEND_RANK",
+    "direction": "cs"
+  },
+  "1510": {
+    "msg_id": 1510,
+    "enum_name": "CsActivityEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_ACTIVITY_END",
+    "direction": "cs"
+  },
+  "1511": {
+    "msg_id": 1511,
+    "enum_name": "CsNpcBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_NPC_BEGIN",
+    "direction": "cs"
+  },
+  "1512": {
+    "msg_id": 1512,
+    "enum_name": "CsNpcSetMetaDataReq",
+    "class_name": "CS_NPC_SET_META_DATA_REQ",
+    "guessed_class_name": "CS_NPC_SET_META_DATA_REQ",
+    "direction": "cs"
+  },
+  "1513": {
+    "msg_id": 1513,
+    "enum_name": "CsNpcBatchSetMetaDataReq",
+    "class_name": "CS_NPC_BATCH_SET_META_DATA_REQ",
+    "guessed_class_name": "CS_NPC_BATCH_SET_META_DATA_REQ",
+    "direction": "cs"
+  },
+  "1520": {
+    "msg_id": 1520,
+    "enum_name": "CsNpcEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_NPC_END",
+    "direction": "cs"
+  },
+  "1521": {
+    "msg_id": 1521,
+    "enum_name": "CsFocusModeBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_FOCUS_MODE_BEGIN",
+    "direction": "cs"
+  },
+  "1522": {
+    "msg_id": 1522,
+    "enum_name": "CsFocusModeEnterReq",
+    "class_name": "CS_FOCUS_MODE_ENTER_REQ",
+    "guessed_class_name": "CS_FOCUS_MODE_ENTER_REQ",
+    "direction": "cs"
+  },
+  "1523": {
+    "msg_id": 1523,
+    "enum_name": "CsFocusModeLeaveReq",
+    "class_name": "CS_FOCUS_MODE_LEAVE_REQ",
+    "guessed_class_name": "CS_FOCUS_MODE_LEAVE_REQ",
+    "direction": "cs"
+  },
+  "1550": {
+    "msg_id": 1550,
+    "enum_name": "CsFocusModeEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_FOCUS_MODE_END",
+    "direction": "cs"
+  },
+  "1551": {
+    "msg_id": 1551,
+    "enum_name": "CsDomainDevelopmentBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_DOMAIN_DEVELOPMENT_BEGIN",
+    "direction": "cs"
+  },
+  "1552": {
+    "msg_id": 1552,
+    "enum_name": "CsDomainDevelopmentTakeReward",
+    "class_name": "CS_DOMAIN_DEVELOPMENT_TAKE_REWARD",
+    "guessed_class_name": "CS_DOMAIN_DEVELOPMENT_TAKE_REWARD",
+    "direction": "cs"
+  },
+  "1553": {
+    "msg_id": 1553,
+    "enum_name": "CsDomainDevelopmentReadVersionInfo",
+    "class_name": "CS_DOMAIN_DEVELOPMENT_READ_VERSION_INFO",
+    "guessed_class_name": "CS_DOMAIN_DEVELOPMENT_READ_VERSION_INFO",
+    "direction": "cs"
+  },
+  "1600": {
+    "msg_id": 1600,
+    "enum_name": "CsDomainDevelopmentEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_DOMAIN_DEVELOPMENT_END",
+    "direction": "cs"
+  },
+  "1601": {
+    "msg_id": 1601,
+    "enum_name": "CsRecycleBinBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_RECYCLE_BIN_BEGIN",
+    "direction": "cs"
+  },
+  "1602": {
+    "msg_id": 1602,
+    "enum_name": "CsRecycleBinUnlock",
+    "class_name": "CS_RECYCLE_BIN_UNLOCK",
+    "guessed_class_name": "CS_RECYCLE_BIN_UNLOCK",
+    "direction": "cs"
+  },
+  "1603": {
+    "msg_id": 1603,
+    "enum_name": "CsRecycleBinLevelUp",
+    "class_name": "CS_RECYCLE_BIN_LEVEL_UP",
+    "guessed_class_name": "CS_RECYCLE_BIN_LEVEL_UP",
+    "direction": "cs"
+  },
+  "1604": {
+    "msg_id": 1604,
+    "enum_name": "CsRecycleBinCollect",
+    "class_name": "CS_RECYCLE_BIN_COLLECT",
+    "guessed_class_name": "CS_RECYCLE_BIN_COLLECT",
+    "direction": "cs"
+  },
+  "1630": {
+    "msg_id": 1630,
+    "enum_name": "CsRecycleBinEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_RECYCLE_BIN_END",
+    "direction": "cs"
+  },
+  "1631": {
+    "msg_id": 1631,
+    "enum_name": "CsKiteStationBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_KITE_STATION_BEGIN",
+    "direction": "cs"
+  },
+  "1632": {
+    "msg_id": 1632,
+    "enum_name": "CsKiteStationLevelUp",
+    "class_name": "CS_KITE_STATION_LEVEL_UP",
+    "guessed_class_name": "CS_KITE_STATION_LEVEL_UP",
+    "direction": "cs"
+  },
+  "1633": {
+    "msg_id": 1633,
+    "enum_name": "CsKiteStationCollectReward",
+    "class_name": "CS_KITE_STATION_COLLECT_REWARD",
+    "guessed_class_name": "CS_KITE_STATION_COLLECT_REWARD",
+    "direction": "cs"
+  },
+  "1634": {
+    "msg_id": 1634,
+    "enum_name": "CsKiteStationAcceptTask",
+    "class_name": "CS_KITE_STATION_ACCEPT_TASK",
+    "guessed_class_name": "CS_KITE_STATION_ACCEPT_TASK",
+    "direction": "cs"
+  },
+  "1650": {
+    "msg_id": 1650,
+    "enum_name": "CsKiteStationEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_KITE_STATION_END",
+    "direction": "cs"
+  },
+  "1651": {
+    "msg_id": 1651,
+    "enum_name": "CsStatBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_STAT_BEGIN",
+    "direction": "cs"
+  },
+  "1652": {
+    "msg_id": 1652,
+    "enum_name": "CsStatReqIncStat",
+    "class_name": "CS_STAT_REQ_INC_STAT",
+    "guessed_class_name": "CS_STAT_REQ_INC_STAT",
+    "direction": "cs"
+  },
+  "1653": {
+    "msg_id": 1653,
+    "enum_name": "CsStatReqSetStat",
+    "class_name": "CS_STAT_REQ_SET_STAT",
+    "guessed_class_name": "CS_STAT_REQ_SET_STAT",
+    "direction": "cs"
+  },
+  "1660": {
+    "msg_id": 1660,
+    "enum_name": "CsStatEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_STAT_END",
+    "direction": "cs"
+  },
+  "1661": {
+    "msg_id": 1661,
+    "enum_name": "CsWeekRaidBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_WEEK_RAID_BEGIN",
+    "direction": "cs"
+  },
+  "1662": {
+    "msg_id": 1662,
+    "enum_name": "CsWeekRaidBattlePassReceiveReward",
+    "class_name": "CS_WEEK_RAID_BATTLE_PASS_RECEIVE_REWARD",
+    "guessed_class_name": "CS_WEEK_RAID_BATTLE_PASS_RECEIVE_REWARD",
+    "direction": "cs"
+  },
+  "1663": {
+    "msg_id": 1663,
+    "enum_name": "CsWeekRaidPictorialReceiveReward",
+    "class_name": "CS_WEEK_RAID_PICTORIAL_RECEIVE_REWARD",
+    "guessed_class_name": "CS_WEEK_RAID_PICTORIAL_RECEIVE_REWARD",
+    "direction": "cs"
+  },
+  "1664": {
+    "msg_id": 1664,
+    "enum_name": "CsWeekRaidRefreshMission",
+    "class_name": "CS_WEEK_RAID_REFRESH_MISSION",
+    "guessed_class_name": "CS_WEEK_RAID_REFRESH_MISSION",
+    "direction": "cs"
+  },
+  "1665": {
+    "msg_id": 1665,
+    "enum_name": "CsWeekRaidLeave",
+    "class_name": "CS_WEEK_RAID_LEAVE",
+    "guessed_class_name": "CS_WEEK_RAID_LEAVE",
+    "direction": "cs"
+  },
+  "1666": {
+    "msg_id": 1666,
+    "enum_name": "CsWeekRaidCompleteMission",
+    "class_name": "CS_WEEK_RAID_COMPLETE_MISSION",
+    "guessed_class_name": "CS_WEEK_RAID_COMPLETE_MISSION",
+    "direction": "cs"
+  },
+  "1667": {
+    "msg_id": 1667,
+    "enum_name": "CsWeekRaidTriggerRegion",
+    "class_name": "CS_WEEK_RAID_TRIGGER_REGION",
+    "guessed_class_name": "CS_WEEK_RAID_TRIGGER_REGION",
+    "direction": "cs"
+  },
+  "1668": {
+    "msg_id": 1668,
+    "enum_name": "CsWeekRaidSetPinMission",
+    "class_name": "CS_WEEK_RAID_SET_PIN_MISSION",
+    "guessed_class_name": "CS_WEEK_RAID_SET_PIN_MISSION",
+    "direction": "cs"
+  },
+  "1669": {
+    "msg_id": 1669,
+    "enum_name": "CsWeekRaidReadVersion",
+    "class_name": "",
+    "guessed_class_name": "CS_WEEK_RAID_READ_VERSION",
+    "direction": "cs"
+  },
+  "1699": {
+    "msg_id": 1699,
+    "enum_name": "CsWeekRaidEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_WEEK_RAID_END",
+    "direction": "cs"
+  },
+  "1700": {
+    "msg_id": 1700,
+    "enum_name": "CsDomainDepotBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_BEGIN",
+    "direction": "cs"
+  },
+  "1701": {
+    "msg_id": 1701,
+    "enum_name": "CsDomainDepotUnlockReq",
+    "class_name": "CS_DOMAIN_DEPOT_UNLOCK_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_UNLOCK_REQ",
+    "direction": "cs"
+  },
+  "1702": {
+    "msg_id": 1702,
+    "enum_name": "CsDomainDepotLevelUpgradeReq",
+    "class_name": "CS_DOMAIN_DEPOT_LEVEL_UPGRADE_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_LEVEL_UPGRADE_REQ",
+    "direction": "cs"
+  },
+  "1703": {
+    "msg_id": 1703,
+    "enum_name": "CsReduceCargoIntegrityReq",
+    "class_name": "CS_REDUCE_CARGO_INTEGRITY_REQ",
+    "guessed_class_name": "CS_REDUCE_CARGO_INTEGRITY_REQ",
+    "direction": "cs"
+  },
+  "1704": {
+    "msg_id": 1704,
+    "enum_name": "CsDomainDepotPackItemReq",
+    "class_name": "CS_DOMAIN_DEPOT_PACK_ITEM_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_PACK_ITEM_REQ",
+    "direction": "cs"
+  },
+  "1705": {
+    "msg_id": 1705,
+    "enum_name": "CsDomainDepotSelectBuyerReq",
+    "class_name": "CS_DOMAIN_DEPOT_SELECT_BUYER_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_SELECT_BUYER_REQ",
+    "direction": "cs"
+  },
+  "1706": {
+    "msg_id": 1706,
+    "enum_name": "CsDomainDepotFetchDelegateReq",
+    "class_name": "CS_DOMAIN_DEPOT_FETCH_DELEGATE_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_FETCH_DELEGATE_REQ",
+    "direction": "cs"
+  },
+  "1707": {
+    "msg_id": 1707,
+    "enum_name": "CsDomainDepotDelegateReq",
+    "class_name": "CS_DOMAIN_DEPOT_DELEGATE_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_DELEGATE_REQ",
+    "direction": "cs"
+  },
+  "1708": {
+    "msg_id": 1708,
+    "enum_name": "CsDomainDepotTakeDelegateReq",
+    "class_name": "CS_DOMAIN_DEPOT_TAKE_DELEGATE_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_TAKE_DELEGATE_REQ",
+    "direction": "cs"
+  },
+  "1709": {
+    "msg_id": 1709,
+    "enum_name": "CsDomainDepotCollectDelegateRewardReq",
+    "class_name": "CS_DOMAIN_DEPOT_COLLECT_DELEGATE_REWARD_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_COLLECT_DELEGATE_REWARD_REQ",
+    "direction": "cs"
+  },
+  "1710": {
+    "msg_id": 1710,
+    "enum_name": "CsDomainDepotRecvPackageForDeliverReq",
+    "class_name": "CS_DOMAIN_DEPOT_RECV_PACKAGE_FOR_DELIVER_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_RECV_PACKAGE_FOR_DELIVER_REQ",
+    "direction": "cs"
+  },
+  "1711": {
+    "msg_id": 1711,
+    "enum_name": "CsDomainDepotSendPackageForDeliverReq",
+    "class_name": "CS_DOMAIN_DEPOT_SEND_PACKAGE_FOR_DELIVER_REQ",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_SEND_PACKAGE_FOR_DELIVER_REQ",
+    "direction": "cs"
+  },
+  "1750": {
+    "msg_id": 1750,
+    "enum_name": "CsDomainDepotEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_DOMAIN_DEPOT_END",
+    "direction": "cs"
+  },
+  "1761": {
+    "msg_id": 1761,
+    "enum_name": "CsAchieveBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_ACHIEVE_BEGIN",
+    "direction": "cs"
+  },
+  "1762": {
+    "msg_id": 1762,
+    "enum_name": "CsAchieveDisplayInfoChange",
+    "class_name": "CS_ACHIEVE_DISPLAY_INFO_CHANGE",
+    "guessed_class_name": "CS_ACHIEVE_DISPLAY_INFO_CHANGE",
+    "direction": "cs"
+  },
+  "1790": {
+    "msg_id": 1790,
+    "enum_name": "CsAchieveEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_ACHIEVE_END",
+    "direction": "cs"
+  },
+  "1791": {
+    "msg_id": 1791,
+    "enum_name": "CsMonthlycardBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_MONTHLYCARD_BEGIN",
+    "direction": "cs"
+  },
+  "1792": {
+    "msg_id": 1792,
+    "enum_name": "CsMonthlycardConfirmReward",
+    "class_name": "CS_MONTHLYCARD_CONFIRM_REWARD",
+    "guessed_class_name": "CS_MONTHLYCARD_CONFIRM_REWARD",
+    "direction": "cs"
+  },
+  "1800": {
+    "msg_id": 1800,
+    "enum_name": "CsMonthlycardEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_MONTHLYCARD_END",
+    "direction": "cs"
+  },
+  "1801": {
+    "msg_id": 1801,
+    "enum_name": "CsBpBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_BP_BEGIN",
+    "direction": "cs"
+  },
+  "1802": {
+    "msg_id": 1802,
+    "enum_name": "CsBpTakeTrackReward",
+    "class_name": "CS_BP_TAKE_TRACK_REWARD",
+    "guessed_class_name": "CS_BP_TAKE_TRACK_REWARD",
+    "direction": "cs"
+  },
+  "1803": {
+    "msg_id": 1803,
+    "enum_name": "CsBpTakeTaskReward",
+    "class_name": "CS_BP_TAKE_TASK_REWARD",
+    "guessed_class_name": "CS_BP_TAKE_TASK_REWARD",
+    "direction": "cs"
+  },
+  "1804": {
+    "msg_id": 1804,
+    "enum_name": "CsBpBuyLevel",
+    "class_name": "CS_BP_BUY_LEVEL",
+    "guessed_class_name": "CS_BP_BUY_LEVEL",
+    "direction": "cs"
+  },
+  "1805": {
+    "msg_id": 1805,
+    "enum_name": "CsBpBuyOriginiumTrack",
+    "class_name": "CS_BP_BUY_ORIGINIUM_TRACK",
+    "guessed_class_name": "CS_BP_BUY_ORIGINIUM_TRACK",
+    "direction": "cs"
+  },
+  "1840": {
+    "msg_id": 1840,
+    "enum_name": "CsBpEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_BP_END",
+    "direction": "cs"
+  },
+  "1841": {
+    "msg_id": 1841,
+    "enum_name": "CsWorldEnergyPointBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_WORLD_ENERGY_POINT_BEGIN",
+    "direction": "cs"
+  },
+  "1842": {
+    "msg_id": 1842,
+    "enum_name": "CsWorldEnergyPointReqGroupReward",
+    "class_name": "CS_WORLD_ENERGY_POINT_REQ_GROUP_REWARD",
+    "guessed_class_name": "CS_WORLD_ENERGY_POINT_REQ_GROUP_REWARD",
+    "direction": "cs"
+  },
+  "1843": {
+    "msg_id": 1843,
+    "enum_name": "CsWorldEnergyPointSetTerms",
+    "class_name": "CS_WORLD_ENERGY_POINT_SET_TERMS",
+    "guessed_class_name": "CS_WORLD_ENERGY_POINT_SET_TERMS",
+    "direction": "cs"
+  },
+  "1844": {
+    "msg_id": 1844,
+    "enum_name": "CsWorldEnergyPointAbandonGroupReward",
+    "class_name": "CS_WORLD_ENERGY_POINT_ABANDON_GROUP_REWARD",
+    "guessed_class_name": "CS_WORLD_ENERGY_POINT_ABANDON_GROUP_REWARD",
+    "direction": "cs"
+  },
+  "1850": {
+    "msg_id": 1850,
+    "enum_name": "CsWorldEnergyPointEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_WORLD_ENERGY_POINT_END",
+    "direction": "cs"
+  },
+  "1851": {
+    "msg_id": 1851,
+    "enum_name": "CsAntiCheatBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_ANTI_CHEAT_BEGIN",
+    "direction": "cs"
+  },
+  "1852": {
+    "msg_id": 1852,
+    "enum_name": "CsAntiCheatUploadData",
+    "class_name": "CS_ANTI_CHEAT_UPLOAD_DATA",
+    "guessed_class_name": "CS_ANTI_CHEAT_UPLOAD_DATA",
+    "direction": "cs"
+  },
+  "1853": {
+    "msg_id": 1853,
+    "enum_name": "CsAntiCheatSendAntiData1",
+    "class_name": "CS_ANTI_CHEAT_SEND_ANTI_DATA1",
+    "guessed_class_name": "CS_ANTI_CHEAT_SEND_ANTI_DATA1",
+    "direction": "cs"
+  },
+  "1854": {
+    "msg_id": 1854,
+    "enum_name": "CsAntiCheatSendAntiData2",
+    "class_name": "CS_ANTI_CHEAT_SEND_ANTI_DATA2",
+    "guessed_class_name": "CS_ANTI_CHEAT_SEND_ANTI_DATA2",
+    "direction": "cs"
+  },
+  "1855": {
+    "msg_id": 1855,
+    "enum_name": "CsAntiCheatSendAntiData4",
+    "class_name": "CS_ANTI_CHEAT_SEND_ANTI_DATA4",
+    "guessed_class_name": "CS_ANTI_CHEAT_SEND_ANTI_DATA4",
+    "direction": "cs"
+  },
+  "1856": {
+    "msg_id": 1856,
+    "enum_name": "CsAntiCheatGetLightFeature",
+    "class_name": "CS_ANTI_CHEAT_GET_LIGHT_FEATURE",
+    "guessed_class_name": "CS_ANTI_CHEAT_GET_LIGHT_FEATURE",
+    "direction": "cs"
+  },
+  "1880": {
+    "msg_id": 1880,
+    "enum_name": "CsAntiCheatEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_ANTI_CHEAT_END",
+    "direction": "cs"
+  },
+  "1890": {
+    "msg_id": 1890,
+    "enum_name": "CsFactorySoilFertilize",
+    "class_name": "CS_FACTORY_SOIL_FERTILIZE",
+    "guessed_class_name": "CS_FACTORY_SOIL_FERTILIZE",
+    "direction": "cs"
+  },
+  "1900": {
+    "msg_id": 1900,
+    "enum_name": "CsToolsBegin",
+    "class_name": "",
+    "guessed_class_name": "CS_TOOLS_BEGIN",
+    "direction": "cs"
+  },
+  "1901": {
+    "msg_id": 1901,
+    "enum_name": "CsReportClientRemoteTaskRet",
+    "class_name": "CS_REPORT_CLIENT_REMOTE_TASK_RET",
+    "guessed_class_name": "CS_REPORT_CLIENT_REMOTE_TASK_RET",
+    "direction": "cs"
+  },
+  "1950": {
+    "msg_id": 1950,
+    "enum_name": "CsToolsEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_TOOLS_END",
+    "direction": "cs"
+  },
+  "4095": {
+    "msg_id": 4095,
+    "enum_name": "CsMessageEnd",
+    "class_name": "",
+    "guessed_class_name": "CS_MESSAGE_END",
+    "direction": "cs"
+  }
+}

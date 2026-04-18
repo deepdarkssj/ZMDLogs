@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SKILL_COST_DATA.proto";
+
+message BATTLE_GAIN_COST_ACTION_DATA {
+  SKILL_COST_DATA cost_data = 2;
+}

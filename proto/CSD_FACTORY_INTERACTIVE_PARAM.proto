@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "DYNAMIC_PARAMETER.proto";
+import "VECTOR.proto";
+
+message CSD_FACTORY_INTERACTIVE_PARAM {
+  VECTOR position = 1;
+  VECTOR rotation = 2;
+  map<int32, DYNAMIC_PARAMETER> properties = 3;
+}

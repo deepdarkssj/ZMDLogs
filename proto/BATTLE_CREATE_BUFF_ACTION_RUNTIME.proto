@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BATTLE_CREATE_BUFF_ACTION_DETAIL.proto";
+
+message BATTLE_CREATE_BUFF_ACTION_RUNTIME {
+  repeated BATTLE_CREATE_BUFF_ACTION_DETAIL details = 2;
+}

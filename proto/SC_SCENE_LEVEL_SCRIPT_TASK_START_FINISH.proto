@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SCENE_LEVEL_SCRIPT_TASK_START_FINISH {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string task_id = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_FLUID_CONVEYOR {
+  string item_id = 1;
+  int32 fluid_height = 2;
+  repeated int64 box_tms_list = 3;
+  repeated int32 box_offset_list = 4;
+}

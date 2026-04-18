@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message BeHelpedRecord {
+  uint64 role_id = 1;
+  string role_name = 2;
+  string room_id = 3;
+  int32 room_type = 4;
+}

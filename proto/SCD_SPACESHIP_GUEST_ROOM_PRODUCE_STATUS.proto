@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_GUEST_ROOM_PRODUCE_STATUS {
+  double cur_collect_process = 1;
+}

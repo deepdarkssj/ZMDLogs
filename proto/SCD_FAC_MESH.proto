@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_VEC3_INT.proto";
+
+message SCD_FAC_MESH {
+  int32 mesh_type = 1;
+  repeated SCD_VEC3_INT points = 2;
+}

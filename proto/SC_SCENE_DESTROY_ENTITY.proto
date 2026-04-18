@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SCENE_DESTROY_ENTITY {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  int32 reason = 3;
+}

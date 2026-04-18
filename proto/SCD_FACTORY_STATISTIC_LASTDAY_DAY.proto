@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_STATISTIC_LASTDAY_DAY {
+  int64 day_ts = 1;
+  map<string, int64> from_productivity = 2;
+}

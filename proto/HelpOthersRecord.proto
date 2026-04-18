@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message HelpOthersRecord {
+  uint64 target = 1;
+  string room_id = 2;
+  int32 room_type = 3;
+}

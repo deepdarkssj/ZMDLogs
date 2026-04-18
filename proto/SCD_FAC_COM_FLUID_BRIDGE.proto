@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_ITEM.proto";
+
+message SCD_FAC_COM_FLUID_BRIDGE {
+  SCD_FACTORY_SYNC_ITEM hold_item = 1;
+}

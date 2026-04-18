@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_REPATRIATE {
+  int32 scene_num_id = 1;
+  int32 repatriate_source = 2;
+}

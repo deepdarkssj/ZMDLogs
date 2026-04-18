@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_PANEL_STORE_GOOD {
+  string id = 1;
+  int32 state = 2;
+}

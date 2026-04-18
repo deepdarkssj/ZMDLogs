@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_VEC3_INT.proto";
+
+message CSD_FACTORY_AREA_RELATED_POS {
+  SCD_VEC3_INT area_start_pos = 1;
+  SCD_VEC3_INT area_offset = 2;
+  SCD_VEC3_INT area_rotate = 3;
+}

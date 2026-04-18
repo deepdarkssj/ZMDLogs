@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_ENTER_DUNGEON {
+  string dungeon_id = 3;
+  string scene_id = 4;
+}

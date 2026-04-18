@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_ROOM_REPORT_OUTPUT.proto";
+
+message SC_SPACESHIP_REPORT_OUTPUT_MODIFY {
+  string room_id = 1;
+  map<int64, SCD_SPACESHIP_ROOM_REPORT_OUTPUT> output_report = 2;
+}

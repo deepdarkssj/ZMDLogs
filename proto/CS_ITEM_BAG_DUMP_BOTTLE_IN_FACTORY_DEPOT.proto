@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_ITEM_BAG_DUMP_BOTTLE_IN_FACTORY_DEPOT {
+  string item_id = 1;
+  int32 count = 2;
+  int32 scope_name = 11;
+  string chapter_id = 12;
+}

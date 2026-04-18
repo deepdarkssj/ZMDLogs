@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_FORMULA_MAN.proto";
+import "SCD_FACTORY_SYNC_PROGRESS_STATUS.proto";
+import "SCD_FACTORY_SYNC_STT.proto";
+
+message SC_FACTORY_SYNC {
+  SCD_FACTORY_SYNC_FORMULA_MAN formula_man = 1;
+  SCD_FACTORY_SYNC_STT stt = 2;
+  SCD_FACTORY_SYNC_PROGRESS_STATUS progress_status = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_GACHA_CLAIM_CUMULATIVE_REWARD_REQ {
+  int32 gacha_type = 1;
+  string gacha_pool_id = 2;
+  repeated int32 reward_indexes = 3;
+}

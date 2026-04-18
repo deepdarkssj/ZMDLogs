@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "WEEK_RAID_DANGER_CHANGE_SOURCE.proto";
+
+message SC_SYNC_WEEK_RAID_DANGER_METER_MODIFY {
+  int32 cur_danger_meter = 1;
+  int32 max_danger_meter = 2;
+  int32 cur_danger_level = 3;
+  WEEK_RAID_DANGER_CHANGE_SOURCE source = 4;
+  int64 delay_end_ts = 5;
+}

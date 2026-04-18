@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message SCD_GACHA_POOL_ROLE_DATA {
+  string gacha_pool_id = 1;
+  bool is_closed = 2;
+  int32 personal_close_reason = 3;
+  int32 total_pull_count = 4;
+  int32 hard_guarantee_progress = 5;
+  int32 soft_guarantee_progress = 6;
+  int32 star5_soft_guarantee_progress = 7;
+  int32 up_got_count = 8;
+  int64 timestamp_to_close = 9;
+  repeated int32 cumulative_reward_list = 10;
+  int32 free_ten_pull_count = 11;
+  map<int32, bool> once_auto_reward_check_map = 12;
+  map<int32, bool> interval_auto_reward_check_map = 13;
+  int32 choice_pack_count = 14;
+  int32 star6_got_count = 15;
+}

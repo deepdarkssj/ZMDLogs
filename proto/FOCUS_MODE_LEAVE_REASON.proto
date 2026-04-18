@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum FOCUS_MODE_LEAVE_REASON {
+  Complete = 0;
+  CltQuit = 1;
+  Interrupt = 2;
+}

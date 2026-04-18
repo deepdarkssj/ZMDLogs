@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_PAY_CREATE_ORDER {
+  string sign_param = 1;
+  string goods_id = 2;
+  string cash_shop_id = 3;
+  int32 count = 4;
+}

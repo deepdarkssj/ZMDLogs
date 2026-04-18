@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_SCENE_BANDWIDTH.proto";
+import "SCD_FACTORY_SYNC_SCENE_PANEL.proto";
+
+message SCD_FACTORY_SYNC_SCENE {
+  int32 scene_id = 1;
+  SCD_FACTORY_SYNC_SCENE_BANDWIDTH bandwidth = 5;
+  repeated SCD_FACTORY_SYNC_SCENE_PANEL panels = 6;
+  repeated SCD_FACTORY_SYNC_SCENE_PANEL soil_panels = 7;
+  map<string, SCD_FACTORY_SYNC_SCENE_BANDWIDTH> settlements = 5;
+}

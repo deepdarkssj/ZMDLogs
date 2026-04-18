@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "RegionStatus.proto";
+import "SCD_SPACESHIP_EXPEDITION_EXPEDITION.proto";
+import "SCD_SPACESHIP_REPORT.proto";
+
+message SCD_SPACESHIP_EXPEDITION_REGION {
+  string region_id = 1;
+  RegionStatus status = 2;
+  int32 level = 3;
+  repeated SCD_SPACESHIP_EXPEDITION_EXPEDITION expeditions = 4;
+  repeated int64 refresh_expedition_time = 5;
+  int32 upgrade_progress = 6;
+  int32 manual_refresh_count = 7;
+  map<string, int32> limited_expedition_record = 8;
+  map<int64, SCD_SPACESHIP_REPORT> reports = 9;
+}

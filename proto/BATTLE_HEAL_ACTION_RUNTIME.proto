@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BATTLE_HEAL_ACTION_DETAIL.proto";
+import "TEMPLATE_ID.proto";
+
+message BATTLE_HEAL_ACTION_RUNTIME {
+  repeated BATTLE_HEAL_ACTION_DETAIL details = 1;
+  TEMPLATE_ID original_source_template_id = 2;
+}

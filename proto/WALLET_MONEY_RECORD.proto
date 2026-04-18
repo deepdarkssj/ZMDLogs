@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "WALLET_DAILY_SOURCE_MONEY_RECORD.proto";
+
+message WALLET_MONEY_RECORD {
+  int32 record_type = 1;
+  string money_id = 2;
+  oneof record_data {
+    WALLET_DAILY_SOURCE_MONEY_RECORD daily_source_data = 5;
+  }
+}

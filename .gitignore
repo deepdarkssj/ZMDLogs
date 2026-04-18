@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.pyc
+logs/
+src/endfieldlogs.egg-info/
+debug/
+output/
+tests/
+build/
+.tmp/
+.proto_sanitized/
+endfieldlogs.gui.json
+rsa_keys.txt
+src/endfieldlogs/embedded_keys.py
+icon/
+icon.ico
+icon.png
+char.md
+plan.md
+todo
+# frontend local deps / caches
+overlay/node_modules/
+overlay/.npm-cache/
+overlay_buff/node_modules/
+overlay_buff/.npm-cache/
+overlay_comboskill/node_modules/
+overlay_comboskill/.npm-cache/
+
+# common local artifacts
+*.log

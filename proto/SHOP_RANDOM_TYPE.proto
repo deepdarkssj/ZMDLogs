@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum SHOP_RANDOM_TYPE {
+  ShopRandomDefault = 0;
+  ShopRandomDomain = 1;
+}

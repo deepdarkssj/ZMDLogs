@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_FLUID_CONSUME {
+  int32 round_count = 1;
+  int64 current_progress = 2;
+  bool in_block = 3;
+  bool in_produce = 4;
+  string latest_item_id = 5;
+}

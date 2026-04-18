@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BATTLE_DAMAGE_ATK_CALCULATION.proto";
+
+message BATTLE_HEAL_ACTION_DATA {
+  int32 heal_type = 1;
+  BATTLE_DAMAGE_ATK_CALCULATION heal_calculation = 2;
+}

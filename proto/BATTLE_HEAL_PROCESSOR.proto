@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "BATTLE_MODIFY_HEAL_CALC_RESULT.proto";
+import "HEAL_PROCESSOR_EMPTY.proto";
+import "HEAL_PROCESSOR_TYPE.proto";
+import "INSTANT_MODIFY_ATTRIBUTE_FOR_HEAL_PROCESSOR.proto";
+
+message BATTLE_HEAL_PROCESSOR {
+  HEAL_PROCESSOR_TYPE type = 1;
+  oneof processor_impl {
+    HEAL_PROCESSOR_EMPTY heal_processor_empty = 2;
+    BATTLE_MODIFY_HEAL_CALC_RESULT heal_modify_calc_result = 3;
+    INSTANT_MODIFY_ATTRIBUTE_FOR_HEAL_PROCESSOR instant_modify_attribute_for_heal_processor = 4;
+  }
+}

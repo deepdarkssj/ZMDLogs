@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SPACESHIP_MANUFACTURING_ORDER.proto";
+
+message SC_SPACESHIP_MANUFACTURING_STATION_START {
+  string room_id = 1;
+  SPACESHIP_MANUFACTURING_ORDER remain_produce_order = 2;
+}

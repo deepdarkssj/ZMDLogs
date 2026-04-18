@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_SET_CLIENT_SETTING {
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_DAILY_CHECKIN {
+  string id = 1;
+  repeated uint32 days = 2;
+}

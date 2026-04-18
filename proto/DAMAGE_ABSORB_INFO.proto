@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message DAMAGE_ABSORB_INFO {
+  uint64 buff_inst_id = 1;
+  double remain_shield_value = 2;
+  double remain_damage_value = 3;
+  int32 remain_absorption_count = 4;
+}

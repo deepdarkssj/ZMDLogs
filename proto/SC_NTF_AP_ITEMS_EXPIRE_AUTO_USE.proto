@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_NTF_AP_ITEMS_EXPIRE_AUTO_USE {
+  uint32 cur_stamina = 1;
+  int32 delta = 2;
+}

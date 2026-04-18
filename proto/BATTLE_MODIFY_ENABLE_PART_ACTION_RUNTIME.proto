@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BATTLE_MODIFY_ENABLE_PART_ACTION_RUNTIME {
+  uint64 main_body_inst_id = 1;
+  map<uint64, double> part_inst_id_to_hp = 2;
+}

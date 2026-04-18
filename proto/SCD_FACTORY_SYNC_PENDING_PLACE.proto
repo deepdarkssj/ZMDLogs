@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_BATCH_PENDING_BUILDING_DATA.proto";
+import "SCD_FAC_NODE.proto";
+
+message SCD_FACTORY_SYNC_PENDING_PLACE {
+  repeated SCD_BATCH_PENDING_BUILDING_DATA pending_place_info = 1;
+  repeated SCD_FAC_NODE conveyor_related_nodes = 2;
+}

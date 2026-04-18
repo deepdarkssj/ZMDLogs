@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BATTLE_TRIGGER_KEYWORD_MODIFY_DATA {
+  int32 config_index = 1;
+  double modify_value = 2;
+}

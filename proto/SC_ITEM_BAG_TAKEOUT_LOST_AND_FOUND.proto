@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ITEM_BAG_TAKEOUT_LOST_AND_FOUND {
+  bool nothing_got = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum MODIFY_POISE_VALUE_TYPE {
+  None = 0;
+  Reset = 1;
+  PoiseDamage = 2;
+  PoiseHeal = 3;
+  MaxValueChange = 4;
+}

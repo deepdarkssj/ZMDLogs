@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "Microsoft YaHei UI", "PingFang SC", sans-serif;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+}
+
+body {
+  background: transparent;
+}
+
+@keyframes combo-flash {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes combo-ready-pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.combo-overlay-root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.combo-overlay-shell {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: stretch;
+  justify-content: flex-start;
+  pointer-events: none;
+  user-select: none;
+}
+
+.combo-overlay-shell.is-placeholder {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.combo-placeholder {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px dashed rgba(255, 255, 255, 0.35);
+  background: rgba(10, 14, 22, 0.42);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 18px 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.combo-placeholder-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.combo-placeholder-subtitle {
+  margin-top: 6px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.combo-row {
+  position: relative;
+  width: 100%;
+  height: 42px;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(6, 10, 18, 0.74);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+.combo-progress {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: linear-gradient(90deg, rgba(129, 210, 255, 0.55), rgba(84, 164, 255, 0.7));
+  transition: width 0.12s linear;
+}
+
+.combo-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 14px;
+  gap: 12px;
+}
+
+.combo-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(242, 247, 255, 0.95);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+}
+
+.combo-remaining {
+  font-size: 19px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: #ffffff;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+}
+
+.combo-row.is-notice .combo-progress {
+  animation: combo-flash 0.55s infinite;
+  background: linear-gradient(90deg, rgba(255, 168, 87, 0.7), rgba(255, 89, 89, 0.75));
+}
+
+.combo-row.is-ready {
+  border-color: rgba(255, 230, 138, 0.9);
+  background: rgba(31, 24, 7, 0.82);
+}
+
+.combo-row.is-ready .combo-progress {
+  width: 100% !important;
+  background: linear-gradient(90deg, rgba(255, 216, 102, 0.36), rgba(255, 196, 71, 0.5));
+}
+
+.combo-ready-glow {
+  position: absolute;
+  inset: 0;
+  border: 2px solid rgba(255, 233, 140, 0.82);
+  border-radius: 12px;
+  box-shadow: 0 0 16px rgba(255, 217, 94, 0.48);
+  animation: combo-ready-pulse 0.9s ease-in-out infinite;
+}

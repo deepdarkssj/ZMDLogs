@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_WALLET_RECORD_REQUIRE {
+  string id = 1;
+}

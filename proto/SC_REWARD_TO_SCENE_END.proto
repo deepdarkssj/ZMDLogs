@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_REWARD_TO_SCENE_END {
+}

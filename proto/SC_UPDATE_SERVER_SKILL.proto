@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SERVER_SKILL.proto";
+
+message SC_UPDATE_SERVER_SKILL {
+  uint64 inst_id = 1;
+  repeated SERVER_SKILL skills = 2;
+  uint32 generation = 3;
+}

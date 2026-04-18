@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_EXPEDITION_REPORT.proto";
+import "SpaceshipExtraReportType.proto";
+
+message SCD_SPACESHIP_REPORT {
+  repeated int32 char_work_record = 1;
+  map<int32, int32> output = 2;
+  SpaceshipExtraReportType report_type = 3;
+  oneof report_data {
+    SCD_SPACESHIP_EXPEDITION_REPORT expedition_report = 11;
+  }
+}

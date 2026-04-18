@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_GAME_MECHANICS_INST_TIME_FREEZE {
+  int32 time_key = 1;
+  int64 total_freeze_time_in_ms = 2;
+}

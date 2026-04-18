@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_ORDER_SETTLE.proto";
+
+message SC_PAY_ORDER_SETTLE {
+  SCD_ORDER_SETTLE order_settle = 1;
+}

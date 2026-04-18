@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_PRESENT_GIFT_TO_CHAR {
+  string char_id = 1;
+  int32 cur_fav = 2;
+  int32 recv_gift_cnt = 3;
+  int32 daily_add_favorability = 4;
+  map<int32, int32> present_gift_map = 5;
+}

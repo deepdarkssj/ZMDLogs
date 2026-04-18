@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_HS_FB_BURN_POWER {
+  int64 progress_decr_per_ms = 1;
+  int64 current_least_progress = 2;
+}

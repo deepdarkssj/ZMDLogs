@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message BATTLE_REFRESH_BUFF_ATTR_MODIFIER_VALUE_ACTION_RUNTIME {
+}

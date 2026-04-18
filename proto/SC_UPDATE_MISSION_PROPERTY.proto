@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "DYNAMIC_PARAMETER.proto";
+
+message SC_UPDATE_MISSION_PROPERTY {
+  string mission_id = 1;
+  map<int32, DYNAMIC_PARAMETER> properties = 2;
+}

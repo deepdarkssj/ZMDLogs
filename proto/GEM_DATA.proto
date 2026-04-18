@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "GEM_TERM.proto";
+
+message GEM_DATA {
+  uint64 gem_id = 1;
+  int32 template_id = 2;
+  int32 total_cost = 3;
+  repeated GEM_TERM terms = 4;
+  uint64 weapon_id = 5;
+  int32 domain_id = 6;
+}

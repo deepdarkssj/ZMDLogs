@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_ASSIGN_ITEM.proto";
+import "KEYWORD_CONFIG_RES.proto";
+
+message BUFF_INPUT {
+  string buff_id = 1;
+  bool assign_blackboard = 2;
+  repeated BATTLE_BLACKBOARD_ASSIGN_ITEM assigned_items = 3;
+  bool read_id_from_blackboard = 4;
+  KEYWORD_CONFIG_RES keyword_config = 5;
+}

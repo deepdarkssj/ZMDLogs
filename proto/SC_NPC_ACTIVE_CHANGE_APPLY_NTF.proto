@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_NPC_ACTIVE_CHANGE_APPLY_NTF {
+  string map_name = 1;
+}

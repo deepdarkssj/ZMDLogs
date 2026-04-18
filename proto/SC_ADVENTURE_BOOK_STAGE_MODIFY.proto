@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ADVENTURE_BOOK_STAGE_MODIFY {
+  int32 adventure_book_stage = 1;
+}

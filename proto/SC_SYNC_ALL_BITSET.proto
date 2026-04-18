@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BITSET_DATA.proto";
+
+message SC_SYNC_ALL_BITSET {
+  repeated BITSET_DATA bitset = 1;
+}

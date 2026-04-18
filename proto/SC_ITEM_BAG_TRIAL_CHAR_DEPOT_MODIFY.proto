@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_ITEM_DEPOT_MODIFY.proto";
+
+message SC_ITEM_BAG_TRIAL_CHAR_DEPOT_MODIFY {
+  int32 scope_name = 1;
+  SCD_ITEM_DEPOT_MODIFY trial_char_depot = 2;
+}

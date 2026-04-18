@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message GAME_CONDITION {
+  string condition_id = 1;
+  int32 condition_type = 2;
+  repeated string params = 3;
+  int32 compare_operator = 4;
+  int32 progress_to_compare = 5;
+  repeated int32 sub_condition_id_logics = 6;
+  repeated GAME_CONDITION sub_conditions = 7;
+  int32 scope_mask = 8;
+  bool use_current_scope = 9;
+}

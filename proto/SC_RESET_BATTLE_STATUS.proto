@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BATTLE_MGR_INFO.proto";
+import "BATTLE_RESET_REASON.proto";
+
+message SC_RESET_BATTLE_STATUS {
+  uint64 inst_id = 1;
+  uint64 battle_inst_id = 2;
+  BATTLE_MGR_INFO battle_info = 3;
+  BATTLE_RESET_REASON reason = 4;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "TD_SETTLEMENT_TYPE.proto";
+
+message SC_SYNC_TD_SETTLEMENT {
+  string td_id = 1;
+  TD_SETTLEMENT_TYPE settlement_type = 2;
+  string reward_id = 3;
+  int32 extra_bandwidth = 4;
+  int32 extra_battle_building_limit = 5;
+  int32 extra_travel_pole_limit = 6;
+}

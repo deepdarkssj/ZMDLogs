@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_RES.proto";
+import "BATTLE_ATTR_MODIFIER.proto";
+import "BATTLE_BLACKBOARD.proto";
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+import "BUFF_DAMAGE_MODIFIER_RES.proto";
+import "BUFF_HEAL_MODIFIER_RES.proto";
+import "BUFF_SHIELD_SETTINGS.proto";
+import "BUFF_STACKING_SETTINGS.proto";
+
+message BUFF_RES {
+  string buff_id = 1;
+  int32 life_type = 2;
+  repeated BATTLE_ATTR_MODIFIER attr_modifiers = 3;
+  repeated BUFF_DAMAGE_MODIFIER_RES damage_modifiers = 4;
+  repeated BUFF_HEAL_MODIFIER_RES heal_modifiers = 5;
+  BATTLE_BLACKBOARD blackboard = 6;
+  map<int32, BATTLE_ACTION_RES> action_map = 7;
+  repeated int32 apply_tags = 8;
+  BUFF_STACKING_SETTINGS stacking_settings = 9;
+  BATTLE_BLACKBOARD_FLOAT duration = 10;
+  bool remove_on_repatriate = 11;
+  bool ignore_immune_check = 12;
+  uint32 spell_infliction_type = 13;
+  uint32 physical_infliction_type = 14;
+  uint32 spell_burst_type = 15;
+  BUFF_SHIELD_SETTINGS shield_settings = 16;
+  string stacking_id = 101;
+  int32 stacking_type = 102;
+  int32 max_stack_cnt = 103;
+  double priority = 104;
+  string priority_key = 21;
+  string max_stack_cnt_key = 22;
+}

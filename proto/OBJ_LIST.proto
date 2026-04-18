@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message OBJ_LIST {
+  repeated string obj_ids = 1;
+}

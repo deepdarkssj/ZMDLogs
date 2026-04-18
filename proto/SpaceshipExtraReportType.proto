@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum SpaceshipExtraReportType {
+  None = 0;
+  Expedition = 1;
+}

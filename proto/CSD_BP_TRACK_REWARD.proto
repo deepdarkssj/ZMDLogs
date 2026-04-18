@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CSD_BP_TRACK_REWARD {
+  string bp_track_id = 1;
+  repeated int32 level = 2;
+}

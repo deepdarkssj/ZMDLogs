@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BP_TASK_STATE.proto";
+
+message SC_BP_TASK_STATE_MODIFY {
+  map<string, BP_TASK_STATE> task_state = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_SHOP_MODIFY_DOMAIN_SHOP_POSITIONS {
+  string shop_id = 1;
+  string goods_id = 2;
+  int32 avg_price = 3;
+  int64 count = 4;
+}

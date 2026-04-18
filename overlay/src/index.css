@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-primary: #feef00;
+  --color-primary-container: #fff000;
+  --color-on-primary-container: #705e00;
+  --color-secondary: #807924;
+  --color-tertiary: #84fffe;
+  --color-neutral: #7a7767;
+  --color-surface: #f0f0f0;
+  --color-inverse-surface: #1a1c1c;
+  --color-error: #ba1a1a;
+  --color-outline-variant: #d0c6ab;
+}
+
+@layer base {
+  body {
+    @apply bg-transparent text-inverse-surface font-sans;
+  }
+}
+
+@layer components {
+  .diagonal-hashing {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(26, 28, 28, 0.05) 10px,
+      rgba(26, 28, 28, 0.05) 11px
+    );
+  }
+
+  .diagonal-hashing-heavy {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 8px,
+      rgba(254, 239, 0, 0.2) 8px,
+      rgba(254, 239, 0, 0.2) 10px
+    );
+  }
+
+  .footer-hatching {
+    background: repeating-linear-gradient(
+      45deg,
+      #feef00,
+      #feef00 4px,
+      #d4c700 4px,
+      #d4c700 8px
+    );
+    background-size: 11.31px 11.31px; /* 8px / sin(45) approx */
+  }
+
+  .flowing-hatching {
+    animation: flow 1s linear infinite;
+  }
+
+  @keyframes flow {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 11.31px 0;
+    }
+  }
+
+  .progress-bar-fill {
+    @apply h-full bg-cyan-500/20 border-r-2 border-cyan-600/40;
+  }
+}

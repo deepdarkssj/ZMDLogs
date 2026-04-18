@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_ACTIVITY_CHAR_TRIAL_CLAIM_REWARD {
+  string activity_id = 1;
+  repeated string dungeon_id_list = 2;
+}

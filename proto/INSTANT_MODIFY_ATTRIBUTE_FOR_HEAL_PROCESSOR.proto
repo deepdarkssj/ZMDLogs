@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BATTLE_ATTR_MODIFIER.proto";
+import "HEAL_PROCESSOR_TYPE.proto";
+
+message INSTANT_MODIFY_ATTRIBUTE_FOR_HEAL_PROCESSOR {
+  HEAL_PROCESSOR_TYPE type = 1;
+  int32 target_side = 2;
+  BATTLE_ATTR_MODIFIER attr_modifier = 3;
+}

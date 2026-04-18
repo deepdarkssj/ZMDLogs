@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SNS_READ_DIALOG {
+  repeated string dialog_ids = 1;
+}

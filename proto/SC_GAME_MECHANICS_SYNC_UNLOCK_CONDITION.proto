@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_GAME_MECHANICS_UNLOCK_CONDITIONS.proto";
+
+message SC_GAME_MECHANICS_SYNC_UNLOCK_CONDITION {
+  SCD_GAME_MECHANICS_UNLOCK_CONDITIONS game_unlock_condition = 1;
+}

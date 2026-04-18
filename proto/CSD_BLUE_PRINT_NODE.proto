@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "CSD_BATCH_PLACE_COM.proto";
+import "CSD_BLUE_PRINT_TRANSFORM.proto";
+
+message CSD_BLUE_PRINT_NODE {
+  string template_id = 1;
+  string product_icon = 2;
+  int32 node_id = 3;
+  CSD_BLUE_PRINT_TRANSFORM transform = 4;
+  repeated CSD_BATCH_PLACE_COM coms = 5;
+}

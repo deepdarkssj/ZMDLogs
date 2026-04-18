@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_STATION_CHAR_CHANGE_WORK_STATE {
+  string char_id = 1;
+  bool go_to_work = 2;
+}

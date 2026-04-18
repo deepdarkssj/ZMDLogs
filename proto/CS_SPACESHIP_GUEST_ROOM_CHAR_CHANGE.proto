@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_GUEST_ROOM_CHAR_CHANGE {
+  repeated string char_ids = 1;
+}

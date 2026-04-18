@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_PATROL_NPC_META {
+  map<int32, int32> patrol_meta_kvs = 1;
+}

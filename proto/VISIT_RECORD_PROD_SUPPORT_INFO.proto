@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message VISIT_RECORD_PROD_SUPPORT_INFO {
+  int32 room_type = 1;
+  int32 room_number = 2;
+}

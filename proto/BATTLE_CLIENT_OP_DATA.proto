@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_OPERATE_TYPE.proto";
+import "BATTLE_ADD_BUFF_OP_DATA.proto";
+import "BATTLE_ENTITY_DIE_OP_DATA.proto";
+import "BATTLE_ENTITY_VALUE_MODIFY_DATA.proto";
+import "BATTLE_FINISH_BUFF_OP_DATA.proto";
+import "BATTLE_OP_MODIFY_BATTLE_STATE_OP_DATA.proto";
+import "BATTLE_OP_MODIFY_POISE_VALUE_OP_DATA.proto";
+import "BATTLE_OP_SET_BUFF_ENABLE_STATE_OP_DATA.proto";
+import "BATTLE_RESET_BATTLE_DATA_OP_DATA.proto";
+import "BATTLE_SHIELD_VALUE_MODIFY_OP_DATA.proto";
+import "BATTLE_SKILL_ATTACH_OP_DATA.proto";
+import "BATTLE_SKILL_DETACH_OP_DATA.proto";
+import "BATTLE_SKILL_ENABLE_OP_DATA.proto";
+import "BATTLE_SKILL_END_CAST_OP_DATA.proto";
+import "BATTLE_SKILL_START_CAST_OP_DATA.proto";
+import "BATTLE_SWITCH_MODE_OP_DATA.proto";
+import "BATTLE_TRIGGER_ACTION_OP_DATA.proto";
+import "BATTLE_TRIGGER_KEYWORD_OP_DATA.proto";
+import "BATTLE_UPDATE_ATB_INFO_OP_DATA.proto";
+import "BATTLE_UPDATE_DATA_VERSION_OP_DATA.proto";
+
+message BATTLE_CLIENT_OP_DATA {
+  uint64 owner_id = 1;
+  BATTLE_ACTION_OPERATE_TYPE op_type = 2;
+  uint32 generation = 3;
+  int32 chapter_map_id = 17;
+  int32 seq_id = 5;
+  int64 client_tick_tms = 6;
+  oneof op_data_impl {
+    BATTLE_ADD_BUFF_OP_DATA add_buff_op_data = 101;
+    BATTLE_FINISH_BUFF_OP_DATA finish_buff_op_data = 102;
+    BATTLE_SKILL_ATTACH_OP_DATA skill_attach_op_data = 103;
+    BATTLE_SKILL_DETACH_OP_DATA skill_detach_op_data = 104;
+    BATTLE_SKILL_ENABLE_OP_DATA skill_enable_op_data = 105;
+    BATTLE_SKILL_START_CAST_OP_DATA skill_start_cast_op_data = 106;
+    BATTLE_SKILL_END_CAST_OP_DATA skill_end_cast_op_data = 107;
+    BATTLE_SWITCH_MODE_OP_DATA skill_switch_mode_op_data = 108;
+    BATTLE_TRIGGER_ACTION_OP_DATA trigger_action_op_data = 109;
+    BATTLE_ENTITY_DIE_OP_DATA entity_die_op_data = 110;
+    BATTLE_ENTITY_VALUE_MODIFY_DATA entity_value_modify_data = 111;
+    BATTLE_RESET_BATTLE_DATA_OP_DATA reset_battle_op_data = 112;
+    BATTLE_UPDATE_DATA_VERSION_OP_DATA update_data_version_op_data = 113;
+    BATTLE_TRIGGER_KEYWORD_OP_DATA trigger_keyword_op_data = 114;
+    BATTLE_SHIELD_VALUE_MODIFY_OP_DATA shield_value_modify_op_data = 115;
+    BATTLE_UPDATE_ATB_INFO_OP_DATA update_atb_info_op_data = 116;
+    BATTLE_OP_MODIFY_BATTLE_STATE_OP_DATA modify_battle_state_op_data = 117;
+    BATTLE_OP_MODIFY_POISE_VALUE_OP_DATA modify_poise_value_op_data = 118;
+    BATTLE_OP_SET_BUFF_ENABLE_STATE_OP_DATA set_buff_enable_state_op_data = 119;
+  }
+}

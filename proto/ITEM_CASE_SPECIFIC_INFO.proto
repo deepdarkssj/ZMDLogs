@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ITEM_CASE_SPECIFIC_INFO {
+  repeated string select_rewards = 1;
+}

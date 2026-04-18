@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_ASSIST.proto";
+import "SCD_SPACESHIP_CHAR.proto";
+import "SCD_SPACESHIP_EXPEDITION.proto";
+import "SCD_SPACESHIP_ROOM.proto";
+import "SCD_SPACESHIP_VISIT_EXTRA_DATA.proto";
+
+message SC_SPACESHIP_VISIT_SYNC {
+  uint64 host_role_id = 1;
+  string host_role_name = 2;
+  string host_short_id = 3;
+  repeated SCD_SPACESHIP_ROOM rooms = 4;
+  repeated SCD_SPACESHIP_CHAR chars = 5;
+  map<int32, int32> blackboard_kvs = 6;
+  SCD_SPACESHIP_ASSIST assist_data = 7;
+  map<int32, int32> showcase_info = 8;
+  SCD_SPACESHIP_EXPEDITION expedition_data = 9;
+  SCD_SPACESHIP_VISIT_EXTRA_DATA extra_data = 10;
+}

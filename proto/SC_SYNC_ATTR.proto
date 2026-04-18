@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ATTR_INFO.proto";
+
+message SC_SYNC_ATTR {
+  uint64 obj_id = 1;
+  repeated ATTR_INFO attr_list = 2;
+}

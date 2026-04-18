@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_UPDATE_GAME_VAR {
+  int32 key = 1;
+  int64 value = 2;
+  int32 type = 3;
+}

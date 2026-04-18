@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_DOMAIN_DEPOT_SELECT_BUYER_REQ {
+  uint64 deliver_inst_id = 1;
+  string buyer_id = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "TEAM_CHAR_ID_TYPE.proto";
+
+message TEAM_CHAR_ID {
+  TEAM_CHAR_ID_TYPE id_type = 1;
+  oneof char_id {
+    uint64 obj_id = 2;
+    string preset_char_id = 3;
+  }
+}

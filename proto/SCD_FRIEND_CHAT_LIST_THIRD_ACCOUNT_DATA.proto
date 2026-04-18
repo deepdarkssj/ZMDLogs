@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "HG_THIRD_ACCOUNT_TYPE.proto";
+import "THIRD_ACCOUNT_DATA.proto";
+
+message SCD_FRIEND_CHAT_LIST_THIRD_ACCOUNT_DATA {
+  HG_THIRD_ACCOUNT_TYPE last_login_type = 1;
+  THIRD_ACCOUNT_DATA third_account_data = 2;
+}

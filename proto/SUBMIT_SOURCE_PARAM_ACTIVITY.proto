@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SUBMIT_SOURCE_PARAM_ACTIVITY {
+  string stage_id = 1;
+}

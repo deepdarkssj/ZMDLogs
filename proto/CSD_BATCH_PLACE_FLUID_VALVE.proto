@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CSD_BATCH_PLACE_FLUID_VALVE {
+  string selected_item_id = 1;
+  bool valve_enable = 2;
+  int32 valve_passed = 3;
+}

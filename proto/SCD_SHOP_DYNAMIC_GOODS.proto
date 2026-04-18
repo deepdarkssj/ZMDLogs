@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SHOP_DYNAMIC_GOODS {
+  string goods_id = 1;
+  string goods_template_id = 2;
+}

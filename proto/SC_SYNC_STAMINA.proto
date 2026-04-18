@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_SYNC_STAMINA {
+  uint32 cur_stamina = 1;
+  uint32 max_stamina = 2;
+  int64 next_recover_time = 3;
+  int32 delta = 4;
+}

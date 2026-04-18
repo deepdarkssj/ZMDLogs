@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "FACTORY_FORMULA_VISIABLE.proto";
+
+message SC_FACTORY_MODIFY_VISIBLE_FORMULA {
+  FACTORY_FORMULA_VISIABLE new_visible = 1;
+}

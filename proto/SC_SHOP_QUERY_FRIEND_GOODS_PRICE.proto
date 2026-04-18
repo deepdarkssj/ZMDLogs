@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_GOODS_HIS_PRICE.proto";
+
+message SC_SHOP_QUERY_FRIEND_GOODS_PRICE {
+  repeated SCD_GOODS_HIS_PRICE his_price = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_VEC3_INT.proto";
+
+message SCD_FAC_SUB_PORT {
+  SCD_VEC3_INT position = 1;
+  SCD_VEC3_INT direction = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_ACHIEVE_PERSONAL_INFO.proto";
+
+message SCD_SPACESHIP_VISIT_EXTRA_DATA_ACHIEVEMENT {
+  map<int32, int32> display = 1;
+  repeated SCD_ACHIEVE_PERSONAL_INFO info_list = 2;
+}

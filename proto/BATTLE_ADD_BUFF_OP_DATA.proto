@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD.proto";
+import "TEMPLATE_ID.proto";
+
+message BATTLE_ADD_BUFF_OP_DATA {
+  uint64 src_inst_id = 1;
+  uint64 target_inst_id = 2;
+  TEMPLATE_ID buff_id = 3;
+  uint64 buff_inst_id = 4;
+  int64 client_add_ts = 5;
+  BATTLE_BLACKBOARD assigned_items = 6;
+  int32 buff_src_type = 7;
+  string buff_src_args = 8;
+}

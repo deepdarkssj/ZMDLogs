@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CHAR_INFO.proto";
+
+message SC_CHAR_BAG_ADD_CHAR {
+  CHAR_INFO char = 1;
+  int32 scope_name = 2;
+}

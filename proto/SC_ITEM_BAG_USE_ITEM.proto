@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "E_USE_ITEM_RESULT.proto";
+import "ITEM_BAG_USE_TYPE.proto";
+import "SCD_ITEM_GRID.proto";
+import "USE_ITEM_RESULT_GEM_BOX.proto";
+
+message SC_ITEM_BAG_USE_ITEM {
+  ITEM_BAG_USE_TYPE use_type = 1;
+  E_USE_ITEM_RESULT result = 1;
+  SCD_ITEM_GRID used_item = 2;
+  repeated uint64 char_inst_id_list = 3;
+  uint64 equip_medicine_char_inst_id = 4;
+  int32 scope_name = 11;
+  oneof result_info {
+    USE_ITEM_RESULT_GEM_BOX gem_box = 21;
+  }
+}

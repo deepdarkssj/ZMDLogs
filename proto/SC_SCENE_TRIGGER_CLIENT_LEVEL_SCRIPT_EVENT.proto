@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_SCENE_TRIGGER_CLIENT_LEVEL_SCRIPT_EVENT {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  string event_name = 3;
+  string ctx_token = 4;
+}

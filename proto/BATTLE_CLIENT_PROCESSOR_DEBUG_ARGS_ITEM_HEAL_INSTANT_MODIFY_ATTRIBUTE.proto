@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CLIENT_ATTR_MODIFIER_DEBUG_DATA.proto";
+
+message BATTLE_CLIENT_PROCESSOR_DEBUG_ARGS_ITEM_HEAL_INSTANT_MODIFY_ATTRIBUTE {
+  double client_value = 1;
+  CLIENT_ATTR_MODIFIER_DEBUG_DATA attr_modifier_debug_data = 2;
+}

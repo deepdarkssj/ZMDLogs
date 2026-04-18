@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message CS_ENTER_SCENE {
+  int32 scene_num_id = 1;
+  VECTOR position = 2;
+  VECTOR rotation = 3;
+}

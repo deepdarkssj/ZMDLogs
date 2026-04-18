@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_SKILL_END_CAST_OP_DATA {
+  uint64 inst_id = 1;
+}

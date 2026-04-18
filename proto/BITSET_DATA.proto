@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BITSET_DATA {
+  int32 type = 1;
+  repeated uint64 value = 2;
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ZMD Logs - Industrial Tactical Dashboard",
+  "description": "A high-performance system status dashboard with an industrial tactical aesthetic, built using PySide6.",
+  "requestFramePermissions": []
+}

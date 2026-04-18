@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ITEM_FLAG.proto";
+
+message ITEM_INST_LOCK_INFO {
+  string item_id = 1;
+  uint64 inst_id = 2;
+  bool is_lock = 3;
+  ITEM_FLAG item_flag = 4;
+}

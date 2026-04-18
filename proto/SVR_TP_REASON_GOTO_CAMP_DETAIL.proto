@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SVR_TP_REASON_GOTO_CAMP_DETAIL {
+  uint64 camp_id = 1;
+}

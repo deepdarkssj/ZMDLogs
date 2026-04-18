@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SCENE_MONSTER_SPAWNER_COMPLETE {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+}

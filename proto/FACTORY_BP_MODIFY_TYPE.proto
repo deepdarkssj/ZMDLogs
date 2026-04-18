@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+enum FACTORY_BP_MODIFY_TYPE {
+  FbmtNone = 0;
+  FbmtName = 1;
+  FbmtDesc = 2;
+  FbmtIcon = 3;
+  FbmtProdIcon = 4;
+  FbmtBpTags = 5;
+}

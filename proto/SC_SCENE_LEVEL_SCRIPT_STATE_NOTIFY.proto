@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_SCENE_LEVEL_SCRIPT_STATE_NOTIFY {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  int32 state = 3;
+  bool is_complete = 4;
+}

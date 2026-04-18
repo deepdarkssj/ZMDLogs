@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SP_INTERACTIVE_OP_ARG_SET_INTERACT_HORN {
+  int32 finish_id = 1;
+}

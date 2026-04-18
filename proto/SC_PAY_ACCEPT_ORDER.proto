@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_PAY_ACCEPT_ORDER {
+  repeated string left_order_ids = 1;
+}

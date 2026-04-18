@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_BP_TRACK_REWARD_DATA.proto";
+
+message SCD_BP_TRACK_MGR {
+  repeated SCD_BP_TRACK_REWARD_DATA track_data = 1;
+}

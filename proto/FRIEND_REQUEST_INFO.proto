@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "FRIEND_STRANGER_USER_INFO.proto";
+
+message FRIEND_REQUEST_INFO {
+  FRIEND_STRANGER_USER_INFO stranger_user_info = 1;
+  int64 create_time = 2;
+}

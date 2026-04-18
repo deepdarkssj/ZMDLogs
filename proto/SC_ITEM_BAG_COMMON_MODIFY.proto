@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_ITEM_LOST_AND_FOUND_MODIFY.proto";
+
+message SC_ITEM_BAG_COMMON_MODIFY {
+  SCD_ITEM_LOST_AND_FOUND_MODIFY lost_and_found = 1;
+}

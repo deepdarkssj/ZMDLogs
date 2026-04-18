@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_CHAT_DAILY_SOCIAL_BUILDING_SHARE_CNT_MODIFY {
+  int32 cnt = 1;
+}

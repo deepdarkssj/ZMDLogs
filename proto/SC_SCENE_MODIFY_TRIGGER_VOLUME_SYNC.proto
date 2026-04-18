@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_TRIGGER_VOLUME_INFO.proto";
+
+message SC_SCENE_MODIFY_TRIGGER_VOLUME_SYNC {
+  int32 scene_num_id = 1;
+  uint64 script_id = 2;
+  repeated SCD_TRIGGER_VOLUME_INFO trigger_volume_infos = 3;
+}

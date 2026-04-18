@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ROLE_BASE_INFO.proto";
+
+message SC_QUEST_STATE_UPDATE {
+  string quest_id = 1;
+  int32 quest_state = 2;
+  bool b_rollback = 3;
+  ROLE_BASE_INFO role_base_info = 10;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_GROW_BOX.proto";
+
+message SC_SPACESHIP_MODIFY_GROW_CABIN {
+  string id = 1;
+  repeated SCD_SPACESHIP_GROW_BOX boxes = 2;
+}

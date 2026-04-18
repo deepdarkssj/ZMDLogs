@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message VALUE_DATA {
+  oneof val {
+    bool v_bool = 1;
+    int64 v_int = 2;
+    float v_float = 3;
+    string v_string = 4;
+  }
+}

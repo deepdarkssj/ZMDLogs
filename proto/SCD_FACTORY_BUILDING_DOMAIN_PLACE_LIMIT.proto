@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FACTORY_BUILDING_DOMAIN_PLACE_LIMIT {
+  map<string, int32> building_limit = 1;
+}

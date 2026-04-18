@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_EQUIP_RECYCLE {
+  repeated uint64 equip_instid_list = 1;
+  repeated string item_id = 2;
+  repeated int32 item_count = 3;
+  int32 scope_name = 4;
+}

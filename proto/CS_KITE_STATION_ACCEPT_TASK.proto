@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_KITE_STATION_ACCEPT_TASK {
+  string kite_station_id = 1;
+  int32 task_idx = 2;
+}

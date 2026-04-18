@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message BUFF_STACKING_SETTINGS {
+  int32 identifier_type = 1;
+  int32 stacking_type = 2;
+  string stacking_key = 3;
+  string priority_key = 4;
+  double priority = 5;
+  int32 max_stack_cnt = 6;
+  bool is_ascending_order = 7;
+  string max_stack_cnt_key = 8;
+}

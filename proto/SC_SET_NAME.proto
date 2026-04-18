@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_SET_NAME {
+  string name = 1;
+  string short_id = 2;
+}

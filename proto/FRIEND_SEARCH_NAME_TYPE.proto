@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum FRIEND_SEARCH_NAME_TYPE {
+  Default = 0;
+  ThirdLogin = 1;
+}

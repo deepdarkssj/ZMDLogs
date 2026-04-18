@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GEM_TERM {
+  int32 term_num_id = 1;
+  int32 cost = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_ITEM_BAG_SCOPE_ASSISTANT_MODIFY {
+  map<string, int32> last_use_time = 1;
+  map<string, bool> cannot_destroy = 2;
+  bool cannot_destroy_all = 3;
+  int64 batch_move_flag = 4;
+}

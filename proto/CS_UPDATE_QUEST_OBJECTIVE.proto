@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "OBJECTIVE_VALUE_OP.proto";
+
+message CS_UPDATE_QUEST_OBJECTIVE {
+  string quest_id = 1;
+  repeated OBJECTIVE_VALUE_OP objective_value_ops = 2;
+}

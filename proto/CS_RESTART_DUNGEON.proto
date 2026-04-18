@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "DUNGEON_COMPLETION_STATUS.proto";
+
+message CS_RESTART_DUNGEON {
+  string dungeon_id = 1;
+  DUNGEON_COMPLETION_STATUS completion_status = 2;
+}

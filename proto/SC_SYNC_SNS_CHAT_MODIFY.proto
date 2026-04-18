@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SNS_CHAT_INFO.proto";
+
+message SC_SYNC_SNS_CHAT_MODIFY {
+  SNS_CHAT_INFO chat_info = 1;
+}

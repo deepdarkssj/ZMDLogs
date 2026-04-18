@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "ATTR_INFO.proto";
+import "BATTLE_MGR_INFO.proto";
+import "SCENE_OBJECT_COMMON_INFO.proto";
+
+message SCENE_MONSTER {
+  SCENE_OBJECT_COMMON_INFO common_info = 1;
+  uint64 origin_id = 2;
+  int32 level = 3;
+  repeated ATTR_INFO attrs = 4;
+  BATTLE_MGR_INFO battle_info = 5;
+}

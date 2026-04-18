@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+enum SELF_INFO_REASON_TYPE {
+  SlrEnterScene = 0;
+  SlrReviveDead = 1;
+  SlrReviveRest = 2;
+  SlrChangeTeam = 3;
+  SlrReviveByItem = 4;
+  SlrResetDungeon = 5;
+  SlrSeamlesslyEnterScene = 6;
+  SlrSeamlesslyTouchScene = 7;
+  SlrChangeTeamByNpcTeammates = 8;
+}

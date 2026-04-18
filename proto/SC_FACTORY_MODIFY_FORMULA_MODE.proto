@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_FACTORY_MODIFY_FORMULA_MODE {
+  string mode = 1;
+  repeated string new_building_ids = 2;
+}

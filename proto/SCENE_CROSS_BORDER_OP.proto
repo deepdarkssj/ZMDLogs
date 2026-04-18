@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum SCENE_CROSS_BORDER_OP {
+  Reset = 0;
+  PrepareToRepatriate = 1;
+}

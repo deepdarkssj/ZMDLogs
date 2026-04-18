@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "FRIEND_BUSINESS_CARD_DATA_FRIEND.proto";
+import "FRIEND_BUSINESS_CARD_DATA_STRANGER.proto";
+import "FRIEND_BUSINESS_CARD_TYPE.proto";
+
+message SC_FRIEND_BUSINESS_CARD_QUERY {
+  uint64 role_id = 1;
+  FRIEND_BUSINESS_CARD_TYPE type = 2;
+  oneof data {
+    FRIEND_BUSINESS_CARD_DATA_STRANGER stranger_data = 3;
+    FRIEND_BUSINESS_CARD_DATA_FRIEND friend_data = 4;
+  }
+}

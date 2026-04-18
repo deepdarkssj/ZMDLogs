@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_BATCH_PENDING_BUILDING_DATA.proto";
+
+message SC_FACTORY_MODIFY_PENDING_DATA {
+  int64 tms = 1;
+  string chapter_id = 2;
+  int32 slot_id = 3;
+  SCD_BATCH_PENDING_BUILDING_DATA pending_data = 4;
+}

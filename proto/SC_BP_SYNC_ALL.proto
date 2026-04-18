@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "SCD_BP_LEVEL_DATA.proto";
+import "SCD_BP_SEASON_DATA.proto";
+import "SCD_BP_TASK_MGR.proto";
+import "SCD_BP_TRACK_MGR.proto";
+
+message SC_BP_SYNC_ALL {
+  SCD_BP_SEASON_DATA season_data = 1;
+  SCD_BP_LEVEL_DATA level_data = 2;
+  SCD_BP_TRACK_MGR bp_track_mgr = 3;
+  SCD_BP_TASK_MGR bp_task_mgr = 4;
+}

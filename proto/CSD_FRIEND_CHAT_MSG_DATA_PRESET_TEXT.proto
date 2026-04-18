@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_FRIEND_CHAT_MSG_DATA_PRESET_TEXT {
+  int32 num_id = 1;
+}

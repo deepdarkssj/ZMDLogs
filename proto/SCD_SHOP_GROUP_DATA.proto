@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SHOP_DOMAIN_CHANNEL.proto";
+
+message SCD_SHOP_GROUP_DATA {
+  repeated SCD_SHOP_DOMAIN_CHANNEL domain_channels = 1;
+}

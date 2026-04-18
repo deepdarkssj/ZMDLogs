@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_DISPLAY_CHAR_MODIFY {
+  repeated uint64 obj_id_list = 1;
+}

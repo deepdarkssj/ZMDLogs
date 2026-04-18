@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "VISIT_OP_RECORD.proto";
+
+message SC_SPACESHIP_GUEST_ROOM_NEW_VISITOR_OP_NOTIFY {
+  uint64 visitor_role_id = 1;
+  int32 action_type = 2;
+  VISIT_OP_RECORD op_record = 3;
+}

@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+enum SERVER_BATTLE_ACTION_TYPE {
+  BattleActionNone = 0;
+  BattleActionDamage = 1;
+  BattleActionCreateBuff = 2;
+  BattleActionFinishBuff = 3;
+  BattleActionGainCost = 4;
+  BattleActionHeal = 5;
+  BattleActionSwitchMode = 6;
+  BattleActionModifyDynamicBlackboard = 7;
+  BattleActionSpawnEnemy = 8;
+  BattleActionCheckDamageType = 9;
+  BattleActionCheckDamageDecorateMask = 10;
+  BattleActionCheckDistanceCondition = 11;
+  BattleActionCheckEntityNum = 12;
+  BattleActionCheckHp = 13;
+  BattleActionCheckIsCriticalDamage = 14;
+  BattleActionCheckMainCharacter = 15;
+  BattleActionCheckObjectTypeMatch = 16;
+  BattleActionCheckSkillType = 17;
+  BattleActionCheckSquadInFight = 18;
+  BattleActionCheckTagMatch = 19;
+  BattleActionCheckTargetAngle = 20;
+  BattleActionCompareFloat = 21;
+  BattleActionProbability = 22;
+  BattleActionLaunchProjectile = 23;
+  BattleActionSpawnAbilityEntity = 24;
+  BattleActionIfElse = 25;
+  BattleActionForEach = 26;
+  BattleActionAura = 27;
+  BattleActionSpawnCustomSummon = 28;
+  BattleActionChanneling = 29;
+  BattleActionStoreAttributeValue = 30;
+  BattleActionRefreshBuffAttrModifierValue = 31;
+  BattleActionSetBlackboardFromPreset = 32;
+  BattleActionModifyPartDamageTransferRatio = 33;
+  BattleActionModifyEnablePart = 34;
+  BattleActionReadSkillActionToBb = 35;
+  BattleActionSimpleCalcBb = 36;
+  BattleActionMultiModifyBb = 37;
+}

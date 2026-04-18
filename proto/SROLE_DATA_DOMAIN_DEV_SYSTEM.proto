@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SROLE_DATA_DOMAIN_DEV.proto";
+
+message SROLE_DATA_DOMAIN_DEV_SYSTEM {
+  repeated SROLE_DATA_DOMAIN_DEV domains = 1;
+}

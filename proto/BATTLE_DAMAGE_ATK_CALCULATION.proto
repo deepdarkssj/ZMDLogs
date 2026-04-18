@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "ATK_CALCULATION_TYPE.proto";
+import "ATK_SCALE_CALCULATION.proto";
+import "BREAKING_ATTACK_CALCULATION.proto";
+import "DEFINITE_VALUE_CALCULATION.proto";
+import "MULTIPLY_ATTRIBUTE_CALCULATION.proto";
+import "PRIMARY_ATTR_CALCULATION.proto";
+
+message BATTLE_DAMAGE_ATK_CALCULATION {
+  ATK_CALCULATION_TYPE type = 1;
+  oneof calculation_impl {
+    ATK_SCALE_CALCULATION atk_scale_calculation = 2;
+    DEFINITE_VALUE_CALCULATION definite_value_calculation = 3;
+    MULTIPLY_ATTRIBUTE_CALCULATION multiply_attribute_calculation = 4;
+    BREAKING_ATTACK_CALCULATION breaking_attack_calculation = 5;
+    PRIMARY_ATTR_CALCULATION primary_attr_calculation = 6;
+  }
+}

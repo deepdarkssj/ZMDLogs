@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "DOMAIN_DEPOT_DELIVER_PEER_ROLE_INFO.proto";
+
+message SC_DOMAIN_DEPOT_UPDATE_DELEGATE_INST_STATE {
+  uint64 deliver_inst_id = 1;
+  int32 state = 2;
+  DOMAIN_DEPOT_DELIVER_PEER_ROLE_INFO peer_role_info = 3;
+  int64 expire_ts = 4;
+  int64 final_payment_value = 5;
+}

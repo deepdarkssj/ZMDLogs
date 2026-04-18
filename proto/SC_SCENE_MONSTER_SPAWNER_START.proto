@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SCENE_MONSTER_SPAWNER_START {
+  int32 scene_num_id = 1;
+  uint64 spawner_id = 2;
+  repeated string enabled_hidden_wave_key_list = 3;
+}

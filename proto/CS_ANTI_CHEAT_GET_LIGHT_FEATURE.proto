@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_ANTI_CHEAT_GET_LIGHT_FEATURE {
+  int32 cpu_arch = 1;
+}

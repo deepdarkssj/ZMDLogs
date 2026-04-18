@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ACTIVITY_INFO_SPECIFIED_CHAR_TRIAL {
+  map<string, bool> dungeon_status = 1;
+}

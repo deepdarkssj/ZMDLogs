@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+
+message CS_SPACESHIP_PRESENT_GIFT_TO_CHAR {
+  string char_id = 1;
+  repeated ITEM_BUNDLE gifts = 2;
+}

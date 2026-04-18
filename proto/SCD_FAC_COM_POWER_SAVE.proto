@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_POWER_SAVE {
+  int64 power_save = 1;
+}

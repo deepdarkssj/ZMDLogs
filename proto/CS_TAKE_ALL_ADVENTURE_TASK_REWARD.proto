@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_TAKE_ALL_ADVENTURE_TASK_REWARD {
+  int32 task_type = 1;
+}

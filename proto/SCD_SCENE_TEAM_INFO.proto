@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "CHAR_BAG_TEAM_TYPE.proto";
+import "VECTOR.proto";
+
+message SCD_SCENE_TEAM_INFO {
+  CHAR_BAG_TEAM_TYPE team_type = 1;
+  int32 team_index = 2;
+  uint64 team_change_token = 3;
+  uint64 cur_leader_id = 4;
+  repeated uint64 enter_npc_teammate_ids = 5;
+  repeated uint64 leave_npc_teammate_ids = 6;
+  string new_npc_teammate_action_id = 7;
+  repeated VECTOR enter_npc_teammate_start_pos_list = 8;
+  repeated VECTOR enter_npc_teammate_start_rot_list = 9;
+}

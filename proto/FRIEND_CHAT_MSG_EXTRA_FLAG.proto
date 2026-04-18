@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum FRIEND_CHAT_MSG_EXTRA_FLAG {
+  None = 0;
+  ExternalSharing = 1;
+}

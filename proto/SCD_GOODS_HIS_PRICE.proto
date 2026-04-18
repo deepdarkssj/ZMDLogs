@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_GOODS_HIS_PRICE {
+  uint64 role_id = 1;
+  string shop_id = 2;
+  string goods_id = 3;
+  repeated int32 price = 4;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message EQUIP_ATTR {
+  int32 attr_type = 1;
+  int32 modifier_type = 2;
+  double modifier_value = 3;
+  int32 modify_attribute_type = 4;
+}

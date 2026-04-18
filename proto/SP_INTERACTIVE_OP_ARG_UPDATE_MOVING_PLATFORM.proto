@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SP_INTERACTIVE_OP_ARG_UPDATE_MOVING_PLATFORM {
+  int32 state = 1;
+  int32 cur_pos_index = 2;
+}

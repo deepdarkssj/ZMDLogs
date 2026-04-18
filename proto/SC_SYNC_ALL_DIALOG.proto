@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "DIALOG.proto";
+
+message SC_SYNC_ALL_DIALOG {
+  repeated DIALOG dialog_list = 1;
+}

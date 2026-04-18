@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_CANCEL_ONE_BATCH_PENDING {
+  int32 slot_id = 1;
+}

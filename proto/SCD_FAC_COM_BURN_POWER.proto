@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_BURN_POWER {
+  int64 current_least_progress = 1;
+  string current_burn_item_id = 2;
+  int64 power_gen_per_sec = 3;
+}

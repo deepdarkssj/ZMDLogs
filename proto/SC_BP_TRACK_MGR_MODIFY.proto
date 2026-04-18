@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_BP_TRACK_MGR.proto";
+
+message SC_BP_TRACK_MGR_MODIFY {
+  SCD_BP_TRACK_MGR bp_track_mgr = 1;
+}

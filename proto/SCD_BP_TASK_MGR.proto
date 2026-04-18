@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_BP_TASK_LABEL.proto";
+
+message SCD_BP_TASK_MGR {
+  repeated SCD_BP_TASK_LABEL labels = 1;
+}

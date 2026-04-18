@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "FRIEND_BLACK_LIST_INFO.proto";
+import "FRIEND_FRIEND_INFO.proto";
+import "FRIEND_STRANGER_USER_INFO.proto";
+import "SOCIAL_USER_TYPE.proto";
+
+message SCD_SOCIAL_USER_INFO {
+  SOCIAL_USER_TYPE social_user_type = 1;
+  oneof data {
+    FRIEND_FRIEND_INFO friend_data = 11;
+    FRIEND_STRANGER_USER_INFO stranger_data = 12;
+    FRIEND_BLACK_LIST_INFO black_data = 13;
+  }
+}

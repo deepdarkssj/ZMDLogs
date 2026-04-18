@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "BATTLE_ACTION_OWNER_TYPE.proto";
+import "BATTLE_REPORT_INFO.proto";
+import "MODIFY_POISE_VALUE_TYPE.proto";
+import "TEMPLATE_ID.proto";
+
+message BATTLE_OP_MODIFY_POISE_VALUE_OP_DATA {
+  MODIFY_POISE_VALUE_TYPE modify_type = 1;
+  TEMPLATE_ID template_id = 2;
+  TEMPLATE_ID original_source_template_id = 3;
+  BATTLE_ACTION_OWNER_TYPE owner_type = 4;
+  double value = 5;
+  double cur_poise_value = 6;
+  uint64 attacker_inst_id = 7;
+  int32 action_id = 8;
+  BATTLE_REPORT_INFO battle_report_info = 9;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "PSN_AUTHCODE_QUERY_TYPE.proto";
+
+message SC_FRIEND_PSN_AUTHCODE_QUERY {
+  PSN_AUTHCODE_QUERY_TYPE query_type = 1;
+}

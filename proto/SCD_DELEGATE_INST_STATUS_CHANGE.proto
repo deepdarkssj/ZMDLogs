@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_DELEGATE_INST_STATUS_CHANGE {
+  uint64 deliver_inst_id = 1;
+  bool is_delete = 2;
+  int32 state = 3;
+  int64 expire_ts = 4;
+}

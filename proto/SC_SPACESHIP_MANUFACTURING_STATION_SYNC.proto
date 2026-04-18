@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SPACESHIP_MANUFACTURING_ORDER.proto";
+
+message SC_SPACESHIP_MANUFACTURING_STATION_SYNC {
+  string room_id = 1;
+  SPACESHIP_MANUFACTURING_ORDER remain_produce_order = 2;
+  map<string, int32> product_map = 3;
+}

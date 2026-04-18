@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_USER_AVATAR_MODIFY {
+  uint32 user_avatar_id = 1;
+}

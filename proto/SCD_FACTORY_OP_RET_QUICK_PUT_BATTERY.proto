@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+
+message SCD_FACTORY_OP_RET_QUICK_PUT_BATTERY {
+  repeated ITEM_BUNDLE cost_items = 1;
+}

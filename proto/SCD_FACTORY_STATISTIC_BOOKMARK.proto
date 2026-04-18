@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCD_FACTORY_STATISTIC_BOOKMARK {
+  repeated string bookmark_item_ids = 1;
+}

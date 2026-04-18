@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_ITEM_BAG_LT_ITEM_EXPIRE_RECORD.proto";
+import "SCD_ITEM_LOST_AND_FOUND.proto";
+
+message SC_ITEM_BAG_COMMON_SYNC {
+  SCD_ITEM_LOST_AND_FOUND lost_and_found = 1;
+  repeated SCD_ITEM_BAG_LT_ITEM_EXPIRE_RECORD lt_item_expire_records = 2;
+}

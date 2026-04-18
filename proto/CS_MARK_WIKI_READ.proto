@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_MARK_WIKI_READ {
+  repeated uint32 wiki_ids = 1;
+}

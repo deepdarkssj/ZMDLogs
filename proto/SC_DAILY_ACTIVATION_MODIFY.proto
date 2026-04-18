@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_DAILY_ACTIVATION_MODIFY {
+  int32 daily_activation = 1;
+  repeated int32 daily_activation_gathered_reward_ids = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_ANTI_CHEAT_SEND_ANTI_DATA2 {
+  bytes data = 1;
+}

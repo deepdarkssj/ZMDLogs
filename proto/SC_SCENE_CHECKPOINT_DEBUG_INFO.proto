@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "SCENE_CHECKPOINT.proto";
+import "SCENE_LOC.proto";
+
+message SC_SCENE_CHECKPOINT_DEBUG_INFO {
+  int32 move_tag_mask = 1;
+  SCENE_LOC cur_loc = 2;
+  SCENE_LOC last_valid_world_loc = 3;
+  SCENE_LOC save_loc = 4;
+  SCENE_LOC safezone_loc = 5;
+  repeated SCENE_CHECKPOINT sp_checkpoints = 6;
+}

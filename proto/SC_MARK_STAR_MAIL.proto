@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_MARK_STAR_MAIL {
+  uint64 mail_id = 1;
+  bool is_star = 2;
+}

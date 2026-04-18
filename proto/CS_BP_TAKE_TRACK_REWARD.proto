@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CSD_BP_TRACK_REWARD.proto";
+
+message CS_BP_TAKE_TRACK_REWARD {
+  repeated CSD_BP_TRACK_REWARD take_track_reward = 1;
+}

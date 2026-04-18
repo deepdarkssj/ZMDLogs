@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_ACTIVITY_READ_NOTIFY {
+  string activity_id = 1;
+}

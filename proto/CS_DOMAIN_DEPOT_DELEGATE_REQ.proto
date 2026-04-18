@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_DOMAIN_DEPOT_DELEGATE_REQ {
+  uint64 deliver_inst_id = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_FACTORY_QUICKBAR_MOVE_ONE {
+  int32 type = 2;
+  int32 from_index = 3;
+  int32 to_index = 4;
+  string chapter_id = 4;
+}

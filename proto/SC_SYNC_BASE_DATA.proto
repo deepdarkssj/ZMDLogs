@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "GENDER.proto";
+
+message SC_SYNC_BASE_DATA {
+  int64 create_ts = 1;
+  bytes client_setting = 2;
+  uint64 roleid = 1;
+  GENDER gender = 8;
+  uint32 level = 3;
+  uint32 exp = 4;
+  string short_id = 7;
+  string role_name = 2;
+  int64 create_ts_display = 9;
+}

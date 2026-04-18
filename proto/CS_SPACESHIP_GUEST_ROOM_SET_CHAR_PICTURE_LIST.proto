@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_GUEST_ROOM_SET_CHAR_PICTURE_LIST {
+  repeated uint32 char_picture_ids = 1;
+}

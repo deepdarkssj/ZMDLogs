@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BATTLE_UPDATE_DATA_VERSION_OP_DATA {
+  string client_data_version = 1;
+  int32 proto_version = 2;
+}

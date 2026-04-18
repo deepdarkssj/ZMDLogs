@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_DETACH_SERVER_SKILL {
+  uint64 inst_id = 1;
+  repeated uint64 del_inst_ids = 2;
+  uint32 generation = 3;
+}

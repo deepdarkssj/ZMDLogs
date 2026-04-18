@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message BATTLE_ABILITY_ENTITY_DETAIL {
+  uint64 client_ability_entity_id = 1;
+  uint64 source_id = 2;
+  VECTOR init_pos = 3;
+  VECTOR rotation = 4;
+}

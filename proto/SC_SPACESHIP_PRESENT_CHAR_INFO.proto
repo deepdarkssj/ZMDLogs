@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CHAR_PRESENT_GIFT_INFO.proto";
+
+message SC_SPACESHIP_PRESENT_CHAR_INFO {
+  repeated CHAR_PRESENT_GIFT_INFO gift_infos = 1;
+}

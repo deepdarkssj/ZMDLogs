@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SKILL_LEVEL_INFO.proto";
+
+message SC_CHAR_SKILL_INFOS {
+  uint64 char_obj_id = 1;
+  repeated SKILL_LEVEL_INFO level_infos = 2;
+}

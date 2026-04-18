@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_TRACK_MISSION {
+  string mission_id = 1;
+}

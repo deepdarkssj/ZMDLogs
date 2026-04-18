@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message MAIL_CONTENT {
+  string template_id = 1;
+  string title = 2;
+  string content = 3;
+  string sender_name = 4;
+  string sender_icon = 5;
+  map<string, string> params = 6;
+}

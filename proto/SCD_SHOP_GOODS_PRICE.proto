@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SHOP_DISCOUNT.proto";
+
+message SCD_SHOP_GOODS_PRICE {
+  repeated SCD_SHOP_DISCOUNT discounts = 1;
+}

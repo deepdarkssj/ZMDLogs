@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ATTR_ENHANCE_FAILED_DATA {
+  map<int32, int32> enhance_failed_times_by_level = 1;
+}

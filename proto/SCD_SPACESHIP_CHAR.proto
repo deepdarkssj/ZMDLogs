@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_CHAR_SKILL.proto";
+
+message SCD_SPACESHIP_CHAR {
+  string char_id = 1;
+  float physical_strength = 2;
+  int32 favorability = 3;
+  string stationed_room_id = 4;
+  bool is_working = 5;
+  repeated SCD_SPACESHIP_CHAR_SKILL skills = 6;
+  bool is_presented = 7;
+  int32 recv_gift_cnt = 8;
+  string temp_reward_id = 9;
+  int32 daily_add_favorability = 10;
+  map<int32, int32> present_gift_map = 11;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BATTLE_ABILITY_ENTITY_DETAIL.proto";
+
+message BATTLE_SPAWN_ABILITY_ENTITY_ACTION_RUNTIME {
+  repeated BATTLE_ABILITY_ENTITY_DETAIL details = 1;
+}

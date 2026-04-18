@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_NPC_SET_META_DATA_RSP {
+  string proxy_id = 1;
+  map<int32, bytes> meta_kvs = 2;
+}

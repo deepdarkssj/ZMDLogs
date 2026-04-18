@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ATTR_ENHANCE_FAILED_DATA.proto";
+
+message EQUIP_ENHANCE_DATA {
+  map<int32, ATTR_ENHANCE_FAILED_DATA> enhance_failed_data_by_attr_index = 1;
+}

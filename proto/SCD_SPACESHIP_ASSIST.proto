@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "BeHelpedCount.proto";
+import "BeHelpedRecord.proto";
+import "HelpOthersRecord.proto";
+
+message SCD_SPACESHIP_ASSIST {
+  int32 help_others_count = 1;
+  repeated HelpOthersRecord help_others_record = 2;
+  repeated BeHelpedRecord be_helped_record = 3;
+  map<string, BeHelpedCount> be_helped_credit_left = 4;
+  map<string, BeHelpedCount> be_helped_count_total = 5;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_EXPEDITION_DOMAIN.proto";
+import "SCD_SPACESHIP_EXPEDITION_REGION.proto";
+
+message SC_SPACESHIP_EXPEDITION_REGION_UPDATE {
+  repeated SCD_SPACESHIP_EXPEDITION_DOMAIN domains = 1;
+  repeated SCD_SPACESHIP_EXPEDITION_REGION regions = 2;
+}

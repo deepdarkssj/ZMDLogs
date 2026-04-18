@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_ACHIEVE_DISPLAY_INFO_CHANGE {
+  map<int32, int32> display = 1;
+  repeated int32 display_depot = 2;
+}

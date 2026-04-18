@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_ACHIEVE_CONDITIONS.proto";
+
+message SCD_ACHIEVE_PERSONAL_INFO {
+  int32 achieve_num_id = 1;
+  int32 level = 2;
+  bool is_plated = 3;
+  int64 obtain_time_ts = 4;
+  SCD_ACHIEVE_CONDITIONS achieve_conditions = 5;
+}

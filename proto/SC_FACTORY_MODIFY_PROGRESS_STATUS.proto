@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_BUILDING_DOMAIN_PLACE_LIMIT.proto";
+import "SCD_FACTORY_PANEL_BUS_FREE_LIMIT.proto";
+
+message SC_FACTORY_MODIFY_PROGRESS_STATUS {
+  repeated string add_building_power_diffuser_enable = 1;
+  repeated string add_building_power_can_be_wire_start = 2;
+  map<string, SCD_FACTORY_PANEL_BUS_FREE_LIMIT> bus_free_limit = 3;
+  map<string, SCD_FACTORY_BUILDING_DOMAIN_PLACE_LIMIT> domain_place_limit = 4;
+}

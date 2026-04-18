@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CSD_FACTORY_GIFT_BLUE_PRINT {
+  uint64 bp_uid = 1;
+  uint64 target_role_id = 2;
+  int32 share_idx = 3;
+}

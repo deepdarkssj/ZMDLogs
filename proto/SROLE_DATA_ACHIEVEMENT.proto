@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SROLE_DATA_ACHIEVEMENT_INFO.proto";
+
+message SROLE_DATA_ACHIEVEMENT {
+  map<int32, int32> display = 1;
+  repeated SROLE_DATA_ACHIEVEMENT_INFO info_list = 2;
+}

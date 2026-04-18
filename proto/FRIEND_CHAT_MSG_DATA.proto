@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "FRIEND_CHAT_MSG_DATA_BLUE_PRINT.proto";
+import "FRIEND_CHAT_MSG_DATA_EMOJI.proto";
+import "FRIEND_CHAT_MSG_DATA_PRESET_TEXT.proto";
+import "FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING.proto";
+import "FRIEND_CHAT_MSG_TYPE.proto";
+
+message FRIEND_CHAT_MSG_DATA {
+  int64 ts = 1;
+  uint64 owner_id = 2;
+  FRIEND_CHAT_MSG_TYPE type = 3;
+  oneof extra_data {
+    FRIEND_CHAT_MSG_DATA_PRESET_TEXT preset_text_data = 4;
+    FRIEND_CHAT_MSG_DATA_EMOJI emoji_data = 5;
+    FRIEND_CHAT_MSG_DATA_SOCIAL_BUILDING social_building_data = 6;
+    FRIEND_CHAT_MSG_DATA_BLUE_PRINT blue_print_data = 7;
+  }
+}

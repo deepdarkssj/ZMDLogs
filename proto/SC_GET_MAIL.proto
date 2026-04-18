@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CS_MAIL_DEF.proto";
+
+message SC_GET_MAIL {
+  repeated CS_MAIL_DEF mail_list = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ATK_SCALE_CALCULATION_RUNTIME_ARGS {
+  double client_atk_scale = 1;
+  double client_atk_value = 2;
+}

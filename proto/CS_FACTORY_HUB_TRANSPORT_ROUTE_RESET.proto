@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_FACTORY_HUB_TRANSPORT_ROUTE_RESET {
+  int32 scope_name = 1;
+  string chapter_id = 2;
+  int32 index = 3;
+}

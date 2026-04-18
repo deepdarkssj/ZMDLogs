@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SYNC_ALL_UNLOCK {
+  repeated int32 unlock_systems = 1;
+}

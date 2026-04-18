@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum NPC_CONSTANTS {
+  NcNone = 0;
+  NcMetaValueMaxSize = 100;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_BP_CLOSE_STATUS {
+  bool is_close = 1;
+  int32 close_reason = 2;
+}

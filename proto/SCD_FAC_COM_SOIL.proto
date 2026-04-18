@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_SOIL {
+  int32 step_cursor = 1;
+  int32 water_got = 2;
+  int32 grow_ms = 3;
+  int32 increased_type = 4;
+  int32 ripen_count = 5;
+  int64 in_grow_tms = 3;
+}

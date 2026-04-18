@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_CHAR_SKILL.proto";
+
+message SCD_SPACESHIP_CHAR_SKILL_LIST {
+  string char_id = 1;
+  repeated SCD_SPACESHIP_CHAR_SKILL skills = 2;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_GROW_CABIN_PRODUCE_STATUS.proto";
+import "SCD_SPACESHIP_GUEST_ROOM_PRODUCE_STATUS.proto";
+import "SCD_SPACESHIP_MANUFACTURING_STATION_PRODUCE_STATUS.proto";
+import "SCD_SPACESHIP_ROOM_ATTR.proto";
+
+message SCD_SPACESHIP_ROOM_STATION {
+  string id = 1;
+  int32 type = 2;
+  repeated string stationed_char_list = 3;
+  map<int32, SCD_SPACESHIP_ROOM_ATTR> attrs_map = 4;
+  bool has_char_working = 5;
+  oneof produce_status {
+    SCD_SPACESHIP_MANUFACTURING_STATION_PRODUCE_STATUS manufacturing_station_produce_status = 21;
+    SCD_SPACESHIP_GROW_CABIN_PRODUCE_STATUS grow_cabin_produce_status = 22;
+    SCD_SPACESHIP_GUEST_ROOM_PRODUCE_STATUS guest_room_produce_status = 23;
+  }
+}

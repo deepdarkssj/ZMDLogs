@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "BATTLE_INFO.proto";
+import "TEMPLATE_ID.proto";
+
+message BATTLE_ENTITY_VALUE_MODIFY_DATA {
+  uint64 entity_inst_id = 1;
+  int32 scene_num_id = 2;
+  BATTLE_INFO value = 3;
+  int32 source = 4;
+  TEMPLATE_ID template_id = 5;
+  TEMPLATE_ID original_source_template_id = 6;
+  double delta_value = 7;
+}

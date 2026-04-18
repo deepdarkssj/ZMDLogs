@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_FLUSH_SYNC {
+  uint64 client_ts = 1;
+}

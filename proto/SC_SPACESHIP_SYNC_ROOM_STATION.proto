@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_SPACESHIP_CHAR_STATION.proto";
+import "SCD_SPACESHIP_ROOM_STATION.proto";
+
+message SC_SPACESHIP_SYNC_ROOM_STATION {
+  repeated SCD_SPACESHIP_ROOM_STATION rooms = 1;
+  repeated SCD_SPACESHIP_CHAR_STATION chars = 2;
+}

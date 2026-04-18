@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_WEAPON_ADD_EXP {
+  uint64 weaponid = 1;
+  map<string, uint64> cost_item_id2_count = 2;
+  repeated uint64 cost_weapon_ids = 3;
+}

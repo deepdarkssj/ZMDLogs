@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_SPACESHIP_CHAR_SKILL {
+  int32 index = 1;
+  string skill_id = 2;
+}

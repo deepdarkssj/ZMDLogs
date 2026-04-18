@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SCD_GACHA_POOL_CATEGORY_ROLE_DATA {
+  int32 gacha_pool_type = 1;
+  int32 total_pull_count = 2;
+  int32 soft_guarantee_progress = 3;
+  int32 star5_soft_guarantee_progress = 4;
+  int32 star6_got_count = 5;
+}

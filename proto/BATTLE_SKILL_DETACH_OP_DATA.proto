@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BATTLE_SKILL_DETACH_OP_DATA {
+  uint64 skill_inst_id = 1;
+}

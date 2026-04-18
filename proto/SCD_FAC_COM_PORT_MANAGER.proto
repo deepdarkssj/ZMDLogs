@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FAC_COM_SUB_PORT.proto";
+
+message SCD_FAC_COM_PORT_MANAGER {
+  repeated SCD_FAC_COM_SUB_PORT ports = 1;
+}

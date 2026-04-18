@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_OP_DISMANTLE.proto";
+import "CSD_FACTORY_OP_DISMANTLE_BOX_CONVEYOR.proto";
+
+message CSD_FACTORY_OP_DISMANTLE_BATCH {
+  repeated CSD_FACTORY_OP_DISMANTLE dismantles = 1;
+  repeated CSD_FACTORY_OP_DISMANTLE_BOX_CONVEYOR dismantle_conveyors = 2;
+  repeated int32 slot_id = 3;
+}

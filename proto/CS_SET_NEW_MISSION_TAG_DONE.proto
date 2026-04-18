@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "NEW_MISSION_TAG.proto";
+
+message CS_SET_NEW_MISSION_TAG_DONE {
+  repeated NEW_MISSION_TAG new_mission_tags = 5;
+}

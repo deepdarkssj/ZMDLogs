@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_GUEST_ROOM_RECV_VISIT_LIST_REWARD {
+}

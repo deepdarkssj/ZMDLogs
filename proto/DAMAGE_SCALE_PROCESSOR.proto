@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+import "DAMAGE_PROCESSOR_TYPE.proto";
+
+message DAMAGE_SCALE_PROCESSOR {
+  DAMAGE_PROCESSOR_TYPE type = 1;
+  int32 damage_scale_side = 2;
+  string zone_name = 3;
+  BATTLE_BLACKBOARD_FLOAT addition = 4;
+}

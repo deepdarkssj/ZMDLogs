@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message TALENT {
+  string latest_break_node = 1;
+  repeated string attr_nodes = 2;
+  repeated string latest_passive_skill_nodes = 3;
+  repeated string latest_factory_skill_nodes = 4;
+}

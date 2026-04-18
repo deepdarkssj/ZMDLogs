@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_CHAR_GAIN_EXP_TOAST {
+  int32 exp = 1;
+  int32 exp_type = 2;
+}

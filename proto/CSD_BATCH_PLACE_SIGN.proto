@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_BATCH_PLACE_SIGN {
+  repeated int32 sign_ids = 1;
+}

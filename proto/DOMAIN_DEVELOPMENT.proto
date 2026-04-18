@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "DOMAIN_DEVELOPMENT_DEGREE.proto";
+
+message DOMAIN_DEVELOPMENT {
+  string chapter_id = 1;
+  string version = 2;
+  DOMAIN_DEVELOPMENT_DEGREE dev_degree = 3;
+}

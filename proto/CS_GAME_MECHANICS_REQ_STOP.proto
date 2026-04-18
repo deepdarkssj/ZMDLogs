@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_GAME_MECHANICS_REQ_STOP {
+  string cur_game_id = 1;
+}

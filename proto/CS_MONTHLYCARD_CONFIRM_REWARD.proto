@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_MONTHLYCARD_CONFIRM_REWARD {
+  int32 target_reward_ts = 1;
+}

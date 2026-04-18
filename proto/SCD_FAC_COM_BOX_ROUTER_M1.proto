@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_ITEM.proto";
+
+message SCD_FAC_COM_BOX_ROUTER_M1 {
+  SCD_FACTORY_SYNC_ITEM hold_item = 1;
+  bool m_in = 2;
+}

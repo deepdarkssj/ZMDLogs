@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+
+message CSD_FACTORY_OP_PUT_IN_FLUID_TO_LIQUID_BODY {
+  string liquid_body_inst_key = 1;
+  repeated ITEM_BUNDLE bottle_water_items = 4;
+}

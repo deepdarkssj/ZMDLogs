@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_BUS_FREE_CNT_LIMIT.proto";
+
+message SCD_FACTORY_PANEL_BUS_FREE_LIMIT {
+  map<int32, SCD_FACTORY_BUS_FREE_CNT_LIMIT> bus_free_panel_limit = 1;
+}

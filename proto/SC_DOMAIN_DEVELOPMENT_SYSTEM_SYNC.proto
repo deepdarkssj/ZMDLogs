@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "DOMAIN_DEVELOPMENT.proto";
+
+message SC_DOMAIN_DEVELOPMENT_SYSTEM_SYNC {
+  repeated DOMAIN_DEVELOPMENT domains = 1;
+}

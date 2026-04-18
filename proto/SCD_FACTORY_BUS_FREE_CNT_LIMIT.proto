@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SCD_FACTORY_BUS_FREE_CNT_LIMIT {
+  int32 bus_start_limit = 1;
+  int32 bus_free_limit = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "QUEST_OBJECTIVE.proto";
+
+message QUEST {
+  string quest_id = 1;
+  int32 quest_state = 2;
+  repeated QUEST_OBJECTIVE quest_objectives = 4;
+  bool is_pasued = 4;
+}

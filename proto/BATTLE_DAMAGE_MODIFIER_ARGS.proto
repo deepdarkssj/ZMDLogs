@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BATTLE_MODIFIER_HANDLE.proto";
+
+message BATTLE_DAMAGE_MODIFIER_ARGS {
+  uint64 attacker_id = 1;
+  uint64 defender_id = 2;
+  repeated BATTLE_MODIFIER_HANDLE attacker_modifiers = 3;
+  repeated BATTLE_MODIFIER_HANDLE defender_modifiers = 4;
+}

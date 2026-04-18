@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+import "DAMAGE_PROCESSOR_TYPE.proto";
+
+message MODIFY_CALCULATE_RESULT_PROCESSOR {
+  DAMAGE_PROCESSOR_TYPE type = 1;
+  int32 cal_type = 2;
+  BATTLE_BLACKBOARD_FLOAT base_multiplier = 3;
+  BATTLE_BLACKBOARD_FLOAT multiplier_cnt = 4;
+}

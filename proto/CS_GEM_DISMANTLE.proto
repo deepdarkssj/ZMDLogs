@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_GEM_DISMANTLE {
+  repeated uint64 gem_inst_ids = 1;
+}

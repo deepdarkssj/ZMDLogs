@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CSD_FACTORY_OP_QUICK_PUT_BATTERY {
+  uint32 com_id = 1;
+}

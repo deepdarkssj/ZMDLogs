@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+import "SP_INTERACTIVE_OP_ARG_SET_INTERACT_HORN.proto";
+import "SP_INTERACTIVE_OP_ARG_SET_LS_ENABLE.proto";
+import "SP_INTERACTIVE_OP_ARG_SET_STATE_MULTI.proto";
+import "SP_INTERACTIVE_OP_ARG_UPDATE_AVAILABLE_LIST.proto";
+import "SP_INTERACTIVE_OP_ARG_UPDATE_MOVING_PLATFORM.proto";
+import "SP_INTERACTIVE_OP_TYPE.proto";
+
+message CS_SCENE_INTERACT_SP_INTERACTIVE {
+  uint64 obj_id = 1;
+  SP_INTERACTIVE_OP_TYPE op_type = 2;
+  uint64 operate_char_id = 3;
+  oneof data {
+    uint64 new_hp_ratio = 5;
+    string item_id = 6;
+    int32 state = 7;
+    SP_INTERACTIVE_OP_ARG_UPDATE_AVAILABLE_LIST available_list = 8;
+    SP_INTERACTIVE_OP_ARG_SET_STATE_MULTI state_multi = 9;
+    SP_INTERACTIVE_OP_ARG_SET_INTERACT_HORN horn_finish_id = 10;
+    SP_INTERACTIVE_OP_ARG_SET_LS_ENABLE ls_enable = 11;
+    SP_INTERACTIVE_OP_ARG_UPDATE_MOVING_PLATFORM moving_platform = 12;
+  }
+}

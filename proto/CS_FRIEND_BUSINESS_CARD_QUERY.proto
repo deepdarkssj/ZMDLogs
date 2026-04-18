@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "FRIEND_BUSINESS_CARD_TYPE.proto";
+
+message CS_FRIEND_BUSINESS_CARD_QUERY {
+  uint64 role_id = 1;
+  FRIEND_BUSINESS_CARD_TYPE type = 2;
+}

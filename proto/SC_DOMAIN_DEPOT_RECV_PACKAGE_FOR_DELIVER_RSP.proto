@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_DOMAIN_DEPOT_RECV_PACKAGE_FOR_DELIVER_RSP {
+  uint64 deliver_inst_id = 1;
+}

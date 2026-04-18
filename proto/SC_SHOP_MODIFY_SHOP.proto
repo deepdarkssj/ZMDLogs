@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_SHOP.proto";
+
+message SC_SHOP_MODIFY_SHOP {
+  repeated SCD_SHOP shops = 1;
+}

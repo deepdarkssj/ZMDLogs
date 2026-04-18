@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CS_SCENE_SUBMIT_ITEM.proto";
+
+message CS_WEEK_RAID_COMPLETE_MISSION {
+  string game_id = 1;
+  string mission_id = 2;
+  string quest_id = 3;
+  CS_SCENE_SUBMIT_ITEM submit = 4;
+}

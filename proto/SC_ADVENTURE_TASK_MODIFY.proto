@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ADVENTURE_TASK.proto";
+
+message SC_ADVENTURE_TASK_MODIFY {
+  repeated ADVENTURE_TASK tasks = 1;
+}

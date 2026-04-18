@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SCD_FRIEND_PSN_FRIEND_ROLE_SIMPLE_INFO {
+  uint64 role_id = 1;
+  bool online = 2;
+  int64 last_logout_time = 3;
+  uint32 adventure_level = 4;
+}

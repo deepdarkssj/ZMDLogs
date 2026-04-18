@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message MONEY_INFO {
+  string id = 1;
+  int64 amount = 2;
+}

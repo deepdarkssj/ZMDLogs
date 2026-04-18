@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+
+message BATTLE_READ_SKILL_SETTING_TO_BB_ACTION_DATA_DETAIL {
+  string data_key = 1;
+  string store_key = 2;
+  BATTLE_BLACKBOARD_FLOAT layer_key = 3;
+}

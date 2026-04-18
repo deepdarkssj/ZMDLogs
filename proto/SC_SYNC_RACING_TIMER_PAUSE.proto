@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SC_SYNC_RACING_TIMER_PAUSE {
+  bool paused = 1;
+  int64 server_timestamp = 2;
+  int64 total_playtime = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_FLUSH_SYNC {
+  uint64 client_ts = 1;
+  uint64 server_ts = 2;
+}

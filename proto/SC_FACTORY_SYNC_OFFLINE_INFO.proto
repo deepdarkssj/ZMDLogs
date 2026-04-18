@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SC_FACTORY_SYNC_OFFLINE_INFO {
+  int64 max_offline_calc_sec = 1;
+  int64 end_offline_calc_ts = 2;
+  int64 offline_sec = 3;
+  int64 miss_offline_sec = 4;
+}

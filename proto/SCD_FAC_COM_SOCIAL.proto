@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message SCD_FAC_COM_SOCIAL {
+  uint64 owner_id = 1;
+  uint32 social_node_id = 2;
+  uint64 like = 3;
+  int64 last_set_like_ts = 4;
+  int64 expiration_ts = 5;
+  bool preset = 6;
+}

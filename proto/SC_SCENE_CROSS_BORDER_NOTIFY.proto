@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCENE_CROSS_BORDER_OP.proto";
+import "SCENE_CROSS_BORDER_REASON.proto";
+
+message SC_SCENE_CROSS_BORDER_NOTIFY {
+  SCENE_CROSS_BORDER_OP op = 1;
+  SCENE_CROSS_BORDER_REASON reason = 2;
+}

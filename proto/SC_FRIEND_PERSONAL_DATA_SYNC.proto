@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "FRIEND_PERSONAL_DATA.proto";
+
+message SC_FRIEND_PERSONAL_DATA_SYNC {
+  FRIEND_PERSONAL_DATA data = 1;
+}

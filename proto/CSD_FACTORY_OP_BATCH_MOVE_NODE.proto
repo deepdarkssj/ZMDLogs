@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_INTERACTIVE_PARAM.proto";
+
+message CSD_FACTORY_OP_BATCH_MOVE_NODE {
+  uint32 node_id = 1;
+  CSD_FACTORY_INTERACTIVE_PARAM interactive_param = 2;
+}

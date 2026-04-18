@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD_FLOAT.proto";
+import "BATTLE_BLACKBOARD_STRING.proto";
+
+message BATTLE_SIMPLE_CALC_BB_ACTION_DATA {
+  BATTLE_BLACKBOARD_FLOAT value_a = 1;
+  BATTLE_BLACKBOARD_FLOAT value_b = 2;
+  BATTLE_BLACKBOARD_STRING target_key = 3;
+  int32 modify_type = 4;
+}

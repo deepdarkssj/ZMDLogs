@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BP_TRACK_ACTIVE_TYPE.proto";
+
+message SCD_BP_TRACK_REWARD_DATA {
+  string bp_track_id = 1;
+  repeated uint64 reward_state = 2;
+  int32 recurring_times = 3;
+  BP_TRACK_ACTIVE_TYPE active_type = 4;
+}

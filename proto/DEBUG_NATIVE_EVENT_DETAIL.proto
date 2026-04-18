@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DEBUG_NATIVE_EVENT_DETAIL {
+  string event_name = 1;
+}

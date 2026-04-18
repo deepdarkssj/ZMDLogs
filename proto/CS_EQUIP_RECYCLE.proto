@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_EQUIP_RECYCLE {
+  repeated uint64 equip_instid_list = 1;
+  int32 scope_name = 2;
+}

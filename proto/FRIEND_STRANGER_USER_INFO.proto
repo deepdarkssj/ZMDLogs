@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "FRIEND_BASE_USER_INFO.proto";
+
+message FRIEND_STRANGER_USER_INFO {
+  FRIEND_BASE_USER_INFO base_data = 1;
+}

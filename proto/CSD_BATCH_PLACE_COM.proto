@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "CSD_BATCH_PLACE_BOX_VALVE.proto";
+import "CSD_BATCH_PLACE_FLUID_VALVE.proto";
+import "CSD_BATCH_PLACE_FORMULA_MAN.proto";
+import "CSD_BATCH_PLACE_SELECTOR.proto";
+import "CSD_BATCH_PLACE_SIGN.proto";
+
+message CSD_BATCH_PLACE_COM {
+  int32 com_type = 1;
+  uint32 com_pos = 2;
+  oneof component_payload {
+    CSD_BATCH_PLACE_SELECTOR selector = 10;
+    CSD_BATCH_PLACE_FORMULA_MAN formula_man = 11;
+    CSD_BATCH_PLACE_BOX_VALVE box_valve = 12;
+    CSD_BATCH_PLACE_FLUID_VALVE fluid_valve = 13;
+    CSD_BATCH_PLACE_SIGN sign = 14;
+  }
+}

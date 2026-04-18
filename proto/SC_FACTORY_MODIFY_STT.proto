@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_STT_CATEGORY.proto";
+import "SCD_FACTORY_STT_LAYER.proto";
+import "SCD_FACTORY_STT_NODE.proto";
+import "SCD_FACTORY_STT_PACKAGE.proto";
+
+message SC_FACTORY_MODIFY_STT {
+  repeated SCD_FACTORY_STT_NODE nodes = 1;
+  repeated SCD_FACTORY_STT_PACKAGE packages = 2;
+  repeated SCD_FACTORY_STT_LAYER layers = 3;
+  repeated SCD_FACTORY_STT_CATEGORY categories = 4;
+}

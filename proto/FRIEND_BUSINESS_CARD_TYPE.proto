@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum FRIEND_BUSINESS_CARD_TYPE {
+  Stranger = 0;
+  Friend = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SC_GET_MAIL_ATTACHMENT {
+  repeated uint64 success_mail_id_list = 1;
+  repeated uint64 failed_mail_id_list = 2;
+}

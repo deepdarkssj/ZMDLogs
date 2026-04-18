@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_HS_FB.proto";
+import "SCD_FACTORY_SYNC_BLACKBOARD.proto";
+import "SCD_FAC_COM.proto";
+
+message SC_FACTORY_HS_SYNC {
+  int64 tms = 1;
+  repeated SCD_FAC_COM cc_list = 2;
+  repeated SCD_FACTORY_HS_FB fb_list = 3;
+  SCD_FACTORY_SYNC_BLACKBOARD blackboard = 4;
+  string chapter_id = 11;
+}

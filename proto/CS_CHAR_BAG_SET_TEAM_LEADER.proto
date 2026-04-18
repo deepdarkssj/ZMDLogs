@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CHAR_BAG_TEAM_TYPE.proto";
+
+message CS_CHAR_BAG_SET_TEAM_LEADER {
+  CHAR_BAG_TEAM_TYPE team_type = 1;
+  int32 team_index = 2;
+  uint64 leaderid = 3;
+}

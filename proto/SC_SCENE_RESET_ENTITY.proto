@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BATTLE_MGR_INFO.proto";
+
+message SC_SCENE_RESET_ENTITY {
+  int32 scene_num_id = 1;
+  uint64 id = 2;
+  BATTLE_MGR_INFO battle_info = 3;
+}

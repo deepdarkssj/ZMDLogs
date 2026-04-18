@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CS_WEAPON_REFINE_UPGRADE {
+  uint64 weaponid = 1;
+  uint32 upgrade_refine_lv = 2;
+  repeated uint64 cost_weapon_ids = 3;
+  map<string, uint64> cost_weapon_potential_up_items = 4;
+}

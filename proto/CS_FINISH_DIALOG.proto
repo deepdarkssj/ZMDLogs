@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "CS_SCENE_SUBMIT_ITEM.proto";
+import "DialogExtraInfoType.proto";
+
+message CS_FINISH_DIALOG {
+  int32 dialog_id = 1;
+  repeated int32 option_ids = 2;
+  repeated int32 finish_nums = 3;
+  DialogExtraInfoType dialog_extra_info_type = 4;
+  oneof dialog_extra_info {
+    CS_SCENE_SUBMIT_ITEM submit_info = 5;
+  }
+}

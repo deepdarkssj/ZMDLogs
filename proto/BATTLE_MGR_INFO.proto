@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "BATTLE_PART_INST_INFO.proto";
+import "SERVER_BUFF.proto";
+import "SERVER_BUFF_STACKING_GROUP.proto";
+import "SERVER_SKILL.proto";
+
+message BATTLE_MGR_INFO {
+  repeated SERVER_BUFF buff_list = 1;
+  repeated SERVER_SKILL skill_list = 2;
+  uint32 msg_generation = 3;
+  uint64 battle_inst_id = 4;
+  repeated SERVER_BUFF_STACKING_GROUP stacking_group_list = 5;
+  BATTLE_PART_INST_INFO part_inst_info = 6;
+}

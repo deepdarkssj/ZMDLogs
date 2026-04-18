@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SUBMIT_SOURCE_PARAM_INTERACTIVE {
+  uint64 obj_id = 2;
+}

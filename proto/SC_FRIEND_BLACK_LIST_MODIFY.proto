@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "FRIEND_BLACK_LIST_INFO.proto";
+
+message SC_FRIEND_BLACK_LIST_MODIFY {
+  repeated FRIEND_BLACK_LIST_INFO add_list = 1;
+  repeated uint64 del_list = 2;
+}

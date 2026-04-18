@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CS_SCENE_REFRESH_LS_INTERACTIVE_META_REQ {
+  int32 scene_num_id = 1;
+  uint64 entity_id = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CSD_BATCH_PLACE_COM_LIST.proto";
+import "SCD_FAC_NODE.proto";
+
+message SCD_BATCH_PENDING_BUILDING_DATA {
+  int32 slot_id = 1;
+  map<string, int32> pre_cost_items = 2;
+  repeated SCD_FAC_NODE nodes = 3;
+  map<uint32, CSD_BATCH_PLACE_COM_LIST> com_data = 4;
+}

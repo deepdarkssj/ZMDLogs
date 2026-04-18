@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_WEEK_RAID_COMPLETE_MISSION {
+  repeated string new_mission_id = 1;
+}

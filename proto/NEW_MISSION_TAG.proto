@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message NEW_MISSION_TAG {
+  string mission_id = 1;
+  string quest_id = 2;
+}

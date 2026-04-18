@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BATTLE_GAIN_COST_ACTION_RUNTIME {
+  uint64 source_id = 1;
+  uint64 target_id = 2;
+  double final_value = 3;
+}

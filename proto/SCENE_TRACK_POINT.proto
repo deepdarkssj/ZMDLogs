@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SCENE_TRACK_POINT {
+  string inst_id = 1;
+}

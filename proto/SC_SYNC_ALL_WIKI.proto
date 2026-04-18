@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SYNC_ALL_WIKI {
+  repeated uint32 latest_unlock = 1;
+}

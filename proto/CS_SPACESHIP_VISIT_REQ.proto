@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_SPACESHIP_VISIT_REQ {
+  uint64 host_role_id = 1;
+}

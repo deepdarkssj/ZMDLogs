@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CHAR_BAG_TEAM_TYPE.proto";
+
+message SC_CHAR_BAG_SET_TEAM {
+  CHAR_BAG_TEAM_TYPE team_type = 1;
+  int32 team_index = 2;
+  repeated uint64 char_team = 3;
+  int32 scope_name = 4;
+  uint64 leader_id = 5;
+}

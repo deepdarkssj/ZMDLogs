@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "VECTOR.proto";
+
+message SCENE_DYNAMIC_MAP_MARK {
+  uint32 id = 1;
+  int32 scene_num_id = 2;
+  VECTOR pos = 3;
+  string note = 4;
+  uint32 typ = 5;
+  int32 tier_index = 6;
+  int32 tier_id = 7;
+}

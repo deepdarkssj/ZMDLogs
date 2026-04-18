@@ -1,0 +1,4 @@
+syntax = "proto3";
+
+message ITEM_INST_EMPTY {
+}

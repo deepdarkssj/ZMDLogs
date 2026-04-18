@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum ENTITY_OP_TYPE {
+  None = 0;
+  Id = 2;
+}

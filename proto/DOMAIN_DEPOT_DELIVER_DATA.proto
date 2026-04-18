@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "DOMAIN_DEPOT_BUYER_INFO.proto";
+import "DOMAIN_DEPOT_DELIVER_PEER_ROLE_INFO.proto";
+
+message DOMAIN_DEPOT_DELIVER_DATA {
+  int32 package_type = 1;
+  int32 package_progress = 2;
+  uint64 original_role_id = 3;
+  uint64 inst_id = 4;
+  int32 cargo_integrity = 5;
+  int32 domain_depot_num_id = 6;
+  int64 expire_ts = 7;
+  int64 original_price = 8;
+  int32 deliver_pack_type = 9;
+  int32 deliver_item_type = 10;
+  repeated DOMAIN_DEPOT_BUYER_INFO buyer_list = 11;
+  DOMAIN_DEPOT_DELIVER_PEER_ROLE_INFO peer_role_info = 12;
+  uint64 delegate_role_id = 13;
+  string deliver_redis_key = 14;
+  int64 final_payment_value = 15;
+}

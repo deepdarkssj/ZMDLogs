@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_MODIFY_BLACKBOARD {
+  map<int32, int32> kvs = 1;
+}

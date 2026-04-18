@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SUBMIT_ETHER_INFO {
+  int32 level = 1;
+  int32 count = 2;
+  string domain_id = 3;
+}

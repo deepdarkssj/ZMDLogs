@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum CHAR_GACHA_ONCE_AUTO_REWARD_INDEX {
+  CgoarIndexNone = 0;
+  CgoarIndexFreeTenPull = 1;
+  CgoarIndexTestimonial = 2;
+  CgoarIndexChoicePack = 3;
+}

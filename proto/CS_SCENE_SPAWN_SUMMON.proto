@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "BATTLE_BLACKBOARD.proto";
+import "VECTOR.proto";
+
+message CS_SCENE_SPAWN_SUMMON {
+  string summon_id = 1;
+  VECTOR position = 2;
+  VECTOR rotation = 3;
+  string skill_id = 4;
+  BATTLE_BLACKBOARD blackboard = 5;
+}

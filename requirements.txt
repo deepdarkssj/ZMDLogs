@@ -1,0 +1,8 @@
+dpkt
+psutil
+pycryptodome
+protobuf
+grpcio-tools
+websockets
+PySide6
+PySide6-Fluent-Widgets

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_SYNC_BC_ITEM.proto";
+import "SCD_FACTORY_SYNC_ITEM.proto";
+
+message SCD_FAC_COM_BOX_CONVEYOR {
+  repeated SCD_FACTORY_SYNC_ITEM items = 2;
+  repeated SCD_FACTORY_SYNC_BC_ITEM items_v2 = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SCD_FACTORY_STATISTIC_LASTDAY.proto";
+import "SCD_FACTORY_STATISTIC_OTHER.proto";
+
+message SC_FACTORY_MODIFY_STATISTIC {
+  string chapter_id = 1;
+  SCD_FACTORY_STATISTIC_OTHER other = 3;
+  SCD_FACTORY_STATISTIC_LASTDAY last_day = 4;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message BATTLE_SWITCH_MODE_OP_DATA {
+  uint32 mode_inst_id = 1;
+  string mode_id = 2;
+  int32 mode_change_type = 3;
+  bool is_enable = 4;
+}

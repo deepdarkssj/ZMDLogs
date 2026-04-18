@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_GAME_MECHANICS_NTF_INST_PREPARE_FINISH {
+  string game_id = 1;
+}

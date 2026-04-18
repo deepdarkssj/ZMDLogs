@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SYNC_CLIENT_SWITCH {
+  repeated string client_switch = 1;
+}

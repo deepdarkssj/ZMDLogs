@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "DOMAIN_DEPOT_BUYER_INFO.proto";
+
+message SC_DOMAIN_DEPOT_PACK_ITEM_RSP {
+  string domain_depot_id = 1;
+  uint64 deliver_inst_id = 2;
+  repeated DOMAIN_DEPOT_BUYER_INFO buyer_candidate_list = 3;
+  int32 pack_type = 4;
+  int32 item_type = 5;
+}

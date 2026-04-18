@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CS_ITEM_BAG_DESTROY_IN_FACTORY_DEPOT {
+  map<string, int32> items = 1;
+  int32 scope_name = 11;
+  string chapter_id = 12;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SCD_FRIEND_SEARCH_NAME_STRANGER_SIMPLE_INFO.proto";
+
+message SC_FRIEND_SEARCH_NAME {
+  repeated SCD_FRIEND_SEARCH_NAME_STRANGER_SIMPLE_INFO stranger_list = 1;
+}

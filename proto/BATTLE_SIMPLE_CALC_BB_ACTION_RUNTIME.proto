@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message BATTLE_SIMPLE_CALC_BB_ACTION_RUNTIME {
+  double client_value_a = 1;
+  double client_value_b = 2;
+  string client_target_key = 3;
+  double client_final_value = 4;
+}

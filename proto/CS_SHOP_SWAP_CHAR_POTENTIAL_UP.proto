@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ITEM_BUNDLE.proto";
+
+message CS_SHOP_SWAP_CHAR_POTENTIAL_UP {
+  repeated ITEM_BUNDLE pu_items = 1;
+}

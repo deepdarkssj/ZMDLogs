@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CS_GAME_TIME_FREEZE_START_REQ {
+  int32 reason = 1;
+}

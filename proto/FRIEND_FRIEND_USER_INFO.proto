@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "FRIEND_BASE_USER_INFO.proto";
+import "FRIEND_SPACESHIP_DEFAULT_DATA.proto";
+import "FRIEND_USER_INFO_TYPE.proto";
+
+message FRIEND_FRIEND_USER_INFO {
+  FRIEND_USER_INFO_TYPE data_type = 1;
+  FRIEND_BASE_USER_INFO base_data = 2;
+  oneof extra_data {
+    FRIEND_SPACESHIP_DEFAULT_DATA spaceship_default = 3;
+  }
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_SPACESHIP_GUEST_ROOM_PLACE_CLUE {
+  map<int32, uint64> placed_clue_status = 1;
+}

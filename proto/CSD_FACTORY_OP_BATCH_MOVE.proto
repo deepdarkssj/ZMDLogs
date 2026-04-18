@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "CSD_FACTORY_AREA_RELATED_POS.proto";
+import "CSD_FACTORY_OP_BATCH_MOVE_NODE.proto";
+import "CSD_FACTORY_OP_MOVE_BOX_CONVEYOR.proto";
+
+message CSD_FACTORY_OP_BATCH_MOVE {
+  CSD_FACTORY_AREA_RELATED_POS related_pos = 1;
+  repeated CSD_FACTORY_OP_BATCH_MOVE_NODE move_nodes = 2;
+  repeated CSD_FACTORY_OP_MOVE_BOX_CONVEYOR move_conveyors = 3;
+  repeated int32 slot_id = 4;
+}

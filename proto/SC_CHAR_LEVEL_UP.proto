@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_CHAR_LEVEL_UP {
+  uint64 char_obj_id = 1;
+}

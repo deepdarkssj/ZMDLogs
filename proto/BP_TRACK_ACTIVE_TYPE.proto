@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum BP_TRACK_ACTIVE_TYPE {
+  BtatFree = 0;
+  BtatPay = 1;
+  BtatTicket = 2;
+}

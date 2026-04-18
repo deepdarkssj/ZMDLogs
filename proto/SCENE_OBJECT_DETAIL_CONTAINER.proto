@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "SCENE_CHARACTER.proto";
+import "SCENE_INTERACTIVE.proto";
+import "SCENE_MONSTER.proto";
+import "SCENE_NPC.proto";
+import "SCENE_SUMMON.proto";
+
+message SCENE_OBJECT_DETAIL_CONTAINER {
+  repeated SCENE_CHARACTER char_list = 1;
+  repeated SCENE_MONSTER monster_list = 2;
+  repeated SCENE_INTERACTIVE interactive_list = 3;
+  repeated SCENE_NPC npc_list = 4;
+  repeated SCENE_SUMMON summon_list = 5;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_FRIEND_REQUEST_REJECT {
+  uint64 role_id = 1;
+}

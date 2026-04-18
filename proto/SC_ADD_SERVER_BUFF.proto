@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SERVER_BUFF.proto";
+
+message SC_ADD_SERVER_BUFF {
+  uint64 inst_id = 1;
+  repeated SERVER_BUFF buffs = 2;
+  uint32 generation = 3;
+}

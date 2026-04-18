@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum DOMAIN_DEVELOPMENT_READ_VERSION_TYPE {
+  DomainDevSystem = 0;
+  DomainDevKiteStation = 1;
+  DomainDevSettlement = 2;
+  DomainDevDomainShop = 3;
+  DomainDevDomainDepot = 4;
+}

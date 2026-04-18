@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SC_ITEM_BAG_GOT_ITEM_TOAST {
+  map<string, int32> items = 1;
+}

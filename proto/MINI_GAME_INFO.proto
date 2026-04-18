@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message MINI_GAME_INFO {
+  string mini_game_id = 1;
+  int32 completed_count = 2;
+}

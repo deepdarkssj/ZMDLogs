@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum BATTLE_TRIGGER_TYPE {
+  Execute = 0;
+  Tick = 1;
+  End = 2;
+}

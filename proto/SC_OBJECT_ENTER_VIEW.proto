@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SCENE_OBJECT_DETAIL_CONTAINER.proto";
+
+message SC_OBJECT_ENTER_VIEW {
+  SCENE_OBJECT_DETAIL_CONTAINER detail = 1;
+  bool has_extra_object = 2;
+}
