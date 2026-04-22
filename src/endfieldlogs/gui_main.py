@@ -994,7 +994,7 @@ class SettingsPage(InterfacePage):
         self.ws_port = CaptionLabel("-", info_wrapper)
         self.service_log_dir = CaptionLabel("-", info_wrapper)
         self.deps = CaptionLabel("前端：PySide6-Fluent-Widgets", info_wrapper)
-        self.feedback = CaptionLabel("版本：V1.0.0", info_wrapper)
+        self.feedback = CaptionLabel("版本：V1.2.1", info_wrapper)
         self.bililink = HyperlinkLabel(QUrl('https://space.bilibili.com/605886'), 'By 极黑的绅士君')
         self.groupid = CaptionLabel("开发/交流群：1101764944", info_wrapper)
         for widget in (self.app_name, self.bililink, self.groupid,self.feedback, self.ws_port, self.service_log_dir, self.deps):
