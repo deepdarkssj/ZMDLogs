@@ -49,6 +49,7 @@ class OverlayEntry:
     locked: bool
     click_through: bool
     opacity: float = 1.0
+    scale: float = 1.0
     geometry: OverlayGeometry | None = None
 
 

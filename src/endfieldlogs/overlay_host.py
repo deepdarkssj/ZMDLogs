@@ -116,6 +116,7 @@ class OverlayWindow(QWidget):
         self._apply_initial_geometry()
         self.webview.resize(self.size())
         self.setWindowOpacity(self.entry.opacity)
+        self.webview.setZoomFactor(self.entry.scale)
         self._load_overlay()
 
     def apply_entry(self, entry: OverlayEntry) -> None:
@@ -130,6 +131,8 @@ class OverlayWindow(QWidget):
             self._apply_window_flags()
         if previous.opacity != entry.opacity:
             self.setWindowOpacity(entry.opacity)
+        if abs(previous.scale - entry.scale) > 0.0001:
+            self.webview.setZoomFactor(entry.scale)
         if previous.locked != entry.locked:
             self._push_overlay_state()
         if (
@@ -183,7 +186,9 @@ class OverlayWindow(QWidget):
             geometry = self.entry.geometry
             self.setGeometry(geometry.x, geometry.y, geometry.width, geometry.height)
             return
-        self.resize(self.config.default_width, self.config.default_height)
+        width = max(self.minimumWidth(), int(round(self.config.default_width * self.entry.scale)))
+        height = max(self.minimumHeight(), int(round(self.config.default_height * self.entry.scale)))
+        self.resize(width, height)
         self._move_to_default_position()
 
     def _move_to_default_position(self) -> None:
@@ -230,6 +235,7 @@ class OverlayWindow(QWidget):
                 "locked": self.entry.locked,
                 "click_through": self.entry.click_through,
                 "opacity": self.entry.opacity,
+                "scale": self.entry.scale,
                 "builtin": self.entry.source_value or "damage",
             },
             ensure_ascii=False,

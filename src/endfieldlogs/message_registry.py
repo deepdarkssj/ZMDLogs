@@ -30,6 +30,9 @@ class MessageRegistry:
         }
         self._interesting_class_names = {
             "CS_BATTLE_OP",
+            "CS_ENTER_DUNGEON",
+            "CS_LEAVE_DUNGEON",
+            "SC_OBJECT_ENTER_VIEW",
             "SC_SELF_SCENE_INFO",
             "SC_SYNC_CHAR_BAG_INFO",
             "CS_MERGE_MSG",

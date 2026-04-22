@@ -66,7 +66,7 @@ from qfluentwidgets import (
 from .gui_config import AppConfig, default_config_path, load_app_config, save_app_config
 from .install_detect import detect_game_dll_dir
 from .logging_utils import configure_logging
-from .models import FlowKey, OverlayEntry, OverlaySourceType, RuntimeMetrics, ServiceObserver, ServiceState, SquadMemberPayload
+from .models import FlowKey, OverlayEntry, OverlayGeometry, OverlaySourceType, RuntimeMetrics, ServiceObserver, ServiceState, SquadMemberPayload
 from .npcap import has_npcap
 from .overlay_host import OverlayManager
 from .record_parser import CombatRecord, load_combat_records
@@ -102,6 +102,26 @@ def _app_icon_path() -> Path | None:
     if APP_ICON_PNG.exists():
         return APP_ICON_PNG
     return None
+
+
+class SingleHotkeyEdit(QKeySequenceEdit):
+    def __init__(self, parent: QWidget | None = None) -> None:
+        super().__init__(parent)
+        self._replace_pending = False
+
+    def focusInEvent(self, event) -> None:  # type: ignore[override]
+        self._replace_pending = True
+        super().focusInEvent(event)
+
+    def focusOutEvent(self, event) -> None:  # type: ignore[override]
+        self._replace_pending = False
+        super().focusOutEvent(event)
+
+    def keyPressEvent(self, event) -> None:  # type: ignore[override]
+        if self._replace_pending:
+            self.clear()
+            self._replace_pending = False
+        super().keyPressEvent(event)
 
 
 class QtLogHandler(logging.Handler):
@@ -550,6 +570,14 @@ class OverlayPage(InterfacePage):
         opacity_layout.setContentsMargins(0, 0, 0, 0)
         opacity_layout.addWidget(self.opacity_slider, 1)
         opacity_layout.addWidget(self.opacity_value)
+        self.scale_slider = Slider(Qt.Orientation.Horizontal, details)
+        self.scale_slider.setRange(50, 300)
+        self.scale_value = CaptionLabel("100%", details)
+        scale_row = QWidget(details)
+        scale_layout = QHBoxLayout(scale_row)
+        scale_layout.setContentsMargins(0, 0, 0, 0)
+        scale_layout.addWidget(self.scale_slider, 1)
+        scale_layout.addWidget(self.scale_value)
         self.geometry_label = CaptionLabel("-", details)
         form.addRow("名称", self.name_edit)
         form.addRow("来源类型", self.source_type_label)
@@ -558,6 +586,7 @@ class OverlayPage(InterfacePage):
         form.addRow("锁定位置", self.locked_switch)
         form.addRow("鼠标穿透", self.click_switch)
         form.addRow("透明度", opacity_row)
+        form.addRow("缩放", scale_row)
         form.addRow("几何", self.geometry_label)
         form.setSpacing(15)
         self._updating = False
@@ -590,6 +619,8 @@ class OverlayPage(InterfacePage):
                 self.click_switch.setChecked(False)
                 self.opacity_slider.setValue(100)
                 self.opacity_value.setText("100%")
+                self.scale_slider.setValue(100)
+                self.scale_value.setText("100%")
                 self.geometry_label.setText("-")
                 self.remove_btn.setEnabled(False)
                 self.source_value_edit.setReadOnly(True)
@@ -603,6 +634,8 @@ class OverlayPage(InterfacePage):
             self.click_switch.setChecked(entry.click_through)
             self.opacity_slider.setValue(int(round(entry.opacity * 100)))
             self.opacity_value.setText(f"{int(round(entry.opacity * 100))}%")
+            self.scale_slider.setValue(int(round(entry.scale * 100)))
+            self.scale_value.setText(f"{int(round(entry.scale * 100))}%")
             geometry = entry.geometry
             self.geometry_label.setText("-" if geometry is None else f"x={geometry.x}, y={geometry.y}, {geometry.width}x{geometry.height}")
             self.remove_btn.setEnabled(entry.source_type != OverlaySourceType.BUILTIN)
@@ -931,12 +964,25 @@ class SettingsPage(InterfacePage):
         hotkey_card.viewLayout.addWidget(hotkey_wrapper)
         hotkey_form = QFormLayout(hotkey_wrapper)
         hotkey_form.setContentsMargins(0, 0, 0, 0)
-        self.hotkey_edit = QKeySequenceEdit(hotkey_wrapper)
+        self.hotkey_edit = SingleHotkeyEdit(hotkey_wrapper)
         self.hotkey_hint = CaptionLabel("用于开启或隐藏全部悬浮窗，默认 Ctrl+O。", hotkey_wrapper)
         self.hotkey_status = CaptionLabel("-", hotkey_wrapper)
         hotkey_form.addRow("切换悬浮窗", self.hotkey_edit)
         hotkey_form.addRow("", self.hotkey_hint)
         hotkey_form.addRow("", self.hotkey_status)
+
+        battle_card = HeaderCardWidget("战斗行为", self)
+        self.content_layout.addWidget(battle_card)
+        battle_wrapper = QWidget(battle_card)
+        battle_card.viewLayout.addWidget(battle_wrapper)
+        battle_form = QFormLayout(battle_wrapper)
+        battle_form.setContentsMargins(0, 0, 0, 0)
+        self.merge_multi_phase_switch = SwitchButton(battle_wrapper)
+        self.merge_multi_phase_switch.setOnText("开")
+        self.merge_multi_phase_switch.setOffText("关")
+        self.merge_multi_phase_hint = CaptionLabel("注意：开启此选项后，转阶段的动画也会被计入战斗时长，这会导致您的DPS降低。", battle_wrapper)
+        battle_form.addRow("合并多阶段敌人的战斗", self.merge_multi_phase_switch)
+        battle_form.addRow("", self.merge_multi_phase_hint)
 
         info_card = HeaderCardWidget("关于", self)
         self.content_layout.addWidget(info_card)
@@ -971,6 +1017,12 @@ class SettingsPage(InterfacePage):
     def set_hotkey_status(self, message: str, is_error: bool = False) -> None:
         self.hotkey_status.setText(message)
         self.hotkey_status.setStyleSheet(f"color: {'#ff5f56' if is_error else '#32b14a'};")
+
+    def set_merge_multi_phase_enemy_battles(self, enabled: bool) -> None:
+        self.merge_multi_phase_switch.setChecked(enabled)
+
+    def merge_multi_phase_enemy_battles(self) -> bool:
+        return self.merge_multi_phase_switch.isChecked()
 
     def set_log_dir(self, path: Path) -> None:
         self.log_dir_label.setText(str(path))
@@ -1056,6 +1108,7 @@ class MainWindow(FluentWindow):
         self.overlay_page.locked_switch.checkedChanged.connect(self._apply_overlay_locked)
         self.overlay_page.click_switch.checkedChanged.connect(self._apply_overlay_click_through)
         self.overlay_page.opacity_slider.valueChanged.connect(self._apply_overlay_opacity)
+        self.overlay_page.scale_slider.valueChanged.connect(self._apply_overlay_scale)
         self.records_page.reload_btn.clicked.connect(self._load_records)
         self.records_page.record_list.currentItemChanged.connect(self._sync_record_selection)
 
@@ -1178,6 +1231,7 @@ class MainWindow(FluentWindow):
             locked=False,
             click_through=False,
             opacity=1.0,
+            scale=1.0,
         )
         self.app_config.overlays.append(entry)
         save_app_config(self.app_config, self.config_path)
@@ -1197,6 +1251,7 @@ class MainWindow(FluentWindow):
             locked=False,
             click_through=False,
             opacity=1.0,
+            scale=1.0,
         )
         self.app_config.overlays.append(entry)
         save_app_config(self.app_config, self.config_path)
@@ -1278,6 +1333,28 @@ class MainWindow(FluentWindow):
         if abs(opacity - entry.opacity) > 0.0001:
             self._replace_overlay_entry(replace(entry, opacity=opacity))
 
+    def _apply_overlay_scale(self, value: int) -> None:
+        self.overlay_page.scale_value.setText(f"{value}%")
+        if self.overlay_page._updating:
+            return
+        entry = self._selected_overlay()
+        if entry is None:
+            return
+        scale = max(0.5, min(3.0, value / 100.0))
+        if abs(scale - entry.scale) <= 0.0001:
+            return
+        geometry = entry.geometry
+        scaled_geometry = geometry
+        if geometry is not None and entry.scale > 0:
+            ratio = scale / entry.scale
+            scaled_geometry = OverlayGeometry(
+                x=geometry.x,
+                y=geometry.y,
+                width=max(1, int(round(geometry.width * ratio))),
+                height=max(1, int(round(geometry.height * ratio))),
+            )
+        self._replace_overlay_entry(replace(entry, scale=scale, geometry=scaled_geometry))
+
     def _load_records(self) -> None:
         resolved_log_dir = _resolve_log_dir(self.app_config.service.log_dir)
         if resolved_log_dir != self.app_config.service.log_dir:
@@ -1334,12 +1411,14 @@ class MainWindow(FluentWindow):
         self.overlay_page.locked_switch.checkedChanged.connect(self._apply_overlay_locked)
         self.overlay_page.click_switch.checkedChanged.connect(self._apply_overlay_click_through)
         self.overlay_page.opacity_slider.valueChanged.connect(self._apply_overlay_opacity)
+        self.overlay_page.scale_slider.valueChanged.connect(self._apply_overlay_scale)
         self.records_page.reload_btn.clicked.connect(self._load_records)
         self.records_page.record_list.currentItemChanged.connect(self._sync_record_selection)
         self.settings_page.theme_combo.currentIndexChanged.connect(self._apply_theme_mode)
         self.settings_page.log_dir_btn.clicked.connect(self._choose_log_dir)
         self.settings_page.log_dir_refresh_btn.clicked.connect(self._refresh_log_dir_size)
-        self.settings_page.hotkey_edit.keySequenceChanged.connect(self._apply_overlay_hotkey)
+        self.settings_page.hotkey_edit.editingFinished.connect(self._apply_overlay_hotkey)
+        self.settings_page.merge_multi_phase_switch.checkedChanged.connect(self._apply_merge_multi_phase_enemy_battles)
         stacked = getattr(self, "stackedWidget", None)
         if stacked is not None:
             stacked.currentChanged.connect(self._handle_current_interface_changed)
@@ -1347,10 +1426,13 @@ class MainWindow(FluentWindow):
     def _refresh_settings_page(self) -> None:
         self.settings_page.theme_combo.blockSignals(True)
         self.settings_page.hotkey_edit.blockSignals(True)
+        self.settings_page.merge_multi_phase_switch.blockSignals(True)
         self.settings_page.set_theme_mode(self.app_config.theme_mode)
         self.settings_page.set_hotkey(self.app_config.toggle_overlays_hotkey)
+        self.settings_page.set_merge_multi_phase_enemy_battles(self.app_config.service.merge_multi_phase_enemy_battles)
         self.settings_page.theme_combo.blockSignals(False)
         self.settings_page.hotkey_edit.blockSignals(False)
+        self.settings_page.merge_multi_phase_switch.blockSignals(False)
         self.settings_page.set_log_dir(self.app_config.service.log_dir)
         self.settings_page.set_service_info(self.app_config.service)
         self._refresh_log_dir_size()
@@ -1358,6 +1440,16 @@ class MainWindow(FluentWindow):
 
     def _refresh_log_dir_size(self) -> None:
         self.settings_page.set_log_size(_directory_size(self.app_config.service.log_dir))
+
+    def _apply_merge_multi_phase_enemy_battles(self, checked: bool) -> None:
+        if checked == self.app_config.service.merge_multi_phase_enemy_battles:
+            return
+        self.app_config.service.merge_multi_phase_enemy_battles = checked
+        service = getattr(self.service_controller, "_service", None)
+        active_session = getattr(service, "active_session", None) if service is not None else None
+        if active_session is not None:
+            active_session.merge_multi_phase_enemy_battles = checked
+        save_app_config(self.app_config, self.config_path)
 
     def _choose_log_dir(self) -> None:
         selected = QFileDialog.getExistingDirectory(self, "选择日志目录", str(self.app_config.service.log_dir))
@@ -1645,9 +1737,16 @@ def _format_duration(duration_ms: int) -> str:
     return f"{duration_ms / 1000.0:.2f} 秒"
 
 
-def run_gui(config_path: Path | None = None) -> int:
+def run_gui(
+    config_path: Path | None = None,
+    debug_enabled: bool = False,
+    debug_dir: Path | None = None,
+) -> int:
     target_path = config_path or default_config_path()
     app_config = load_app_config(target_path)
+    app_config.service.debug_enabled = debug_enabled
+    if debug_dir is not None:
+        app_config.service.debug_dir = debug_dir.resolve()
     configure_logging(app_config.service.log_level)
 
     app = QApplication.instance() or QApplication([])

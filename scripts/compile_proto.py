@@ -8,6 +8,8 @@ import re
 
 ROOT_PROTOS = [
     "CS_BATTLE_OP.proto",
+    "CS_ENTER_DUNGEON.proto",
+    "CS_LEAVE_DUNGEON.proto",
     "CS_MERGE_MSG.proto",
     "EQUIP_DATA.proto",
     "ITEM_INST.proto",

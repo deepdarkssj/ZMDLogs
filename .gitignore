@@ -18,6 +18,7 @@ icon.png
 char.md
 plan.md
 todo
+npcap-1.87.exe
 # frontend local deps / caches
 overlay/node_modules/
 overlay/.npm-cache/

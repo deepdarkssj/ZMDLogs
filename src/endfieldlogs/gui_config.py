@@ -50,6 +50,7 @@ def default_service_config() -> ServiceConfig:
         debug_dir=(app / "debug").resolve(),
         rsa_key_txt=(app / "rsa_keys.txt").resolve(),
         name_index_path=(bundle / "jsondata" / "CharacterNameIndex.json").resolve(),
+        merge_multi_phase_enemy_battles=False,
     )
 
 
@@ -64,6 +65,7 @@ def default_overlay_entries() -> list[OverlayEntry]:
             locked=False,
             click_through=False,
             opacity=1.0,
+            scale=1.0,
             geometry=None,
         ),
         OverlayEntry(
@@ -75,6 +77,7 @@ def default_overlay_entries() -> list[OverlayEntry]:
             locked=False,
             click_through=False,
             opacity=1.0,
+            scale=1.0,
             geometry=None,
         ),
         OverlayEntry(
@@ -86,6 +89,7 @@ def default_overlay_entries() -> list[OverlayEntry]:
             locked=False,
             click_through=False,
             opacity=1.0,
+            scale=1.0,
             geometry=None,
         ),
         OverlayEntry(
@@ -97,6 +101,7 @@ def default_overlay_entries() -> list[OverlayEntry]:
             locked=False,
             click_through=False,
             opacity=1.0,
+            scale=1.0,
             geometry=None,
         ),
     ]
@@ -122,6 +127,12 @@ def load_app_config(path: Path | None = None) -> AppConfig:
             debug_dir=Path(service_payload.get("debug_dir", str(service_default.debug_dir))).resolve(),
             rsa_key_txt=Path(service_payload.get("rsa_key_txt", str(service_default.rsa_key_txt))).resolve(),
             name_index_path=Path(service_payload.get("name_index_path", str(service_default.name_index_path))).resolve(),
+            merge_multi_phase_enemy_battles=bool(
+                service_payload.get(
+                    "merge_multi_phase_enemy_battles",
+                    service_default.merge_multi_phase_enemy_battles,
+                )
+            ),
         ),
         overlays=[_overlay_entry_from_dict(item) for item in overlays_payload] or default_overlay_entries(),
         theme_mode=_normalize_theme_mode(payload.get("theme_mode")),
@@ -158,6 +169,7 @@ def save_app_config(config: AppConfig, path: Path | None = None) -> None:
                     "debug_dir": str(config.service.debug_dir),
                     "rsa_key_txt": str(config.service.rsa_key_txt),
                     "name_index_path": str(config.service.name_index_path),
+                    "merge_multi_phase_enemy_battles": config.service.merge_multi_phase_enemy_battles,
                 },
                 "overlays": [_overlay_entry_to_dict(entry) for entry in config.overlays],
                 "theme_mode": _normalize_theme_mode(config.theme_mode),
@@ -208,6 +220,7 @@ def _overlay_entry_from_dict(payload: dict[str, object]) -> OverlayEntry:
         locked=bool(payload.get("locked", False)),
         click_through=bool(payload.get("click_through", False)),
         opacity=max(0.1, min(1.0, float(payload.get("opacity", 1.0) or 1.0))),
+        scale=max(0.5, min(3.0, float(payload.get("scale", 1.0) or 1.0))),
         geometry=geometry,
     )
 
@@ -262,6 +275,7 @@ def _overlay_entry_to_dict(entry: OverlayEntry) -> dict[str, object]:
         "locked": entry.locked,
         "click_through": entry.click_through,
         "opacity": entry.opacity,
+        "scale": entry.scale,
         "geometry": None
         if entry.geometry is None
         else {

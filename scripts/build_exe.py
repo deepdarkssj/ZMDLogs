@@ -39,6 +39,7 @@ def main() -> int:
         (root / "icon.ico", "."),
         (root / "jsondata" / "ActorImageTable.json", "jsondata"),
         (root / "jsondata" / "CharacterNameIndex.json", "jsondata"),
+        (root / "jsondata" / "Dungeon.json", "jsondata"),
         (root / "overlay" / "dist", "overlay/dist"),
         (root / "overlay_comboskill" / "dist", "overlay_comboskill/dist"),
         (root / "overlay_buff" / "dist", "overlay_buff/dist"),

@@ -15,6 +15,8 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="command", required=True)
     gui = subparsers.add_parser("gui", help="Run the PySide6 control panel")
     gui.add_argument("--config", type=Path, default=None)
+    gui.add_argument("--debug", action="store_true", help="Write parsed debug messages to local JSON files")
+    gui.add_argument("--debug-dir", type=Path, default=None)
 
     serve = subparsers.add_parser("serve", help="Run the realtime damage log service")
     serve.add_argument("--ws-port", type=int, default=29325)
@@ -30,6 +32,11 @@ def build_parser() -> argparse.ArgumentParser:
     serve.add_argument("--no-overlay", action="store_true", help="Run the service without opening the floating overlay window")
     serve.add_argument("--debug", action="store_true", help="Write parsed debug messages to local JSON files")
     serve.add_argument("--debug-dir", type=Path, default=Path("debug"))
+    serve.add_argument(
+        "--merge-multi-phase-enemy-battles",
+        action="store_true",
+        help="Merge configured multi-phase boss fights into a single battle until the tracked enemy dies",
+    )
     root = bundle_root()
     serve.add_argument("--rsa-key-txt", type=Path, default=root.parent / "rsa_keys.txt")
     serve.add_argument("--name-index", type=Path, default=root / "jsondata" / "CharacterNameIndex.json")
@@ -41,7 +48,11 @@ def main() -> int:
     if args.command == "gui":
         from .gui_main import run_gui
 
-        return run_gui(args.config.resolve() if args.config is not None else None)
+        return run_gui(
+            args.config.resolve() if args.config is not None else None,
+            debug_enabled=bool(args.debug),
+            debug_dir=args.debug_dir.resolve() if args.debug_dir is not None else None,
+        )
 
     configure_logging(args.log_level)
     config = ServiceConfig(
@@ -55,6 +66,7 @@ def main() -> int:
         debug_dir=args.debug_dir.resolve(),
         rsa_key_txt=args.rsa_key_txt.resolve(),
         name_index_path=args.name_index.resolve(),
+        merge_multi_phase_enemy_battles=bool(args.merge_multi_phase_enemy_battles),
     )
     if args.no_overlay:
         service = DamageLogService(config)

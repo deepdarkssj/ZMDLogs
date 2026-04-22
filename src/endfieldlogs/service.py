@@ -45,6 +45,21 @@ from .runtime_paths import bundle_root
 LOGGER = logging.getLogger(__name__)
 
 
+def _load_multi_phase_dungeon_map(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(payload, dict):
+        return {}
+    result: dict[str, str] = {}
+    for dungeon_id, templateid in payload.items():
+        dungeon = str(dungeon_id or "").strip()
+        template = str(templateid or "").strip()
+        if dungeon and template:
+            result[dungeon] = template
+    return result
+
+
 @dataclass(slots=True)
 class ServiceConfig:
     ws_port: int
@@ -57,6 +72,7 @@ class ServiceConfig:
     debug_dir: Path
     rsa_key_txt: Path
     name_index_path: Path
+    merge_multi_phase_enemy_battles: bool = False
 
 
 class SessionPipeline:
@@ -70,6 +86,8 @@ class SessionPipeline:
         private_key: Any,
         srsa_bridge: SRSABridge,
         name_index: dict[str, str],
+        multi_phase_dungeon_map: dict[str, str],
+        merge_multi_phase_enemy_battles: bool,
         on_event: Callable[[OutboundEvent], None],
         on_debug_message: Callable[[DecodedMessage, int], None] | None,
         on_debug_record: Callable[[dict[str, object]], None] | None,
@@ -81,6 +99,8 @@ class SessionPipeline:
         self.private_key = private_key
         self.srsa_bridge = srsa_bridge
         self.name_index = name_index
+        self.multi_phase_dungeon_map = multi_phase_dungeon_map
+        self.merge_multi_phase_enemy_battles = merge_multi_phase_enemy_battles
         self.on_event = on_event
         self.on_debug_message = on_debug_message
         self.on_debug_record = on_debug_record
@@ -105,6 +125,10 @@ class SessionPipeline:
         self.char_potential_levels: dict[str, int] = {}
         self.skill_levels_by_battle_inst: dict[int, dict[str, int]] = {}
         self.global_skill_levels: dict[str, int] = {}
+        self.tracked_dungeon_id: str | None = None
+        self.tracked_enemy_templateid: str | None = None
+        self.tracked_enemy_inst_ids: set[int] = set()
+        self.merged_battle_active = False
 
     @property
     def is_live(self) -> bool:
@@ -334,8 +358,21 @@ class SessionPipeline:
         self.pending_multi_frames.clear()
 
     def _handle_message(self, decoded: DecodedMessage, timestamp_ms: int) -> None:
-        if self.on_debug_message is not None and decoded.class_name in {"CS_BATTLE_OP", "SC_SELF_SCENE_INFO", "SC_SYNC_CHAR_BAG_INFO"}:
+        if self.on_debug_message is not None and decoded.class_name in {
+            "CS_BATTLE_OP",
+            "SC_SELF_SCENE_INFO",
+            "SC_SYNC_CHAR_BAG_INFO",
+            "CS_ENTER_DUNGEON",
+            "CS_LEAVE_DUNGEON",
+            "SC_OBJECT_ENTER_VIEW",
+        }:
             self.on_debug_message(decoded, timestamp_ms)
+        if decoded.class_name == "CS_ENTER_DUNGEON":
+            self._handle_enter_dungeon(decoded.message)
+            return
+        if decoded.class_name == "CS_LEAVE_DUNGEON":
+            self._handle_leave_dungeon(timestamp_ms)
+            return
         if decoded.class_name == "SC_SYNC_CHAR_BAG_INFO":
             self._update_char_bag_info(decoded.message)
             return
@@ -379,6 +416,49 @@ class SessionPipeline:
             self.entity_index[info.battle_inst_id] = info
             if info.obj_id is not None:
                 self.obj_to_battle[info.obj_id] = info.battle_inst_id
+            if (
+                self.merge_multi_phase_enemy_battles
+                and self.tracked_enemy_templateid is not None
+                and info.templateid == self.tracked_enemy_templateid
+            ):
+                self.tracked_enemy_inst_ids.add(info.battle_inst_id)
+
+    def _handle_enter_dungeon(self, message: Any) -> None:
+        if not self.merge_multi_phase_enemy_battles:
+            return
+        dungeon_id = str(getattr(message, "dungeon_id", "") or "").strip()
+        templateid = self.multi_phase_dungeon_map.get(dungeon_id)
+        if not templateid:
+            self.tracked_dungeon_id = None
+            self.tracked_enemy_templateid = None
+            self.tracked_enemy_inst_ids.clear()
+            self.merged_battle_active = False
+            return
+        self.tracked_dungeon_id = dungeon_id
+        self.tracked_enemy_templateid = templateid
+        self.tracked_enemy_inst_ids.clear()
+        for info in self.entity_index.values():
+            if info.templateid == templateid:
+                self.tracked_enemy_inst_ids.add(info.battle_inst_id)
+
+    def _handle_leave_dungeon(self, timestamp_ms: int) -> None:
+        if self.merge_multi_phase_enemy_battles and self.merged_battle_active:
+            self._emit_event(
+                BattleLogEvent(
+                    session_id=self.session_id,
+                    timestamp_ms=timestamp_ms,
+                    event_type="BattleOpModifyBattleState",
+                    payload={
+                        "seq_id": None,
+                        "client_tick_tms": None,
+                        "is_in_battle": False,
+                    },
+                )
+            )
+        self.tracked_dungeon_id = None
+        self.tracked_enemy_templateid = None
+        self.tracked_enemy_inst_ids.clear()
+        self.merged_battle_active = False
 
     def _update_squad_index(self, message: Any, timestamp_ms: int) -> None:
         detail = getattr(message, "detail", None)
@@ -711,6 +791,7 @@ class SessionPipeline:
                 die_data = getattr(op, "entity_die_op_data", None)
                 if die_data is None:
                     continue
+                entity_inst_id = int(getattr(die_data, "entity_inst_id", 0)) or None
                 self._emit_event(
                     BattleLogEvent(
                         session_id=self.session_id,
@@ -719,15 +800,41 @@ class SessionPipeline:
                         payload={
                             "seq_id": seq_id,
                             "client_tick_tms": client_tick_tms,
-                            "entity_inst_id": int(getattr(die_data, "entity_inst_id", 0)) or None,
+                            "entity_inst_id": entity_inst_id,
                         },
                     )
                 )
+                if (
+                    self.merge_multi_phase_enemy_battles
+                    and self.merged_battle_active
+                    and entity_inst_id is not None
+                    and entity_inst_id in self.tracked_enemy_inst_ids
+                ):
+                    self._emit_event(
+                        BattleLogEvent(
+                            session_id=self.session_id,
+                            timestamp_ms=timestamp_ms,
+                            event_type="BattleOpModifyBattleState",
+                            payload={
+                                "seq_id": seq_id,
+                                "client_tick_tms": client_tick_tms,
+                                "is_in_battle": False,
+                            },
+                        )
+                    )
+                    self.merged_battle_active = False
+                    self.tracked_enemy_inst_ids.clear()
                 continue
             if op_type_name == "BattleOpModifyBattleState":
                 battle_state_data = getattr(op, "modify_battle_state_op_data", None)
                 if battle_state_data is None:
                     continue
+                is_in_battle = bool(getattr(battle_state_data, "is_in_battle", False))
+                if self.merge_multi_phase_enemy_battles and self.tracked_enemy_templateid is not None:
+                    if is_in_battle and not self.merged_battle_active:
+                        self.merged_battle_active = True
+                    else:
+                        continue
                 self._emit_event(
                     BattleLogEvent(
                         session_id=self.session_id,
@@ -736,7 +843,7 @@ class SessionPipeline:
                         payload={
                             "seq_id": seq_id,
                             "client_tick_tms": client_tick_tms,
-                            "is_in_battle": bool(getattr(battle_state_data, "is_in_battle", False)),
+                            "is_in_battle": is_in_battle,
                         },
                     )
                 )
@@ -799,6 +906,7 @@ class DamageLogService:
         self.clients: set[Any] = set()
         self.registry = MessageRegistry(bundle_root() / "data")
         self.name_index = load_name_index(config.name_index_path)
+        self.multi_phase_dungeon_map = _load_multi_phase_dungeon_map(bundle_root() / "jsondata" / "Dungeon.json")
         self.private_key = load_private_key_from_txt(config.rsa_key_txt)
         self.srsa_bridge = SRSABridge(config.dll_dir)
         self.capture_manager = CaptureManager.create(config.npcap_device, self._on_packet_from_thread)
@@ -1029,6 +1137,8 @@ class DamageLogService:
             private_key=self.private_key,
             srsa_bridge=self.srsa_bridge,
             name_index=self.name_index,
+            multi_phase_dungeon_map=self.multi_phase_dungeon_map,
+            merge_multi_phase_enemy_battles=self.config.merge_multi_phase_enemy_battles,
             on_event=self._handle_outbound_event,
             on_debug_message=self._handle_debug_message if self.config.debug_enabled else None,
             on_debug_record=self._handle_debug_record if self.config.debug_enabled else None,
